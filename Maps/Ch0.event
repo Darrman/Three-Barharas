@@ -12,6 +12,6 @@ TileMap(1,0,0,1,1,DummyChange)
 TileMapEnd
 
 DummyChange:
-SHORT 
+SHORT 0xc38 
 ALIGN 4
 

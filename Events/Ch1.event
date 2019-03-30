@@ -15,7 +15,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 Units:
-UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary] NoAI 
 UNIT Seth Warrior 0x00 Level(1, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [SilverAxe, SteelBow] NoAI 
 UNIT Gilliam Knight 0x00 Level(1, Ally, 0) [0,9] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI 
 UNIT Franz Archer 0x00 Level(1, Ally, 0) [3,10] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] NoAI 
@@ -53,8 +53,8 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-LOAD1 Units
-LOAD1 Bad
+LOAD1 0x1 Units
+LOAD1 0x1 Bad
 //Text(Ch1Opening)
 ENDA
 

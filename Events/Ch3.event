@@ -1,8 +1,6 @@
 #include EAstdlib.event
 
-EventPointerTable(0x07,ThisChapter)
-
-ORG 0xE80000
+EventPointerTable(0x14,ThisChapter)
 
 ThisChapter:
 POIN TurnBasedEvents
@@ -56,9 +54,9 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-LOAD2 Units
-LOAD1 Bad
-LOAD1 Recruit
+LOAD2 0x1 Units
+LOAD1 0x1 Bad
+LOAD1 0x1 Recruit
 //Text(Ch3Opening)
 ENDA
 
@@ -80,20 +78,20 @@ ENDA
 // Units
 Bad:
 UNIT Bazba Bonewalker 0x00 Level(5, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [IronLance, Javelin] AttackInRangeAI 
-UNIT Bandit Bonewalker 0x00 Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT Bandit Bonewalker 0x00 Level(5, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT Bandit Bonewalker 0x00 Level(5, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT Bandit Bonewalker 0x00 Level(5, Enemy, 1) [5,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT Bandit Bonewalker 0x00 Level(5, Enemy, 1) [7,1] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT Bandit Bonewalker 0x00 Level(5, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT Bandit Bonewalker 0x00 Level(5, Enemy, 1) [7,6] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT Bandit Revenant 0x00 Level(5, Enemy, 1) [9,1] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
-UNIT Bandit Revenant 0x00 Level(5, Enemy, 1) [13,3] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
-UNIT Bandit Revenant 0x00 Level(5, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
-UNIT Bandit Revenant 0x00 Level(5, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
-UNIT Bandit Revenant 0x00 Level(5, Enemy, 1) [8,11] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
-UNIT Bandit Revenant 0x00 Level(5, Enemy, 1) [10,10] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
-UNIT Bandit Revenant 0x00 Level(5, Enemy, 1) [12,9] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
+UNIT 0x80 Bonewalker 0x00 Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Bonewalker 0x00 Level(5, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Bonewalker 0x00 Level(5, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Bonewalker 0x00 Level(5, Enemy, 1) [5,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Bonewalker 0x00 Level(5, Enemy, 1) [7,1] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Bonewalker 0x00 Level(5, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Bonewalker 0x00 Level(5, Enemy, 1) [7,6] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Revenant 0x00 Level(5, Enemy, 1) [9,1] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
+UNIT 0x80 Revenant 0x00 Level(5, Enemy, 1) [13,3] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
+UNIT 0x80 Revenant 0x00 Level(5, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
+UNIT 0x80 Revenant 0x00 Level(5, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
+UNIT 0x80 Revenant 0x00 Level(5, Enemy, 1) [8,11] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
+UNIT 0x80 Revenant 0x00 Level(5, Enemy, 1) [10,10] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
+UNIT 0x80 Revenant 0x00 Level(5, Enemy, 1) [12,9] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI 
 UNIT
 
 Recruit:

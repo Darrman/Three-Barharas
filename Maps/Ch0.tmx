@@ -176,7 +176,7 @@
    <property name="Y" value="0"/>
   </properties>
   <data>
-   <tile/>
+   <tile gid="783"/>
    <tile/>
    <tile/>
    <tile/>
