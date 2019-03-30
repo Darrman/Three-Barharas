@@ -31,6 +31,8 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(0x03,EndingScene,2,3)
+Village(0x07,Ch2Village,14,8)
 END_MAIN
 
 MiscBasedEvents:
@@ -51,12 +53,21 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+LOAD1 Units
+LOAD1 Bad
+//Text(Ch1Opening)
 ENDA
 
 EndingScene:
+//Text(Ch1Ending)
+MNC2 0x2
 ENDA
 
 // Events
+Ch2Village:
+SVAL 0x3 SteelSword
+GIVEITEMTO 0xFFFF //Current
+ENDA
 
 // Manual Movement
 

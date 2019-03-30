@@ -30,6 +30,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno:
@@ -46,9 +47,14 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+//Text(Ch0Opening)
+LOAD1 Units
+LOAD1 Bad
 ENDA
 
 EndingScene:
+//Text(Ch0Ending)
+MNC2 0x1
 ENDA
 
 // Events

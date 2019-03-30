@@ -1,0 +1,110 @@
+#include EAstdlib.event
+
+EventPointerTable(0x0D,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [3,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [7,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [8,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [1,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [10,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [0,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+
+TurnBasedEvents:
+TurnEventPlayer(0x00, Ch2LoadThief, 2)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(0x8,Ch2Recruit,4,8)
+Armory(Ch2Armoury,1,8)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 Units
+LOAD1 Bad
+//Text(Ch2Opening)
+ENDA
+
+EndingScene:
+//Text(Ch2Ending)
+MNC2 0x3
+ENDA
+
+// Events
+Ch2Recruit:
+//Text(RecruitingCh2Guy)
+LOAD1 Recruit
+ENDA
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Recruit:
+UNIT Ross Cavalier 0x00 Level(3, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] NoAI 
+UNIT
+
+Bad:
+UNIT Bone Pirate 0x00 Level(4, Enemy, 1) [16,10] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe] GuardTileAI 
+UNIT 0x80 Pirate 0x00 Level(2, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate 0x00 Level(2, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate 0x00 Level(2, Enemy, 1) [13,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate 0x00 Level(2, Enemy, 1) [12,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate 0x00 Level(2, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate 0x00 Level(3, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [SteelAxe] GuardTileAI 
+UNIT 0x80 Pirate 0x00 Level(2, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [IronAxe] GuardTileAI 
+UNIT 0x80 Pirate 0x00 Level(2, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [IronAxe] GuardTileAI 
+UNIT
+
+Thief:
+UNIT 0x80 Thief 0x00 Level(3, Enemy, 1) [17,5] 0x00 0x00 0x0 0x00 [IronSword] BrigandAI 
+UNIT
+
+
+// Shop Data
+Ch2Armoury:
+SHLI IronSword IronLance IronAxe IronBow Vulnerary
+
+ALIGN 4
+
+
+
+
+MESSAGE Events end at offset currentOffset
