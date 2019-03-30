@@ -60,7 +60,7 @@ ENDA
 
 EndingScene:
 //Text(Ch1Ending)
-MNC2 0x2
+MNCH 0x2
 ENDA
 
 // Events
