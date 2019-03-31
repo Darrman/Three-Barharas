@@ -27,7 +27,7 @@
    <property name="TileConfig" value="0x03"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxLYWBgSEHD9xjJx+hmkYPxmUeJe5D55LgZXQ+6eaS4E5u7kOWYKfAvNvNAdC8T4fjCJo/uFmx2wPAuoOLdQLyHGbd5uNyHTf0toDm3gfgOlczDlQaINQ9f+iElfqmV/pD1Y4tfGFYmEBa4wpbS/EttDADSZsiu
+   eJxLYWBgSEHD9xjJx+hmkYPxmUeJe5D55LgZXQ+6eaS4E5u7kOWYKfAvNvNAdC8T4fjCJo/uFmx2wPAuoOLdQLyHGbd5uNyHTf0toDkzgPgOlczDlQaINQ9f+iElfqmV/pD1Y4tfGFYmEBa4wpbS/EttDABJQshr
   </data>
  </layer>
  <layer id="2" name="BridgeGone" width="20" height="15" visible="0">

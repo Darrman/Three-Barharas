@@ -32,6 +32,7 @@ TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x7,Ch4GetRecruit,Eirika,Colm)
 END_MAIN
 
 LocationBasedEvents:
