@@ -1,0 +1,132 @@
+#include EAstdlib.event
+
+EventPointerTable(0x21,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [1,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [18,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [0,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [0,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [19,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [19,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [2,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [17,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [17,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [3,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [4,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [15,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [4,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [15,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+
+TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 Units
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+//Text(Ch5Opening)
+GotoPrepScreen
+
+EndingScene:
+MNC4 0x0
+ENDA
+
+// Events
+EventAfterExitingPrepScreen:
+//Text(Ch5AfterPrep)
+ENDA
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Bad:
+UNIT Saar Necromancer 0x00 Level(20, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 DracoZombie 0x00 Level(2, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [WretchedAir] PursueWithoutHeedAI 
+UNIT 0x80 DracoZombie 0x00 Level(2, Enemy, 1) [19,0] 0x00 0x00 0x0 0x00 [WretchedAir] PursueWithoutHeedAI 
+UNIT 0x80 General 0x00 Level(10, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SilverSword] GuardTileAI 
+UNIT 0x80 General 0x00 Level(10, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [SilverAxe] GuardTileAI 
+UNIT 0x80 Paladin 0x00 Level(10, Enemy, 1) [8,7] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT 0x80 Paladin 0x00 Level(10, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT 0x80 Swordmaster 0x00 Level(10, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 Swordmaster 0x00 Level(10, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord 0x00 Level(10, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [BraveLance] PursueWithoutHeedAI 
+UNIT
+
+Bad2:
+UNIT 0x80 WyvernLord 0x00 Level(10, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [BraveLance] PursueWithoutHeedAI 
+UNIT 0x80 Berserker 0x00 Level(10, Enemy, 1) [9,13] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker 0x00 Level(10, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Sage 0x00 Level(10, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [Bolting, Fimbulvetr] GuardTileAI 
+UNIT 0x80 Druid 0x00 Level(10, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [Berserk, Flux] GuardTileAI 
+UNIT 0x80 Druid 0x00 Level(10, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Berserk, Flux] GuardTileAI 
+UNIT 0x80 GreatKnight 0x00 Level(10, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [Swordslayer, Lancereaver, Axereaver] GuardTileAI 
+UNIT 0x80 MageKnight 0x00 Level(10, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [Elfire] GuardTileAI 
+UNIT 0x80 MageKnight 0x00 Level(10, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Elfire] GuardTileAI 
+UNIT
+
+
+// Shop Data
+
+PUSH
+ORG $9ea8
+SHORT 0 0 $e00a
+ORG $9ed8
+POIN EpilogueEvents
+POP
+
+EpilogueEvents:
+ASMC 0x30185 //clears map tilesets?
+EVBIT_F 0x2
+STAL 120
+ASMC 0xB8175 //turn counts display
+STAL 90
+MNTS 0x0 //return to title screen
+ENDA
+
+
+MESSAGE Events end at offset currentOffset
