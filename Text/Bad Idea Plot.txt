@@ -28,7 +28,7 @@ friends or comrades or what?[A]
 Mario: 
 Let's a go![X]
 
-## Ch1Village
+## Ch1VillageText
 Recruit:
 I am whoever. I shall[N]
 join you in your fight.[A][X]
@@ -125,6 +125,9 @@ Mario:
 A swamp?[A][X]
 
 ## Ch4AfterPrep
+PLACEHOLDER[X]
+
+## Ch4Recruit
 PLACEHOLDER[X]
 
 ## Ch4Ending

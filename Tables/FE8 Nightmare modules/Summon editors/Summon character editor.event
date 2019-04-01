@@ -2,7 +2,7 @@
 
 PUSH
 ORG 0x95f5a4
-csvmacro029(Arve,0x3f)
-csvmacro029(EvilFlorina,0x3e)
+csvmacro029(Kazuya,0x3f)
+csvmacro029(Rydia,0x3e)
 csvmacro029(0x23,0x3b)
 POP

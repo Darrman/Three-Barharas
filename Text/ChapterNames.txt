@@ -1,21 +1,21 @@
 
 # 0x160 PrologueChName
-Prologue: IT BEGINS[X]
+Ch. 0: Eternal Duel[X]
 
 #0x161
-1: Secret Chapter[X]
+Ch. 1: Dragon Warrior[X]
 
 #0x162
-2: The Bone Hole[X]
+Ch. 2: Bicycle Squad[X]
 
 #0x163
-3: Compile Proyect[X]
+Ch. 3: Forest of Summons[X]
 
 #0x164
-4: Monkey Business[X]
+Ch. 4: Winding Swamp[X]
 
 #0x166
-5: Winter Invasion[X]
+Ch. 5: Arch of Coups[X]
 
 #0x167
 6: Fort of Bad[X]

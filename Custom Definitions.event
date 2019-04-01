@@ -19,6 +19,7 @@
 
 #include "Engine Hacks/Skill System/skill_definitions.event"
 
+//VBA remmnants work
 #define Void 1
 #define Tim 2
 #define Tam 3
@@ -33,6 +34,20 @@
 #define Roshea 12
 #define Prine 13
 #define Edge 14
+#define Mario 1
+#define Bowser 2
+#define DQHero 3
+#define Kaga 4
+#define Crono 5
+#define Marle 6
+#define Terra 7
+#define Cecil 8
+#define Ness 9
+#define Red 10
+#define Butz 11
+#define Kazuya 12
+#define Rydia 13
+#define Purim 14
 //no ephraim replacement
 #define Samson 16
 #define Arve 17
