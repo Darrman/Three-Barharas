@@ -1,93 +1,101 @@
-##Name_Void
-Void[X]
+##Name_Mario
+Mario[X]
 
-##Desc_Void
-knoll much[X]
+##Desc_Mario
+Our Goomba-stomping, Bowser[N]
+beating, mushroom eating hero.[X]
 
-##Name_Tim
-Tim[X]
+##Name_Bowser
+Professional princess kidnapper.[N]
+Ready to burn things.[X]
 
-##Desc_Tim
-His friends call[N]
-him Timathan.[X]
+##Desc_DQHero
+Saved thy world from thy evil[N]
+Dragonlord. Speaks ye olde.[X]
 
-##Name_Tam
-Tam[X]
+##Name_Kaga
+Kaga[X]
 
-##Desc_Tam
-Secretly wishes he[N]
-was a necromancer.[X]
+##Desc_Kaga
+The man who made Fire Emblem.[N]
+Desires to be overthrown.[X]
 
-##Name_Jerome
-Jerome[X]
+##Name_Crono
+Crono[X]
 
-##Desc_Jerome
-You want a playable soldier?[X]
+##Desc_Crono
+Time travelling, history meddling,[N]
+convicted criminal...[X]
 
-##Name_Leeroy
-Leeroy[X]
+##Name_Marle
+Marle[X]
 
-##Desc_Leeroy
-At least I have chicken.[X]
+##Desc_Marle
+Time travelling, pretended to be[N]
+queen, allegedly kidnapped...[X]
 
-##Name_Bede
-Bede[X]
+##Name_Terra
+Terra[X]
 
-##Desc_Bede
-sexy priest[X]
+##Desc_Terra
+She can cast magic![N]
+M-m-m-m-m-m-m-magic![X]
 
-##Name_Jay
-Jay[X]
+##Name_Cecil
+Cecil[X]
 
-##Desc_Jay
-An old veteran of the Renegade[N]
-translation era. Got the tools down.[X]
+##Desc_Cecil
+Keeps running around after crystals.[N]
+Not sure if he's evil or not.[X]
 
-##Name_NotArch
-Not Arch[X]
+##Name_Ness
+Ness[X]
 
-##Desc_NotArch
-His divine lightning[N]
-will pierce your face.[X]
+##Desc_Ness
+Nothing brings him greater[N]
+joy than cycling. Alone.[X]
 
-##Name_Kirsten
-Kirsten[X]
+##Name_Red
+Red[X]
 
-##Desc_Kirsten
-oy u best lisen ere m8 il giv u[N]
-a proper bashin u cheeky bruv[X]
+##Desc_Red
+A Pokemon Master. Cycles in order[N]
+to travel at a reasonable pace.[X]
 
-##Name_Bob
-Bob[X]
+##Name_Butz
+Butz[X]
 
-##Desc_Bob
-thief person[X]
+##Desc_Butz
+He's seen better days. Chose a[N]
+strange class for himself today.[X]
 
-##Name_Roshea
-Roshea[X]
+##Name_Kazuya
+Kazuya[X]
 
-##Desc_Roshea
-Deserted the Wolfguard to pursue[N]
-his dreams of being a dancer.[X]
+##Desc_Kazuya
+After his home was blown up,[N]
+he's taken to summoning demons.[X]
 
-##Name_Edge
-Edge[X]
+##Name_Rydia
+Rydia[X]
 
-##Desc_Edge
-Can handle the weight.[X]
+##Desc_Rydia
+After being eaten by a monster,[N]
+she suddenly got a lot older.[X]
 
-##Name_Samson
-Samson[X]
+##Name_Ryu
+Ryu[X]
 
-##Desc_Samson
-Just generally confused.[X]
+##Desc_Ryu
+After burglarising things,[N]
+he fished with lod and bait.[X]
 
-##Name_Arve
-Arve[X]
+##Name_Purim
+Purim[X]
 
-##Desc_Arve
-Elder. It's ELDER.[N]
-Not dark. E-L-D-E-R.[X]
+##Desc_Purim
+Some evil guy stole her boyfriend.[N]
+She didn't take too kindly to it.[X]
 
 ##Name_Tye
 Tye[X]

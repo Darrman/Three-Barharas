@@ -37,7 +37,7 @@
 #define Mario 1
 #define Bowser 2
 #define DQHero 3
-#define Kaga 4
+#define Ryu 4
 #define Crono 5
 #define Marle 6
 #define Terra 7

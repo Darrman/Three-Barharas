@@ -1,26 +1,24 @@
 #0x1a2 PrologueGoal
-Slay all in your way[N]
-and seize the gate[X]
+Mario, beat Bowser[X]
 
 ## Ch1Goal
-Get the kid to the[N]
-village, then seize[X]
+Seize that castle[N]
+over yonder[X]
 
 ## Ch2Goal
-Do Bede a favour and[N]
-seize the gate[X]
+Kill the boss of[N]
+those mad pirates[X]
 
 ## Ch3Goal
-Slay paladin Jenkins,[N]
-Leeroy's old enemy[X]
+Kill every single[N]
+random monster[X]
 
 ## Ch4Goal
-The Donateenary[N]
-fort looms. Seize it[X]
+Seize the ruins in[N]
+the swamp's core[X]
 
 ## Ch5Goal
-Fight through the[N]
-storm and seize[X]
+End Kaga[X]
 
 ##
 No chapter here.[X]
