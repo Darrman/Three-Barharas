@@ -1,2 +1,2 @@
-A member of the zombie colony.[N]
-Waging war with the skeletons.[X]
+A member of the skeleton colony.[N]
+Waging war with the zombies.[X]

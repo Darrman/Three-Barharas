@@ -1,9 +1,7 @@
+Mario:
+Pirates! Mamma mia![N]
 DQG:
-Thy village is saved.[A]
-Bowser:
-So do any of you know how[N]
-to sail this ship? I can[AN]
-only sail airships. Boats?[N]
-I don't have a clue.[A]
-Convenient boat man:
-I can.[A][X]
+Thou hast a duty to defend[N]
+the civilians! We fight![AN]
+We must defeat the head[N]
+pirate to claim victory.[A][X]

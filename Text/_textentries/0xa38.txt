@@ -1,13 +1,17 @@
-DQG:
-Thou hast done well in defeating[N]
-the boss. But there are more[AN]
-powerful monsters across the[N]
-world. Hither there are--[AN]
+Dragon Warrior guy:
+Greetings. Are thou thy warriors[N]
+I am fighting thy villians with?[A]
 Bowser:
-Do you know who the monster[N]
-we need to defeat is?[A]
+Yeah, we are. So[N]
+who am I burning?[A]
 DQG:
-I do not know. Thy party[N]
-must explore this town[AN]
-in order to discover[N]
-artefacts and information.[A][X]
+The fiend squatting on thy[N]
+gate over yonder. He must[AN]
+be defeated in order to[N]
+secure this fief.[A]
+Bowser:
+So are those other guys your[N]
+friends or comrades or what?[A]
+(Other party members say a line)
+Mario: 
+Let's a go![X]

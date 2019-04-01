@@ -1,7 +1,3 @@
-Mario:
-Pirates! Mamma mia![N]
-DQG:
-Thou hast a duty to defend[N]
-the civilians! We fight![AN]
-We must defeat the head[N]
-pirate to claim victory.[A][X]
+Recruit:
+I am whoever. I shall[N]
+join you in your fight.[A][X]

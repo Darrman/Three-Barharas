@@ -66,16 +66,18 @@ BeginningScene:
 LOAD2 0x1 Units
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
-//Text(Ch5Opening)
+Text(Ch5Opening)
 GotoPrepScreen
 
 EndingScene:
+Text(Ch5Ending)
 MNC4 0x0
 ENDA
 
 // Events
 EventAfterExitingPrepScreen:
-//Text(Ch5AfterPrep)
+LOAD1 0x1 DragonMan
+Text(Ch5AfterPrep)
 ENDA
 
 
@@ -108,6 +110,10 @@ UNIT 0x80 GreatKnight 0x00 Level(10, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [Swords
 UNIT 0x80 MageKnight 0x00 Level(10, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [Elfire] NeverMoveAI 
 UNIT 0x80 MageKnight 0x00 Level(10, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Elfire] NeverMoveAI 
 UNIT
+
+DragonMan:
+UNIT Ryu DracoZombie 0x00 Level(10, Ally, 1) [1,11] 0x00 0x00 0x0 0x00 [HolyDragonStone] PursueWithoutHeedAI 
+
 
 
 // Shop Data

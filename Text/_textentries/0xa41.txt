@@ -1,1 +1,5 @@
-PLACEHOLDER[X]
+Bowser:
+Ahh, that was good.[A]
+DQG:
+Thy temple is located[N]
+within the swamp![A][X]

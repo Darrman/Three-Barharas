@@ -1,5 +1,3 @@
-Bowser: 
-You've won. But now we[N]
-need to work together.[AN]
-There's a bigger evil[N]
-that must be overthrown.[A][X]
+Promote Void when[N]
+you feel the time is[N]
+right. Lv10 unneeded.[X]

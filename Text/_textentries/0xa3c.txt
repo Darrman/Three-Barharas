@@ -1,8 +1,2 @@
-DQG:
-Foul beasts, as far as thy[N]
-eye can see! What a problem![A]
-Bowser:
-Finally, something to burn.[N]
-I won't be happy until I've[AN]
-burned every single monster[N]
-in this forest![A][X]
+Ness:
+Okay![A][X]

@@ -1,1 +1,2 @@
-Eff. vs. infantry. Void only.[X]
+Swap: Allows unit to swap positions[N]
+with an adjacent ally.[X]

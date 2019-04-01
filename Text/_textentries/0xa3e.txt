@@ -1,14 +1,8 @@
-Skeleton:
-Rattle.[A]
-Recruiter:
-That isn't a normal sword.[N]
-That's a Shadow Killer![AN]
-Anathema to monsters...[N]
-Yet a skeleton wielding[AN]
-one of those blades...[N]
-You aren't a skeleton at[AN]
-all! Come on! Fight with[N]
-us! You'll be great![A]
-Skeleton:
-You saw through my bone[N]
-disguise. Impressive.[A][X]
+DQG:
+Foul beasts, as far as thy[N]
+eye can see! What a problem![A]
+Bowser:
+Finally, something to burn.[N]
+I won't be happy until I've[AN]
+burned every single monster[N]
+in this forest![A][X]

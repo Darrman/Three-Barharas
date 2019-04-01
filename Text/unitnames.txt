@@ -6,8 +6,14 @@ Our Goomba-stomping, Bowser[N]
 beating, mushroom eating hero.[X]
 
 ##Name_Bowser
+Bowser[X]
+
+##Desc_Bowser
 Professional princess kidnapper.[N]
 Ready to burn things.[X]
+
+##Name_DQHero
+Hero[X]
 
 ##Desc_DQHero
 Saved thy world from thy evil[N]
