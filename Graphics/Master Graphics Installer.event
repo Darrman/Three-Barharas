@@ -3,8 +3,8 @@
 #define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
 
 PUSH
-  ORG $AC188
-  POIN NewDifficultyButtons
+//  ORG $AC188
+//  POIN NewDifficultyButtons
 
   ORG $8AEFE4
   BYTE 1 //make eirika use anims for lance not swd
@@ -24,15 +24,15 @@ PUSH
   BYTE $90 $42 $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A
 POP
 
-NewDifficultyButtons:
-#incext Png2Dmp "difficulty.png" --lz77
+//NewDifficultyButtons:
+//#incext Png2Dmp "difficulty.png" --lz77
 
 NewTitleScroll:
 #incext Png2Dmp "TitleScroll.png" --lz77
 
 PUSH
 ORG 0x5926F4+(0x80*8)
-#incext Png2Dmp "blitzicon.png"
+//#incext Png2Dmp "blitzicon.png"
 ORG 0x5926F4+(0x80*0xb0)
 #incext Png2Dmp "superblitzicon.png"
 ORG 0x5926F4+(0x80*0x42)

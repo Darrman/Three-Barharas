@@ -16,46 +16,46 @@ Ness_Mug:
 #incext PortraitFormatter "Ness.png"
 setMugEntry(0x9, Ness_Mug, 3,5,3,3)
 
-//NotArch_Mug:
-//#incext PortraitFormatter "NotArch.png"
-//setMugEntry(0xc, NotArch_Mug, 3,5,3,3)
-//
-//Kirsten_Mug:
-//#incext PortraitFormatter "Kirsten.png"
-//setMugEntry(0xe, Kirsten_Mug, 2,6,3,4)
-//
-//Roshea_Mug:
-//#incext PortraitFormatter "Roshea.png"
-//setMugEntry(0x10, Roshea_Mug, 2,5,2,3)
-//
-//Edge_Mug:
-//#incext PortraitFormatter "Edge.png"
-//setMugEntry(0x13, Edge_Mug, 2,5,3,3)
-//
-//Samson_Mug:
-//#incext PortraitFormatter "Samson.png"
-//setMugEntry(0x16, Samson_Mug, 3,5,3,3)
-//
-//Arve_Mug:
-//#incext PortraitFormatter "Arve.png"
-//setMugEntry(0x18, Arve_Mug, 3,5,3,3)
-//
-//Tye_Mug:
-//#incext PortraitFormatter "Tye.png"
-//setMugEntry(0x19, Tye_Mug, 3,5,2,3)
-//
-//Celicia_Mug:
-//#incext PortraitFormatter "celicia.png"
-//setMugEntry(0x1a, Celicia_Mug, 3,5,3,3)
-//
-//Eevster_Mug:
-//#incext PortraitFormatter "Eev.png"
-//setMugEntry(0x1b, Eevster_Mug, 3,7,3,5)
-//
-//AnnaWyv_Mug:
-//#incext PortraitFormatter "AnnaWyv.png"
-//setMugEntry(0x1c, AnnaWyv_Mug, 2,6,3,4)
-//
+Butz_Mug:
+#incext PortraitFormatter "Butz.png"
+setMugEntry(0xc, Butz_Mug, 3,5,3,3)
+
+Purim_Mug:
+#incext PortraitFormatter "Purim.png"
+setMugEntry(0xe, Purim_Mug, 2,6,3,4)
+
+Red_Mug:
+#incext PortraitFormatter "Red.png"
+setMugEntry(0x10, Red_Mug, 2,5,2,3)
+
+Kazuya_Mug:
+#incext PortraitFormatter "Kazuya.png"
+setMugEntry(0x13, Kazuya_Mug, 2,5,3,3)
+
+Ryu_Mug:
+#incext PortraitFormatter "Ryu.png"
+setMugEntry(0x16, Ryu_Mug, 3,5,3,3)
+
+Crono_Mug:
+#incext PortraitFormatter "Crono.png"
+setMugEntry(0x18, Crono_Mug, 3,5,3,3)
+
+Terra_Mug:
+#incext PortraitFormatter "Terra.png"
+setMugEntry(0x19, Terra_Mug, 3,5,2,3)
+
+Cecil_Mug:
+#incext PortraitFormatter "Cecil.png"
+setMugEntry(0x1a, Cecil_Mug, 3,5,3,3)
+
+Marle_Mug:
+#incext PortraitFormatter "Marle.png"
+setMugEntry(0x1b, Marle_Mug, 3,7,3,5)
+
+Rydia_Mug:
+#incext PortraitFormatter "Rydia.png"
+setMugEntry(0x1c, Rydia_Mug, 2,6,3,4)
+
 //Celica_Mug:
 //#incext PortraitFormatter "Celica.png"
 //setMugEntry(0x1d, Celica_Mug, 3,6,3,4)
@@ -68,9 +68,9 @@ setMugEntry(0x9, Ness_Mug, 3,5,3,3)
 //#incext PortraitFormatter "Jake.png"
 //setMugEntry(0x2a, Jake_Mug, 2,5,3,3)
 //
-//EdgeworthMug:
-//#incext PortraitFormatter "Edgeworth.png"
-//setMugEntry(0x21, EdgeworthMug, 2, 4, 6, 4)
+//KazuyaworthMug:
+//#incext PortraitFormatter "Kazuyaworth.png"
+//setMugEntry(0x21, KazuyaworthMug, 2, 4, 6, 4)
 //
 //ZigludoMug:
 //#incext PortraitFormatter "sigurd2.png"
