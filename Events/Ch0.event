@@ -49,11 +49,11 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Units
 LOAD1 0x1 Bad
-//Text(Ch0Opening)
+Text(Ch0Opening)
 ENDA
 
 EndingScene:
-//Text(Ch0Ending)
+Text(Ch0Ending)
 MNC2 0x1
 ENDA
 

@@ -51,7 +51,7 @@ like to call me the Secret Seller,[AN]
 and you should know we traders[N]
 make some VERY deep cuts.[A][X]
 
-## Ch1Ending
+## OldCh1Ending
 [Left][LoadBreguet]
 [Right][LoadVoid]
 Well, uh, that is something, kid.[A]
@@ -61,7 +61,7 @@ I gave you one.[A]
 [Right]
 Fair enough.[A][X]
 
-## Ch2Opening
+## OldCh2Opening
 [OpenRight][LoadVoid]
 [OpenLeft][LoadBede]
 Excuse me miss.[A]
@@ -115,7 +115,7 @@ AHHH! Someone's here![A]
 [Right]
 Hey, he dropped something.[A][X]
 
-## Ch2Ending
+## OldCh2Ending
 [Left][LoadBede]
 [Right][LoadVoid]
 Well, that was easy.[A]
@@ -126,7 +126,7 @@ as a healer from now on.[A]
 [Right]
 Cool; let's go.[A][X]
 
-## Ch4Opening
+## OldCh4Opening
 [Left][LoadLeeroy]
 [Right][LoadVoid]
 Who are those men guarding that castle?[A]
@@ -161,13 +161,13 @@ to help. Why are you staring at[AN]
 me? You're expecting me to rant? I[N]
 don't know what you're talking about![A][X]
 
-## Ch4Ending
+## OldCh4Ending
 [Right][LoadVoid]
 That was the power of the Donateenaries?[N]
 Ha, what a joke. Alas, they were in my[AN]
 way, so they had to pay.[AN][X]
 
-## Ch5Opening
+## OldCh5Opening
 [Right][LoadVoid]
 [Left][LoadLeeroy]
 My lady! WE'VE GOT TROUBLE![A]
@@ -206,7 +206,7 @@ Now g'day, mate![AN][Clear]
 [Right]
 *sigh* What a handful.[A][X]
 
-## Ch5Ending
+## OldCh5Ending
 [Left][LoadBede]
 [FarLeft][LoadLeeroy]
 [MidRight][LoadVoid]

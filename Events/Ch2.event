@@ -57,17 +57,17 @@ ALIGN 4
 BeginningScene:
 LOAD2 0x1 Units
 LOAD1 0x1 Bad
-//Text(Ch2Opening)
+Text(Ch2Opening)
 ENDA
 
 EndingScene:
-//Text(Ch2Ending)
+Text(Ch2Ending)
 MNCH 0x3
 ENDA
 
 // Events
 Ch2Recruit:
-//Text(RecruitingCh2Guy)
+Text(Ch2Village)
 LOAD1 0x1 Recruit
 ENDA
 

@@ -31,10 +31,10 @@ Learned  [X]
 
 #0x903 ControlONMessage
 #first text ID in the free block
-Control CPU Units: ON[X]
+Debug Mode: ON[X]
 
 ## ControlOFFMessage
-Control CPU Units: OFF[X]
+Debug Mode: OFF[X]
 
 ## DV1Desc
 Freeze all enemies[N]
@@ -45,6 +45,7 @@ for one turn[X]
 #include "skilldesc_text.txt"
 
 #include "items.txt"
+#include "Bad Idea Plot.txt"
 #include "chaptertext.txt"
 #include "MCPlotStuff.txt"
 #include "villages and recruitments.txt"

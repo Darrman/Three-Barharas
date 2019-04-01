@@ -1,2 +1,2 @@
-[OpenMidRight][LoadEdge]
-Hmph, pathetic.[A][CloseEyes][X]
+[MidLeft][LoadFace][0x2][0x1]
+Ambush coming![A][X]

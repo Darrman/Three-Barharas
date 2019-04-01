@@ -1,0 +1,141 @@
+## Ch0Opening
+Mario: 
+Let's a go![A][X]
+
+## Ch0Ending
+Bowser: 
+You've won. But now we[N]
+need to work together.[AN]
+There's a bigger evil[N]
+that must be overthrown.[A][X]
+
+## Ch1Opening
+Dragon Warrior guy:
+Greetings. Are thou thy warriors[N]
+I am fighting thy villians with?[A]
+Bowser:
+Yeah, we are. So[N]
+who am I burning?[A]
+DQG:
+The fiend squatting on thy[N]
+gate over yonder. He must[AN]
+be defeated in order to[N]
+secure this fief.[A]
+Bowser:
+So are those other guys your[N]
+friends or comrades or what?[A]
+(Other party members say a line)
+Mario: 
+Let's a go![X]
+
+## Ch1Village
+Recruit:
+I am whoever. I shall[N]
+join you in your fight.[A][X]
+
+## Ch1Ending
+DQG:
+Thou hast done well in defeating[N]
+the boss. But there are more[AN]
+powerful monsters across the[N]
+world. Hither there are--[AN]
+Bowser:
+Do you know who the monster[N]
+we need to defeat is?[A]
+DQG:
+I do not know. Thy party[N]
+must explore this town[AN]
+in order to discover[N]
+artefacts and information.[A][X]
+
+## Ch2Opening
+Mario:
+Pirates! Mamma mia![N]
+DQG:
+Thou hast a duty to defend[N]
+the civilians! We fight![AN]
+We must defeat the head[N]
+pirate to claim victory.[A][X]
+
+## Ch2Village
+Ness:
+Okay![A][X]
+
+## Ch2Ending
+DQG:
+Thy village is saved.[A]
+Bowser:
+So do any of you know how[N]
+to sail this ship? I can[AN]
+only sail airships. Boats?[N]
+I don't have a clue.[A]
+Convenient boat man:
+I can.[A][X]
+
+## Ch3Opening
+DQG:
+Foul beasts, as far as thy[N]
+eye can see! What a problem![A]
+Bowser:
+Finally, something to burn.[N]
+I won't be happy until I've[AN]
+burned every single monster[N]
+in this forest![A][X]
+
+## Ch3Opening2
+???:
+Do you need somebody to summon[N]
+your own monsters to fight?[A]
+Mario:
+Huh?[A]
+(Kazuya enters)
+Kazuya:
+I can do that. My name is[N]
+Kazuya, and I'm a Devil Buster.[AN]
+I also summon demons to fight[N]
+with me. You might even be[AN]
+capable of persuading a monster[N]
+to fight by your side...[AN][X]
+
+## Ch3Recruit
+Skeleton:
+Rattle.[A]
+Recruiter:
+That isn't a normal sword.[N]
+That's a Shadow Killer![AN]
+Anathema to monsters...[N]
+Yet a skeleton wielding[AN]
+one of those blades...[N]
+You aren't a skeleton at[AN]
+all! Come on! Fight with[N]
+us! You'll be great![A]
+Skeleton:
+You saw through my bone[N]
+disguise. Impressive.[A][X]
+
+## Ch3Ending
+Bowser:
+Ahh, that was good.[A]
+DQG:
+Thy temple is located[N]
+within the swamp![A][X]
+
+## Ch4Opening
+Mario:
+A swamp?[A][X]
+
+## Ch4AfterPrep
+PLACEHOLDER[X]
+
+## Ch4Ending
+PLACEHOLDER[X]
+
+## Ch5Opening
+PLACEHOLDER[X]
+
+## Ch5AfterPrep
+PLACEHOLDER[X]
+
+## Ch5Ending
+PLACEHOLDER[N]
+THE END[X]

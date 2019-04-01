@@ -1,3 +1,2 @@
-[MidLeft][Invert]
-10,000 Gold. What do you say?[N]
-[Yes][Invert][X]
+[MidLeft][LoadCurrent]
+Oh cool, I found a thing.[A][X]

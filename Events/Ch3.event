@@ -57,17 +57,18 @@ BeginningScene:
 LOAD2 0x1 Units
 LOAD1 0x1 Bad
 LOAD1 0x1 Recruit
-//Text(Ch3Opening)
+Text(Ch3Opening)
+//LOAD1 StartRecruit
 ENDA
 
 EndingScene:
-//Text(Ch3Ending)
+Text(Ch3Ending)
 MNCH 4
 ENDA
 
 // Events
 SkeletonGet:
-//Text(RecruitingSkeleton)
+Text(Ch3Recruit)
 TurnAlly(Neimi)
 ENDA
 

@@ -1,8 +1,17 @@
-[MidLeft][LoadFace][0x33][0x1]
-Hehehe...[A]
-I see Void's army![N]
-Time to earn some gold![AN]
-I also have a horseslayer.[N]
-Leeroy is gonna be history![AN]
-I, Jenkins, will strike[N]
-him down![A][X]
+Dragon Warrior guy:
+Greetings. Are thou thy warriors[N]
+I am fighting thy villians with?[A]
+Bowser:
+Yeah, we are. So[N]
+who am I burning?[A]
+DQG:
+The fiend squatting on thy[N]
+gate over yonder. He must[AN]
+be defeated in order to[N]
+secure this fief.[A]
+Bowser:
+So are those other guys your[N]
+friends or comrades or what?[A]
+(Other party members say a line)
+Mario: 
+Let's a go![X]

@@ -1,3 +1,5 @@
-This is truly a tough battle.[N]
-Void goes deeper into Donateenary[AN]
-territory. Can she win?[A][X]
+[OpenLeft][LoadLeeroy]
+[OpenRight][LoadVoid]
+Victory is had. Let's go![A]
+[Left]
+That was anti-climatic.[A][X]

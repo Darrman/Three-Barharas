@@ -1,3 +1,2 @@
-[ML][LoadDyute]
-FOR DEFYING LORD TATARA...[N]
-DIE[A][X]
+[OpenMidLeft][Load][0x44][0x01]
+Darling... Darling...[A][X]

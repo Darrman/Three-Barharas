@@ -1,5 +1,3 @@
-[OpenLeft][LoadTatara]
-Hoho... You fools hope to[N]
-beat me, Lord Tatara?[AN]
-Dyute! Kill those idiots[N]
-with your Aura![A][X]
+[FarLeft][LoadGheb]
+I just... wanted...[N]
+to play... Yugioh...[A][X]

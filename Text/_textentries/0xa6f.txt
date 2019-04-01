@@ -1,2 +1,4 @@
-[Right][LoadVoid]
-We did it, but we must get moving.[A][X]
+VOID'S BLITZARRE ADVENTURE SCRIPT[N]
+Most writing here by MC[N]
+Control codes, formattng by Darr[N]
+How does one even comment[X]

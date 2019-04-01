@@ -1,1 +1,1 @@
-Control CPU Units: OFF[X]
+Debug Mode: OFF[X]

@@ -1,7 +1,9 @@
-[MidRight][LoadCurrent]
-[MidLeft][LoadFace][0x5F][0x01]
-Whoa, whoa, don't point[N]
-that weapon at me![AN]
-Okay, okay, I'll give you[N]
-something nice, so just[AN]
-leave me alone, will you?[A][X]
+DQG:
+Thy village is saved.[A]
+Bowser:
+So do any of you know how[N]
+to sail this ship? I can[AN]
+only sail airships. Boats?[N]
+I don't have a clue.[A]
+Convenient boat man:
+I can.[A][X]

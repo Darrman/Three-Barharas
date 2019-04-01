@@ -1,5 +1,3 @@
-[ML][LoadMaeda]
-Now look what you've done![N]
-Now that I'm gone, Fire[AN]
-Emblem will die with me...[N]
-Damn you, Kaga! DAMN YOU!![AN][X]
+[OpenMidLeft][Load][0x3B][0x01]
+Don't even think of spinning[N]
+your swords, you rebels![AN][X]
