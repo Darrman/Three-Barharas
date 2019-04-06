@@ -23,7 +23,7 @@ UNIT Terra Sage_F 0x00 Level(10, Ally, 0) [15,11] 0x00 0x00 0x0 0x00 [Fimbulvetr
 UNIT Marle Sniper_F 0x00 Level(10, Ally, 0) [14,9] 0x00 0x00 0x0 0x00 [SilverAxe, Vulnerary] NoAI 
 UNIT Crono Swordmaster 0x00 Level(10, Ally, 0) [14,10] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI 
 UNIT Ness MageKnight 0x00 Level(10, Ally, 0) [16,11] 0x00 0x00 0x0 0x00 [BraveLance, Bolting, WhiteGem] NoAI
-UNIT Red Paladin 0x00 Level(10, Ally, 0) [14,8] 0x00 0x00 0x0 0x00 [BraveSword, SilverSword, WhiteGem] NoAI
+UNIT Red Paladin 0x00 Level(10, Ally, 0) [16,8] 0x00 0x00 0x0 0x00 [BraveSword, SilverSword, WhiteGem] NoAI
 UNIT
 
 
