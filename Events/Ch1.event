@@ -83,7 +83,8 @@ UNIT Mario Berserker 0x00 Level(10, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [Rapier, 
 UNIT
 
 Recruit:
-UNIT Crono Swordmaster 0x00 Level(10, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI 
+UNIT Crono Swordmaster 0x00 Level(10, Ally, 0) [15,10] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI 
+UNIT
 
 Bad:
 UNIT Breguet General 0x00 Level(3, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NeverMoveAI 

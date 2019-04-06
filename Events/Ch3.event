@@ -105,6 +105,7 @@ UNIT
 Ch3StartRecruit:
 UNIT Kazuya Summoner 0x00 Level(10, Ally, 0) [11,11] 0x00 0x00 0x0 0x00 [Luna, Berserk] NoAI
 UNIT Rydia Summoner 0x00 Level(10, Ally, 0) [11,11] 0x00 0x00 0x0 0x00 [Nosferatu, Silence] NoAI
+UNIT
 
 
 // Shop Data
