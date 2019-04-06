@@ -72,7 +72,7 @@ ENDA
 // Events
 SkeletonGet:
 Text(Ch3Recruit)
-TurnAlly(Neimi)
+TurnAlly(Butz)
 ENDA
 
 // Manual Movement

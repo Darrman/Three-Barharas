@@ -104,7 +104,7 @@ UNIT
 
 // Shop Data
 Ch2Armoury:
-SHLI SilverSword SilverLance SilverAxe SilverBow Vulnerary
+SHLI SilverSword SilverLance SilverAxe SilverBow Elfire IronSword IronLance IronAxe IronBow Fire Heal Vulnerary
 
 ALIGN 4
 

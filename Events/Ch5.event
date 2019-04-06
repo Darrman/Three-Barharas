@@ -113,7 +113,7 @@ UNIT
 
 DragonMan:
 UNIT Ryu DracoZombie 0x00 Level(10, Ally, 1) [1,11] 0x00 0x00 0x0 0x00 [HolyDragonStone] PursueWithoutHeedAI 
-
+UNIT
 
 
 // Shop Data
