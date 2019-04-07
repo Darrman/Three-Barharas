@@ -38,7 +38,7 @@ King? Maybe I'll run into my[AN]
 man on the way. Name's Jay,[N]
 by the way. Fear my Continue![A][X]
 
-##Ch3Ending
+##OldCh3Ending
 [MidRight][LoadFace][0x02][0x01]
 [MidLeft][LoadFace][0x14][0x1]
 Idiotic Jenkins. I, Leeroy,[N]

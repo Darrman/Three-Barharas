@@ -366,7 +366,7 @@
 #define Ch3Start 0xa4a
 #define Ch3SecondScene 0xa4b
 #define GettingJay 0xa4c
-#define Ch3Ending 0xa4d
+#define OldCh3Ending 0xa4d
 #define Ch8Start1 0xa4e
 #define Ch8Start2 0xa4f
 #define Ch8Left 0xa50

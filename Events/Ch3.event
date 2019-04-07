@@ -31,7 +31,7 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x7,SkeletonGet,Mario,Butz)
+CharacterEventBothWays(0x7,SkeletonGet,Cecil,Butz)
 END_MAIN
 
 LocationBasedEvents:

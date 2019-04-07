@@ -1,6 +1,7 @@
-Skeleton:
+[MidRight][LoadCecil]
+[MidLeft][LoadButz]
 Rattle.[A]
-Recruiter:
+[MidRight]
 That isn't a normal sword.[N]
 That's a Shadow Killer![AN]
 Anathema to monsters...[N]
@@ -9,6 +10,6 @@ one of those blades...[N]
 You aren't a skeleton at[AN]
 all! Come on! Fight with[N]
 us! You'll be great![A]
-Skeleton:
+[MidLeft]
 You saw through my bone[N]
 disguise. Impressive.[A][X]

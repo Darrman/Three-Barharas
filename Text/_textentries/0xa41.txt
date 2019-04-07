@@ -1,5 +1,6 @@
-Bowser:
+[MidLeft][LoadDQHero]
+[MidRight][LoadBowser]
 Ahh, that was good.[A]
-DQG:
+[MidLeft]
 Thy temple is located[N]
 within the swamp![A][X]

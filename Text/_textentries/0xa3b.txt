@@ -1,7 +1,8 @@
-Mario:
+[MidRight][LoadMario]
+[MidLeft][LoadDQHero]
 Pirates! Mamma mia![N]
-DQG:
+[MidLeft]
 Thou hast a duty to defend[N]
 the civilians! We fight![AN]
-We must defeat the head[N]
-pirate to claim victory.[A][X]
+We must [Red]defeat the head[N]
+pirate[Red] to claim victory.[A][X]

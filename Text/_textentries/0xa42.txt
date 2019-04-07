@@ -1,2 +1,3 @@
-Mario:
-A swamp?[A][X]
+[MidRight][LoadMario]
+A swamp?[A]
+TEXT INCOMPLETE[A][X]

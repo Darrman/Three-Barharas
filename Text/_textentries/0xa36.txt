@@ -1,2 +1,2 @@
-Mario: 
+[MidRight][LoadMario]
 Let's a go![A][X]

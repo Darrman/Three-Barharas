@@ -1,106 +1,119 @@
 ## Ch0Opening
-Mario: 
+[MidRight][LoadMario]
 Let's a go![A][X]
 
 ## Ch0Ending
-Bowser: 
+[MidRight][LoadMario]
+[MidLeft][LoadBowser]
 You've won. But now we[N]
 need to work together.[AN]
 There's a bigger evil[N]
 that must be overthrown.[A][X]
 
 ## Ch1Opening
-Dragon Warrior guy:
+[Right][LoadMario]
+[FarRight][LoadBowser]
+[MidLeft][LoadDQHero]
 Greetings. Are thou thy warriors[N]
 I am fighting thy villians with?[A]
-Bowser:
+[FarRight]
 Yeah, we are. So[N]
 who am I burning?[A]
-DQG:
-The fiend squatting on thy[N]
-gate over yonder. He must[AN]
+[MidLeft]
+[Red]The fiend squatting on thy[N]
+gate over yonder.[Red] He must[AN]
 be defeated in order to[N]
 secure this fief.[A]
-Bowser:
+[FarRight]
 So are those other guys your[N]
 friends or comrades or what?[A]
-(Other party members say a line)
-Mario: 
+#(Other party members say a line)
+[Right]
 Let's a go![X]
 
 ## Ch1VillageText
-Recruit:
-I am whoever. I shall[N]
-join you in your fight.[A][X]
+[MidRight][LoadCurrent]
+[MidLeft][LoadCrono]
+...[N][ToggleMouthMove]
+(He nods his head, indicating[N]
+that he will fight for you.)[A][X]
 
 ## Ch1Ending
-DQG:
+[MidRight][LoadBowser]
+[MidLeft][LoadDQHero]
 Thou hast done well in defeating[N]
 the boss. But there are more[AN]
 powerful monsters across the[N]
 world. Hither there are--[AN]
-Bowser:
+[MidRight]
 Do you know who the monster[N]
 we need to defeat is?[A]
-DQG:
+[MidLeft]
 I do not know. Thy party[N]
 must explore this town[AN]
 in order to discover[N]
 artefacts and information.[A][X]
 
 ## Ch2Opening
-Mario:
+[MidRight][LoadMario]
+[MidLeft][LoadDQHero]
 Pirates! Mamma mia![N]
-DQG:
+[MidLeft]
 Thou hast a duty to defend[N]
 the civilians! We fight![AN]
-We must defeat the head[N]
-pirate to claim victory.[A][X]
+We must [Red]defeat the head[N]
+pirate[Red] to claim victory.[A][X]
 
 ## Ch2Village
-Ness:
+[MidRight][LoadCurrent]
+[MidLeft][LoadNess]
 Okay![A][X]
 
 ## Ch2Ending
-DQG:
+[MidRight][LoadBowser]
+[MidLeft][LoadDQHero]
 Thy village is saved.[A]
-Bowser:
+[MidRight]
 So do any of you know how[N]
 to sail this ship? I can[AN]
 only sail airships. Boats?[N]
 I don't have a clue.[A]
-Convenient boat man:
+#Convenient boat man:
+#Figure out who he is later
+[FarFarLeft]
 I can.[A][X]
 
 ## Ch3Opening
-DQG:
+[MidRight][LoadBowser]
+[MidLeft][LoadDQHero]
 Foul beasts, as far as thy[N]
 eye can see! What a problem![A]
-Bowser:
+[MidRight]
 Finally, something to burn.[N]
 I won't be happy until I've[AN]
-burned every single monster[N]
+[Red]burned every single monster[Red][N]
 in this forest![A][X]
 
 ## Ch3Opening2
-???:
+[MidRight][LoadMario]
+[FarFarLeft][LoadKazuya]
 Do you need somebody to summon[N]
 your own monsters to fight?[A]
-Mario:
+[MidRight]
 Huh?[A]
-(Kazuya enters)
-Kazuya:
+[FarFarLeft][MoveMidLeft]
 I can do that. My name is[N]
 Kazuya, and I'm a Devil Buster.[AN]
 I also summon demons to fight[N]
 with me. You might even be[AN]
-capable of persuading a monster[N]
+capable of [Red]persuading a monster[Red][N]
 to fight by your side...[AN][X]
 
 ## Ch3Recruit
-Skeleton:
+[MidRight][LoadCecil]
+[MidLeft][LoadButz]
 Rattle.[A]
-Recruiter:
+[MidRight]
 That isn't a normal sword.[N]
 That's a Shadow Killer![AN]
 Anathema to monsters...[N]
@@ -109,20 +122,22 @@ one of those blades...[N]
 You aren't a skeleton at[AN]
 all! Come on! Fight with[N]
 us! You'll be great![A]
-Skeleton:
+[MidLeft]
 You saw through my bone[N]
 disguise. Impressive.[A][X]
 
 ## Ch3Ending
-Bowser:
+[MidLeft][LoadDQHero]
+[MidRight][LoadBowser]
 Ahh, that was good.[A]
-DQG:
+[MidLeft]
 Thy temple is located[N]
 within the swamp![A][X]
 
 ## Ch4Opening
-Mario:
-A swamp?[A][X]
+[MidRight][LoadMario]
+A swamp?[A]
+TEXT INCOMPLETE[A][X]
 
 ## Ch4AfterPrep
 PLACEHOLDER[X]

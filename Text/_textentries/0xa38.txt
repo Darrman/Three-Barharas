@@ -1,17 +1,19 @@
-Dragon Warrior guy:
+[Right][LoadMario]
+[FarRight][LoadBowser]
+[MidLeft][LoadDQHero]
 Greetings. Are thou thy warriors[N]
 I am fighting thy villians with?[A]
-Bowser:
+[FarRight]
 Yeah, we are. So[N]
 who am I burning?[A]
-DQG:
-The fiend squatting on thy[N]
-gate over yonder. He must[AN]
+[MidLeft]
+[Red]The fiend squatting on thy[N]
+gate over yonder.[Red] He must[AN]
 be defeated in order to[N]
 secure this fief.[A]
-Bowser:
+[FarRight]
 So are those other guys your[N]
 friends or comrades or what?[A]
-(Other party members say a line)
-Mario: 
+#(Other party members say a line)
+[Right]
 Let's a go![X]

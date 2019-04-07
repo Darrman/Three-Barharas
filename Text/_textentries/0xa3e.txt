@@ -1,8 +1,9 @@
-DQG:
+[MidRight][LoadBowser]
+[MidLeft][LoadDQHero]
 Foul beasts, as far as thy[N]
 eye can see! What a problem![A]
-Bowser:
+[MidRight]
 Finally, something to burn.[N]
 I won't be happy until I've[AN]
-burned every single monster[N]
+[Red]burned every single monster[Red][N]
 in this forest![A][X]

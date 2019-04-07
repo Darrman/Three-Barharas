@@ -1,13 +1,13 @@
-???:
+[MidRight][LoadMario]
+[FarFarLeft][LoadKazuya]
 Do you need somebody to summon[N]
 your own monsters to fight?[A]
-Mario:
+[MidRight]
 Huh?[A]
-(Kazuya enters)
-Kazuya:
+[FarFarLeft][MoveMidLeft]
 I can do that. My name is[N]
 Kazuya, and I'm a Devil Buster.[AN]
 I also summon demons to fight[N]
 with me. You might even be[AN]
-capable of persuading a monster[N]
+capable of [Red]persuading a monster[Red][N]
 to fight by your side...[AN][X]

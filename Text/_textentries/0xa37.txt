@@ -1,4 +1,5 @@
-Bowser: 
+[MidRight][LoadMario]
+[MidLeft][LoadBowser]
 You've won. But now we[N]
 need to work together.[AN]
 There's a bigger evil[N]

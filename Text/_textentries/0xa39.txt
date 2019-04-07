@@ -1,3 +1,5 @@
-Recruit:
-I am whoever. I shall[N]
-join you in your fight.[A][X]
+[MidRight][LoadCurrent]
+[MidLeft][LoadCrono]
+...[N][ToggleMouthMove]
+(He nods his head, indicating[N]
+that he will fight for you.)[A][X]
