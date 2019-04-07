@@ -1,2 +1,3 @@
-[OpenMidRight][LoadEdge]
-Hmph, pathetic.[A][CloseEyes][X]
+[MidRight][LoadBowser]
+Mario! Let's settle this.[N]
+Once and for all![A][X]

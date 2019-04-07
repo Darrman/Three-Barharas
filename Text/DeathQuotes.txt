@@ -39,7 +39,7 @@ please... be happy...[A][X]
 ## NessDeath
 [MidRight][LoadNess]
 Looks like I got my[N]
-head handed to me...[X]
+head handed to me...[A][X]
 
 ## RedDeath
 [MidRight][LoadRed]

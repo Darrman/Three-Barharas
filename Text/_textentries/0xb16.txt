@@ -1,2 +1,2 @@
-[OpenMidLeft][Load][0x4A][0x01]
-ROOOOOOOOARRRRRRR!![A][X]
+[OpenMidLeft][Load][0x3A][0x01]
+I'll remember this![A][X]

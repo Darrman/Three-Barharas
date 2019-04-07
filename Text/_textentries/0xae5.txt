@@ -1,2 +1,3 @@
-[OpenMidRight][LoadWyvAnna]
-Tam...[A][CloseEyes][X]
+[OpenMidRight][LoadTam]
+No...[N]
+Forgive me, Anna...[A][CloseEyes][X]

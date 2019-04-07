@@ -1,3 +1,5 @@
-[OpenMidLeft][Load][0x45][0x01]
-Darling... Darling...[N]
-Dar... ling... Dar...[AN][X]
+[ML][LoadTatara]
+You imbeciles think yourselves a[N]
+match for the mighty Tatara?[AN]
+A dire misjudgment cannot go[N]
+uncorrected.[A][X]

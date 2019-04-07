@@ -1,1 +1,2 @@
-PLACEHOLDER[X]
+[MidLeft][LoadRyu]
+[Red]Kill Kaga...[Red][A][X]

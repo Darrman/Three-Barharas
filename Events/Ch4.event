@@ -71,6 +71,7 @@ ENDA
 // Events
 EventAfterExitingPrepScreen:
 LOAD1 0x1 Green
+Text(Ch4AfterPrep)
 ENDA
 
 Ch4GetRecruit:

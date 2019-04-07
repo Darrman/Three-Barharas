@@ -1,2 +1,3 @@
-[OpenMidRight][LoadJerome]
-And so I die like the rest...[A][CloseEyes][X]
+[MidRight][LoadMarle]
+Everything's going dark...[N]
+Cold... Crono, help...[A][X]

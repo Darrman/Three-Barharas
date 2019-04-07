@@ -1,3 +1,2 @@
-[OpenMidLeft][Load][0x42][0x01]
-Well, shoot. Guess I'll mosey[N]
-on off into the sunset now...[A][X]
+[OpenMidLeft][Load][0x38][0x01]
+Urgh... You...[A][X]

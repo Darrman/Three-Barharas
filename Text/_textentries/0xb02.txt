@@ -1,2 +1,3 @@
-[OpenMidLeft][Load][0x38][0x01]
-Urgh... You...[A][X]
+[OpenMidRight][LoadChiki]
+I won't be...[N]
+alone anymore...[A][CloseEyes][X]
