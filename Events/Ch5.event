@@ -71,6 +71,8 @@ GotoPrepScreen
 
 EndingScene:
 Text(Ch5Ending)
+EARTHQUAKE_START 0x100
+STAL 120
 MNC4 0x0
 ENDA
 

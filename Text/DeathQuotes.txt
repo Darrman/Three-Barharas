@@ -1,3 +1,82 @@
+## MarioDeath
+[MidRight][LoadMario]
+Oh... Mamma mia...[A][X]
+
+## BowserDeath
+[MidRight][LoadBowser]
+I can't believe it. It's[N]
+finally all over...[A][X]
+
+## DQHeroDeath
+[MidRight][LoadDQHero]
+It doth seem... that I[N]
+am dying... here...[AN][X]
+
+## RyuDeath
+[MidRight][LoadRyu]
+Death is now taking me[N]
+Father...... Sister......[A][X]
+
+## CronoDeath
+[MidRight][LoadCrono]
+...[A][X]
+
+## MarleDeath
+[MidRight][LoadMarle]
+Everything's going dark...[N]
+Cold... Crono, help...[A][X]
+
+## TerraDeath
+[MidRight][LoadTerra]
+Why am I... All I want...[N]
+is to know what love...[A][X]
+
+## CecilDeath
+[MidRight][LoadCecil]
+I have failed... Rosa,[N]
+please... be happy...[A][X]
+
+## NessDeath
+[MidRight][LoadNess]
+Looks like I got my[N]
+head handed to me...[X]
+
+## RedDeath
+[MidRight][LoadRed]
+I feel faint... Ooh...[N]
+Smell ya, Blue... Heh...[A][X]
+
+## ButzDeath
+[MidRight][LoadButz]
+No more travelling...[N]
+this is it. So long...[A][X]
+
+## KazuyaDeath
+[MidRight][LoadKazuya]
+Heh... Looks like I'm gonna[N]
+be crossing the Styx...[A][X]
+
+## RydiaDeath
+[MidRight][LoadRydia]
+Mother... I'll be seeing[N]
+you again soon...[A][X]
+
+## PurimDeath
+[MidRight][LoadPurim]
+No... Dyluck... If I[N]
+could only see you...[A][X]
+
+## EnemyBowserCombat
+[MidRight][LoadBowser]
+Mario! Let's settle this.[N]
+Once and for all![A][X]
+
+## EnemyBowserDeath
+[MidRight][LoadBowser]
+You've defeated me...[N]
+again! No! Argh![A][X]
+
+
 ## VoidDeath
 [OpenMidRight][LoadVoid]
 But this... this can't be.[N]

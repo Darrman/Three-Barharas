@@ -48,6 +48,7 @@
 #define Kazuya 12
 #define Rydia 13
 #define Purim 14
+#define EnemyBowser 0x68
 //no ephraim replacement
 #define Samson 16
 #define Arve 17
