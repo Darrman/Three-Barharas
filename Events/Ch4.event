@@ -86,7 +86,7 @@ ENDA
 
 // Units
 Bad:
-UNIT Entombed_boss Swordmaster 0x00 Level(10, Enemy, 1) [9,8] 0x2 0x00 0x0 0x00 [KillingEdge, SecretBook] NeverMoveAI 
+UNIT Entombed_boss Swordmaster 0x00 Level(10, Enemy, 1) [9,8] 0x2 0x00 0x0 0x00 [KillingEdge, Runesword, SecretBook] NeverMoveAI 
 UNIT 0x80 Swordmaster 0x00 Level(4, Enemy, 1) [16,10] 0x0 0x00 0x0 0x00 [SteelSword] ChaseOnceApproachedAI 
 UNIT 0x80 Swordmaster 0x00 Level(4, Enemy, 1) [16,6] 0x0 0x00 0x0 0x00 [SteelSword] ChaseOnceApproachedAI 
 UNIT 0x80 Swordmaster 0x00 Level(4, Enemy, 1) [14,3] 0x0 0x00 0x0 0x00 [SteelSword] ChaseOnceApproachedAI 

@@ -1,19 +1,19 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Void,AetherID
-Tim,EvenRhythmID
-Tam,OddRhythmID
-Jerome,GaleforceID
-Leeroy,ProvokeID
-Anna,LuckySevenID
-Bede,RallySpectrumID
-Jay,AdeptID
-Not Arch,SealSpdID
-Kirsten,IntimidateID
-Bob,SwapID
-Roshea,StrongRiposteID
-Prine,FrenzyID
-Edge,WrathID
+Mario,AetherID
+Bowser,IgnisID
+DQHero,PaviseID
+Ryu,GaleforceID
+Crono,LungeID
+Marle,ProvokeID
+Terra,LiveToServeID
+Cecil,LunaID
+Ness,MiracleID
+Red,InspirationID
+Butz,IntimidateID
+Kazuya,LifetakerID
+Rydia,LifeAndDeathID
+Purim,RenewalID
 Ephraim,InspirationID
 Samson,QuickDrawID
 Arve,LancebreakerID
@@ -25,7 +25,7 @@ Nikita,RenewalID
 Anna,ArmsthriftID
 Edgeworth,RallySpectrumID
 Zigludo,PersonalityID
-Kaga,LungeID
+Kaga,MiracleID
 Doot,MiracleID
 Celica,NiceThighsID
 Doowile,LifetakerID
@@ -69,7 +69,7 @@ Orson (Ch 27),MiracleID
 Grit (Ch 15),QuickDrawID
 Selena (Ch 24),VantageID
 Valter (Prologue),0x0
-Breguet (Ch 1) (NPC civilian),PatienceID
+Breguet (Ch 1) (NPC civilian),PaviseID
 Bone (Ch 2),AxefaireID
 Bazba (Ch 3),SwordbreakerID
 Entombed (Ch 4),SealSklID
@@ -103,7 +103,7 @@ Hunter (Ch 16),0x0
 0,0x0
 Brigand,0x0
 0,0x0
-O'Neill (Prologue),CounterID
+Bowser (Prologue),IgnisID
 Glen (Ch 19),0x0
 Zonta (Ch 6),0x0
 Vigarde (Ch 18),RenewalID
