@@ -54,6 +54,7 @@ ENDA
 
 EndingScene:
 Text(Ch0Ending)
+ENUT 0x3
 MNC2 0x1
 ENDA
 

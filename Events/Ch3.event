@@ -66,6 +66,7 @@ ENDA
 
 EndingScene:
 Text(Ch3Ending)
+ENUT 0x3
 MNCH 4
 ENDA
 
@@ -99,12 +100,12 @@ UNIT 0x80 Entombed 0x00 Level(10, Enemy, 1) [12,9] 0x00 0x00 0x0 0x00 [RottenCla
 UNIT
 
 Recruit:
-UNIT Butz Wight 0x00 Level(10, Enemy, 0) [7,4] 0x00 0x00 0x0 0x00 [ShadowKiller] PursueWithoutHeedAI 
+UNIT Butz Wight 0x00 Level(4, Enemy, 0) [7,4] 0x00 0x00 0x0 0x00 [ShadowKiller] PursueWithoutHeedAI 
 UNIT
 
 Ch3StartRecruit:
-UNIT Kazuya Summoner 0x00 Level(10, Ally, 0) [11,11] 0x00 0x00 0x0 0x00 [Luna, Berserk] NoAI
-UNIT Rydia Summoner 0x00 Level(10, Ally, 0) [11,11] 0x00 0x00 0x0 0x00 [Nosferatu, Silence] NoAI
+UNIT Kazuya Summoner 0x00 Level(4, Ally, 0) [11,11] 0x00 0x00 0x0 0x00 [Luna, Berserk] NoAI
+UNIT Rydia Summoner 0x00 Level(4, Ally, 0) [11,11] 0x00 0x00 0x0 0x00 [Nosferatu, Silence] NoAI
 UNIT
 
 
