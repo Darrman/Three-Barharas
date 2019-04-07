@@ -54,7 +54,7 @@ right. Lv10 unneeded.[X]
 Ultra Hammer[X]
 
 ## UltraHammerDesc
-Eff. vs. armour. Mario's mallet.[X]
+Eff. arm/cav. Mario's mallet.[X]
 
 ## ErdrickSwordName
 Erdrick's Sw.[X]
