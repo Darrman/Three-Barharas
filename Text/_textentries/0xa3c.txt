@@ -1,2 +1,3 @@
-Ness:
+[MidRight][LoadCurrent]
+[MidLeft][LoadNess]
 Okay![A][X]
