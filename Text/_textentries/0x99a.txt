@@ -1,1 +1,1 @@
-Monster[X]
+Summon[X]

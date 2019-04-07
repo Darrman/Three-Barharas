@@ -103,6 +103,38 @@ Purim[X]
 Some evil guy stole her boyfriend.[N]
 She didn't take too kindly to it.[X]
 
+## GenericName
+Enemy[X]
+
+## GenericDesc
+A soldier fighting for[N]
+some villainous force.[X]
+
+## Ch1BossName
+Ch. 1 Boss[X]
+
+## Ch1BossDesc
+Boss of Chapter 1.[X]
+
+## Ch2BossName
+Ch. 2 Boss[X]
+
+## Ch2BossDesc
+Boss of Chapter 2.[N]
+Leader of the pirates.[X]
+
+## Ch3BossName
+Ch. 3 Boss[X]
+
+## Ch3BossDesc
+Boss of Chapter 3.[X]
+
+## Ch4BossName
+Ch. 4 Boss[X]
+
+## Ch4BossDesc
+Boss of Chapter 4.[X]
+
 ##Name_Tye
 Tye[X]
 
@@ -346,10 +378,10 @@ female thief... in days gone by.[X]
 ## Name_Anna
 Anna[X]
 
-## GenericName
+## OldGenericName
 Donatenry[X]
 
-## GenericDesc
+## OldGenericDesc
 A soldier of the Donateenaries, who[N]
 seek the revival of the Demon King.[X]
 

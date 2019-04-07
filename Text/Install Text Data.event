@@ -2991,6 +2991,54 @@ TxtData0xba9:
 #incext ParseFile "_textentries\0xba9.txt"
 setText(0xba9,TxtData0xba9)
 
+TxtData0xbaa:
+#incext ParseFile "_textentries\0xbaa.txt"
+setText(0xbaa,TxtData0xbaa)
+
+TxtData0xbab:
+#incext ParseFile "_textentries\0xbab.txt"
+setText(0xbab,TxtData0xbab)
+
+TxtData0xbac:
+#incext ParseFile "_textentries\0xbac.txt"
+setText(0xbac,TxtData0xbac)
+
+TxtData0xbad:
+#incext ParseFile "_textentries\0xbad.txt"
+setText(0xbad,TxtData0xbad)
+
+TxtData0xbae:
+#incext ParseFile "_textentries\0xbae.txt"
+setText(0xbae,TxtData0xbae)
+
+TxtData0xbaf:
+#incext ParseFile "_textentries\0xbaf.txt"
+setText(0xbaf,TxtData0xbaf)
+
+TxtData0xbb0:
+#incext ParseFile "_textentries\0xbb0.txt"
+setText(0xbb0,TxtData0xbb0)
+
+TxtData0xbb1:
+#incext ParseFile "_textentries\0xbb1.txt"
+setText(0xbb1,TxtData0xbb1)
+
+TxtData0xbb2:
+#incext ParseFile "_textentries\0xbb2.txt"
+setText(0xbb2,TxtData0xbb2)
+
+TxtData0xbb3:
+#incext ParseFile "_textentries\0xbb3.txt"
+setText(0xbb3,TxtData0xbb3)
+
+TxtData0xbb4:
+#incext ParseFile "_textentries\0xbb4.txt"
+setText(0xbb4,TxtData0xbb4)
+
+TxtData0xbb5:
+#incext ParseFile "_textentries\0xbb5.txt"
+setText(0xbb5,TxtData0xbb5)
+
 TxtData0x1a2:
 #incext ParseFile "_textentries\0x1a2.txt"
 setText(0x1a2,TxtData0x1a2)

@@ -1,1 +1,2 @@
-Basement[X]
+A Donateenary commander assigned to[N]
+the desert. He is sick of all the sand.[X]

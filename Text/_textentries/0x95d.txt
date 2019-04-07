@@ -1,1 +1,2 @@
-The basics are everything.[X]
+Saved the series,[N]
+but at what cost?[X]

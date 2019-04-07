@@ -1,3 +1,2 @@
-[OpenMidLeft][Load][0x38][0x01]
-You seem to have a lot of fun.[N]
-Take this: my Short Spear![AN][X]
+[OpenMidLeft][Load][0x30][0x01]
+Master Zonta, forgive me...[A][X]

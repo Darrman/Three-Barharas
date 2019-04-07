@@ -1,3 +1,2 @@
-[OpenMidLeft][Load][0x33][0x01]
-Leeroy... looks like you've[N]
-won. Gah...[A][X]
+[OpenMidRight][LoadFlorina]
+You'll regret this...[A][CloseEyes][X]

@@ -1,2 +1,1 @@
-[MidRight][LoadMario]
-Oh... Mamma mia...[A][X]
+Note: There are no Secret Shops here.[X]

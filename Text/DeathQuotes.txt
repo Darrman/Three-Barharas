@@ -67,15 +67,29 @@ No... Dyluck... If I[N]
 could only see you...[A][X]
 
 ## EnemyBowserCombat
-[MidRight][LoadBowser]
+[MidLeft][LoadBowser]
 Mario! Let's settle this.[N]
 Once and for all![A][X]
 
 ## EnemyBowserDeath
-[MidRight][LoadBowser]
+[MidLeft][LoadBowser]
 You've defeated me...[N]
 again! No! Argh![A][X]
 
+
+## EnemyKagaCombat
+[MidLeft][LoadKaga]
+So you've come. We're here[N]
+atop the Arch of Coups.[AN]
+Will you manage to overthrow[N]
+me, or will I send you to[AN]
+the abyss below us? There is[N]
+only one way to find out.[A][X]
+
+## EnemyKagaDeath
+[MidLeft][LoadKaga]
+Urgh... You have some strength.[N]
+But can you change the world?[A][X]
 
 ## VoidDeath
 [OpenMidRight][LoadVoid]

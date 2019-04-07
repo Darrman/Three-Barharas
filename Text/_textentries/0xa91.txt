@@ -1,5 +1,4 @@
 [Right][LoadVoid]
-[Left][LoadLeeroy]
-With a tragic backstory, comes[N]
-redemption for the past. Such[AN]
-is the path of an edgy man.[A][X]
+That was the power of the Donateenaries?[N]
+Ha, what a joke. Alas, they were in my[AN]
+way, so they had to pay.[AN][X]

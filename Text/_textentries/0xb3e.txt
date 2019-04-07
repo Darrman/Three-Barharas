@@ -1,3 +1,4 @@
-[ML][LoadYuni]
-If I die...[N]
-Will anyone mourn me...?[A][X]
+[OpenMidLeft][Load][0x4A][0x01]
+Guh? Roar? GAAAAAAAAAHHHHHH...[AN]
+[ToggleMouthMove]
+(The dracozombie rotted away!)[A][X]

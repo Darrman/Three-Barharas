@@ -1,3 +1,3 @@
-[OpenMidRight][LoadVoid]
-But this... this can't be.[N]
-Leeroy...[A][CloseEyes][X]
+[MidRight][LoadTerra]
+Why am I... All I want...[N]
+is to know what love...[A][X]

@@ -1,3 +1,2 @@
-[ML][LoadLyria]
-This song represents the[N]
-power... of anger![A][X]
+[OpenMidLeft][Load][0x44][0x01]
+Darling... Darling...[A][X]

@@ -74,6 +74,7 @@ Text(Ch5Ending)
 EARTHQUAKE_START 0x100
 STAL 120
 MNC4 0x0
+EARTHQUAKE_END
 ENDA
 
 // Events
@@ -89,7 +90,7 @@ ENDA
 
 // Units
 Bad:
-UNIT Saar Necromancer 0x00 Level(20, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT Kaga Necromancer 0x00 Level(20, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
 UNIT 0x80 DracoZombie 0x00 Level(2, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [WretchedAir] PursueWithoutHeedAI 
 UNIT 0x80 DracoZombie 0x00 Level(2, Enemy, 1) [19,0] 0x00 0x00 0x0 0x00 [WretchedAir] PursueWithoutHeedAI 
 UNIT 0x80 General 0x00 Level(10, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SilverSword] NeverMoveAI 

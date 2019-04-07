@@ -1,1 +1,2 @@
-Rebels[X]
+A monster controlling the Travel[N]
+System. Surprisingly intelligent.[X]
