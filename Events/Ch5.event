@@ -116,7 +116,7 @@ UNIT 0x80 MageKnight 0x00 Level(10, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Elfire]
 UNIT
 
 DragonMan:
-UNIT Ryu DracoZombie 0x00 Level(6, Ally, 1) [1,11] 0x00 0x00 0x0 0x00 [HolyDragonStone] PursueWithoutHeedAI 
+UNIT Ryu DracoZombie 0x00 Level(12, Ally, 1) [1,11] 0x00 0x00 0x0 0x00 [HolyDragonStone] PursueWithoutHeedAI 
 UNIT
 
 
