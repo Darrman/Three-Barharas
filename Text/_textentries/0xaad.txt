@@ -1,4 +1,4 @@
-[Right][LoadCurrent]
-[Left][Load][0x5F][0x01]
-I am sick and tired of donating to Hex.[N]
-Instead, I'll donate this money to you.[A][X]
+And so Void continues her journey,[N]
+unaware that the Donateenaries have[AN]
+set a trap for her involving her most[N]
+hated thing: bananas.[AN][X]

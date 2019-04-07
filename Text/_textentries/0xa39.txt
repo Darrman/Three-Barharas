@@ -1,5 +1,1 @@
-[MidRight][LoadCurrent]
-[MidLeft][LoadCrono]
-...[N][ToggleMouthMove]
-(He nods his head, indicating[N]
-that he will fight for you.)[A][X]
+The hero's sword of legend.[X]

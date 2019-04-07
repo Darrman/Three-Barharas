@@ -1,2 +1,2 @@
-[MidRight][LoadCrono]
-...[A][X]
+[MidLeft][LoadFace][0x2][0x1]
+Oh, who left these lying around?[A][X]

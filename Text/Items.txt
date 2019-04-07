@@ -49,3 +49,33 @@ a horse to start riding on.[X]
 Promote Void when[N]
 you feel the time is[N]
 right. Lv10 unneeded.[X]
+
+## UltraHammerName
+Ultra Hammer[X]
+
+## UltraHammerDesc
+Eff. vs. armour. Mario's mallet.[X]
+
+## ErdrickSwordName
+Erdrick's Sw.[X]
+
+## ErdrickSwordDesc
+The hero's sword of legend.[X]
+
+## CrystalSwordName
+Crystal Sw.[X]
+
+## CrystalSwordDesc
+Magical. Cecil's lunar blade.[X]
+
+## RainbowSwordName
+Rainbow Sw.[X]
+
+## RainbowSwordDesc
+High crit. Crono's best weapon.[X]
+
+## PKRockinName
+PK Rockin'[X]
+
+## PKRockinDesc
+Ness's personal PSI attack.[X]

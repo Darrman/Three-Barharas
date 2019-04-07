@@ -1,2 +1,1 @@
-[MidRight][LoadMario]
-Let's a go![A][X]
+Ultra Hammer[X]

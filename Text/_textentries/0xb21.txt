@@ -1,3 +1,5 @@
-[OpenMidLeft][Load][0x42][0x01]
-Where's the fool who wants to[N]
-help me with target practice?[A][X]
+[OpenMidLeft][Load][0x3E][0x01]
+So you've survived all of[N]
+my diabolical traps. Hm.[AN]
+It's all up to me, then.[N]
+I am Beran, and fear me![AN][X]

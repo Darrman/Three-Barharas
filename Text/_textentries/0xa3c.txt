@@ -1,7 +1,1 @@
-[MidRight][LoadCurrent]
-[FarLeft][LoadRed]
-[Left][LoadNess]
-Okay![A]
-[FarLeft]
-...I like bicycles. We[N]
-ride together. Let's go.[A][X]
+Rainbow Sword[X]

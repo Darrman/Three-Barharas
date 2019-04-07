@@ -1,2 +1,2 @@
-[OpenRight][LoadVoid]
-Thank God that's over.[A][X]
+[Right][LoadVoid]
+The port is under attack, we must save it.[A][X]

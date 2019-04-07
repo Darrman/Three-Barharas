@@ -1,2 +1,5 @@
-[Right][LoadVoid]
-We did it. Holy crap, we did it.[A][X]
+[OpenLeft][LoadTatara]
+Hoho... You fools hope to[N]
+beat me, Lord Tatara?[AN]
+Dyute! Kill those idiots[N]
+with your Aura![A][X]
