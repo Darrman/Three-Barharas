@@ -10,7 +10,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "A.dmp"
+#incbin "A.img.bin"
 
 Char_B:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -18,7 +18,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "B.dmp"
+#incbin "B.img.bin"
 
 Char_C:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -26,7 +26,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "C.dmp"
+#incbin "C.img.bin"
 
 Char_D:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -34,7 +34,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "D.dmp"
+#incbin "D.img.bin"
 
 Char_E:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -42,7 +42,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "E.dmp"
+#incbin "E.img.bin"
 
 Char_F:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -50,7 +50,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "F.dmp"
+#incbin "F.img.bin"
 
 Char_G:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -58,7 +58,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "G.dmp"
+#incbin "G.img.bin"
 
 Char_H:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -66,7 +66,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "H.dmp"
+#incbin "H.img.bin"
 
 Char_I:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -74,7 +74,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x5 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "I.dmp"
+#incbin "I.img.bin"
 
 
 Char_J:
@@ -83,7 +83,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "J.dmp"
+#incbin "J.img.bin"
 
 Char_K:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -91,7 +91,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x8 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "K.dmp"
+#incbin "K.img.bin"
 
 Char_L:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -99,7 +99,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "L.dmp"
+#incbin "L.img.bin"
 
 Char_M:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -107,7 +107,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x9 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "M.dmp"
+#incbin "M.img.bin"
 
 Char_N:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -115,7 +115,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x8 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "N.dmp"
+#incbin "N.img.bin"
 
 
 Char_O:
@@ -124,7 +124,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "O.dmp"
+#incbin "O.img.bin"
 
 Char_P:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -132,7 +132,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "P.dmp"
+#incbin "P.img.bin"
 
 Char_Q:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -140,7 +140,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "Q.dmp"
+#incbin "Q.img.bin"
 
 Char_R:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -148,7 +148,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "R.dmp"
+#incbin "R.img.bin"
 
 Char_S:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -156,7 +156,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "S.dmp"
+#incbin "S.img.bin"
 
 Char_T:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -164,7 +164,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "T.dmp"
+#incbin "T.img.bin"
 
 
 Char_U:
@@ -173,7 +173,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "U.dmp"
+#incbin "U.img.bin"
 
 Char_V:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -181,7 +181,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "V.dmp"
+#incbin "V.img.bin"
 
 Char_W:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -189,7 +189,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0xB //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "W.dmp"
+#incbin "W.img.bin"
 
 
 Char_X:
@@ -198,7 +198,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "X.dmp"
+#incbin "X.img.bin"
 
 Char_Y:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -206,7 +206,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "Y.dmp"
+#incbin "Y.img.bin"
 
 Char_Z:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -214,7 +214,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "Z.dmp"
+#incbin "Z.img.bin"
 
 //Lowercase
 
@@ -224,7 +224,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "a_.dmp"
+#incbin "a_.img.bin"
 
 Char_b:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -232,7 +232,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "b_.dmp"
+#incbin "b_.img.bin"
 
 Char_c:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -240,7 +240,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "c_.dmp"
+#incbin "c_.img.bin"
 
 Char_d:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -248,7 +248,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "d_.dmp"
+#incbin "d_.img.bin"
 
 Char_e:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -256,7 +256,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "e_.dmp"
+#incbin "e_.img.bin"
 
 Char_f:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -264,7 +264,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "f_.dmp"
+#incbin "f_.img.bin"
 
 Char_g:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -272,7 +272,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "g_.dmp"
+#incbin "g_.img.bin"
 
 Char_h:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -280,7 +280,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "h_.dmp"
+#incbin "h_.img.bin"
 
 Char_i:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -288,7 +288,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x3 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "i_.dmp"
+#incbin "i_.img.bin"
 
 Char_j:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -296,7 +296,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "j_.dmp"
+#incbin "j_.img.bin"
 
 Char_k:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -304,7 +304,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "k_.dmp"
+#incbin "k_.img.bin"
 
 Char_l:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -312,7 +312,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x3 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "l_.dmp"
+#incbin "l_.img.bin"
 
 Char_m:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -320,7 +320,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0xB //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "m_.dmp"
+#incbin "m_.img.bin"
 
 Char_n:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -328,7 +328,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "n_.dmp"
+#incbin "n_.img.bin"
 
 
 Char_o:
@@ -337,7 +337,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "o_.dmp"
+#incbin "o_.img.bin"
 
 Char_p:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -345,7 +345,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "p_.dmp"
+#incbin "p_.img.bin"
 
 Char_q:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -353,7 +353,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "q_.dmp"
+#incbin "q_.img.bin"
 
 Char_r:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -361,7 +361,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "r_.dmp"
+#incbin "r_.img.bin"
 
 Char_s:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -369,7 +369,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "s_.dmp"
+#incbin "s_.img.bin"
 
 Char_t:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -377,7 +377,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x5 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "t_.dmp"
+#incbin "t_.img.bin"
 
 
 Char_u:
@@ -386,7 +386,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "u_.dmp"
+#incbin "u_.img.bin"
 
 Char_v:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -394,7 +394,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "v_.dmp"
+#incbin "v_.img.bin"
 
 Char_w:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -402,7 +402,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0xB //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "w_.dmp"
+#incbin "w_.img.bin"
 
 
 Char_x:
@@ -411,7 +411,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "x_.dmp"
+#incbin "x_.img.bin"
 
 Char_y:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -419,7 +419,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "y_.dmp"
+#incbin "y_.img.bin"
 
 Char_z:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -427,7 +427,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "z_.dmp"
+#incbin "z_.img.bin"
 
 //Numbers
 Char_0:
@@ -436,7 +436,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "0.dmp"
+#incbin "0.img.bin"
 
 Char_1:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -444,7 +444,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x4 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "1.dmp"
+#incbin "1.img.bin"
 
 Char_2:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -452,7 +452,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "2.dmp"
+#incbin "2.img.bin"
 
 Char_3:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -460,7 +460,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "3.dmp"
+#incbin "3.img.bin"
 
 Char_4:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -468,7 +468,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x8 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "4.dmp"
+#incbin "4.img.bin"
 
 Char_5:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -476,7 +476,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "5.dmp"
+#incbin "5.img.bin"
 
 Char_6:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -484,7 +484,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "6.dmp"
+#incbin "6.img.bin"
 
 Char_7:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -492,7 +492,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "7.dmp"
+#incbin "7.img.bin"
 
 Char_8:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -500,7 +500,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "8.dmp"
+#incbin "8.img.bin"
 
 Char_9:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -508,7 +508,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "9.dmp"
+#incbin "9.img.bin"
 
 
 //Punctuation
@@ -519,7 +519,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x3 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "!.dmp"
+#incbin "!.img.bin"
 
 Char_Quote:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -527,7 +527,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x6 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "quote.dmp"
+#incbin "quote.img.bin"
 
 Char_Hash:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -535,7 +535,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x8 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "#.dmp"
+#incbin "#.img.bin"
 
 Char_Percent:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -543,7 +543,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x9 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "%.dmp"
+#incbin "%.img.bin"
 
 Char_And:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -551,7 +551,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x9 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "&.dmp"
+#incbin "&.img.bin"
 
 Char_Apostrophe:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -559,7 +559,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x3 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "'.dmp"
+#incbin "'.img.bin"
 
 Char_LeftBracket:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -567,7 +567,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x4 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "(.dmp"
+#incbin "(.img.bin"
 
 Char_RightBracket:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -575,7 +575,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x4 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin ").dmp"
+#incbin ").img.bin"
 
 Char_Plus:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -583,7 +583,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x8 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "+.dmp"
+#incbin "+.img.bin"
 
 Char_Comma:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -591,7 +591,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x3 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin ",.dmp"
+#incbin ",.img.bin"
 
 Char_Hyphen:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -599,7 +599,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x8 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "-.dmp"
+#incbin "-.img.bin"
 
 Char_FullStop:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -607,7 +607,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x3 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "..dmp"
+#incbin "fullstop.img.bin"
 
 Char_Slash:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -615,7 +615,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x5 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "slash.dmp"
+#incbin "slash.img.bin"
 
 Char_Colon:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -623,7 +623,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x3 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "colon.dmp"
+#incbin "colon.img.bin"
 
 Char_Equals:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -631,7 +631,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x8 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "=.dmp"
+#incbin "=.img.bin"
 
 Char_Question:
 WORD 0x00000000 //empty pointer (no Shift-JIS)
@@ -639,7 +639,7 @@ BYTE 0x00 //empty code-page # (no Shift-JIS)
 BYTE 0x7 //character width
 BYTE 0x00 //always zero
 BYTE 0x00
-#incbin "question.dmp"
+#incbin "question.img.bin"
 
 
 
