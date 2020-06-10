@@ -71,6 +71,7 @@
     //Graphics
     #include "Mugs/Mug Installer.event"
     #include "Graphics/Master Graphics Installer.event"
+    #include "Font/Font Installer.event"
 
     //Music
     #include "Music/Music Installer.event"
