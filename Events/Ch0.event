@@ -49,8 +49,10 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Units
 LOAD1 0x1 Bad
-MNC2 0x3C
-//Text(Ch0Opening)
+#ifdef __DEBUG__
+//MNC2 0x3C
+#endif
+Text(Ch0Opening)
 ENDA
 
 EndingScene:

@@ -53,7 +53,6 @@ for one turn[X]
 #include "chaptertext.txt"
 #include "MCPlotStuff.txt"
 #include "villages and recruitments.txt"
-#include "ch1.txt"
 #include "ch15_text.txt"
 #include "DeathQuotes.txt"
 #include "Ending.txt"

@@ -5,7 +5,14 @@
         #ifdef __DEBUG__
             MESSAGE Debug Mode active
         #endif
+    #inctext DateTimeSetter //set build time, if it didn't complain about .dlls
+    ORG 0xB30
+    POIN DebugProjectName
     ORG FreeSpace
+    
+    DebugProjectName:
+//    String(Arch of Coups 2.0) errors for no reason, there *is* a matching bracket, you lying programme
+    BYTE $41 $72 $63 $68 $20 $6F $66 $20 $43 $6F $75 $70 $73 $20 $32 $2E $30 $00 //Arch of Coups 2.0
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
     MESSAGE Used text space ends at currentOffset
