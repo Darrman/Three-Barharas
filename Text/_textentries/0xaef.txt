@@ -1,5 +1,0 @@
-[MidRight][LoadCurrent]
-[MidLeft][LoadCrono]
-...[N][ToggleMouthMove]
-(He nods his head, indicating[N]
-that he will fight for you.)[A][X]

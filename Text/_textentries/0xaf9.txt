@@ -1,5 +1,0 @@
-[MidRight][LoadDQHero]
-Thou must walk around this[N]
-swamp until thou sets foot[AN]
-on the gateway towards thy[N]
-Arch of Coups. Good luck...[A][X]

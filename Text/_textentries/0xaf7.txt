@@ -1,6 +1,0 @@
-[MidLeft][LoadDQHero]
-[MidRight][LoadBowser]
-Ahh, that was good.[A]
-[MidLeft]
-Thy temple is located[N]
-within the swamp![A][X]

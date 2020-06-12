@@ -1,3 +1,0 @@
-[MidLeft][LoadKaga]
-Urgh... You have some strength.[N]
-But can you change the world?[A][X]

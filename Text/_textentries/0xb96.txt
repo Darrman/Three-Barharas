@@ -1,3 +1,0 @@
-[MidLeft][LoadBowser]
-You've defeated me...[N]
-again! No! Argh![A][X]

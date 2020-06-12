@@ -1,2 +1,0 @@
-A Pokemon Master. Cycles in order[N]
-to travel at a reasonable pace.[X]

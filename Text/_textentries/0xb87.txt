@@ -1,2 +1,0 @@
-[MidRight][LoadMario]
-Oh... Mamma mia...[A][X]
