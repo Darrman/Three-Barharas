@@ -1,8 +1,0 @@
-#define csvmacro036(arg000,arg001) "BYTE arg000 arg001 "
-
-PUSH
-ORG 0x95f5a4
-csvmacro036(Kazuya,0x3f)
-csvmacro036(Rydia,0x3e)
-csvmacro036(0x23,0x3b)
-POP
