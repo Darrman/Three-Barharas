@@ -231,3 +231,16 @@ POP
     #include "Necessary/SuspendDebuffs/SuspendExpansion.event"
 
   #endif // USE_SAVE_EXPANSION
+
+  #ifdef __DEBUG__ //Debugging hacks
+  
+    //Kirb's debug-o-matic
+    #include "AoC/Debug/Debug.event"
+    
+    //Konami code sets event id 0xb2
+    #include "AoC/KonamiCode/KonamiCode.event"
+
+    //Enemy Control based on event id 0xb2
+    #include "AoC/KonamiCode/EnemyControl.event"
+
+  #endif
