@@ -1,8 +1,10 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "Custom Definitions.event"
-        // #define __DEBUG__ //allow seizes at start of chapters
-
+        #define __DEBUG__ //allow seizes at start of chapters
+        #ifdef __DEBUG__
+            MESSAGE Debug Mode active.
+	#endif
     ORG FreeSpace
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"

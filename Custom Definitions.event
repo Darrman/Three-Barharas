@@ -20,21 +20,6 @@
 
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
 
-//VBA remmnants work
-#define Void 1
-#define Tim 2
-#define Tam 3
-#define Jerome 4
-#define Leeroy 5
-#define Anna 6
-#define Bede 7
-#define Jay 8
-#define NotArch 9
-#define Kirsten 10
-#define Bob 11
-#define Roshea 12
-#define Prine 13
-#define Edge 14
 #define Mario 1
 #define Bowser 2
 #define DQHero 3
@@ -50,6 +35,22 @@
 #define Rydia 13
 #define Purim 14
 #define EnemyBowser 0x68
+
+//VBA remmnants work, for backwards compatibility
+#define Void 1
+#define Tim 2
+#define Tam 3
+#define Jerome 4
+#define Leeroy 5
+#define Anna 6
+#define Bede 7
+#define Jay 8
+#define NotArch 9
+#define Kirsten 10
+#define Bob 11
+#define Roshea 12
+#define Prine 13
+#define Edge 14
 //no ephraim replacement
 #define Samson 16
 #define Arve 17
