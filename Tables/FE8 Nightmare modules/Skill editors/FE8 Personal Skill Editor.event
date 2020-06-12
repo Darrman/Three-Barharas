@@ -1,7 +1,7 @@
 #define csvmacro032(arg000) "BYTE arg000 "
 
-#inctext PFinder "C:\Users\darrm\Documents\Emulation\GBA\FE\FE8\Dev\BadIdea\FE8_clean.gba" 0xe47180 PersonalSkillTable
-
+PUSH
+POP
 ALIGN 4
 PersonalSkillTable:
 csvmacro032(0x0)

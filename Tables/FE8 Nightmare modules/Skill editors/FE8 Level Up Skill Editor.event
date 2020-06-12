@@ -1,7 +1,7 @@
 #define csvmacro031(arg000) "WORD arg000 "
 
-#inctext PFinder "C:\Users\darrm\Documents\Emulation\GBA\FE\FE8\Dev\BadIdea\FE8_clean.gba" 0xe47180 LevelUpSkillTable
-
+PUSH
+POP
 ALIGN 4
 LevelUpSkillTable:
 csvmacro031(0x0)

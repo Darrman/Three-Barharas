@@ -1,7 +1,11 @@
 #define csvmacro011(arg000,arg001,arg002) "BYTE arg000 arg001 ;WORD arg002 "
 
-#inctext PFinder "C:\Users\darrm\Documents\Emulation\GBA\FE\FE8\Dev\BadIdea\FE8_clean.gba" 0xd86f4 AI_ItemArray
-
+PUSH
+ORG $40820
+POIN AI_ItemArray
+ORG $40840
+POIN AI_ItemArray
+POP
 ALIGN 4
 AI_ItemArray:
 csvmacro011(0x6a,0x0 0x0 0x0,0x80408dd)
