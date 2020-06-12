@@ -1,3 +1,2 @@
-[ML][LoadMeriah]
-Come now, and face me![N]
-GEOMANCY![A][X]
+[OpenRight][LoadVoid]
+Sorry Gheb, but you were in my way.[A][X]

@@ -1,5 +1,2 @@
-[OpenLeft][LoadTatara]
-Hoho... You fools hope to[N]
-beat me, Lord Tatara?[AN]
-Dyute! Kill those idiots[N]
-with your Aura![A][X]
+Push Speed: When HP[N]
+is full, gain +5 speed.[X]

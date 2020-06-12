@@ -1,1 +1,2 @@
-Aircalibur[X]
+Charisma: Grants +10 Hit/Avoid[N]
+to all allies within three tiles.[X]

@@ -1,1 +1,2 @@
-The hero's sword of legend.[X]
+Darting Stance: +6 speed[N]
+when foe initiates battle.[X]

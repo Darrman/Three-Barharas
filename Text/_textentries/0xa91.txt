@@ -1,4 +1,2 @@
-[Right][LoadVoid]
-That was the power of the Donateenaries?[N]
-Ha, what a joke. Alas, they were in my[AN]
-way, so they had to pay.[AN][X]
+Defiant Def: When HP is 25%[N]
+or lower, gain +4 Defense.[X]

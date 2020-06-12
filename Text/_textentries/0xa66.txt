@@ -1,2 +1,2 @@
-[MidLeft][LoadCurrent]
-Oh cool, I found a thing.[A][X]
+Puissance: +3 Damage when the user's[N]
+Strength is higher than the enemy's.[X]

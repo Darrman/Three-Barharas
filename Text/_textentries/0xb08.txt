@@ -1,3 +1,2 @@
-[OpenMidRight][LoadTye]
-Consider this knight proud[N]
-to die for his princess.[A][CloseEyes][X]
+[MidLeft][LoadCurrent]
+Oh cool, I found a thing.[A][X]

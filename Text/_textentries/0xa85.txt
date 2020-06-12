@@ -1,3 +1,2 @@
-[MidRight][LoadVoid]
-It's over, Demon King![N]
-I have the high ground.[A][X]
+Daunt: -5 Hit and Crit to all[N]
+enemy units in a 3-tile radius.[X]

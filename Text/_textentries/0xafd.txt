@@ -1,4 +1,2 @@
-[OpenMidRight][LoadMyrmAnna]
-It's true what they say...[N]
-In the end, material possessions[A]
-mean nothing...[A][CloseEyes][X]
+[MidLeft][LoadRyu]
+[Red]Kill Kaga...[Red][A][X]

@@ -1,2 +1,4 @@
-[OpenMidLeft][Load][0x38][0x01]
-Urgh... You...[A][X]
+VOID'S BLITZARRE ADVENTURE SCRIPT[N]
+Most writing here by MC[N]
+Control codes, formattng by Darr[N]
+How does one even comment[X]

@@ -1,2 +1,2 @@
-[OpenRight][LoadVoid]
-Thank God that's over.[A][X]
+Petrify: Inflict stone status.[N]
+(Skill% activation)[X]

@@ -1,3 +1,5 @@
-The tales of his exploits spread far and wide[N]
-as a legend of the battlefield, but in truth[N]
-he was just a regular soldier with a job to do.[X]
+[Left][LoadBjorn]
+The guardians are dead... I must now[N]
+destroy Banana while she's weak.[AN]
+If I fail, Donateenary troops will[N]
+reinforce her and all will be lost...[A][X]

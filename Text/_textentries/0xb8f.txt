@@ -1,1 +1,3 @@
-Mysterious Mage Celicia[X]
+[MidRight][LoadNess]
+Looks like I got my[N]
+head handed to me...[A][X]

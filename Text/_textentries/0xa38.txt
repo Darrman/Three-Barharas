@@ -1,1 +1,2 @@
-A powerful blast of light. Doot.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

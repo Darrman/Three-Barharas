@@ -1,5 +1,2 @@
-[MidRight][LoadDQHero]
-Thou must walk around this[N]
-swamp until thou sets foot[AN]
-on the gateway towards thy[N]
-Arch of Coups. Good luck...[A][X]
+Forager: Recover 20% HP each turn[N]
+if on a Plain, Forest or Mountain.[X]

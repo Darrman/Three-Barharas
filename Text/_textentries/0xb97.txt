@@ -1,1 +1,7 @@
-Nikita: Axe-Focused[X]
+[MidLeft][LoadKaga]
+So you've come. We're here[N]
+atop the Arch of Coups.[AN]
+Will you manage to overthrow[N]
+me, or will I send you to[AN]
+the abyss below us? There is[N]
+only one way to find out.[A][X]

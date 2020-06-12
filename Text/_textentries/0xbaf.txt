@@ -1,2 +1,3 @@
-He returned to his homeland after the war.[N]
-Sadly, the LP was never finished.[X]
+[OpenMidRight][LoadRogueAnna]
+Penny on a dead woman's eyes...[N]
+Please...[A][CloseEyes][X]

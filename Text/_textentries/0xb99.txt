@@ -1,1 +1,3 @@
-Anna: Shameless Rogue[X]
+[OpenMidRight][LoadVoid]
+But this... this can't be.[N]
+Leeroy...[A][CloseEyes][X]

@@ -2,16 +2,6 @@
 
 #include "Table Definitions.txt"
 
-#include "FE8 Nightmare modules\FE8 Class Skill Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Level Up Skill Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Personal Skill Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Skill Animation Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Skill Description Editor.event"
-
 #include "FE8 Nightmare modules\Chapter data editor\Chapter Data Editor.event"
 
 #include "FE8 Nightmare modules\Chapter data editor\Character Forcer FE8.event"
@@ -21,6 +11,8 @@
 #include "FE8 Nightmare modules\Chapter data editor\World Map Cutscene table editor.event"
 
 #include "FE8 Nightmare modules\Chapter data editor\World Map Event table editor.event"
+
+#include "FE8 Nightmare modules\Class & Character editors\Class Level Cap Table.event"
 
 #include "FE8 Nightmare modules\Class & Character editors\FE8 Character Editor.event"
 
@@ -32,15 +24,21 @@
 
 #include "FE8 Nightmare modules\Ending editor\EndingsEditor.event"
 
+#include "FE8 Nightmare modules\Item editors\FE8 Item AI Table.event"
+
 #include "FE8 Nightmare modules\Item editors\FE8 Item Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item Effect Pointer Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Item Prep Screen Usability Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item Target Pointer Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item Usability Pointer Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Spell Association Editor.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Staff AI Table.event"
 
 #include "FE8 Nightmare modules\Item editors\Ocean Seal Promotion Editor.event"
 
@@ -59,6 +57,18 @@
 #include "FE8 Nightmare modules\Quote editors\Boss Quote Editor.event"
 
 #include "FE8 Nightmare modules\Quote editors\Death Quote Editor.event"
+
+#include "FE8 Nightmare modules\Skill editors\FE8 Character Level Up Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skill editors\FE8 Class Level Up Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skill editors\FE8 Class Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skill editors\FE8 Level Up Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skill editors\FE8 Personal Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skill editors\FE8 Skill Animation Editor.event"
 
 #include "FE8 Nightmare modules\Summon editors\Summon character editor.event"
 

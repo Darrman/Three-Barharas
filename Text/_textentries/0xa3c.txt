@@ -1,1 +1,2 @@
-Mine[X]
+Death Blow: +6 Attack[N]
+when initiating battle.[X]

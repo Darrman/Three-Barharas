@@ -1,3 +1,12 @@
-[MidLeft][LoadBowser]
-Mario! Let's settle this.[N]
-Once and for all![A][X]
+[MidRight][LoadBowser]
+[MidLeft][LoadDQHero]
+Thy village is saved.[A]
+[MidRight]
+So do any of you know how[N]
+to sail this ship? I can[AN]
+only sail airships. Boats?[N]
+I don't have a clue.[A]
+#Convenient boat man:
+#Figure out who he is later
+[FarFarLeft]
+I can.[A][X]

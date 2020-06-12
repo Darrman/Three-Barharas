@@ -1,5 +1,3 @@
-[OpenMidLeft][Load][0x32][0x01]
-Hehehe, I'm Bone, master of[N]
-the Bone Hole. And now...[AN]
-You're just another victim[N]
-for me! Taste Nosferatu![A][X]
+[MidLeft][Invert]
+What, not enough? Too bad.[N]
+That's my final offer.[A][Invert][X]

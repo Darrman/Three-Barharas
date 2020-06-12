@@ -1,2 +1,1 @@
-[MidRight][LoadMario]
-Oh... Mamma mia...[A][X]
+The hero's sword of legend.[X]

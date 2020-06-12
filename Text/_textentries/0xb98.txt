@@ -1,2 +1,3 @@
-He continued to serve in the Unnamed Kingdom's[N]
-Knights after the war.[X]
+[MidLeft][LoadKaga]
+Urgh... You have some strength.[N]
+But can you change the world?[A][X]

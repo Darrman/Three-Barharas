@@ -1,3 +1,2 @@
-[Right][LoadVoid]
-That's the end of the Donateenaries...[N]
-All that's left now is the Demon King.[A][X]
+Shade+: Enemies won't[N]
+target this unit.[X]

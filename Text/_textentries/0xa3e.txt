@@ -1,2 +1,2 @@
-Use this and Void will find[N]
-a horse to start riding on.[X]
+Catch 'Em All: Grants[N]
+the user every skill.[X]

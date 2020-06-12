@@ -1,4 +1,2 @@
-VOID'S BLITZARRE ADVENTURE SCRIPT[N]
-Most writing here by MC[N]
-Control codes, formattng by Darr[N]
-How does one even comment[X]
+Blood Tide: Atk and Hit +5[N]
+to adjacent allies.[X]

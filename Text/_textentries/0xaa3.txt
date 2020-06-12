@@ -1,3 +1,2 @@
-[OpenRight][LoadVoid]
-That text may have been a placeholder,[N]
-but this victory sure wasn't.[AN][X]
+Deadeye: Doubles hit rate.[N]
+Skill% chance to inflict sleep.[X]

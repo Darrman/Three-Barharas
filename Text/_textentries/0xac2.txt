@@ -1,6 +1,2 @@
-[Right][LoadCurrent]
-[Left][LoadSoldier]
-Over at the port's gate is a Donateenary[N]
-general named Murray. He's an absolute[AN]
-monster and he just extorts every penny[N]
-out of us. Use this sword to slay him![A][X]
+Thotslayer: +15 crit against units[N]
+with Nice Thighs or Personality.[X]
