@@ -1,3 +1,4 @@
+#include "VanillaEdits.txt"
 
 # 0x0002 textWeaponRankIncreasedTo
  Weapon rank increased to [X]
