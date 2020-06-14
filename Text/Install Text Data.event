@@ -9,6 +9,506 @@
 
 {
 
+__TEXTPROCESS309:
+#incbin ".TextEntries\text_buildfileLordDesc.fetxt.dmp"
+setText($309, __TEXTPROCESS309)
+
+__TEXTPROCESS30A:
+#incbin ".TextEntries\text_buildfileLord2Desc.fetxt.dmp"
+setText($30A, __TEXTPROCESS30A)
+
+__TEXTPROCESS30B:
+#incbin ".TextEntries\text_buildfileGreatLordDesc.fetxt.dmp"
+setText($30B, __TEXTPROCESS30B)
+
+__TEXTPROCESS30C:
+#incbin ".TextEntries\text_buildfileGreatLord2Desc.fetxt.dmp"
+setText($30C, __TEXTPROCESS30C)
+
+__TEXTPROCESS30D:
+#incbin ".TextEntries\text_buildfileCavalierDesc.fetxt.dmp"
+setText($30D, __TEXTPROCESS30D)
+
+__TEXTPROCESS30E:
+#incbin ".TextEntries\text_buildfilePaladinDesc.fetxt.dmp"
+setText($30E, __TEXTPROCESS30E)
+
+__TEXTPROCESS30F:
+#incbin ".TextEntries\text_buildfileArmourKnightDesc.fetxt.dmp"
+setText($30F, __TEXTPROCESS30F)
+
+__TEXTPROCESS310:
+#incbin ".TextEntries\text_buildfileGeneralDesc.fetxt.dmp"
+setText($310, __TEXTPROCESS310)
+
+__TEXTPROCESS311:
+#incbin ".TextEntries\text_buildfileThiefDesc.fetxt.dmp"
+setText($311, __TEXTPROCESS311)
+
+__TEXTPROCESS312:
+#incbin ".TextEntries\text_buildfileMercenaryDesc.fetxt.dmp"
+setText($312, __TEXTPROCESS312)
+
+__TEXTPROCESS313:
+#incbin ".TextEntries\text_buildfileHeroDesc.fetxt.dmp"
+setText($313, __TEXTPROCESS313)
+
+__TEXTPROCESS314:
+#incbin ".TextEntries\text_buildfileMyrmidonDesc.fetxt.dmp"
+setText($314, __TEXTPROCESS314)
+
+__TEXTPROCESS315:
+#incbin ".TextEntries\text_buildfileSwordmasterDesc.fetxt.dmp"
+setText($315, __TEXTPROCESS315)
+
+__TEXTPROCESS316:
+#incbin ".TextEntries\text_buildfileAssassinDesc.fetxt.dmp"
+setText($316, __TEXTPROCESS316)
+
+__TEXTPROCESS317:
+#incbin ".TextEntries\text_buildfileArcherDesc.fetxt.dmp"
+setText($317, __TEXTPROCESS317)
+
+__TEXTPROCESS318:
+#incbin ".TextEntries\text_buildfileSniperDesc.fetxt.dmp"
+setText($318, __TEXTPROCESS318)
+
+__TEXTPROCESS319:
+#incbin ".TextEntries\text_buildfileRangerDesc.fetxt.dmp"
+setText($319, __TEXTPROCESS319)
+
+__TEXTPROCESS31A:
+#incbin ".TextEntries\text_buildfileDragonKnightDesc.fetxt.dmp"
+setText($31A, __TEXTPROCESS31A)
+
+__TEXTPROCESS31B:
+#incbin ".TextEntries\text_buildfileDragonMasterDesc.fetxt.dmp"
+setText($31B, __TEXTPROCESS31B)
+
+__TEXTPROCESS31C:
+#incbin ".TextEntries\text_buildfileWyvernKnightDesc.fetxt.dmp"
+setText($31C, __TEXTPROCESS31C)
+
+__TEXTPROCESS31D:
+#incbin ".TextEntries\text_buildfileMageDesc.fetxt.dmp"
+setText($31D, __TEXTPROCESS31D)
+
+__TEXTPROCESS31E:
+#incbin ".TextEntries\text_buildfileSageDesc.fetxt.dmp"
+setText($31E, __TEXTPROCESS31E)
+
+__TEXTPROCESS31F:
+#incbin ".TextEntries\text_buildfileMageKnightDesc.fetxt.dmp"
+setText($31F, __TEXTPROCESS31F)
+
+__TEXTPROCESS320:
+#incbin ".TextEntries\text_buildfileBishopDesc.fetxt.dmp"
+setText($320, __TEXTPROCESS320)
+
+__TEXTPROCESS321:
+#incbin ".TextEntries\text_buildfileNomadDesc.fetxt.dmp"
+setText($321, __TEXTPROCESS321)
+
+__TEXTPROCESS322:
+#incbin ".TextEntries\text_buildfileNomadTrooperDesc.fetxt.dmp"
+setText($322, __TEXTPROCESS322)
+
+__TEXTPROCESS323:
+#incbin ".TextEntries\text_buildfileMamkuteDesc.fetxt.dmp"
+setText($323, __TEXTPROCESS323)
+
+__TEXTPROCESS324:
+#incbin ".TextEntries\text_buildfileJourneymanDesc.fetxt.dmp"
+setText($324, __TEXTPROCESS324)
+
+__TEXTPROCESS325:
+#incbin ".TextEntries\text_buildfilePupilDesc.fetxt.dmp"
+setText($325, __TEXTPROCESS325)
+
+__TEXTPROCESS326:
+#incbin ".TextEntries\text_buildfileRougeDesc.fetxt.dmp"
+setText($326, __TEXTPROCESS326)
+
+__TEXTPROCESS327:
+#incbin ".TextEntries\text_buildfileFighterDesc.fetxt.dmp"
+setText($327, __TEXTPROCESS327)
+
+__TEXTPROCESS328:
+#incbin ".TextEntries\text_buildfileWarriorDesc.fetxt.dmp"
+setText($328, __TEXTPROCESS328)
+
+__TEXTPROCESS329:
+#incbin ".TextEntries\text_buildfileBrigandDesc.fetxt.dmp"
+setText($329, __TEXTPROCESS329)
+
+__TEXTPROCESS32A:
+#incbin ".TextEntries\text_buildfileBerserkerDesc.fetxt.dmp"
+setText($32A, __TEXTPROCESS32A)
+
+__TEXTPROCESS32B:
+#incbin ".TextEntries\text_buildfileGreatKnightDesc.fetxt.dmp"
+setText($32B, __TEXTPROCESS32B)
+
+__TEXTPROCESS32C:
+#incbin ".TextEntries\text_buildfileShamanDesc.fetxt.dmp"
+setText($32C, __TEXTPROCESS32C)
+
+__TEXTPROCESS32D:
+#incbin ".TextEntries\text_buildfileDruidDesc.fetxt.dmp"
+setText($32D, __TEXTPROCESS32D)
+
+__TEXTPROCESS32E:
+#incbin ".TextEntries\text_buildfileSummonerDesc.fetxt.dmp"
+setText($32E, __TEXTPROCESS32E)
+
+__TEXTPROCESS32F:
+#incbin ".TextEntries\text_buildfileMonkDesc.fetxt.dmp"
+setText($32F, __TEXTPROCESS32F)
+
+__TEXTPROCESS330:
+#incbin ".TextEntries\text_buildfilePriestDesc.fetxt.dmp"
+setText($330, __TEXTPROCESS330)
+
+__TEXTPROCESS331:
+#incbin ".TextEntries\text_buildfileBardDesc.fetxt.dmp"
+setText($331, __TEXTPROCESS331)
+
+__TEXTPROCESS332:
+#incbin ".TextEntries\text_buildfileRecruitDesc.fetxt.dmp"
+setText($332, __TEXTPROCESS332)
+
+__TEXTPROCESS333:
+#incbin ".TextEntries\text_buildfilePegasusKnightDesc.fetxt.dmp"
+setText($333, __TEXTPROCESS333)
+
+__TEXTPROCESS334:
+#incbin ".TextEntries\text_buildfileFalconKnightDesc.fetxt.dmp"
+setText($334, __TEXTPROCESS334)
+
+__TEXTPROCESS335:
+#incbin ".TextEntries\text_buildfileClericDesc.fetxt.dmp"
+setText($335, __TEXTPROCESS335)
+
+__TEXTPROCESS336:
+#incbin ".TextEntries\text_buildfileTroubadourDesc.fetxt.dmp"
+setText($336, __TEXTPROCESS336)
+
+__TEXTPROCESS337:
+#incbin ".TextEntries\text_buildfileValkyrieDesc.fetxt.dmp"
+setText($337, __TEXTPROCESS337)
+
+__TEXTPROCESS338:
+#incbin ".TextEntries\text_buildfileDancerDesc.fetxt.dmp"
+setText($338, __TEXTPROCESS338)
+
+__TEXTPROCESS339:
+#incbin ".TextEntries\text_buildfileSoldierDesc.fetxt.dmp"
+setText($339, __TEXTPROCESS339)
+
+__TEXTPROCESS33A:
+#incbin ".TextEntries\text_buildfilePirateDesc.fetxt.dmp"
+setText($33A, __TEXTPROCESS33A)
+
+__TEXTPROCESS33B:
+#incbin ".TextEntries\text_buildfileNecromancerDesc.fetxt.dmp"
+setText($33B, __TEXTPROCESS33B)
+
+__TEXTPROCESS33C:
+#incbin ".TextEntries\text_buildfileFleetDesc.fetxt.dmp"
+setText($33C, __TEXTPROCESS33C)
+
+__TEXTPROCESS33D:
+#incbin ".TextEntries\text_buildfilePhantomDesc.fetxt.dmp"
+setText($33D, __TEXTPROCESS33D)
+
+__TEXTPROCESS33E:
+#incbin ".TextEntries\text_buildfileRevenantDesc.fetxt.dmp"
+setText($33E, __TEXTPROCESS33E)
+
+__TEXTPROCESS33F:
+#incbin ".TextEntries\text_buildfileEntombedDesc.fetxt.dmp"
+setText($33F, __TEXTPROCESS33F)
+
+__TEXTPROCESS340:
+#incbin ".TextEntries\text_buildfileBonewalkerDesc.fetxt.dmp"
+setText($340, __TEXTPROCESS340)
+
+__TEXTPROCESS341:
+#incbin ".TextEntries\text_buildfileWightDesc.fetxt.dmp"
+setText($341, __TEXTPROCESS341)
+
+__TEXTPROCESS342:
+#incbin ".TextEntries\text_buildfileBaelDesc.fetxt.dmp"
+setText($342, __TEXTPROCESS342)
+
+__TEXTPROCESS343:
+#incbin ".TextEntries\text_buildfileElderBaelDesc.fetxt.dmp"
+setText($343, __TEXTPROCESS343)
+
+__TEXTPROCESS344:
+#incbin ".TextEntries\text_buildfileCyclopsDesc.fetxt.dmp"
+setText($344, __TEXTPROCESS344)
+
+__TEXTPROCESS345:
+#incbin ".TextEntries\text_buildfileMautheDoogDesc.fetxt.dmp"
+setText($345, __TEXTPROCESS345)
+
+__TEXTPROCESS346:
+#incbin ".TextEntries\text_buildfileGwyligiDesc.fetxt.dmp"
+setText($346, __TEXTPROCESS346)
+
+__TEXTPROCESS347:
+#incbin ".TextEntries\text_buildfileTarvosDesc.fetxt.dmp"
+setText($347, __TEXTPROCESS347)
+
+__TEXTPROCESS348:
+#incbin ".TextEntries\text_buildfileMaelduinDesc.fetxt.dmp"
+setText($348, __TEXTPROCESS348)
+
+__TEXTPROCESS349:
+#incbin ".TextEntries\text_buildfileMogallDesc.fetxt.dmp"
+setText($349, __TEXTPROCESS349)
+
+__TEXTPROCESS34A:
+#incbin ".TextEntries\text_buildfileArchMogallDesc.fetxt.dmp"
+setText($34A, __TEXTPROCESS34A)
+
+__TEXTPROCESS34B:
+#incbin ".TextEntries\text_buildfileGorgonDesc.fetxt.dmp"
+setText($34B, __TEXTPROCESS34B)
+
+__TEXTPROCESS34C:
+#incbin ".TextEntries\text_buildfileGorgonEggDesc.fetxt.dmp"
+setText($34C, __TEXTPROCESS34C)
+
+__TEXTPROCESS34D:
+#incbin ".TextEntries\text_buildfileGargoyleDesc.fetxt.dmp"
+setText($34D, __TEXTPROCESS34D)
+
+__TEXTPROCESS34E:
+#incbin ".TextEntries\text_buildfileDeathgoyleDesc.fetxt.dmp"
+setText($34E, __TEXTPROCESS34E)
+
+__TEXTPROCESS34F:
+#incbin ".TextEntries\text_buildfileDragonZombieDesc.fetxt.dmp"
+setText($34F, __TEXTPROCESS34F)
+
+__TEXTPROCESS350:
+#incbin ".TextEntries\text_buildfileDemonKingDesc.fetxt.dmp"
+setText($350, __TEXTPROCESS350)
+
+__TEXTPROCESS351:
+#incbin ".TextEntries\text_buildfileCivilianDesc.fetxt.dmp"
+setText($351, __TEXTPROCESS351)
+
+__TEXTPROCESS352:
+#incbin ".TextEntries\text_buildfile352.fetxt.dmp"
+setText($352, __TEXTPROCESS352)
+
+__TEXTPROCESS353:
+#incbin ".TextEntries\text_buildfile353.fetxt.dmp"
+setText($353, __TEXTPROCESS353)
+
+__TEXTPROCESS542:
+#incbin ".TextEntries\text_buildfileLevelDesc.fetxt.dmp"
+setText($542, __TEXTPROCESS542)
+
+__TEXTPROCESS543:
+#incbin ".TextEntries\text_buildfileExperienceDesc.fetxt.dmp"
+setText($543, __TEXTPROCESS543)
+
+__TEXTPROCESS544:
+#incbin ".TextEntries\text_buildfileHPDesc.fetxt.dmp"
+setText($544, __TEXTPROCESS544)
+
+__TEXTPROCESS545:
+#incbin ".TextEntries\text_buildfileWeaponNameDesc.fetxt.dmp"
+setText($545, __TEXTPROCESS545)
+
+__TEXTPROCESS546:
+#incbin ".TextEntries\text_buildfileStrengthDesc.fetxt.dmp"
+setText($546, __TEXTPROCESS546)
+
+__TEXTPROCESS547:
+#incbin ".TextEntries\text_buildfileMagicDesc.fetxt.dmp"
+setText($547, __TEXTPROCESS547)
+
+__TEXTPROCESS548:
+#incbin ".TextEntries\text_buildfileSkillDesc.fetxt.dmp"
+setText($548, __TEXTPROCESS548)
+
+__TEXTPROCESS549:
+#incbin ".TextEntries\text_buildfileSpeedDesc.fetxt.dmp"
+setText($549, __TEXTPROCESS549)
+
+__TEXTPROCESS54A:
+#incbin ".TextEntries\text_buildfileLuckDesc.fetxt.dmp"
+setText($54A, __TEXTPROCESS54A)
+
+__TEXTPROCESS54B:
+#incbin ".TextEntries\text_buildfileDefenceDesc.fetxt.dmp"
+setText($54B, __TEXTPROCESS54B)
+
+__TEXTPROCESS54C:
+#incbin ".TextEntries\text_buildfileResistanceDesc.fetxt.dmp"
+setText($54C, __TEXTPROCESS54C)
+
+__TEXTPROCESS54D:
+#incbin ".TextEntries\text_buildfileMovementDesc.fetxt.dmp"
+setText($54D, __TEXTPROCESS54D)
+
+__TEXTPROCESS54E:
+#incbin ".TextEntries\text_buildfileConstitutionDesc.fetxt.dmp"
+setText($54E, __TEXTPROCESS54E)
+
+__TEXTPROCESS54F:
+#incbin ".TextEntries\text_buildfileAidDesc.fetxt.dmp"
+setText($54F, __TEXTPROCESS54F)
+
+__TEXTPROCESS550:
+#incbin ".TextEntries\text_buildfileTravellerDesc.fetxt.dmp"
+setText($550, __TEXTPROCESS550)
+
+__TEXTPROCESS551:
+#incbin ".TextEntries\text_buildfileAffinityDesc.fetxt.dmp"
+setText($551, __TEXTPROCESS551)
+
+__TEXTPROCESS552:
+#incbin ".TextEntries\text_buildfileNormalStatusDesc.fetxt.dmp"
+setText($552, __TEXTPROCESS552)
+
+__TEXTPROCESS553:
+#incbin ".TextEntries\text_buildfilePoisonStatusDesc.fetxt.dmp"
+setText($553, __TEXTPROCESS553)
+
+__TEXTPROCESS554:
+#incbin ".TextEntries\text_buildfileSleepStatusDesc.fetxt.dmp"
+setText($554, __TEXTPROCESS554)
+
+__TEXTPROCESS555:
+#incbin ".TextEntries\text_buildfileBerserkStatusDesc.fetxt.dmp"
+setText($555, __TEXTPROCESS555)
+
+__TEXTPROCESS556:
+#incbin ".TextEntries\text_buildfileSilenceStatusDesc.fetxt.dmp"
+setText($556, __TEXTPROCESS556)
+
+__TEXTPROCESS557:
+#incbin ".TextEntries\text_buildfileStoneStatusDesc.fetxt.dmp"
+setText($557, __TEXTPROCESS557)
+
+__TEXTPROCESS558:
+#incbin ".TextEntries\text_buildfile558.fetxt.dmp"
+setText($558, __TEXTPROCESS558)
+
+__TEXTPROCESS559:
+#incbin ".TextEntries\text_buildfile559.fetxt.dmp"
+setText($559, __TEXTPROCESS559)
+
+__TEXTPROCESS55A:
+#incbin ".TextEntries\text_buildfile55A.fetxt.dmp"
+setText($55A, __TEXTPROCESS55A)
+
+__TEXTPROCESS55B:
+#incbin ".TextEntries\text_buildfile55B.fetxt.dmp"
+setText($55B, __TEXTPROCESS55B)
+
+__TEXTPROCESS55C:
+#incbin ".TextEntries\text_buildfile55C.fetxt.dmp"
+setText($55C, __TEXTPROCESS55C)
+
+__TEXTPROCESS55D:
+#incbin ".TextEntries\text_buildfile55D.fetxt.dmp"
+setText($55D, __TEXTPROCESS55D)
+
+__TEXTPROCESS55E:
+#incbin ".TextEntries\text_buildfile55E.fetxt.dmp"
+setText($55E, __TEXTPROCESS55E)
+
+__TEXTPROCESS55F:
+#incbin ".TextEntries\text_buildfile55F.fetxt.dmp"
+setText($55F, __TEXTPROCESS55F)
+
+__TEXTPROCESS560:
+#incbin ".TextEntries\text_buildfile560.fetxt.dmp"
+setText($560, __TEXTPROCESS560)
+
+__TEXTPROCESS561:
+#incbin ".TextEntries\text_buildfile561.fetxt.dmp"
+setText($561, __TEXTPROCESS561)
+
+__TEXTPROCESS562:
+#incbin ".TextEntries\text_buildfile562.fetxt.dmp"
+setText($562, __TEXTPROCESS562)
+
+__TEXTPROCESS563:
+#incbin ".TextEntries\text_buildfile563.fetxt.dmp"
+setText($563, __TEXTPROCESS563)
+
+__TEXTPROCESS564:
+#incbin ".TextEntries\text_buildfile564.fetxt.dmp"
+setText($564, __TEXTPROCESS564)
+
+__TEXTPROCESS565:
+#incbin ".TextEntries\text_buildfile565.fetxt.dmp"
+setText($565, __TEXTPROCESS565)
+
+__TEXTPROCESS566:
+#incbin ".TextEntries\text_buildfile566.fetxt.dmp"
+setText($566, __TEXTPROCESS566)
+
+__TEXTPROCESS567:
+#incbin ".TextEntries\text_buildfile567.fetxt.dmp"
+setText($567, __TEXTPROCESS567)
+
+__TEXTPROCESS568:
+#incbin ".TextEntries\text_buildfile568.fetxt.dmp"
+setText($568, __TEXTPROCESS568)
+
+__TEXTPROCESS569:
+#incbin ".TextEntries\text_buildfile569.fetxt.dmp"
+setText($569, __TEXTPROCESS569)
+
+__TEXTPROCESS56A:
+#incbin ".TextEntries\text_buildfile56A.fetxt.dmp"
+setText($56A, __TEXTPROCESS56A)
+
+__TEXTPROCESS56B:
+#incbin ".TextEntries\text_buildfile56B.fetxt.dmp"
+setText($56B, __TEXTPROCESS56B)
+
+__TEXTPROCESS56C:
+#incbin ".TextEntries\text_buildfile56C.fetxt.dmp"
+setText($56C, __TEXTPROCESS56C)
+
+__TEXTPROCESS56D:
+#incbin ".TextEntries\text_buildfile56D.fetxt.dmp"
+setText($56D, __TEXTPROCESS56D)
+
+__TEXTPROCESS56E:
+#incbin ".TextEntries\text_buildfile56E.fetxt.dmp"
+setText($56E, __TEXTPROCESS56E)
+
+__TEXTPROCESS56F:
+#incbin ".TextEntries\text_buildfile56F.fetxt.dmp"
+setText($56F, __TEXTPROCESS56F)
+
+__TEXTPROCESS570:
+#incbin ".TextEntries\text_buildfile570.fetxt.dmp"
+setText($570, __TEXTPROCESS570)
+
+__TEXTPROCESS571:
+#incbin ".TextEntries\text_buildfile571.fetxt.dmp"
+setText($571, __TEXTPROCESS571)
+
+__TEXTPROCESS572:
+#incbin ".TextEntries\text_buildfile572.fetxt.dmp"
+setText($572, __TEXTPROCESS572)
+
+__TEXTPROCESS573:
+#incbin ".TextEntries\text_buildfile573.fetxt.dmp"
+setText($573, __TEXTPROCESS573)
+
 __TEXTPROCESS002:
 #incbin ".TextEntries\text_buildfiletextWeaponRankIncreasedTo.fetxt.dmp"
 setText($2, __TEXTPROCESS002)

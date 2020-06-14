@@ -27,8 +27,8 @@ Possesses excellent defensive[N]
 and offensive skills.[X]
 
 # 0x0311 ThiefDesc
-Multitalented knaves with an eye[N]
-for riches. Can steal items.[X]
+Multitalented knaves with[N]
+an eye for riches.[X]
 
 # 0x0312 MercenaryDesc
 Well-balanced professional[N]
@@ -160,8 +160,8 @@ allies. Unable to attack.[.][X]
 Remove.[X]
 
 # 0x0333 PegasusKnightDesc
-Airborne knights who resist magic[N]
-but are weak against bows.[.][X]
+Flying knights who resist magic[N]
+but are weak against bows.[X]
 
 # 0x0334 FalconKnightDesc
 Swift sky warriors who shrug[N]
