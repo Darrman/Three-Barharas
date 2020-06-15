@@ -15,7 +15,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 Units:
-UNIT Mario Brigand 0x00 Level(1, Ally, 0) [1,13] 0x00 0x00 0x0 0x00 [IronAxe] NoAI 
+UNIT Mario Brigand 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [IronAxe] NoAI 
 UNIT
 
 
@@ -26,11 +26,13 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(0x03,EndingScene,13,8)
+House(0x00,House1,1,1)
+House(0x00,House2,10,9)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno:
@@ -48,10 +50,9 @@ ALIGN 4
 
 BeginningScene:
 LOAD1 0x1 Units
-//LOAD1 0x1 Bad
-//LOAD1 0x1 Bad2
+LOAD1 0x1 Bad
 //Text(Ch6Opening)
-GotoPrepScreen
+ENDA
 
 EndingScene:
 //Text(Ch6Ending)
@@ -59,6 +60,13 @@ MNCH 0x07
 ENDA
 
 // Events
+House1:
+//Text
+ENDA
+
+House2:
+//Text
+ENDA
 
 // Manual Movement
 
@@ -66,7 +74,10 @@ ENDA
 
 // Units
 Bad:
-UNIT 0x80 Fighter 0x00 Level(1, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x4B Fighter 0x00 Level(4, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00 [IronAxe] NeverMoveAI //Boss, some random ID
+UNIT 0x80 Soldier 0x00 Level(1, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI //Boss, some random ID
+UNIT 0x80 Soldier 0x00 Level(1, Enemy, 1) [8,6] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI //Boss, some random ID
+UNIT 0x80 Soldier 0x00 Level(1, Enemy, 1) [12,9] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI //Boss, some random ID
 UNIT
 
 
