@@ -74,8 +74,27 @@ Text(Ch5Ending)
 EARTHQUAKE_START 0x100
 STAL 120
 ENUT 0x3
-MNC4 0x0
+FADI 10
+STAL 10
+SOUN 0x380
+REMOVEUNIT Ryu
+STAL 60
+REMOVEUNIT Purim
+REMOVEUNIT Butz
+REMOVEUNIT Kazuya
+REMOVEUNIT Rydia
+REMOVEUNIT Ness
+REMOVEUNIT Red
+REMOVEUNIT Crono
+REMOVEUNIT Marle
+REMOVEUNIT Cecil
+REMOVEUNIT Terra
+REMOVEUNIT DQHero
+REMOVEUNIT Bowser
+REMOVEUNIT Mario
+STAL 120
 EARTHQUAKE_END
+MNCH 0x06
 ENDA
 
 // Events
@@ -121,22 +140,3 @@ UNIT
 
 
 // Shop Data
-
-PUSH
-ORG $9ea8
-SHORT 0 0 $e00a
-ORG $9ed8
-POIN EpilogueEvents
-POP
-
-EpilogueEvents:
-ASMC 0x30185 //clears map tilesets?
-EVBIT_F 0x2
-STAL 120
-ASMC 0xB8175 //turn counts display
-STAL 90
-MNTS 0x0 //return to title screen
-ENDA
-
-
-MESSAGE Events end at offset currentOffset
