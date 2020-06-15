@@ -244,3 +244,7 @@ POP
     #include "AoC/KonamiCode/EnemyControl.event"
 
   #endif
+
+#include "AoC/ModularSupply/ModularSupply.event"
+
+ALIGN 4

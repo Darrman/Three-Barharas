@@ -1,0 +1,16 @@
+
+#ifndef MODULAR_SUPPLY
+	
+	#define MODULAR_SUPPLY
+	
+	ALIGN 4
+	#inctext lyn "SupplyUsability.o" "Definitions.o"
+	ALIGN 4
+	SupplyUsabilityPhantomIDLink:
+	BYTE GhostFighter
+	
+	ALIGN 4
+	NormalSupplyList:
+	BYTE Mario 0x00
+	
+#endif // MODULAR_SUPPLY
