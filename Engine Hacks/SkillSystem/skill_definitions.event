@@ -7,11 +7,11 @@
 
 //Provoke: Enemies are more likely to target this unit.
 //By Tequila
-#define ProvokeID 255
+#define ProvokeID 1
 
 //Shade: Enemies are less likely to target this unit.
 //By Sme
-#define ShadeID 255
+#define ShadeID 2
 
 //Shade+: Enemies will not target this unit.
 //By Sme
@@ -30,7 +30,7 @@
 
 //Charisma: Grants +10 Hit/Avoid to all allies within three tiles.
 //By Darrman
-#define CharismaID 255
+#define CharismaID 3
 
 //Charm: Allies within 2 tiles deal +2 damage.
 //Author Unknown (Initial Commit)
@@ -140,7 +140,7 @@
 
 //Nullify: Unit is protected from all effective attacks.
 //By Tequila
-#define NullifyID 255
+#define NullifyID 4
 
 //Slayer: Deal effective damage to monster units.
 //By Tequila
@@ -159,7 +159,7 @@
 
 //Paragon: Experience gain is doubled.
 //Author Unknown (Initial Commit)
-#define ParagonID 255
+#define ParagonID 5
 
 //Void Curse: This unit gives no experience when defeated.
 //By Sme
@@ -180,7 +180,7 @@
 
 //Renewal: Restore 30% of max HP at the start of each turn.
 //Author Unknown (Initial Commit)
-#define RenewalID 255
+#define RenewalID 6
 
 //Amaterasu: Allies within 2 tiles recover 20% HP each turn.
 //Author Unknown (Initial Commit)
@@ -210,7 +210,7 @@
 
 //Acrobat: All traversable terrain costs 1 movement.
 //By Tequila
-#define AcrobatID 255
+#define AcrobatID 7
 
 //Armor March: At start of turn, if unit is adjacent to an armor ally, unit and adjacent armor allies gain +2 Mov.
 //By Leonarth
@@ -218,7 +218,7 @@
 
 //Pass: Can move through enemy units.
 //By Tequila
-#define PassID 255
+#define PassID 8
 
 //Keep Up: At start of turn, if unit is within 3 spaces of an ally with Canto or Canto+, unit gains +2 Mov.
 //By Sme
@@ -253,11 +253,11 @@
 
 //Canto: Can move again after certain actions.
 //By Tequila
-#define CantoID 255
+#define CantoID 255 //all canto is super canto
 
 //Canto+: Can move again after attacking and other actions.
 //By Tequila
-#define CantoPlusID 255
+#define CantoPlusID 9
 
 //Despoil: Obtain a Red Gem after attacking and defeating an enemy. (Luck % activation)
 //Author Unknown (Initial Commit)
@@ -269,7 +269,7 @@
 
 //Galeforce: Move again after attacking and defeating an enemy.
 //Author Unknown (Initial Commit)
-#define GaleforceID 255
+#define GaleforceID 27
 
 //Lifetaker: Restore up to 25% HP after attacking and defeating an enemy.
 //Author Unknown (Initial Commit)
@@ -348,7 +348,7 @@
 
 //Crit Boost: +15 critical rate.
 //Author Unknown (Initial Commit)
-#define CritUpID 255
+#define CritUpID 28
 #define CritBoostID CritUpID //Alias
 
 //Strong Riposte: When under attack, damage +3.
@@ -404,7 +404,7 @@
 
 //Fortune: This unit cannot be crit.
 //By Sme
-#define FortuneID 255
+#define FortuneID 29
 
 //Frenzy: For every 4 damage taken, +1 to damage dealt.
 //By Tequila
@@ -412,7 +412,7 @@
 
 //Hawkeye: User will always hit the enemy.
 //By SD9k
-#define HawkeyeID 255
+#define HawkeyeID 30
 
 //Heavy Strikes: Add weapon weight to critical chance.
 //By Datagne
@@ -534,7 +534,7 @@
 
 //Wrath: If HP < 50%, +20 critical rate.
 //Author Unknown (Initial Commit)
-#define WrathID 255
+#define WrathID 10
 
 //Quick Draw: +4 Damage when initiating battle.
 //Author Unknown (Initial Commit)
@@ -565,7 +565,7 @@
 
 //Adept: Gain a consecutive attack. (Speed % activation)
 //Author Unknown (Initial Commit)
-#define AdeptID 255
+#define AdeptID 11
 
 //Aegis: Nullify a magic attack. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -573,11 +573,11 @@
 
 //Aether: First strike absorbs HP, second strike negates defenses. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define AetherID 255
+#define AetherID 12
 
 //Astra: 5 attacks at half damage. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define AstraID 255
+#define AstraID 13
 
 //Bane: Leave the opponent at 1 HP. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
@@ -605,15 +605,15 @@
 
 //Counter: Reflect physical damage when attacked at 1-2 range.
 //Author Unknown (Initial Commit)
-#define CounterID 255
+#define CounterID 14
 
 //Countermagic: Reflect magic damage when attacked at 1-2 range.
 //Author Unknown (Initial Commit)
-#define CounterMagicID 255
+#define CounterMagicID 31
 
 //Deadeye: Doubles hit rate. Skill% chance to inflict sleep.
 //By Sme
-#define DeadeyeID 255
+#define DeadeyeID 15
 
 //Devil's Luck: Immune to Devil Reversal. Gives unit's Devil Reversal to the enemy. (31-Luck % chance of Devil Reversal).
 //By Leonarth
@@ -656,15 +656,15 @@
 
 //Lethality: Instantly kill opponent. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define LethalityID 255
+#define LethalityID 16
 
 //Luna: Negates enemy defenses. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define LunaID 255
+#define LunaID 17
 
 //Miracle: Survive a lethal attack if HP > 50%.
 //Author Unknown (Initial Commit)
-#define MiracleID 255
+#define MiracleID 18
 
 //Moonbow: Enemy Def/Res is reduced by 25%. Charge: 2
 //Author Unknown (Initial Commit)
@@ -680,7 +680,7 @@
 
 //Sol: Restore damage dealt as HP. (Skill % activation)
 //Author Unknown (Initial Commit)
-#define SolID 255
+#define SolID 19
 
 //Sure Shot: A precision attack that always hits and does 1.5x damage. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -696,7 +696,7 @@
 
 //Great Shield: Negate all damage. (Defense % activation)
 //By Sme
-#define GreatShieldID 255
+#define GreatShieldID 20
 
 //Vengeance: Add half of damage taken to damage dealt. (Skill % activation)
 //By Sme
@@ -753,7 +753,7 @@
 
 //Resolve: When HP < 50%, gain 1.5x Str, Skl, & Spd.
 //By Sme
-#define ResolveID 255
+#define ResolveID 32
 
 //Fortress Defense: +5 Def, -3 Str/Mag
 //By Leonarth
@@ -808,7 +808,7 @@
 
 //Dance: Refresh an ally unit to let them act again.
 //By Sme
-#define DanceID 255
+#define DanceID 21
 
 //Gamble: A reckless attack with halved hit but doubled crit.
 //Author Unknown (Initial Commit)
@@ -824,7 +824,7 @@
 
 //Summon: Can conjure a phantom soldier to fight alongside you.
 //By Sme
-#define SummonID 255
+#define SummonID 33
 
 //Supply: This unit has access to the convoy.
 //By Sme
@@ -832,7 +832,7 @@
 
 //Shove: Allows unit to push other units one tile away.
 //By StanH
-#define ShoveID 255
+#define ShoveID 22
 
 //Smite: Allows unit to push other units two tiles away.
 //By StanH
@@ -840,15 +840,15 @@
 
 //Pivot: Allows unit to move to the opposite side of an adjacent ally.
 //By StanH
-#define PivotID 255 //DONE by StanH
+#define PivotID 34 //DONE by StanH
 
 //Reposition: Allows unit to pull an adjacent ally to its opposite side.
 //By StanH
-#define RepositionID 255
+#define RepositionID 35
 
 //Swap: Allows unit to swap positions with an adjacent ally.
 //By StanH
-#define SwapID 255
+#define SwapID 36
 
 //Steal: Unit can steal items.
 //By Tequila
@@ -856,7 +856,7 @@
 
 //Steal+: Unit can steal unequipped weapons and staves if con>weight.
 //By Tequila
-#define StealPlusID 255
+#define StealPlusID 23
 
 
 //Miscellaneous Skills
@@ -867,15 +867,15 @@
 
 //Savior: Can rescue without penalties.
 //Author Unknown (Initial Commit)
-#define SaviorID 255
+#define SaviorID 37
 
 //Discipline: Weapon experience gains are doubled.
 //Author Unknown (Initial Commit)
-#define DisciplineID 255
+#define DisciplineID 38
 
 //Vantage: If HP < 50%, strike first when attacked.
 //Author Unknown (Initial Commit)
-#define VantageID 255
+#define VantageID 24
 
 //Vantage+: User always attacks first, even if attacked. Negates crits.
 //By SD9k
@@ -883,7 +883,7 @@
 
 //Nihil: Cancels the opponent's skills in combat.
 //Author Unknown (Initial Commit)
-#define NihilID 255
+#define NihilID 25
 
 //Live to Serve: When healing an ally, also heals self.
 ////Author Unknown (Initial Commit) & Leonarth
@@ -963,7 +963,7 @@
 
 //Bargain: Halves prices in shops.
 //By Sme
-#define BargainID 255
+#define BargainID 26
 
 //Poise: +1 Move. Negates enemy hit bonus from weapon triangle advantage.
 //By Zeta

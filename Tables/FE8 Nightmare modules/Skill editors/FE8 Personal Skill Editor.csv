@@ -1,41 +1,41 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Mario,AetherID
-Bowser,IgnisID
-DQHero,PaviseID
-Ryu,GaleforceID
-Crono,LungeID
-Marle,ProvokeID
-Terra,LiveToServeID
-Cecil,LunaID
-Ness,MiracleID
-Red,InspirationID
-Butz,IntimidateID
-Kazuya,LifetakerID
-Rydia,LifeAndDeathID
-Purim,RenewalID
-Ephraim,InspirationID
-Samson,QuickDrawID
-Arve,LancebreakerID
-Tye,RallyMovID
-Celicia,AcrobatID
-Eevster,SealLukID
-Anna,DespoilID
-Nikita,RenewalID
-Anna,ArmsthriftID
-Edgeworth,RallySpectrumID
-Zigludo,PersonalityID
-Kaga,MiracleID
-Doot,MiracleID
-Celica,NiceThighsID
-Doowile,LifetakerID
-Evil Florina,SavageBlowID
-Björn,LiveToServeID
-Jake,SwordbreakerID
-Marf,LunaID
-Tiki,QuickBurnID
+Mario,0x0
+Bowser,0x0
+DQHero,0x0
+Ryu,0x0
+Crono,0x0
+Marle,0x0
+Terra,0x0
+Cecil,0x0
+Ness,0x0
+Red,0x0
+Butz,0x0
+Kazuya,0x0
+Rydia,0x0
+Purim,0x0
+Ephraim,0x0
+Samson,0x0
+Arve,0x0
+Tye,0x0
+Celicia,0x0
+Eevster,0x0
+Anna,0x0
+Nikita,0x0
+Anna,0x0
+Edgeworth,0x0
+Zigludo,0x0
+Kaga,0x0
+Doot,0x0
+Celica,0x0
+Doowile,0x0
+Evil Florina,0x0
+Björn,0x0
+Jake,0x0
+Marf,0x0
+Tiki,0x0
 Lyon,0x0
-Mark,SlowBurnID
+Mark,0x0
 Glen,0x0
 Selena,0x0
 Valter,0x0
@@ -61,55 +61,55 @@ Hayden,0x0
 Lyon's Summon,0x0
 0,0x0
 0,0x0
-Florina's Summon,SealStrID
-Arve's Summon,SealDefID
-Dracozombie (Ch 17),SlowBurnID
-Morva (Ch 28),FrenzyID
-Orson (Ch 27),MiracleID
-Grit (Ch 15),QuickDrawID
-Selena (Ch 24),VantageID
+Florina's Summon,0x0
+Arve's Summon,0x0
+Dracozombie (Ch 17),0x0
+Morva (Ch 28),0x0
+Orson (Ch 27),0x0
+Grit (Ch 15),0x0
+Selena (Ch 24),0x0
 Valter (Prologue),0x0
-Breguet (Ch 1) (NPC civilian),PaviseID
-Bone (Ch 2),AxefaireID
-Bazba (Ch 3),SwordbreakerID
-Entombed (Ch 4),SealSklID
-Saara (Ch 5),MiracleID
-Mr Bones (Ch 23),IgnisID
-Murray (Ch 7),LifeAndDeathID
-Tirado (Ch 8),SealDefID
-Binks (Ch 9),FocusID
-Pablo (Ch 10),DartingBlowID
-Maelduin (Ch 12A),TomebreakerID
-Aias (Ch 13),SavageBlowID
-Carlyle (Ch 14),SealSpdID
-Caellach (Ch 26),SealSpdID
-Pablo (also Ch 13),DartingBlowID
+Breguet (Ch 1) (NPC civilian),0x0
+Bone (Ch 2),0x0
+Bazba (Ch 3),0x0
+Entombed (Ch 4),0x0
+Saara (Ch 5),0x0
+Mr Bones (Ch 23),0x0
+Murray (Ch 7),0x0
+Tirado (Ch 8),0x0
+Binks (Ch 9),0x0
+Pablo (Ch 10),0x0
+Maelduin (Ch 12A),0x0
+Aias (Ch 13),0x0
+Carlyle (Ch 14),0x0
+Caellach (Ch 26),0x0
+Pablo (also Ch 13),0x0
 0,0x0
 Gorgon (Ch 18),0x0
 Riev (Ch 19 & 20),0x0
 0,0x0
 0,0x0
-Gheb (Ch 12),VantageID
-Beran (Ch 10B),ImpaleID
-Cyclops (Ch 12B),ColossusID
-Great Knight (Ch 11),FrenzyID
+Gheb (Ch 12),0x0
+Beran (Ch 10B),0x0
+Cyclops (Ch 12B),0x0
+Great Knight (Ch 11),0x0
 Deathgoyle (Ch 11B),0x0
 Entombed (Monster Boss),0x0
-Lyria (Ch20),WrathID
-Meriah (Ch19),LunaID
-Plum (Ch20),CharmID
-Yuni (Ch20),CunningID
+Lyria (Ch20),0x0
+Meriah (Ch19),0x0
+Plum (Ch20),0x0
+Yuni (Ch20),0x0
 Hunter (Ch 16),0x0
 0,0x0
 Brigand,0x0
 0,0x0
-Bowser (Prologue),IgnisID
+Bowser (Prologue),0x0
 Glen (Ch 19),0x0
 Zonta (Ch 6),0x0
-Vigarde (Ch 18),RenewalID
-Lyon (Ch Final),DartingBlowID
-Orson (Ch 16),FieryBloodID
-Maeda(ch20),NihilID
+Vigarde (Ch 18),0x0
+Lyon (Ch Final),0x0
+Orson (Ch 16),0x0
+Maeda(ch20),0x0
 0,0x0
 0,0x0
 0,0x0
@@ -183,25 +183,25 @@ Monster,0x0
 Monster,0x0
 Monster,0x0
 Monster,0x0
-Lunge Monster,LungeID
+Lunge Monster,0x0
 Monster,0x0
 Monster,0x0
 Monster,0x0
 Monster,0x0
 Monster,0x0
-Demon King,NihilID
+Demon King,0x0
 0,0x0
 Frelian,0x0
 Frelian,0x0
 0,0x0
 0,0x0
 not tatara,0x0
-Tatara,LifetakerID
+Tatara,0x0
 0,0x0
 Hayden (Frelia),0x0
 Mansel,0x0
 Edge's Ally (Ch. 9),0x0
-Banana (Ch25),SavageBlowID
+Banana (Ch25),0x0
 Ismaire (Jehanna),0x0
 (Generic soldier),0x0
 Rausten Knight,0x0
