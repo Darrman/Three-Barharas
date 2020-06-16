@@ -4,7 +4,7 @@ Armorboost:
 POIN SkillTester
 POIN AuraSkillCheck
 WORD ArmorboostID
-WORD ArmorType
+WORD ArmourType
 
 ALIGN 4
 Horseguard:
