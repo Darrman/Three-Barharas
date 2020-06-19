@@ -82,7 +82,7 @@ ReinforcementEvent(ThiefGroup)
 
 // Units
 Recruit:
-UNIT Ness Mage 0x00 Level(3, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [Shine, Bolting, WhiteGem] NoAI
+UNIT Ness Mage 0x00 Level(3, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [PKRockin, Bolting, WhiteGem] NoAI
 UNIT Red Cavalier 0x00 Level(3, Ally, 0) [4,9] 0x00 0x00 0x0 0x00 [BraveSword, BraveLance, WhiteGem] NoAI
 UNIT
 

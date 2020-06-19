@@ -2,6 +2,8 @@
 
 #include "Table Definitions.txt"
 
+#include "FE8 Nightmare modules\AdvWeaponLocks\WeaponLockArray.event"
+
 #include "FE8 Nightmare modules\Chapter data editor\Chapter Data Editor.event"
 
 #include "FE8 Nightmare modules\Chapter data editor\Character Forcer FE8.event"

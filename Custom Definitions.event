@@ -84,4 +84,10 @@
 #define Ch21Boss 0xC5
 #define Ch21Generic 0x9A
 
+// Item definitions
+#define RainbowSword 0xbc
+#define CrystalSword 0xbd
+#define PKRockin 0xbe
+#define ErdrickSword 0xbf
+
 #endif

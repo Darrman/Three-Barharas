@@ -16,9 +16,9 @@ POIN BeginningScene EndingScene
 
 Units:
 //UNIT Mario EphraimLord 0x00 Level(1, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [Rapier, Vulnerary] NoAI 
-UNIT DQHero General 0x00 Level(2, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [Audomra, Elixir] NoAI 
+UNIT DQHero General 0x00 Level(2, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [ErdrickSword, Elixir] NoAI 
 UNIT Bowser Fighter 0x00 Level(2, Ally, 0) [0,9] 0x00 0x00 0x0 0x00 [SilverAxe, IronBow, Vulnerary] NoAI 
-UNIT Cecil Cavalier 0x00 Level(2, Ally, 0) [3,10] 0x00 0x00 0x0 0x00 [LightBrand, IronLance, PureWater] NoAI 
+UNIT Cecil Cavalier 0x00 Level(2, Ally, 0) [3,10] 0x00 0x00 0x0 0x00 [CrystalSword, IronLance, PureWater] NoAI 
 UNIT Terra Mage_F 0x00 Level(2, Ally, 0) [2,9] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire, Vulnerary, Heal] NoAI 
 UNIT Marle Archer_F 0x00 Level(2, Ally, 0) [1,8] 0x00 0x00 0x0 0x00 [SilverBow, Vulnerary] NoAI 
 UNIT
@@ -83,7 +83,7 @@ UNIT Mario Brigand 0x00 Level(2, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [Rapier, Vul
 UNIT
 
 Recruit:
-UNIT Crono Myrmidon 0x00 Level(2, Ally, 0) [14,8] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI 
+UNIT Crono Myrmidon 0x00 Level(2, Ally, 0) [14,8] 0x00 0x00 0x0 0x00 [RainbowSword, Vulnerary] NoAI 
 UNIT
 
 Bad:

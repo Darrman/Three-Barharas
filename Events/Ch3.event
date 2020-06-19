@@ -100,7 +100,7 @@ UNIT 0x80 Revenant 0x00 Level(10, Enemy, 1) [12,9] 0x00 0x00 0x0 0x00 [RottenCla
 UNIT
 
 Recruit:
-UNIT Butz Revenant 0x00 Level(4, Enemy, 0) [7,4] 0x00 0x00 0x0 0x00 [ShadowKiller] PursueWithoutHeedAI 
+UNIT Butz Bonewalker 0x00 Level(4, Enemy, 0) [7,4] 0x00 0x00 0x0 0x00 [ShadowKiller] PursueWithoutHeedAI 
 UNIT
 
 Ch3StartRecruit:
