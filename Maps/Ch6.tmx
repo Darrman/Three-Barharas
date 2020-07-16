@@ -18,7 +18,7 @@
    eJxzZmBgcMaCvxKBQepUmcnXi475mYnTj00vqfZTyxxkd5NjFq4wWAek1wPxBmbS/XEOqOc8EF8gQu9XNPe/A7LfA/EHIvXiSgMAechg2g==
   </data>
  </layer>
- <layer id="2" name="Dummy" width="15" height="10">
+ <layer id="2" name="Dummy" width="15" height="10" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
