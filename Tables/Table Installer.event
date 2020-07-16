@@ -82,6 +82,8 @@
 
 #include "FE8 Nightmare modules\Summon editors\Summon class editor.event"
 
+#include "FE8 Nightmare modules\Summon editors\Summon item editor.event"
+
 #include "FE8 Nightmare modules\World Map Editors\Path Connections Editor.event"
 
 #include "FE8 Nightmare modules\World Map Editors\World map locations.event"

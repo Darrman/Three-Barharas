@@ -34,6 +34,8 @@
 #define Kazuya 12
 #define Rydia 13
 #define Purim 14
+#define Bahamut 0x3E
+#define Pascal 0x3F
 #define EnemyBowser 0x68
 
 //VBA remmnants work, for backwards compatibility

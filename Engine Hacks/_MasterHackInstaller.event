@@ -245,6 +245,8 @@ POP
     
     //Summons based off of class
     #include "AoC/MultiClassSummon/MultiClassSummon.event"
+    //Summon item adjustment
+    #include "AoC/AdjustSummonItems/Installer.event"
 
   #endif
 

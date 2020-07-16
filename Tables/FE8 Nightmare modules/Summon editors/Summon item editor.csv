@@ -1,0 +1,5 @@
+INLINE multi_summon_items_Table,Name,Class,Item 1 Level,Item 1,Item 2 Level,Item 2,Item 3 Level,Item 3,Item 4 Level,Item 4,Item 5 Percentage,Item 5
+Pascal,Pascal,Gwyllgi,1,FireFang,5,FireFang,10,HellFang,15,HellFang,10,HellFang
+Bahamut,Bahamut,DracoZombie,1,WretchedAir,5,WretchedAir,10,WretchedAir,15,WretchedAir,10,WretchedAir
+Summon 3,LyonSummon,GhostFighter,1,IronAxe,5,SteelAxe,10,KillerAxe,15,DevilAxe,10,DevilAxe
+End,0,0,0,0,0,0,0,0,0,0,0,0
