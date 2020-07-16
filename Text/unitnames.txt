@@ -135,6 +135,20 @@ Ch. 4 Boss[X]
 ## Ch4BossDesc
 Boss of Chapter 4.[X]
 
+## PascalName
+Pascal[X]
+
+## PascalDesc
+Remember when your dog[N]
+fused into a huge demon?[X]
+
+## BahamutName
+Bahamut[X]
+
+## BahamutDesc
+Has a bad habit of counting[N]
+down to his ultimate attack.[X]
+
 ##Name_Tye
 Tye[X]
 
