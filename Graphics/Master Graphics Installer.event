@@ -14,11 +14,11 @@ PUSH
   ORG $a16dec //I quite prefer sleep to freeze
   //#incext Png2Dmp "edited status names_a16dec.png"
 
-  #include "TitleScreen/titlebackgroundinstaller.event"
-
   ORG $aac58c //clearing dragon palette to only use 1 colour
   BYTE $90 $42 $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A
 POP
+
+  #include "TitleScreen/titlebackgroundinstaller.event"
 
 //NewDifficultyButtons:
 //#incext Png2Dmp "difficulty.png" --lz77
