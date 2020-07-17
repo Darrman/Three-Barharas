@@ -17,8 +17,8 @@ PUSH
   ORG $aac5ac
   #incext Png2Dmp "FE_Title.png" --lz77
 
-  ORG $a16dec
-  #incext Png2Dmp "edited status names_a16dec.png"
+  ORG $a16dec //I quite prefer sleep to freeze
+  //#incext Png2Dmp "edited status names_a16dec.png"
 
   ORG $aac58c //clearing dragon palette to only use 1 colour
   BYTE $90 $42 $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A
@@ -34,44 +34,45 @@ PUSH
 ORG 0x5926F4+(0x80*8)
 //#incext Png2Dmp "blitzicon.png"
 ORG 0x5926F4+(0x80*0xb0)
-#incext Png2Dmp "superblitzicon.png"
+//#incext Png2Dmp "superblitzicon.png"
 ORG 0x5926F4+(0x80*0x42)
-#incext Png2Dmp "auraicon.png"
+//#incext Png2Dmp "auraicon.png"
 POP
 
 ch24palette:
-#incbin "bch24palette.bin"
+//#incbin "bch24palette.bin"
 
 SnowPalette:
 // #incbin "SnowPalette_FE8.bin"
-#incbin "b21palette.bin"
+//#incbin "b21palette.bin"
 // #incext Png2Dmp "b21palette.png" --palette-only
 
 SnowTileConfig:
-#incbin "SnowTileConfig_LZ.bin"
+//#incbin "SnowTileConfig_LZ.bin"
 
-EventPointerTable(0x8b, ch24palette)
-EventPointerTable(0x8c, SnowPalette)
-EventPointerTable(0x8d, SnowTileConfig)
+//EventPointerTable(0x8b, ch24palette)
+//EventPointerTable(0x8c, SnowPalette)
+//EventPointerTable(0x8d, SnowTileConfig)
 
 #include "BattleAnimPointers.event"
 
+//there's like a 99% chance this won't be necessary but *just in case* I use Chiki for some reason...
 TikiTransformPal:
-#incext compress "tiki_transformed_pal.dmp"
+//#incext compress "tiki_transformed_pal.dmp"
 
 TikiNormalPal:
-#incext compress "tiki_untransformed_pal.dmp"
+//#incext compress "tiki_untransformed_pal.dmp"
 
 PUSH
 ORG (0xc00008-0x20)+(0xc5*0x20)+(7*4)
-POIN TikiTransformPal
+//POIN TikiTransformPal
 ORG (0xc00008-0x20)+(0xc6*0x20)+(7*4)
-POIN TikiTransformPal
+//POIN TikiTransformPal
 ORG (0xc00008-0x20)+(0xc7*0x20)+(7*4)
-POIN TikiNormalPal
+//POIN TikiNormalPal
 
 ORG (0xc00008-0x20)+(0xc4*0x20)+(7*4)
-POIN TikiTransformPal
+//POIN TikiTransformPal
 
 POP
 
