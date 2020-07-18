@@ -1,5 +1,7 @@
 #include "Tools/Tool Helpers.txt"
 
+#include "PortraitUpshiftEditor.event"
+
 Mario_Mug:
 #incext PortraitFormatter "Mario.png"
 setMugEntry(0x2, Mario_Mug, 3, 7, 3, 5)
