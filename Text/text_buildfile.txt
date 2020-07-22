@@ -51,6 +51,7 @@ for one turn[X]
 
 #include "items.txt"
 #include "Bad Idea Plot.txt"
+#include "Debug Text.txt"
 #include "chaptertext.txt"
 #include "MCPlotStuff.txt"
 #include "villages and recruitments.txt"

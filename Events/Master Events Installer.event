@@ -125,6 +125,10 @@ ALIGN 4
 //  #include "Ch30.event"
 //}
 //ALIGN 4
+{
+  #include "Debug.event"
+}
+ALIGN 4
 //ShieldThrowPP:
 //ASMC PlayerPhaseASMC|1
 //BEQ 0x0 0xc 0x0

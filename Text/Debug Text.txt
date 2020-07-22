@@ -1,0 +1,27 @@
+## DebugWelcome
+[MidLeft][LoadFace][0x64][0x01]
+Welcome to the debug room.[N]
+In this chapter, things[AN]
+are, you know, debugged.[N]
+Testing features and all[AN]
+that. Anything to make hack[N]
+development quicker...[AN]
+If you're in here, either[N]
+a debug switch was left on[AN]
+by mistake, you hacked your[N]
+way in with FEBuilder, or[AN]
+you're the developer, who's[N]
+the only one meant to be here.[AN]
+If you're not the developer,[N]
+have fun breaking the game;[AN]
+I take no responsibility for[N]
+any bugs that may arise.[AN][X]
+
+## DebugMapViewer
+Map Viewer[X]
+
+## DebugPortraitViewer
+Mug Viewer[X]
+
+## DebugBackgroundViewer
+BG Viewer[X]

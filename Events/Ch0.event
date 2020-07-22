@@ -26,6 +26,9 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+#ifdef __DEBUG__
+House(0x00,DebugEntry,2,8)
+#endif
 END_MAIN
 
 MiscBasedEvents:
@@ -49,9 +52,6 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Units
 LOAD1 0x1 Bad
-#ifdef __DEBUG__
-//MNC2 0x3C
-#endif
 Text(Ch0Opening)
 ENDA
 
@@ -62,6 +62,10 @@ MNC2 0x1
 ENDA
 
 // Events
+
+DebugEntry:
+MNC2 0x3C
+ENDA
 
 // Manual Movement
 
