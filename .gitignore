@@ -56,3 +56,6 @@ Text/.TextEntries/
 Text/_textentries/
 *.bak
 ArchOfCoups_**.png
+Text/Install Text Data.event
+Text/Text Definitions.event
+*.ups
