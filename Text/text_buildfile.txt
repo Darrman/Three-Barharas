@@ -1,4 +1,4 @@
-#include "VanillaEdits.txt"
+#include "Menu Text/VanillaEdits.txt"
 
 # 0x0002 textWeaponRankIncreasedTo
  Weapon rank increased to [X]
@@ -23,15 +23,15 @@ Freeze[X]
 # 0x03C9
 Freeze[.][X]
 
-#include "ChapterNames.txt"
+#include "Menu Text/ChapterNames.txt"
 
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]
 
-#include "statscreen_text.txt"
+#include "Menu Text/statscreen_text.txt"
 
-#include "unitmenu_text.txt"
+#include "Menu Text/unitmenu_text.txt"
 
 
 #0x903 ControlONMessage
@@ -45,19 +45,19 @@ Debug Mode: OFF[X]
 Freeze all enemies[N]
 for one turn[X]
 
-#include "unitnames.txt"
+#include "Menu Text/unitnames.txt"
 
-#include "skilldesc_text.txt"
+#include "Menu Text/skilldesc_text.txt"
 
-#include "items.txt"
-#include "Bad Idea Plot.txt"
-#include "Debug Text.txt"
-#include "chaptertext.txt"
-#include "MCPlotStuff.txt"
-#include "villages and recruitments.txt"
-#include "ch15_text.txt"
-#include "DeathQuotes.txt"
-#include "Ending.txt"
+#include "Menu Text/items.txt"
+#include "Chapter Text/Bad Idea Plot.txt"
+#include "Menu Text/Debug Text.txt"
+#include "Chapter Text/chaptertext.txt"
+#include "Chapter Text/MCPlotStuff.txt"
+#include "Chapter Text/villages and recruitments.txt"
+#include "Chapter Text/ch15_text.txt"
+#include "Chapter Text/DeathQuotes.txt"
+#include "Chapter Text/Ending.txt"
 
 ## Ch21Goal
 Slay Tatara of the Doma[N]
@@ -67,7 +67,7 @@ Faithful, not Doot![X]
 Defeat Celica, lady[N]
 of the boats[X]
 
-#include "blitz chapter goals.txt"
+#include "Menu Text/blitz chapter goals.txt"
 
 #0xd4c LikesText
 #first text ID in the free block
