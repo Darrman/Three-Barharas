@@ -9,28 +9,8 @@
 //                                                //
 ////////////////////////////////////////////////////
 
+EventPointerTable(0x07,PointerList)
 
-
-ORG $CA749C
-GameOverEvent:
-_0x87
-STAL 30
-ASMC 0x7A455
-STAL 10
-ASMC 0x13FA5
-STAL 80
-ASMC 0x6CCB9
-GOTO_IFAT 0x1 0x7A47D
-ASMC 0x20479
-LABEL 0x1
-ASMC 0xB2F95
-ENDA
-
-//The next line is to ensure that new events do not overwrite other data.
-//Do not delete unless you are SURE you know what you are doing!
-ASSERT $CA74F0 - currentOffset
-
-ORG $DA0000
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -39,10 +19,17 @@ POIN MiscBasedEvents
 POIN Dunno Dunno Dunno
 POIN Tutorial
 POIN TrapData TrapData
-POIN GoodNM GoodHM
+POIN GoodNM GoodNM
 POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
 
 GoodNM:
 UNIT Sigurd KnightLord 0x0 Level(30, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [Tyrfing, SilverSword, Javelin] NoAI 
@@ -73,10 +60,10 @@ UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [IronB
 UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [14,19] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRange 
 UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRange 
 UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRange 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [0xA0] Guard 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [0xA0] Guard 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [0xA0, Elfire] Guard 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [0xA0, Elfire] Guard 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [Meteor] Guard 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Meteor] Guard 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Meteor, Elfire] Guard 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [Meteor, Elfire] Guard 
 UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SilverLance, Horseslayer] Guard 
 UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,9] 0x00 0x00 0x0 0x00 [SilverLance, Hammer] Guard 
 UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] AttackInRange 
@@ -104,21 +91,22 @@ TURN 0xA BarharaSpawns2 [8,14] 0x8 0x0
 END_MAIN
 
 CharacterBasedEvents:
-CHAR 0x66 SaveDeirdre [0x1,0x25] 0x0
-CHAR 0x66 SaveDeirdre [0x25,0x1] 0x0
+CHAR 0x66 SaveDeirdre [Sigurd,Deirdre] 0x0
+CHAR 0x66 SaveDeirdre [Deirdre,Sigurd] 0x0
 END_MAIN
 
 LocationBasedEvents:
-LOCA 0x3 [23,4] 0xF
+Seize(0x03,EndingScene,23,4)
+Village(0x7,BarharaVisit,4,22)
 END_MAIN
 
 MiscBasedEvents:
-AFEV 0x0 GameOverEvent 0x65
-AREA 0x5 BarharaVisit [4,22] [4,22]
+CauseGameOverIfLordDies
+AREA 0x7 BarharaVisit [4,22] [4,22]
 END_MAIN
 
-TrapsSigurdMode:
-ENDTRAP
+TrapData:
+END_MAIN
 
 //The next line is to ensure that new events do not overwrite other data.
 //Do not delete unless you are SURE you know what you are doing!
@@ -126,76 +114,79 @@ ASSERT $DA03D5 - currentOffset
 
 ORG $DA03D8
 BeginningScene:
-MUSC 0x37
-LOU1 AllyUnitsENM
+MUSC 0x37 //FE7 Eight Generals; FE4 Conspiracy
+LOAD1 0x1 GoodNM
 ENUN
-LOU1 Guards
+LOAD1 0x1 Guards
 ENUN
 OOBB
-CAM1 0x1
+CAM1 Sigurd
 FADI 10
 BACG 0x6
 FADU 10
-TEX1 0x999
+TEXT NoVisitsToTheKingToday
 REMA
+//FE4 Beloved One
 LOU1 Waifu
 ENUN
 CMON
-MOVE 0x25 [8,18] 4
+MOVE Deirdre [8,18] 4
 ENUN
-CAM1 0x24
+CAM1 Alvis
 FADI 10
 BACG 0x6
 FADU 10
-TEX1 0x99A
+TEXT SoThisIsSigurd
 REMA
-MOVE 0x25 [8,21] 2
+MOVE Deirdre [8,21] 2
 ENUN
+//Fade music out
 FADI 10
 BACG 0x6
 FADU 10
-TEX1 0x99B
+TEXT AlvisYouDastard
 REMA
-TEX1 0x99C
+//End of Despair?
+TEXT AlvisWait
 REMA
 STAL 10
-WEA1 0x5
-ASMC 0x7D645
-CAM1 [7,17]
-NEVENTS
-ASMC 0x5A3F1
+WEA1 0x5 //fire
+//ASMC 0x7D645 //start quake
+CAM1 [7,17] //Sigurd
+//NEVENTS; prevent skipping spell animation
+//ASMC 0x5A3F1 //Forblaze
 STAL 256
-ASMC 0x7D689
-TEX1 0x99D
+//ASMC 0x7D689 //end quake
+TEXT HowDidIMiss
 REMA
 ENDB
 
 EndingScene:
 FADI 10
-MUSC 0x39
+MUSC 0x39 //FE7 Into the Shadow of Triumph
 BACG 0x37
 FADU 10
-TEX1 0x9A2
+TEXT ManfloysDiary
 REMA
 FADI 2
 HIDEMAP
-ASMC 0x7A8B9
-THE_END
-_0x1
+//ASMC 0x7A8B9 //Clear all?
+//THE_END //Jump to ending scenes
+//_0x1
 ENDA
 
 EventAfterExitingPrepScreen:
 WEA1 0x0
-LOU1 AllyUnitsENM
+LOAD1 0x1 GoodNM
 ENUN
-LOU1 EnemyUnitsENM
+LOAD1 0x1 BadNM
 ENUN
-LOU1 Waifu
+LOAD1 0x1 Waifu
 ENUN
 OOBB
 WEA1 0x5
-CAM1 0x1
-TEX1 0x99E
+CAM1 Sigurd
+TEXT BurnedLevinsScarf
 REMA
 ENDA
 
@@ -205,21 +196,21 @@ HIDEMAP
 BACG 0x10
 FADU 16
 BACG 0x10
-TEX1 0x99F
+TEXT BringAzmureSigurd
 REMA
 FADI 16
 FADU 16
 BACG 0x10
-TEX1 0x9A1
+TEXT MedievalPhotography
 REMA
 SHOWMAP
-ITGV 0x86
+ITGV Narga
 ENDA
 
 SaveDeirdre:
-TEX1 0x9A0
+TEXT ByeAmnesia
 REMA
-CUSI 0x25 0x0
+TurnAlly(Deirdre)
 ENDA
 
 SpawnPaladins:
@@ -245,7 +236,7 @@ ENUN
 ENDA
 
 Waifu:
-UNIT 0x25 0x25 0x1 0x52 [8,21] [8,21] [0x42,0x50,0x0,0x0] [0x6,0xB,0xA,0x0]
+UNIT Deirdre Shaman_F Sigurd Level(10, NPC, 0) 0x52 [8,21] [8,21] [Aura,Silence] [0x6,0xB,0xA,0x0]
 UNIT
 
 Guards:
@@ -299,10 +290,10 @@ UNIT Velthomer GreatKnight Alvis Level(30, Enemy, 1) [1,26] 0x00 0x00 0x0 0x00 [
 UNIT
 
 RepeatingSpawns1:
-UNIT Velthomer Sniper 0x24 0xF5 [8,26] 0x00 0x00 0x0 0x00 [KillerBow] [0x0,0x2,0x2,0x0]
-UNIT Velthomer Druid 0x24 0xF5 [10,26] 0x00 0x00 0x0 0x00 [Nosferatu] [0x0,0x2,0x2,0x0]
-UNIT Velthomer Ranger 0x24 0xF5 [10,26] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] [0x0,0x2,0x2,0x0]
-UNIT Velthomer Bishop 0x24 0xF5 [10,26] 0x00 0x00 0x0 0x00 [Silence, Thunder] [0x0,0x2,0x2,0x0]
+UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [8,26] 0x00 0x00 0x0 0x00 [KillerBow] [0x0,0x2,0x2,0x0]
+UNIT Velthomer Druid Alvis Level(30, Enemy, 1)[10,26] 0x00 0x00 0x0 0x00 [Nosferatu] [0x0,0x2,0x2,0x0]
+UNIT Velthomer Ranger Alvis Level(30, Enemy, 1) [10,26] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] [0x0,0x2,0x2,0x0]
+UNIT Velthomer Bishop Alvis Level(30, Enemy, 1) [10,26] 0x00 0x00 0x0 0x00 [Silence, Thunder] [0x0,0x2,0x2,0x0]
 UNIT
 
 RepeatingSpawns2:
