@@ -1,0 +1,190 @@
+#define DISABLE_TUTORIALS
+#include EAstdlib.event
+
+EventPointerTable(0x06,Pointers)
+
+ORG 0xDA0000
+
+Pointers:
+POIN Turn_events
+POIN Character_events
+POIN Location_events
+POIN Misc_events
+POIN TrapData TrapData
+POIN Bad Bad Bad Bad
+POIN Good Good Good Good
+POIN Opening_event Ending_event
+
+Good:
+UNIT Eliwood KnightLord Eliwood Level(30, Ally, 0) [7,17] [7,17] [Durandal, SilverSword, Javelin] NoAI 
+UNIT Erk Mage Eliwood Level(13, Ally, 0) [6,15] [6,15] [Elfire, Thunder] NoAI 
+UNIT Pent Sage Eliwood Level(30, Ally, 0) [7,15] [7,15] [Excalibur, Fimbulvetr, Sleep] NoAI 
+UNIT Lucius Bishop Eliwood Level(30, Ally, 0) [8,15] [8,15] [Fortify, Rescue, Recover] NoAI 
+UNIT Priscilla Paladin_F Eliwood Level(30, Ally, 0) [6,14] [6,14] [Runesword, SilverLance, Heal] NoAI 
+UNIT Wil Sniper Eliwood Level(27, Ally, 0) [7,14] [7,14] [KillerBow, SilverBow] NoAI 
+UNIT Hector GreatLord Eliwood Level(30, Ally, 0) [8,14] [8,14] [BraveAxe, SilverAxe] NoAI 
+UNIT Serra Bishop_F Eliwood Level(30, Ally, 0) [6,13] [6,13] [Warp, Mend, Fire, SilverCard] NoAI 
+UNIT Rebecca Sniper_F Eliwood Level(25, Ally, 0) [7,13] [7,13] [Rienfleche, SteelBow] NoAI 
+UNIT Nino Mage_F Eliwood Level(15, Ally, 0) [8,13] [8,13] [Thunder, Bolting] NoAI 
+UNIT Sain Cavalier Eliwood Level(16, Ally, 0) [6,12] [6,12] [Horseslayer, IronSword] NoAI 
+UNIT Oswin Knight_F Eliwood Level(17, Ally, 0) [7,12] [7,12] [SlimSword, IronSword, Speedwings] NoAI 
+UNIT Kent Cavalier Eliwood Level(16, Ally, 0) [8,12] [8,12] [SteelSword, Armourslayer] NoAI 
+UNIT Matthew Thief Eliwood Level(12, Ally, 0) [6,11] [6,11] [WindSword, IronSword] NoAI 
+UNIT Rath Nomad Eliwood Level(13, Ally, 0) [7,11] [7,11] [BraveBow, Longbow] NoAI 
+UNIT Florina FalcoKnight Eliwood Level(25, Ally, 0) [8,11] [8,11] [BraveLance, LightBrand, Vulnerary, Heal] NoAI 
+UNIT Raven Hero Eliwood Level(24, Ally, 0) [6,10] [6,10] [SilverBlade, HandAxe] NoAI 
+UNIT Lyn Dancer Eliwood Level(17, Ally, 0) [7,10] [7,10] [SlimSword, WoDao] NoAI 
+UNIT Lowen Paladin Eliwood Level(22, Ally, 0) [8,10] [8,10] [Wyrmslayer, SteelBlade] NoAI 
+UNIT Karla Swordmaster_F Eliwood Level(29, Ally, 0) [7,9] [7,9] [BraveSword, SteelBlade, KillingEdge] NoAI 
+UNIT
+
+Bad:
+UNIT Jaffar Sage Jaffar Level(30, Enemy, 0) [7,18] [7,18] [Forblaze, SilverBlade] PursueWithoutHeed 
+UNIT Bandit Corsair Jaffar Level(30, Enemy, 0) [9,2] [9,2] [IronBallista] AttackInRange 
+UNIT Bandit Corsair Jaffar Level(30, Enemy, 0) [14,19] [14,19] [IronBallista] AttackInRange 
+UNIT Bandit Corsair Jaffar Level(30, Enemy, 0) [23,11] [23,11] [IronBallista] AttackInRange 
+UNIT Bandit Corsair Jaffar Level(30, Enemy, 0) [0,11] [0,11] [IronBallista] AttackInRange 
+UNIT Bandit Sage Jaffar Level(30, Enemy, 0) [1,15] [1,15] [0xA0] Guard 
+UNIT Bandit Sage Jaffar Level(30, Enemy, 0) [0,5] [0,5] [0xA0] Guard 
+UNIT Bandit Sage Jaffar Level(30, Enemy, 0) [13,10] [13,10] [0xA0, Elfire] Guard 
+UNIT Bandit Sage Jaffar Level(30, Enemy, 0) [18,3] [18,3] [0xA0, Elfire] Guard 
+UNIT Bandit General Jaffar Level(30, Enemy, 0) [18,8] [18,8] [SilverLance, Horseslayer] Guard 
+UNIT Bandit General Jaffar Level(30, Enemy, 0) [18,9] [18,9] [SilverLance, Hammer] Guard 
+UNIT Bandit Sniper Jaffar Level(30, Enemy, 0) [5,6] [5,6] [Longbow, SilverBow] AttackInRange 
+UNIT Bandit Sniper Jaffar Level(30, Enemy, 0) [14,14] [14,14] [BraveBow] AttackInRange 
+UNIT Bandit Hero Jaffar Level(30, Enemy, 0) [5,13] [5,13] [BraveSword, Runesword] AttackInRange 
+UNIT Bandit Swordmaster Jaffar Level(30, Enemy, 0) [11,8] [11,8] [KillingEdge] PursueWithoutHeed 
+UNIT Bandit Swordmaster Jaffar Level(30, Enemy, 0) [11,9] [11,9] [KillingEdge] PursueWithoutHeed 
+UNIT Bandit Hero Jaffar Level(30, Enemy, 0) [9,12] [9,12] [SilverBlade, Tomahawk] PursueWithoutHeed 
+UNIT
+
+Turn_events:
+TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
+End_MAIN
+
+Character_events:
+CharacterEventBothWays(0x66,ByeAmmesia,Eliwood,Ninian)
+End_MAIN
+
+Location_events:
+End_MAIN
+
+Misc_events:
+CauseGameOverIfLordDies
+AREA 0x5 BarharaVisit [0,0] [0,0]
+End_MAIN
+
+TrapData:
+End_MAIN
+
+Opening_event:
+LOU1 Good
+ENUN
+LOU1 Guards
+ENUN
+OOBB
+TEX1 0x999
+REMA
+MOVE Ninian [8,18] 4
+ENUN
+CAM1 Jaffar
+MORETEXT 0x99a
+REMA
+MOVE Ninian [8,21] 2
+ENUN
+TEX1 0x99b
+REMA
+MORETEXT 0x99c
+REMA
+WEA1 5
+Rumble
+CAM1 [7,17]
+NEVENTS
+ASMC 0x0805A3F1
+STAL 0x90
+EndRumble
+TEX1 0x99d
+REMA
+ENDB
+
+
+Ending_event:
+ENDA
+
+// Events
+EventAfterExitingPrepScreen:
+LOU1 Good
+ENUN
+LOU1 Bad
+ENUN
+LOU1 Waifu
+ENUN
+OOBB
+CAM1 Eliwood
+TEX1 0x99e
+REMA
+ENDA
+
+BarharaVisit:
+FADI 0x10
+HIDEMAP
+BACG 0x10
+FADU 0x10
+SHOWMAP
+TEX1 0x99f
+REMA
+ITGV Aureola
+ENDA
+
+ByeAmmesia:
+OOBB
+TEX1 0x9a0
+REMA
+TurnAlly(Ninian)
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Waifu:
+UNIT Ninian Shaman_F Eliwood Level(10, NPC, 0) [8,21] [8,21] [Aura, Silence] TalkToLord
+UNIT
+
+Guards:
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [5,15] [5,15] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [5,14] [5,14] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [5,13] [5,13] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [5,12] [5,12] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [5,11] [5,11] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [5,10] [5,10] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [9,15] [9,15] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [9,14] [9,14] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [9,13] [9,13] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [9,12] [9,12] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [9,11] [9,11] [Elfire, Hammerne] NoAI 
+UNIT Bandit Sage 0x00 Level(30, Enemy, 0) [9,10] [9,10] [Elfire, Hammerne] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [11,7] [11,7] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [17,7] [17,7] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [16,7] [16,7] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [15,7] [15,7] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [14,7] [14,7] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [13,7] [13,7] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [12,7] [12,7] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [17,10] [17,10] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [16,10] [16,10] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [15,10] [15,10] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [14,10] [14,10] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [13,10] [13,10] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [12,10] [12,10] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit General 0x00 Level(30, Enemy, 0) [11,10] [11,10] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit Sniper 0x00 Level(30, Enemy, 0) [6,5] [6,5] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit Sniper 0x00 Level(30, Enemy, 0) [8,5] [8,5] [SilverLance, SilverAxe] NoAI 
+UNIT Bandit Sniper 0x00 Level(30, Enemy, 0) [7,5] [7,5] [SilverLance, SilverAxe] NoAI 
+UNIT
+
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset
