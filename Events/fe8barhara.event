@@ -115,14 +115,14 @@ ASSERT $DA03D5 - currentOffset
 ORG $DA03D8
 BeginningScene:
 MUSC 0x37 //FE7 Eight Generals; FE4 Conspiracy
-LOAD1 0x1 GoodNM
+LOAD2 0x1 GoodNM
 ENUN
-LOAD1 0x1 Guards
+LOAD2 0x1 Guards
 ENUN
 CAM1 Sigurd
 Text(0x6,NoVisitsToTheKingToday)
 //FE4 Beloved One
-LOAD1 0x1 Waifu
+LOAD2 0x1 Waifu
 ENUN
 EVBIT_T 9 //CMON; camera follows
 MOVE 2 Deirdre [8,18] 
@@ -189,28 +189,19 @@ LOAD1 0x1 BadNM
 ENUN
 LOAD1 0x1 Waifu
 ENUN
-OOBB
 WEA1 0x5
 CAM1 Sigurd
-TEXT BurnedLevinsScarf
-REMA
+Text(BurnedLevinsScarf)
 ENDA
 
 BarharaVisit:
+Text(0x10,BringAzmureSigurd)
 FADI 16
-HIDEMAP
-BACG 0x10
+STAL 10
 FADU 16
-BACG 0x10
-TEXT BringAzmureSigurd
-REMA
-FADI 16
-FADU 16
-BACG 0x10
-TEXT MedievalPhotography
-REMA
-SHOWMAP
-ITGV Narga
+Text(0x10,MedievalPhotography)
+SVAL s3 Narga
+GIVE_ITEM 0xFFFF
 ENDA
 
 SaveDeirdre:
@@ -220,24 +211,22 @@ TurnAlly(Deirdre)
 ENDA
 
 SpawnPaladins:
-LOU1 AmbushPaladins
+LOAD1 0x1 AmbushPaladins
 ENUN
 ENDA
 
 SpawnAxes:
-LOU1 AxePressure
+LOAD1 0x1 AxePressure
 ENUN
 ENDA
 
 BarharaSpawns1:
-GOTO_IFEF 0x5 0x5
-LOU1 RepeatingSpawns1
+LOAD1 0x1 RepeatingSpawns1
 ENUN
 ENDA
 
 BarharaSpawns2:
-GOTO_IFEF 0x5 0x5
-LOU1 RepeatingSpawns2
+LOAD1 0x1 RepeatingSpawns2
 ENUN
 ENDA
 
