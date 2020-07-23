@@ -10,8 +10,8 @@ set "source_rom=%~dp0FE8_clean.gba"
 
 set "main_event=%~dp0ROM Buildfile.event"
 
-set "target_rom=%~dp0ArchOfCoups.gba"
-set "target_ups=%~dp0ArchOfCoups.ups"
+set "target_rom=%~dp0ThreeBarharas.gba"
+set "target_ups=%~dp0ThreeBarharas.ups"
 
 @rem defining tools
 
