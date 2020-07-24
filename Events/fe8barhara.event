@@ -35,7 +35,7 @@ Tutorial:
 WORD $00
 
 GoodNM:
-UNIT Sigurd KnightLord 0x0 Level(30, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [Tyrfing, SilverSword, Javelin] NoAI 
+UNIT Sigurd LordKnight 0x0 Level(30, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [Tyrfing, SilverSword, Javelin] NoAI 
 UNIT Azel Mage Sigurd Level(13, Ally, 0) [6,15] 0x00 0x00 0x0 0x00 [Elfire, Thunder] NoAI 
 UNIT Levin Sage Sigurd Level(30, Ally, 0) [7,15] 0x00 0x00 0x0 0x00 [Holsety, Fimbulvetr, Sleep] NoAI 
 UNIT Claude Bishop Sigurd Level(30, Ally, 0) [8,15] 0x00 0x00 0x0 0x00 [Fortify, Rescue, Recover] NoAI 
@@ -59,10 +59,10 @@ UNIT
 
 BadNM:
 UNIT Alvis Sage 0x0 Level(30, Enemy, 0) [7,18] 0x00 0x00 0x0 0x00 [Falaflame, SilverBlade] PursueWithoutHeedAI
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [14,19] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI 
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
+UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
+UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [14,19] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI 
+UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
+UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
 UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [Meteor] GuardTileAI 
 UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Meteor] GuardTileAI 
 UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Meteor, Elfire] GuardTileAI 
