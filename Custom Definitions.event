@@ -42,7 +42,8 @@
 #define Levin 18
 #define Sylvia 19
 #define Beowulf 20
-#define Fury 21
+#define Erin 21
+//Because Fury is something else in the skill system...
 #define Briggid 22
 #define Claude 23
 #define Tiltyu 24

@@ -12,7 +12,7 @@
 EventPointerTable(0x07,PointerList)
 
 #include EAstdlib.event
-#define OLD_AI
+//#define OLD_AI
 
 PointerList:
 POIN TurnBasedEvents
@@ -50,7 +50,7 @@ UNIT Arden Knight_F Sigurd Level(17, Ally, 0) [7,12] 0x00 0x00 0x0 0x00 [SlimSwo
 UNIT Noish Cavalier Sigurd Level(16, Ally, 0) [8,12] 0x00 0x00 0x0 0x00 [SteelSword, Armourslayer] NoAI 
 UNIT Dew Thief Sigurd Level(12, Ally, 0) [6,11] 0x00 0x00 0x0 0x00 [WindSword, IronSword] NoAI 
 UNIT Midir Ranger Sigurd Level(13, Ally, 0) [7,11] 0x00 0x00 0x0 0x00 [BraveBow, Longbow] NoAI 
-UNIT Fury FalcoKnight Sigurd Level(25, Ally, 0) [8,11] 0x00 0x00 0x0 0x00 [BraveLance, LightBrand, Vulnerary, Heal] NoAI 
+UNIT Erin FalcoKnight Sigurd Level(25, Ally, 0) [8,11] 0x00 0x00 0x0 0x00 [BraveLance, LightBrand, Vulnerary, Heal] NoAI 
 UNIT Holyn Hero Sigurd Level(24, Ally, 0) [6,10] 0x00 0x00 0x0 0x00 [SilverBlade, HandAxe] NoAI 
 UNIT Sylvia Dancer Sigurd Level(17, Ally, 0) [7,10] 0x00 0x00 0x0 0x00 [SlimSword, Shamshir] NoAI 
 UNIT Beowulf Paladin Sigurd Level(22, Ally, 0) [8,10] 0x00 0x00 0x0 0x00 [Wyrmslayer, SteelBlade] NoAI 
@@ -103,17 +103,12 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AREA 0x7 BarharaVisit [4,22] [4,22]
+//AREA 0x7 BarharaVisit [4,22] [4,22]
 END_MAIN
 
 TrapData:
 END_MAIN
 
-//The next line is to ensure that new events do not overwrite other data.
-//Do not delete unless you are SURE you know what you are doing!
-ASSERT $DA03D5 - currentOffset
-
-ORG $DA03D8
 BeginningScene:
 MUSC 0x37 //FE7 Eight Generals; FE4 Conspiracy
 LOAD2 0x1 GoodNM
@@ -142,10 +137,11 @@ EARTHQUAKE 0 1
 CAM1 [7,17] //Sigurd, should probably move it up a bit
 //NEVENTS; prevent skipping spell animation
 //ASMC 0x5A3F1 //Forblaze
-STAL 256
+STAL 200
 EARTHQUAKE_END
 //Cut End of Despair somewhere in this and put a happier track in
 Text(HowDidIMiss)
+NoFade
 ENDA
 
 EndingScene:
@@ -183,7 +179,11 @@ CALL EpilogueEvents
 ENDA
 
 EventAfterExitingPrepScreen:
-WEA1 0x0
+FADI 10
+STAL 10
+CLEE 0xFF
+CLEA 0xFF
+CLEN 0xFF
 LOAD1 0x1 GoodNM
 ENUN
 LOAD1 0x1 BadNM
@@ -191,8 +191,10 @@ ENUN
 LOAD1 0x1 Waifu
 ENUN
 WEA1 0x5
+FADU 10
 CAM1 Sigurd
 Text(BurnedLevinsScarf)
+NoFade
 ENDA
 
 BarharaVisit:
