@@ -1,32 +1,32 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Rodin,10,55
-Michael,0,0
-Eric,0,15
-Kelly,6,45
-QuaSahnt,6,40
-Irvine,0,15
-Jonathen,6,35
-Kaiden,8,50
-Cleo,4,30
-Reds,7,30
-Mimi,8,55
-Zorua,9,50
-Vergil,3,30
-Konatsu,7,40
-Tray,0,15
-Horus,10,60
-Yanndahl,4,25
-Daff,6,35
-Smeglinde,6,35
-Kabby,6,35
-Stephen,6,15
-Anthony,2,0
-Zaim,4,30
-Khris,7,30
-Elle,6,45
-Zane,10,55
-Adamminn,3,30
+Sigurd ,0,5
+Noish,0,5
+Alec,0,5
+Arden,0,5
+Lex,0,5
+Azel,14,40
+Cuan,0,5
+Ethlin ,0,5
+Fin ,0,5
+Midir ,0,5
+Aideen ,21,30
+Dew ,0,5
+Aira ,0,5
+Jamka ,0,0
+Deirdre,16,70
+Holyn ,0,5
+Lachesis,8,5
+Levin ,12,30
+Sylvia ,0,30
+Beowulf,0,0
+Fury,1,10
+Briggid,0,20
+Claude ,13,40
+Tiltyu ,11,20
+Elle,0,45
+Zane,0,55
+Adamminn,0,30
 William,0,20
 Nobody,5,25
 Jack,7,40
@@ -49,8 +49,8 @@ FakeEirika,0,0
 0,0,0
 0,0,0
 0,0,0
-0,0,0
-#NAME?,0,0
+Alvis,15,90
+Manfloy,15,50
 #NAME?,0,0
 #NAME?,0,0
 #NAME?,0,0

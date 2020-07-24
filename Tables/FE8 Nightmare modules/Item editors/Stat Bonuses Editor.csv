@@ -1,4 +1,4 @@
-0x8aeed0,HP Bonus,STR/MGC Bonus,SKL Bonus,SPD Bonus,DEF Bonus,MDF Bonus,LCK Bonus,MOV Bonus,CON Bonus,##UNKNOWN##
+0x8aeed0,HP Bonus,STR Bonus,SKL Bonus,SPD Bonus,DEF Bonus,MDF Bonus,LCK Bonus,MOV Bonus,CON Bonus,MGC Bonus
 Unknown,0,0,5,0,0,0,0,0,0,0x0
 Angelic Robe,7,0,0,0,0,0,0,0,0,0x0
 Power Ring,0,2,0,0,0,0,0,0,0,0x0
@@ -17,7 +17,7 @@ Body Ring,0,0,0,0,0,0,0,0,2,0x0
 (Tyrfing),0,0,10,10,0,20,0,0,0,0x0
 (Holsety),0,0,10,20,0,0,0,0,0,0x0
 (Ichival),0,10,0,10,0,0,10,0,0,0x0
-(Falaflame),0,10,0,0,10,10,0,0,0,0x0
+(Falaflame),0,0,0,0,10,10,0,0,0,10
 0x13,0,10,10,0,10,15,10,0,0,0x0
 0x14,0,15,15,0,15,10,0,0,0,0x0
 0x15,0,12,12,0,15,20,0,0,0,0x0
