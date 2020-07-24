@@ -78,3 +78,12 @@
 
 #define Velthomer 0x80
 #define LoptSect 0x81
+
+#define Meteor Bolting
+#define Ballistician Sniper
+#define LordKnight EphraimMasterLord
+#define Tyrfing Sieglinde
+#define Ichival Nidhogg
+#define Holsety Excalibur
+#define Falaflame Forblaze
+#define Narga Ivaldi

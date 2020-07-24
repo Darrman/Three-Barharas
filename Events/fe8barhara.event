@@ -41,7 +41,7 @@ UNIT Levin Sage Sigurd Level(30, Ally, 0) [7,15] 0x00 0x00 0x0 0x00 [Holsety, Fi
 UNIT Claude Bishop Sigurd Level(30, Ally, 0) [8,15] 0x00 0x00 0x0 0x00 [Fortify, Rescue, Recover] NoAI 
 UNIT Lachesis Paladin_F Sigurd Level(30, Ally, 0) [6,14] 0x00 0x00 0x0 0x00 [Runesword, SilverLance, Heal] NoAI 
 UNIT Jamka Sniper Sigurd Level(27, Ally, 0) [7,14] 0x00 0x00 0x0 0x00 [KillerBow, SilverBow] NoAI 
-UNIT Lex GreatLord Sigurd Level(30, Ally, 0) [8,14] 0x00 0x00 0x0 0x00 [BraveAxe, SilverAxe] NoAI 
+UNIT Lex GreatKnight Sigurd Level(30, Ally, 0) [8,14] 0x00 0x00 0x0 0x00 [BraveAxe, SilverAxe] NoAI 
 UNIT Aideen Bishop_F Sigurd Level(30, Ally, 0) [6,13] 0x00 0x00 0x0 0x00 [Warp, Mend, Fire, SilverCard] NoAI 
 UNIT Briggid Sniper_F Sigurd Level(25, Ally, 0) [7,13] 0x00 0x00 0x0 0x00 [Ichival, SteelBow] NoAI 
 UNIT Tiltyu Mage_F Sigurd Level(15, Ally, 0) [8,13] 0x00 0x00 0x0 0x00 [Thunder, Bolting] NoAI 
@@ -49,10 +49,10 @@ UNIT Alec Cavalier Sigurd Level(16, Ally, 0) [6,12] 0x00 0x00 0x0 0x00 [Horsesla
 UNIT Arden Knight_F Sigurd Level(17, Ally, 0) [7,12] 0x00 0x00 0x0 0x00 [SlimSword, IronSword, Speedwings] NoAI 
 UNIT Noish Cavalier Sigurd Level(16, Ally, 0) [8,12] 0x00 0x00 0x0 0x00 [SteelSword, Armourslayer] NoAI 
 UNIT Dew Thief Sigurd Level(12, Ally, 0) [6,11] 0x00 0x00 0x0 0x00 [WindSword, IronSword] NoAI 
-UNIT Midir Nomad Sigurd Level(13, Ally, 0) [7,11] 0x00 0x00 0x0 0x00 [BraveBow, Longbow] NoAI 
+UNIT Midir Ranger Sigurd Level(13, Ally, 0) [7,11] 0x00 0x00 0x0 0x00 [BraveBow, Longbow] NoAI 
 UNIT Fury FalcoKnight Sigurd Level(25, Ally, 0) [8,11] 0x00 0x00 0x0 0x00 [BraveLance, LightBrand, Vulnerary, Heal] NoAI 
 UNIT Holyn Hero Sigurd Level(24, Ally, 0) [6,10] 0x00 0x00 0x0 0x00 [SilverBlade, HandAxe] NoAI 
-UNIT Sylvia Dancer Sigurd Level(17, Ally, 0) [7,10] 0x00 0x00 0x0 0x00 [SlimSword, WoDao] NoAI 
+UNIT Sylvia Dancer Sigurd Level(17, Ally, 0) [7,10] 0x00 0x00 0x0 0x00 [SlimSword, Shamshir] NoAI 
 UNIT Beowulf Paladin Sigurd Level(22, Ally, 0) [8,10] 0x00 0x00 0x0 0x00 [Wyrmslayer, SteelBlade] NoAI 
 UNIT Aira Swordmaster_F Sigurd Level(29, Ally, 0) [7,9] 0x00 0x00 0x0 0x00 [BraveSword, SteelBlade, KillingEdge] NoAI 
 UNIT
@@ -156,7 +156,7 @@ HIDEMAP
 CLEAN
 Text(0x1,IsaacianDirections)
 REMOVEPORTRAITS
-BACG ReunionCG
+//BACG ReunionCG
 TEXTSHOW ReunionSigurd
 TEXTEND
 TEXTSHOW ReunionCelice
@@ -172,7 +172,7 @@ Text(0x1,ManfloyRecap)
 Text(Black,SigurdGoesHome)
 Text(0x1,PreKiss)
 REMOVEPORTRAITS
-BACG SigurdDeirdreKissCG
+//BACG SigurdDeirdreKissCG
 STAL 120
 CALL $9EE2C4 //EndConvo
 Text(0x1,OifayesWithSigurd)
