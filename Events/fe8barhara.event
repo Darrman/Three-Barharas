@@ -11,6 +11,9 @@
 
 EventPointerTable(0x07,PointerList)
 
+#include EAstdlib.event
+#define OLD_AI
+
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -55,39 +58,37 @@ UNIT Aira Swordmaster_F Sigurd Level(29, Ally, 0) [7,9] 0x00 0x00 0x0 0x00 [Brav
 UNIT
 
 BadNM:
-UNIT Alvis Sage 0x0 Level(30, Enemy, 0) [7,18] 0x00 0x00 0x0 0x00 [Falaflame, SilverBlade] PursueWithoutHeed 
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRange 
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [14,19] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRange 
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRange 
-UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRange 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [Meteor] Guard 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Meteor] Guard 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Meteor, Elfire] Guard 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [Meteor, Elfire] Guard 
-UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SilverLance, Horseslayer] Guard 
-UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,9] 0x00 0x00 0x0 0x00 [SilverLance, Hammer] Guard 
-UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] AttackInRange 
-UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [BraveBow] AttackInRange 
-UNIT Velthomer Hero Alvis Level(30, Enemy, 1) [5,13] 0x00 0x00 0x0 0x00 [BraveSword, Runesword] AttackInRange 
-UNIT Velthomer Swordmaster Alvis Level(30, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeed 
-UNIT Velthomer Swordmaster Alvis Level(30, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeed 
-UNIT Velthomer Hero Alvis Level(30, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [SilverBlade, Tomahawk] PursueWithoutHeed 
+UNIT Alvis Sage 0x0 Level(30, Enemy, 0) [7,18] 0x00 0x00 0x0 0x00 [Falaflame, SilverBlade] PursueWithoutHeedAI
+UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
+UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [14,19] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI 
+UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
+UNIT Velthomer Corsair Alvis Level(30, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [Meteor] GuardTileAI 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Meteor] GuardTileAI 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Meteor, Elfire] GuardTileAI 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [Meteor, Elfire] GuardTileAI
+UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SilverLance, Horseslayer] GuardTileAI 
+UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,9] 0x00 0x00 0x0 0x00 [SilverLance, Hammer] GuardTileAI
+UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] AttackInRangeAI 
+UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [BraveBow] AttackInRangeAI
+UNIT Velthomer Hero Alvis Level(30, Enemy, 1) [5,13] 0x00 0x00 0x0 0x00 [BraveSword, Runesword] AttackInRangeAI 
+UNIT Velthomer Swordmaster Alvis Level(30, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT Velthomer Swordmaster Alvis Level(30, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT Velthomer Hero Alvis Level(30, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [SilverBlade, Tomahawk] PursueWithoutHeedAI 
 UNIT Manfloy Necromancer 0x0 Level(30, Enemy, 9) [23,4] 0x00 0x00 0x0 0x00 [Eclipse,Fenrir,Berserk] [0x0,0x3,0x0,0x20]
-UNIT Lopto Druid Manfloy Level(30, Enemy, 1) [22,5] 0x00 0x00 0x0 0x00 [Flux] Guard
-UNIT Lopto Druid Manfloy Level(30, Enemy, 1) [23,6] 0x00 0x00 0x0 0x00 [Flux] Guard
-UNIT Lopto Druid Manfloy Level(30, Enemy, 1) [24,5] 0x00 0x00 0x0 0x00 [Flux] Guard
-UNIT Lopto Druid Manfloy Level(30, Enemy, 1) [4,23] 0x00 0x00 0x0 0x00 [Luna] Guard
-UNIT Lopto Druid Manfloy Level(30, Enemy, 1) [3,26] 0x00 0x00 0x0 0x00 [Flux] Guard
+UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [22,5] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI
+UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [23,6] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI
+UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [24,5] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI
+UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [4,23] 0x00 0x00 0x0 0x00 [Luna] GuardTileAI
+UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [3,26] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI
 UNIT
 
 TurnBasedEvents:
-TURN 0x0 EventAfterExitingPrepScreen [1,0] 0x0 0x0
-TURN 0x0 SpawnPaladins [4,0] 0x8 0x0
-TURN 0x0 SpawnAxes [9,0] 0x0 0x0
-TURN 0x9 BarharaSpawns1 [5,10] 0x8 0x0
-TURN 0xA BarharaSpawns2 [6,12] 0x8 0x0
-TURN 0x9 BarharaSpawns1 [7,12] 0x8 0x0
-TURN 0xA BarharaSpawns2 [8,14] 0x8 0x0
+TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
+TurnEventEnemy(0x0,SpawnPaladins,4)
+TurnEventPlayer(0x0,SpawnAxes,9)
+TurnEventEnemy(0x0,BarharaSpawns1,5,10)
+TurnEventEnemy(0x0,BarharaSpawns2,6,12)
 END_MAIN
 
 CharacterBasedEvents:
@@ -162,7 +163,7 @@ TEXTSHOW ReunionCelice
 TEXTEND
 TEXTSHOW ReunionOifaye
 TEXTEND
-EndConvo
+CALL $9EE2C4 //EndConvo
 Text(0x1,ThanksOifaye)
 Text(0x1,DeirdresBack)
 Text(0x1,YiedRecap)
@@ -173,7 +174,7 @@ Text(0x1,PreKiss)
 REMOVEPORTRAITS
 BACG SigurdDeirdreKissCG
 STAL 120
-EndConvo
+CALL $9EE2C4 //EndConvo
 Text(0x1,OifayesWithSigurd)
 Text(0x1,JuliaBorn)
 Text(0x1,SigurdCoronation)
@@ -201,7 +202,7 @@ STAL 10
 FADU 16
 Text(0x10,MedievalPhotography)
 SVAL s3 Narga
-GIVE_ITEM 0xFFFF
+GIVEITEMTO 0xFFFF
 ENDA
 
 SaveDeirdre:
@@ -231,11 +232,11 @@ ENUN
 ENDA
 
 Waifu:
-UNIT Deirdre Shaman_F Sigurd Level(10, NPC, 0) 0x52 [8,21] [8,21] [Aura,Silence] [0x6,0xB,0xA,0x0]
+UNIT Deirdre Shaman_F Sigurd Level(10, NPC, 0) [8,21] 0x00 0x00 0x0 0x00 [Aura,Silence] [0x6,0xB,0xA,0x0]
 UNIT
 
 Guards:
-UNIT Alvis Sage Alvis Level(30, Enemy, 0) [7,18] [7,18] [Forblaze, SilverBlade] PursueWithoutHeed 
+UNIT Alvis Sage Alvis Level(30, Enemy, 0) [7,18] 0x00 0x00 0x0 0x00 [Forblaze, SilverBlade] PursueWithoutHeedAI 
 UNIT Velthomer Sage 0x00 Level(30, Enemy, 0) [5,15] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
 UNIT Velthomer Sage 0x00 Level(30, Enemy, 0) [5,14] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
 UNIT Velthomer Sage 0x00 Level(30, Enemy, 0) [5,13] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
@@ -268,12 +269,12 @@ UNIT Velthomer Sniper 0x00 Level(30, Enemy, 0) [7,5] 0x00 0x00 0x0 0x00 [SilverL
 UNIT
 
 AmbushPaladins:
-UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeed
-UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [12,0] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeed
-UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeed
-UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeed
-UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [17,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeed
-UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [18,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeed
+UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [12,0] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI
+UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI
+UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [17,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT Velthomer Paladin Alvis Level(30, Enemy, 1) [18,0] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
 UNIT
 
 AxePressure:
