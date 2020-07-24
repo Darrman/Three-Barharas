@@ -82,8 +82,17 @@
 #define Meteor Bolting
 #define Ballistician Sniper
 #define LordKnight EphraimMasterLord
-#define Tyrfing Sieglinde
-#define Ichival Nidhogg
-#define Holsety Excalibur
-#define Falaflame Forblaze
-#define Narga Ivaldi
+#define Tyrfing 0x92
+#define Ichival 0x94
+#define Holsety 0x3e
+#define Falaflame 0x3d
+//#define Torhammer
+#define Narga 0x87
+//#define ValkyrieStaff
+#define Mistoltin 0x85
+#define GaeBolg 0x8e
+//#define Gungnir
+#define Lopto 0x8f
+#define Balmung 0x91
+//#define Swanchika
+
