@@ -1,3 +1,146 @@
+## SigurdName
+Sigurd[X]
+
+## NoishName
+Noish[X]
+
+## AlecName
+Alec[X]
+
+## ArdenName
+Arden[X]
+
+## LexName
+Lex[X]
+
+## AzelName
+Azel[X]
+
+## CuanName
+Cuan[X]
+
+## EthlinName
+Ethlin[X]
+
+## FinName
+Fin[X]
+
+## MidirName
+Midir[X]
+
+## AideenName
+Aideen[X]
+
+## DewName
+Dew[X]
+
+## AiraName
+Aira[X]
+
+## JamkaName
+Jamka[X]
+
+## DeirdreName
+Deirdre[X]
+
+## HolynName
+Holyn[X]
+
+## LachesisName
+Lachesis[X]
+
+## LevinName
+Levin[X]
+
+## SylviaName
+Sylvia[X]
+
+## BeowulfName
+Beowulf[X]
+
+## FuryName
+Fury[X]
+
+## BriggidName
+Briggid[X]
+
+## ClaudeName
+Claude[X]
+
+## TiltyuName
+Tiltyu[X]
+
+## SigurdDesc
+The most powerful lord[N]
+to ever exist. Not Zigludo.[X]
+## LexDesc
+Elite, Brave Axe, and a lot[N]
+of defence makes him great.[X]
+## SylviaDesc
+Dancing is overpowered...[N]
+but 4-way refresh is amazing.[X]
+## HolynDesc
+An arena opponent who turned[N]
+blue for... some reason.[X]
+## ArdenDesc
+The worst unit ever. However,[N]
+he has the POWER OF PURSUIT![X]
+## JamkaDesc
+He's a prince... of bandits.[N]
+He doesn't even have holy blood.[X]
+## BriggidDesc
+Used to run some random[N]
+pirates. Has a holy weapon.[X]
+## ClaudeDesc
+He can revive people...[N]
+but everyone just resets.[X]
+## AideenDesc
+The person who started this[N]
+whole mess. Don't get kidnapped![X]
+## AzelDesc
+He can get a horse![N]
+But he didn't promote.[X]
+## TiltyuDesc
+She's bad. Her family's[N]
+bad. In both meanings.[X]
+## LevinDesc
+The winner of the "Absolutely[N]
+Amazing Award." Sigurd was 2nd.[X]
+## NoishDesc
+The Red Knight of the game.[N]
+He's rather boring.[X]
+## AlecDesc
+The Green Knight of the land.[N]
+Another Chalphy Chump.[X]
+## BeowulfDesc
+An example of the art of[N]
+money-throwing working.[X]
+## LachesisDesc
+Is a wee bit too close for[N]
+siblings, or whatever it is now.[X]
+## MidirDesc
+He fails so badly, he[N]
+got 0% critted. How?[X]
+## FuryDesc
+I don't know what her parents were[N]
+thinking when she was born either.[X]
+## DewDesc
+Thieves do thief stuff.[N]
+This map has none of it.[X]
+## AlvisDesc
+The Dastard himself.[N]
+Also steals wives. Nasty![X]
+## DeirdreDesc
+Our hero's wife. Makes Sigurd just[N]
+stop what he's doing to look for her.[X]
+## AiraDesc
+No Alecs were harmed in the[N]
+recruiting of this character.[X]
+## ManfloyDesc
+The man leading the Lopt[N]
+Sect. Manipulated everything.[X]
+
+
 ##Name_Mario
 Mario[X]
 

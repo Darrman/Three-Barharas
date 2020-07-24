@@ -11,8 +11,8 @@
     ORG FreeSpace
     
     DebugProjectName:
-//    String(Arch of Coups 2.0) errors for no reason, there *is* a matching bracket, you lying programme
-    BYTE $41 $72 $63 $68 $20 $6F $66 $20 $43 $6F $75 $70 $73 $20 $32 $2E $30 $00 //Arch of Coups 2.0
+    String(Three Barharas) //errors for no reason, there *is* a matching bracket, you lying programme
+//    BYTE $41 $72 $63 $68 $20 $6F $66 $20 $43 $6F $75 $70 $73 $20 $32 $2E $30 $00 //Arch of Coups 2.0
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
     MESSAGE Used text space ends at currentOffset
@@ -80,7 +80,7 @@
     //Graphics
     #include "Mugs/Mug Installer.event"
     #include "Graphics/Master Graphics Installer.event"
-    #include "Font/Font Installer.event"
+    //#include "Font/Font Installer.event"
 
     //Music
     #include "Music/Music Installer.event"
