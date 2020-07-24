@@ -11,7 +11,7 @@
     ORG FreeSpace
     
     DebugProjectName:
-    String(Three Barharas) //errors for no reason, there *is* a matching bracket, you lying programme
+    String(Three_Barharas); BYTE 0x0 //pulls another string out of thin air if there's a space
 //    BYTE $41 $72 $63 $68 $20 $6F $66 $20 $43 $6F $75 $70 $73 $20 $32 $2E $30 $00 //Arch of Coups 2.0
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
