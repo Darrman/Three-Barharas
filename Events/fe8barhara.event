@@ -208,8 +208,7 @@ GIVEITEMTO 0xFFFF
 ENDA
 
 SaveDeirdre:
-TEXT ByeAmnesia
-REMA
+Text(ByeAmnesia)
 TurnAlly(Deirdre)
 ENDA
 

@@ -242,14 +242,17 @@ POP
 
     //Enemy Control based on event id 0xb2
     #include "AoC/KonamiCode/EnemyControl.event"
-    
-    //Summons based off of class
-    #include "AoC/MultiClassSummon/MultiClassSummon.event"
-    //Summon item adjustment
-    #include "AoC/AdjustSummonItems/Installer.event"
 
   #endif
 
 #include "AoC/ModularSupply/ModularSupply.event"
+
+//Summons based off of class
+#include "AoC/MultiClassSummon/MultiClassSummon.event"
+//Summon item adjustment
+#include "AoC/AdjustSummonItems/Installer.event"
+
+//Reduce AI lag
+#include "AoC/FillAIRangeMapFix/FillAIDangerMap.event"
 
 ALIGN 4
