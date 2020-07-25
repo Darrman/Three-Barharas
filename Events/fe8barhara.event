@@ -147,12 +147,19 @@ ENDA
 EndingScene:
 MUSC 0x39 //FE7 Into the Shadow of Triumph
 Text(0x37,ManfloysDiary)
+WEA1 0x0
 FADI 2
-HIDEMAP
-CLEAN
+//HIDEMAP
+CLEA 0xFF
+CLEE 0xFF
+CLEN 0xFF
+STAL 10
+LOMA 0x6 //empty blank map to hide fades
 Text(0x1,IsaacianDirections)
 REMOVEPORTRAITS
 //BACG ReunionCG
+SetBackground(0x7)
+WORD 0x1A22 // switch to cg text mode
 TEXTSHOW ReunionSigurd
 TEXTEND
 TEXTSHOW ReunionCelice
@@ -160,15 +167,18 @@ TEXTEND
 TEXTSHOW ReunionOifaye
 TEXTEND
 CALL $9EE2C4 //EndConvo
-Text(0x1,ThanksOifaye)
-Text(0x1,DeirdresBack)
-Text(0x1,YiedRecap)
-Text(0x1,BarharaRecap)
-Text(0x1,ManfloyRecap)
-Text(Black,SigurdGoesHome)
+Text(0x1,RecappingEverything)
+TEXTEND
+REMOVEPORTRAITS
+SetBackground(Black)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW SigurdGoesHome
+TEXTEND
+CALL $9EE2C4 //EndConvo
 Text(0x1,PreKiss)
 REMOVEPORTRAITS
 //BACG SigurdDeirdreKissCG
+SetBackground(0xA)
 STAL 120
 CALL $9EE2C4 //EndConvo
 Text(0x1,OifayesWithSigurd)
