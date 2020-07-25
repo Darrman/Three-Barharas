@@ -56,6 +56,8 @@
 
 #include "FE8 Nightmare modules\Map sprite editor\Standing map sprite editor.event"
 
+#include "FE8 Nightmare modules\Misc editors\BackgroundEditor.event"
+
 #include "FE8 Nightmare modules\Misc editors\Supply Usability.event"
 
 #include "FE8 Nightmare modules\Promotion\Promotion Branch Editor.event"

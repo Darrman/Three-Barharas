@@ -20,6 +20,7 @@ POP
 
   #include "TitleScreen/titlebackgroundinstaller.event"
 
+  #include "CGs/CG Installer.event"
 //NewDifficultyButtons:
 //#incext Png2Dmp "difficulty.png" --lz77
 

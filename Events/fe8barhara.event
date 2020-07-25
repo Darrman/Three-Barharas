@@ -158,7 +158,7 @@ LOMA 0x6 //empty blank map to hide fades
 Text(0x1,IsaacianDirections)
 REMOVEPORTRAITS
 //BACG ReunionCG
-SetBackground(0x7)
+SetBackground(0x38)
 WORD 0x1A22 // switch to cg text mode
 TEXTSHOW ReunionSigurd
 TEXTEND

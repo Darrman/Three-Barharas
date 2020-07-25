@@ -97,3 +97,9 @@ Narga[X]
 
 ## NargaDesc
 +20 Skl/Spd/Def/Res; Major Narga[X]
+
+## FalaflameName
+Falaflame[X]
+
+## FalaflameDesc
++10 Mag/Def/Res; Major Fala[X]

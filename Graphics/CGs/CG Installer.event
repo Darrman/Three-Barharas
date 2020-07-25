@@ -1,0 +1,24 @@
+#define BackgroundTableEntry(index,image,tsa,palette) "PUSH; ORG BackgroundTable+(12*index); POIN image tsa palette; POP"
+
+PUSH
+
+ORG 0xE894
+POIN BackgroundTable
+ORG 0xECF4
+POIN BackgroundTable
+ORG 0xEDF8
+POIN BackgroundTable
+ORG 0x10E44
+POIN BackgroundTable
+
+POP
+
+
+ReunionImage:
+#incbin "Reunion.img.bin"
+
+ReunionTSA:
+#incbin "titlebackgroundtsa.bin"
+
+ReunionPalette:
+#incbin "Reunion.pal.bin"
