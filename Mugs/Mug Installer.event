@@ -12,15 +12,15 @@ setMugEntry(0x02, SigurdMug, 4, 6, 4, 4)
 
 NoishMug:
 #incext PortraitFormatter "Noish.png"
-setMugEntry(0x03, NoishMug, 4, 6, 4, 4)
+setMugEntry(0x03, NoishMug, 3, 6, 4, 4)
 
 AlecMug:
 #incext PortraitFormatter "Alec.png"
-setMugEntry(0x04, AlecMug, 4, 6, 4, 4)
+setMugEntry(0x04, AlecMug, 3, 6, 3, 4)
 
 ArdenMug:
 #incext PortraitFormatter "Arden.png"
-setMugEntry(0x05, ArdenMug, 4, 6, 4, 4)
+setMugEntry(0x05, ArdenMug, 4, 5, 4, 3)
 
 LexMug:
 #incext PortraitFormatter "Lex.png"
@@ -28,23 +28,23 @@ setMugEntry(0x06, LexMug, 4, 6, 4, 4)
 
 AzelMug:
 #incext PortraitFormatter "Azel.png"
-setMugEntry(0x07, AzelMug, 4, 6, 4, 4)
+setMugEntry(0x07, AzelMug, 3, 6, 3, 4)
 
 MidirMug:
 #incext PortraitFormatter "Midir.png"
-setMugEntry(0x08, MidirMug, 4, 6, 4, 4)
+setMugEntry(0x08, MidirMug, 3, 6, 3, 4)
 
 AideenMug:
 #incext PortraitFormatter "Aideen.png"
-setMugEntry(0x09, AideenMug, 4, 6, 4, 4)
+setMugEntry(0x09, AideenMug, 3, 6, 3, 4)
 
 DewMug:
 #incext PortraitFormatter "Dew.png"
-setMugEntry(0x0A, DewMug, 4, 6, 4, 4)
+setMugEntry(0x0A, DewMug, 3, 7, 3, 5)
 
 AiraMug:
 #incext PortraitFormatter "Aira.png"
-setMugEntry(0x0B, AiraMug, 4, 6, 4, 4)
+setMugEntry(0x0B, AiraMug, 3, 6, 3, 4)
 
 JamkaMug:
 #incext PortraitFormatter "Jamka.png"
@@ -60,11 +60,11 @@ setMugEntry(0x0E, HolynMug, 4, 6, 4, 4)
 
 LachesisMug:
 #incext PortraitFormatter "Lachesis.png"
-setMugEntry(0x0F, LachesisMug, 4, 6, 4, 4)
+setMugEntry(0x0F, LachesisMug, 4, 7, 4, 5)
 
 LevinMug:
 #incext PortraitFormatter "Levin.png"
-setMugEntry(0x10, LevinMug, 4, 6, 4, 4)
+setMugEntry(0x10, LevinMug, 3, 6, 4, 4)
 
 SylviaMug:
 #incext PortraitFormatter "Sylvia.png"
@@ -72,7 +72,7 @@ setMugEntry(0x11, SylviaMug, 4, 6, 4, 4)
 
 BeowulfMug:
 #incext PortraitFormatter "Beowulf.png"
-setMugEntry(0x12, BeowulfMug, 4, 6, 4, 4)
+setMugEntry(0x12, BeowulfMug, 3, 5, 3, 3)
 
 FuryMug:
 #incext PortraitFormatter "Fury.png"
@@ -80,12 +80,33 @@ setMugEntry(0x13, FuryMug, 4, 6, 4, 4)
 
 BriggidMug:
 #incext PortraitFormatter "Briggid.png"
-setMugEntry(0x14, BriggidMug, 4, 6, 4, 4)
+setMugEntry(0x14, BriggidMug, 3, 6, 3, 4)
 
 ClaudeMug:
 #incext PortraitFormatter "Claude.png"
-setMugEntry(0x15, ClaudeMug, 4, 6, 4, 4)
+setMugEntry(0x15, ClaudeMug, 3, 5, 4, 3)
 
 TiltyuMug:
 #incext PortraitFormatter "Tiltyu.png"
-setMugEntry(0x16, TiltyuMug, 4, 6, 4, 4)
+setMugEntry(0x16, TiltyuMug, 3, 6, 3, 4)
+
+AlvisMug:
+#incext PortraitFormatter "alvis.png"
+setMugEntry(0x17, AlvisMug, 3, 5, 4, 3)
+
+ManfloyMug:
+#incext PortraitFormatter "manfloy.png"
+setMugEntry(0x18, ManfloyMug, 4, 7, 4, 5)
+
+YoungOifayeMug:
+#incext PortraitFormatter "oifaye2.png"
+setMugEntry(0x19, YoungOifayeMug, 3, 6, 3, 4)
+
+YoungShananMug:
+#incext PortraitFormatter "shanan2.png"
+setMugEntry(0x1A, YoungShananMug, 3, 6, 3, 4)
+
+AzmureMug:
+#incext PortraitFormatter "azmure.png"
+setMugEntry(0x1B, AzmureMug, 3, 6, 3, 4)
+
