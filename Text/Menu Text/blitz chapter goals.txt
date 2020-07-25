@@ -1,5 +1,6 @@
 #0x1a2 PrologueGoal
-Mario, beat Bowser[X]
+Get to Velthomer,[N]
+and get there fast![X]
 
 ## Ch1Goal
 Seize that castle[N]
@@ -20,8 +21,8 @@ the swamp's core[X]
 ## Ch5Goal
 End Kaga[X]
 
-##
-No chapter here.[X]
+## RunAwayGoal
+Run away[X]
 
 ## Ch6Goal
 Beware of Zonta and[N]
