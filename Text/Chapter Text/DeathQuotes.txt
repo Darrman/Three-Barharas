@@ -1,3 +1,148 @@
+## SigurdDeath
+[MR][LoadSigurd]
+...Urgh... Everyone...[N]
+I'm sorry...[A][X]
+
+## NoishDeath
+[MR][LoadNoish]
+Sir Sigurd... I am so sorry...[N]
+Stay strong...[A][X]
+
+## AlecDeath
+[MR][LoadAlec]
+Argh... I... May luck be on[N]
+your side, Sir Sigurd...[A][X]
+
+## ArdenDeath
+[MR][LoadArden]
+Sir Sigurd... I've served you[N]
+my whole life. I have no regrets.[A][X]
+
+## AzelDeath
+[MR][LoadAzel]
+Sir Sigurd... I'm leaving it up[N]
+to you. Tiltyu...[A][X]
+
+## LexDeath
+[MR][LoadLex]
+I'm such a weakling... Sir Sigurd,[N]
+please allow me to die in peace...[A][X]
+
+## MidirDeath
+[MR][LoadMidir]
+Ah...[N]
+Sir Sigurd, I'm so sorry.[A][X]
+
+## AideenDeath
+[MR][LoadAideen]
+...Gods, please protect everyone.[N]
+Midir, I'm sorry...[A][X]
+
+## DewDeath
+[MR][LoadDew]
+How unlucky...[N]
+I've blundered once too much...[A][X]
+
+## AiraDeath
+[MR][LoadAira]
+Shanan, be strong...[N]
+Lex, I want to see you again...[A][X]
+
+## JamkaDeath
+[MR][LoadJamka]
+Urgh... I'm already done for?[N]
+Briggid...[A][X]
+
+## DeirdreDeath
+[MR][LoadDeirdre]
+Ahh... Sig... urd...[A][X]
+
+## HolynDeath
+[MR][LoadHolyn]
+Heh... I'm such a fool...[A][X]
+
+## LachesisDeath
+[MR][LoadLachesis]
+Aah... Elty...[A][X]
+
+## LevinDeath
+[MR][LoadLevin]
+Urgh... I... still have...[N]
+things... I must... do... Fury...[A][X]
+
+## SylviaDeath
+[MR][LoadSylvia]
+Why... why am I... Claude, what[N]
+are you going to do about this!?[A][X]
+
+## BeowulfDeath
+[MR][LoadBeowulf]
+Argh... Damn it! My luck has[N]
+finally ran out...[A][X]
+
+## FuryDeath
+[MR][LoadFury]
+Prince Levin,[N]
+please forgive me...[A][X]
+
+## BriggidDeath
+[MR][LoadBriggid]
+...Is this... the end?[A][X]
+
+## ClaudeDeath
+[MR][LoadClaude]
+Gods... My life is yours. Please[N]
+watch over theirs in return...[A][X]
+
+## TiltyuDeath
+[MR][LoadTiltyu]
+Stop! I can't take any more![N]
+Azel, you idiot![A][X]
+
+## AlvisDeath
+[ML][LoadAlvis]
+Deirdre...[A][X]
+
+## AlvisCombat
+[ML][LoadAlvis]
+Hmph... You're pathetic. You'll[N]
+all be consumed in my hellfire![A][X]
+
+## ManfloyDeath
+[ML][LoadManfloy]
+Gaa... No... My lord,[N]
+I have failed you...[AN]
+I failed to revive the Lopto[N]
+Empire... Lord Loputousu...[AN]
+...Forgive me.[A][X]
+
+## ManfloyCombat
+[ML][LoadManfloy]
+You will not live to see[N]
+the rise of the Lopt Sect...[A][X]
+
+## SigurdVersusManfloy
+[MR][LoadSigurd]
+Who are you?![A][Clear]
+[ML][LoadManfloy][ToggleSmile]
+Heh heh heh...[N]
+Sigurd.[AN]
+So you've come to face[N]
+me at last. I am Manfloy,[AN]
+leader of the Lopt Sect.[N]
+It is time for you to die.[AN][ToggleSmile][Clear]
+[MR][LoadSigurd]
+Manfloy! You...[....] You're the one![N]
+You stole my wife away...[AN]
+You'll pay for this.[N]
+For Deirdre...[AN]
+For Celice...[.....][N]
+For everyone. Manfloy,[AN]
+you won't see tomorrow.[N]
+You ruined so many lives...[AN]
+I'm going to put an[N]
+end to all of this![A][X]
+
 ## MarioDeath
 [MidRight][LoadMario]
 Oh... Mamma mia...[A][X]
@@ -211,7 +356,7 @@ Please...[A][CloseEyes][X]
 [OpenMidRight][LoadEdgeworth]
 Care to bail me out again, Wright...?[A][CloseEyes][X]
 
-## SigurdDeath
+## VBASigurdDeath
 [OpenMidRight][LoadSigurd]
 Alvis, YOU DASTARD!![A][CloseEyes][X]
 
