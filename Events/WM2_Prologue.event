@@ -1,4 +1,4 @@
-WorldMapIntroPointerTable(1,SkipIntro)
+WorldMapIntroPointerTable(1,Intro)
 WorldMapIntroPointerTable(2,SkipIntro)
 WorldMapIntroPointerTable(3,SkipIntro)
 WorldMapIntroPointerTable(4,SkipIntro)
@@ -39,4 +39,9 @@ WorldMapIntroPointerTable(0x39,SkipIntro)
 SkipIntro: //just point all of them here, they're the same
 EVBIT_MODIFY 0x1
 SKIPWN
+ENDA
+
+Intro:
+EVBIT_MODIFY 0x1
+ENUT 0x89
 ENDA
