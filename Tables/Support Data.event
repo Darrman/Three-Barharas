@@ -1,0 +1,179 @@
+#define CharacterSupport(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportBases(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportGrowths(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+
+SigurdSupports:
+CharacterSupport(Deirdre, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(99, 0, 0, 0, 0, 0, 0)
+BYTE 1 //one support
+BYTE 0 0
+
+DeirdreSupports:
+CharacterSupport(Sigurd, Alvis, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(99, 5, 0, 0, 0, 0, 0)
+BYTE 2
+BYTE 0 0
+
+LexSupports:
+CharacterSupport(Aira, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+AiraSupports:
+CharacterSupport(Lex, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+
+AzelSupports:
+CharacterSupport(Tiltyu, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+TiltyuSupports:
+CharacterSupport(Azel, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+MidirSupports:
+CharacterSupport(Aideen, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+AideenSupports:
+CharacterSupport(Midir, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+ClaudeSupports:
+CharacterSupport(Sylvia, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+SylviaSupports:
+CharacterSupport(Claude, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+LevinSupports:
+CharacterSupport(Erin, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+FurySupports:
+CharacterSupport(Levin, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+LachesisSupports:
+CharacterSupport(Beowulf, Fin, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2
+BYTE 0 0
+
+BeowulfSupports:
+CharacterSupport(Lachesis, 0, 0, 0, 0, 0, 0)
+SupportBases(161, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+JamkaSupports:
+CharacterSupport(Briggid, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+BriggidSupports:
+CharacterSupport(Jamka, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+NoishSupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 0
+BYTE 0 0
+
+AlecSupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 0
+BYTE 0 0
+
+ArdenSupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 0
+BYTE 0 0
+
+DewSupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 0
+BYTE 0 0
+
+HolynSupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 0
+BYTE 0 0
+
+CuanSupports:
+CharacterSupport(Ethlin, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+EthlinSupports:
+CharacterSupport(Cuan, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+FinSupports:
+CharacterSupport(Lachesis, 0, 0, 0, 0, 0, 0)
+SupportBases(161, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+AlvisSupports:
+CharacterSupport(Deirdre, 0, 0, 0, 0, 0, 0)
+SupportBases(161, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
