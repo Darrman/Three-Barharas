@@ -82,6 +82,8 @@ ORG $88640
 POIN NewStatScreenPal
 POP
 
+#include "WorldMap/WorldMapInstaller.event"
+
 NewStatScreen:
 //#incext Png2Dmp "StatScreen_B.png" --lz77
 //#incext Png2Dmp "EarthboundStatScreen.png" --lz77
