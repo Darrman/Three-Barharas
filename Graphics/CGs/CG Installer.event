@@ -13,12 +13,15 @@ POIN BackgroundTable
 
 POP
 
+//BackgroundTableEntry(0x38,ReunionImage,ReunionTSA,ReunionPalette)
 
 ReunionImage:
 #incbin "Reunion.img.bin"
-
+//#incext Png2Dmp "Reunion.png" --lz77
 ReunionTSA:
-#incbin "titlebackgroundtsa.bin"
+#incbin "Reunion.map.bin"
 
 ReunionPalette:
 #incbin "Reunion.pal.bin"
+//#incext Png2Dmp "Reunion.png" --palette-only
+ALIGN 4
