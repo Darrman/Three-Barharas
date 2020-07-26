@@ -18,9 +18,10 @@ POP
 ReunionImage:
 #incbin "Reunion.img.bin"
 //#incext Png2Dmp "Reunion.png" --lz77
+ALIGN 4
 ReunionTSA:
 #incbin "Reunion.map.bin"
-
+ALIGN 4
 ReunionPalette:
 #incbin "Reunion.pal.bin"
 //#incext Png2Dmp "Reunion.png" --palette-only
