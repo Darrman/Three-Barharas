@@ -15,6 +15,11 @@ POP
 
 //BackgroundTableEntry(0x38,ReunionImage,ReunionTSA,ReunionPalette)
 
+#define ReunionCG 0x38
+#define SigurdDeirdreKissCG 0x39
+#define InsideChalphyCG 0x3A
+#define BadEndingCG 0x3B
+
 ReunionImage:
 #incbin "Reunion.img.bin"
 //#incext Png2Dmp "Reunion.png" --lz77
@@ -26,3 +31,40 @@ ReunionPalette:
 #incbin "Reunion.pal.bin"
 //#incext Png2Dmp "Reunion.png" --palette-only
 ALIGN 4
+
+KissImage:
+#incbin "Kiss.img.bin"
+ALIGN 4
+
+KissTSA:
+#incbin "Kiss.map.bin"
+ALIGN 4
+
+KissPalette:
+#incbin "Kiss.pal.bin"
+ALIGN 4
+
+ChalphyImage:
+#incbin "Chalphy.img.bin"
+ALIGN 4
+
+ChalphyTSA:
+#incbin "Chalphy.map.bin"
+ALIGN 4
+
+ChalphyPalette:
+#incbin "Chalphy.pal.bin"
+ALIGN 4
+
+BadEndingImage:
+#incbin "BadEnding.img.bin"
+ALIGN 4
+
+BadEndingTSA:
+#incbin "BadEnding.map.bin"
+ALIGN 4
+
+BadEndingPalette:
+#incbin "BadEnding.pal.bin"
+ALIGN 4
+

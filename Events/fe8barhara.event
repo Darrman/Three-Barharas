@@ -157,8 +157,7 @@ STAL 10
 LOMA 0x6 //empty blank map to hide fades
 Text(0x1,IsaacianDirections)
 REMOVEPORTRAITS
-//BACG ReunionCG
-SetBackground(0x38)
+SetBackground(ReunionCG)
 WORD 0x1A22 // switch to cg text mode
 TEXTSHOW ReunionSigurd
 TEXTEND
@@ -177,8 +176,7 @@ TEXTEND
 CALL $9EE2C4 //EndConvo
 Text(0x1,PreKiss)
 REMOVEPORTRAITS
-//BACG SigurdDeirdreKissCG
-SetBackground(0xA)
+SetBackground(SigurdDeirdreKissCG)
 STAL 120
 CALL $9EE2C4 //EndConvo
 Text(0x1,OifayesWithSigurd)
