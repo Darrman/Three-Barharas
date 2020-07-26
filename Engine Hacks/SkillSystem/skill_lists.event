@@ -1,0 +1,39 @@
+ArdenSkills:
+BYTE 255 GreatShieldID
+BYTE 00 00
+ALIGN 4
+
+LexSkills:
+BYTE 30 VantageID
+BYTE 00 00
+ALIGN 4
+
+DewSkills:
+BYTE 255 BargainID
+BYTE 00 00
+ALIGN 4
+
+AiraSkills:
+BYTE 30 NihilID
+BYTE 00 00
+ALIGN 4
+
+LevinSkills:
+BYTE 30 AdeptID
+BYTE 00 00
+ALIGN 4
+
+SylviaSkills:
+BYTE 255 AdeptID
+BYTE 00 00
+ALIGN 4
+
+AlvisSkills:
+BYTE 30 CharismaID
+BYTE 00 00
+ALIGN 4
+
+ManfloySkills:
+BYTE 30 CharismaID
+BYTE 00 00
+ALIGN 4

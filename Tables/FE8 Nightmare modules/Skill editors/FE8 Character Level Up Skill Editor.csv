@@ -1,29 +1,29 @@
 INLINE CharLevelUpSkillTable,Skill List Address
 None,0
-Eirika,0
-Seth,0
-Gilliam,0
-Franz,0
-Moulder,0
-Vanessa,0
-Ross,0
-Neimi,0
-Colm,0
-Garcia,0
-Innes,0
-Lute,0
-Natasha,0
-Cormag,0
-Ephraim,0
-Forde,0
-Kyle,0
-Amelia,0
-Artur,0
-Gerik,0
-Tethys,0
-Marisa,0
-Saleh,0
-Ewan,0
+Sigurd ,0
+Noish,0
+Alec,0
+Arden,ArdenSkills|IsPointer
+Lex,LexSkills|IsPointer
+Azel,0
+Cuan,0
+Ethlin ,0
+Fin ,0
+Midir ,0
+Aideen ,0
+Dew ,DewSkills|IsPointer
+Aira ,AiraSkills|IsPointer
+Jamka ,0
+Deirdre,0
+Holyn ,0
+Lachesis,0
+Levin ,LevinSkills|IsPointer
+Sylvia ,SylviaSkills|IsPointer
+Beowulf,0
+Fury,0
+Briggid,0
+Claude ,0
+Tiltyu ,0
 L'Arachel,0
 Dozla,0
 -,0
@@ -49,8 +49,8 @@ Hayden,0
 -,0
 -,0
 -,0
--,0
--,0
+Alvis,AlvisSkills|IsPointer
+Manfloy,ManfloySkills|IsPointer
 -,0
 -,0
 -,0

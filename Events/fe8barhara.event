@@ -75,7 +75,7 @@ UNIT Velthomer Hero Alvis Level(30, Enemy, 1) [5,13] 0x00 0x00 0x0 0x00 [BraveSw
 UNIT Velthomer Swordmaster Alvis Level(30, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
 UNIT Velthomer Swordmaster Alvis Level(30, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
 UNIT Velthomer Hero Alvis Level(30, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [SilverBlade, Tomahawk] PursueWithoutHeedAI 
-UNIT Manfloy Necromancer 0x0 Level(30, Enemy, 9) [23,4] 0x00 0x00 0x0 0x00 [Eclipse,Fenrir,Berserk] [0x0,0x3,0x0,0x20]
+UNIT Manfloy Necromancer 0x0 Level(30, Enemy, 0) [23,4] 0x00 0x00 0x0 0x00 [Eclipse,Fenrir,Berserk] [0x0,0x3,0x0,0x20]
 UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [22,5] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI
 UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [23,6] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI
 UNIT LoptSect Druid Manfloy Level(30, Enemy, 1) [24,5] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI

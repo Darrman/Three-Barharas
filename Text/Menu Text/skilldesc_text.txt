@@ -1,10 +1,10 @@
 
 ## SD_Savior
-Savior: Can rescue[N]
+Saviour: Can rescue[N]
 without penalties.[X]
 
 ## SD_Adept
-Adept: Gain a consecutive attack.[N]
+Continue: Gain a consecutive attack.[N]
 (Speed % activation)[X]
 
 ## SD_Acrobat
@@ -16,7 +16,7 @@ Pass: Can move through[N]
 enemy units.[X]
 
 ## SD_CantoPlus
-Canto+: Can move again after[N]
+Canto: Can move again after[N]
 attacking and other actions.[X]
 
 ## SD_WaryFighter
@@ -57,11 +57,11 @@ Bane: Leave the opponent at 1 HP.[N]
 (Skill/2 % activation)[X]
 
 ## SD_Luna
-Luna: Negates enemy defenses.[N]
+Lunar: Negates enemy defenses.[N]
 (Skill % activation)[X]
 
 ## SD_Sol
-Sol: Restore damage dealt as HP.[N]
+Solar: Restore damage dealt as HP.[N]
 (Skill % activation)[X]
 
 ## SD_Aether
@@ -70,7 +70,7 @@ second strike negates defenses.[N]
 (Skill/2 % activation)[X]
 
 ## SD_Astra
-Astra: 5 attacks at half damage.[N]
+Meteor: 5 attacks at half damage.[N]
 (Skill % activation)[X]
 
 ## SD_Discipline
@@ -135,7 +135,7 @@ Armored Blow: +10 Def[N]
 when initiating battle.[X]
 
 ## SD_Vantage
-Vantage: If HP < 50%,[N]
+Ambush: If HP < 50%,[N]
 strike first when attacked.[X]
 
 ## SD_Desperation
@@ -155,7 +155,7 @@ Countermagic: Reflect magic damage[N]
 when attacked at 1-2 range.[X]
 
 ## SD_Miracle
-Miracle: Survive a lethal[N]
+Prayer: Survive a lethal[N]
 attack if HP > 50%.[X]
 
 ## SD_Swordfaire
@@ -179,7 +179,7 @@ Tomefaire: +4 damage[N]
 when equipping a tome.[X]
 
 ## SD_CritUp
-Crit Boost: +15 critical rate.[X]
+Critical: +15 critical rate.[X]
 
 ## SD_Slayer
 Slayer: Deal effective damage[N]
@@ -202,7 +202,7 @@ Galeforce: Move again after[N]
 attacking and defeating an enemy.[X]
 
 ## SD_Renewal
-Renewal: Restore 30% of max HP[N]
+Life: Restore 30% of max HP[N]
 at the start of each turn.[X]
 
 ## SD_NiceThighs
@@ -258,7 +258,7 @@ Spur Resistance: Adjacent allies[N]
 take -4 magical damage.[X]
 
 ## SD_Nihil
-Nihil: Cancels the opponent's[N]
+Awareness: Cancels the opponent's[N]
 skills in combat.[X]
 
 ## SD_Nullify
@@ -266,7 +266,7 @@ Nullify: Unit is protected[N]
 from all effective attacks.[X]
 
 ## SD_Paragon
-Paragon: Experience gain[N]
+Elite: Experience gain[N]
 is doubled.[X]
 
 ## SD_Impale
@@ -469,7 +469,8 @@ attack, avoid +10. [X]
 
 ## SD_Pursuit
 Pursuit: When under attack,[N]
-attack speed +2. [X]
+attack speed +2.[N]
+(Everyone has true Pursuit.)[X]
 
 ## SD_LightWeight
 Light Weight: When holding three[N]
@@ -515,7 +516,7 @@ instantly kill the enemy unit.[N]
 ## SD_UpWithArch
 Up with Arch: Adjacent ally units gain[N]
 might equal to half this unit's might.[N]
-(ONy if name starts with "Arch")[X]
+(Only if name starts with "Arch")[X]
 
 ## SD_RightfulArch
 Rightful Arch: Sets Skill[N]
@@ -572,7 +573,8 @@ allies in 2 tiles heal of 20% max HP.[X]
 
 ## SD_Fury
 Fury: +2 Atk/Spd/Def/Res. Unit[N]
-takes 6 damage after combat.[X]
+takes 6 damage after combat.
+(No relation to the character.)[X]
 
 ## SD_Dazzle
 Dazzle: Opponents cannot[N]
@@ -686,7 +688,7 @@ when foe initiates battle.[X]
 Steal: Unit can steal items.[X]
 
 ## SD_StealPlus
-Steal+: Unit can steal unequipped[N]
+Steal: Unit can steal unequipped[N]
 weapons and staves if con>weight.[X]
 
 ## SD_Capture

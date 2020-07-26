@@ -180,6 +180,20 @@ Alvis[X]
 ## ManfloyName
 Manfloy[X]
 
+## VelthomerName
+Velthomer[X]
+
+## VelthomerDesc
+A soldier of Velthomer,[N]
+part of Grandbell.[X]
+
+## LoptSectName
+Lopto[X]
+
+## LoptSectDesc
+A member of the Lopt Sect,[N]
+who wish to revive the Dark Lord.[X]
+
 ##Name_Mario
 Mario[X]
 
