@@ -177,3 +177,49 @@ SupportBases(161, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1
 BYTE 0 0
+
+#define Ending(Type, Char1, Char2, Text) "BYTE Type Char1 Char2 0; SHORT Text 0"
+#define Paired 0x2
+#define Single 0x1
+PUSH
+ORG 0xa3cd68
+//67 slots per mode by default.
+//A: I won't hit that.
+//B: So what if I break Ephraim mode, I'm not using it.
+//134 slots once I break the Ephraim split.
+//on related topics, the game will use the later ending if a character is defined twice
+//predefined supports with one side absent also causes bad things
+//turn deirdre blue then kill her if unrecruited to solve it?
+//fe7 just defaulted to the single ending here
+
+Ending(Single, Noish, 0, NoishEnding)
+Ending(Single, Alec, 0, AlecEnding)
+Ending(Single, Arden, 0, ArdenEnding)
+Ending(Single, Lex, 0, LexEnding)
+Ending(Single, Azel, 0, AzelEnding)
+Ending(Single, Midir, 0, MidirEnding)
+Ending(Single, Aideen, 0, AideenEnding)
+Ending(Single, Dew, 0, DewEnding)
+Ending(Single, Aira, 0, AiraEnding)
+Ending(Single, Jamka, 0, JamkaEnding)
+Ending(Single, Holyn, 0, HolynEnding)
+Ending(Single, Lachesis, 0, LachesisEnding)
+Ending(Single, Levin, 0, LevinEnding)
+Ending(Single, Sylvia, 0, SylviaEnding)
+Ending(Single, Beowulf, 0, BeowulfEnding)
+Ending(Single, Erin, 0, FuryEnding)
+Ending(Single, Claude, 0, ClaudeEnding)
+Ending(Single, Tiltyu, 0, TiltyuEnding)
+Ending(Single, Briggid, 0, BriggidEnding)
+Ending(Paired, Briggid, Jamka, JamkaBriggidEnding)
+Ending(Paired, Azel, Tiltyu, AzelTiltyuEnding)
+Ending(Paired, Levin, Erin, LevinFuryEnding)
+Ending(Paired, Claude, Sylvia, ClaudeSylviaEnding)
+Ending(Paired, Aideen, Midir, MidirAideenEnding)
+Ending(Paired, Lex, Aira, LexAiraEnding)
+Ending(Paired, Sigurd, Deirdre, SigurdDeirdreEnding)
+Ending(Single, Sigurd, 0, SigurdEnding)
+
+
+
+POP
