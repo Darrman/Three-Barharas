@@ -103,3 +103,10 @@ Falaflame[X]
 
 ## FalaflameDesc
 +10 Mag/Def/Res; Major Fala[X]
+
+## BallisticianName
+Ballistician[X]
+
+## BallisticianDesc
+Soldiers who use ballistas[N]
+to attack distant enemies.[X]

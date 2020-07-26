@@ -80,7 +80,7 @@
 #define LoptSect 0x81
 
 #define Meteor Bolting
-#define Ballistician Sniper
+#define Ballistician 0x77
 #define LordKnight EphraimMasterLord
 #define Tyrfing 0x92
 #define Ichival 0x94
