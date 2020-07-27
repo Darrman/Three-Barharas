@@ -110,7 +110,7 @@ TrapData:
 END_MAIN
 
 BeginningScene:
-MUSC 0x37 //FE7 Eight Generals; FE4 Conspiracy
+MUSC M_EmperorAlvis //FE7 Eight Generals; FE4 Conspiracy
 LOAD2 0x1 GoodNM
 ENUN
 LOAD2 0x1 Guards
@@ -118,6 +118,7 @@ ENUN
 CAM1 Sigurd
 Text(0x6,NoVisitsToTheKingToday)
 //FE4 Beloved One
+MUSC M_BelovedOne
 LOAD2 0x1 Waifu
 ENUN
 EVBIT_T 9 //CMON; camera follows
@@ -128,7 +129,9 @@ Text(0x6,SoThisIsSigurd)
 MOVE 4 Deirdre [8,21]
 ENUN
 //Fade music out
+MUSC 0x7FFF
 Text(0x6,AlvisYouDastard)
+MUSC M_EndOfDespair
 //End of Despair?
 Text(AlvisWait)
 STAL 10
