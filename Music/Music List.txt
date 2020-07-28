@@ -486,7 +486,7 @@
 0x033E Revenant Step (Here to 0x0379 are monsters' steps)
 0x037A ?
 0x037B Dragon roar
-0x037C ?
+0x037C Mage Knight shine?
 0x037D ?
 0x037E Charging sound
 0x037F Charging sound (Similar to Shaman)

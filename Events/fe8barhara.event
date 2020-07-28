@@ -113,17 +113,22 @@ BeginningScene:
 MUSC M_EmperorAlvis //FE7 Eight Generals; FE4 Conspiracy
 LOAD2 0x1 GoodNM
 ENUN
+LOAD2 0x1 WaifuCutscene
+ENUN
 LOAD2 0x1 Guards
 ENUN
 CAM1 Sigurd
 Text(0x6,NoVisitsToTheKingToday)
 //FE4 Beloved One
 MUSC M_BelovedOne
-LOAD2 0x1 Waifu
-ENUN
+STAL 10
+CAM1 Deirdre
+STAL 10
 EVBIT_T 9 //CMON; camera follows
-MOVE 2 Deirdre [8,18] 
+MOVE 2 Deirdre [8,18]
+MOVE 2 Manfloy [8,19]
 ENUN
+STAL 10
 CAM1 Alvis
 Text(0x6,SoThisIsSigurd)
 MOVE 4 Deirdre [8,21]
@@ -131,20 +136,89 @@ ENUN
 //Fade music out
 MUSC 0x7FFF
 Text(0x6,AlvisYouDastard)
+EVBIT_MODIFY 1 //skipping spells causes weirdness
 MUSC M_EndOfDespair
+TurnEnemy(Alvis)
+TurnEnemy(Velthomer)
+TurnEnemy(Manfloy)
 //End of Despair?
-Text(AlvisWait)
 STAL 10
 WEA1 0x5 //fire
+STAL 10
+CAM1 [5,15]
+STAL 20
+FAWI 20
+SOUN 0x37C //mage knight shine?
+FAWU 20
+STAL 20
+CAM1 [9,14]
+STAL 20
+FAWI 20
+SOUN 0x37C //mage knight shine?
+FAWU 20
+STAL 20
+CAM1 [5,13]
+STAL 20
+FAWI 20
+SOUN 0x37C //mage knight shine?
+FAWU 20
+STAL 20
+CAM1 [9,12]
+STAL 20
+FAWI 20
+SOUN 0x37C //mage knight shine?
+FAWU 20
+STAL 20
+CAM1 [5,11]
+STAL 20
+FAWI 20
+SOUN 0x37C //mage knight shine?
+FAWU 20
+STAL 20
 EARTHQUAKE 0 1
-CAM1 [7,17] //Sigurd, should probably move it up a bit
-//NEVENTS; prevent skipping spell animation
-//ASMC 0x5A3F1 //Forblaze
+WEA1 0x0 //fire drives the magic effects mad
+CAM1 Jamka //hit the front...
+STAL 50
+ASMC 0x5DB19 //Elfire; gotta have some flame on screen
+STAL 40
+ASMC 0x5D065 //Fire Breath
+STAL 50
+CAM1 Tiltyu //to the right...
+STAL 50
+ASMC 0x5DB19 //Elfire; gotta have some flame on screen
+STAL 40
+ASMC 0x5D065 //Fire Breath
+STAL 50
+CAM1 Alec //to the left; turns out Noish and Alec's positions got swapped. oops.
+STAL 50
+ASMC 0x5DB19 //Elfire; gotta have some flame on screen
+STAL 40
+ASMC 0x5D065 //Fire Breath
+STAL 50
+CAM1 Erin //hit the back...
+STAL 50
+ASMC 0x5DB19 //Elfire; gotta have some flame on screen
+STAL 40
+ASMC 0x5D065 //Fire Breath
+STAL 50
+CAM1 Sylvia //and do in the tail
+STAL 50
+ASMC 0x5DB19 //Elfire; gotta have some flame on screen
+STAL 40
+ASMC 0x5D065 //Fire Breath
+STAL 50
+CAM1 Sigurd //and time to end it all
+//ASMC whatever Falaflame's offset would be...
+//except no BBQ today!
 STAL 200
+EVBIT_MODIFY 0 //you can skip without issues now
+WEA1 0x5 //bring back the flames
+Text(AlvisWait)
 EARTHQUAKE_END
 //Cut End of Despair somewhere in this and put a happier track in
 Text(HowDidIMiss)
 NoFade
+FADU 10
 ENDA
 
 EndingScene:
@@ -248,8 +322,14 @@ Waifu:
 UNIT Deirdre Shaman_F Sigurd Level(10, NPC, 0) [8,21] 0x00 0x00 0x0 0x00 [Aura,Silence] [0x6,0xB,0xA,0x0]
 UNIT
 
+WaifuCutscene:
+UNIT Deirdre Shaman_F Sigurd Level(10, NPC, 0) [5,23] 0x00 0x00 0x0 0x00 [Aura,Silence] [0x6,0xB,0xA,0x0]
+UNIT Manfloy Sage Sigurd Level(10, NPC, 0) [4,23] 0x00 0x00 0x0 0x00 [Aura,Silence] [0x6,0xB,0xA,0x0] //not actually him, but the goon who escorts Deirdre around
+UNIT
+
+
 Guards:
-UNIT Alvis Sage Alvis Level(30, Enemy, 0) [7,18] 0x00 0x00 0x0 0x00 [Forblaze, SilverBlade] PursueWithoutHeedAI 
+UNIT Alvis Sage Alvis Level(30, NPC, 0) [7,18] 0x00 0x00 0x0 0x00 [Forblaze, SilverBlade] PursueWithoutHeedAI 
 UNIT Velthomer Sage 0x00 Level(30, Enemy, 0) [5,15] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
 UNIT Velthomer Sage 0x00 Level(30, Enemy, 0) [5,14] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
 UNIT Velthomer Sage 0x00 Level(30, Enemy, 0) [5,13] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
@@ -279,6 +359,10 @@ UNIT Velthomer General 0x00 Level(30, Enemy, 0) [11,10] 0x00 0x00 0x0 0x00 [Silv
 UNIT Velthomer Sniper 0x00 Level(30, Enemy, 0) [6,5] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
 UNIT Velthomer Sniper 0x00 Level(30, Enemy, 0) [8,5] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
 UNIT Velthomer Sniper 0x00 Level(30, Enemy, 0) [7,5] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Velthomer MageKnight 0x00 Level(30, Enemy, 0) [6,16] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Velthomer MageKnight 0x00 Level(30, Enemy, 0) [6,17] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Velthomer MageKnight 0x00 Level(30, Enemy, 0) [8,16] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Velthomer MageKnight 0x00 Level(30, Enemy, 0) [8,17] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
 UNIT
 
 AmbushPaladins:
