@@ -1,7 +1,7 @@
 ///////Animation Install.event///////
     
 PUSH
-AnimTableEntry(0x0) //CHANGE THIS TO THE SLOT YOU ARE REPLACING
+AnimTableEntry(0x5) //CHANGE THIS TO THE SLOT YOU ARE REPLACING
 WORD 0 0 0 //empty name field, who cares
 POIN Anim_Lord_Knight_Sword_sectiondata
 POIN Anim_Lord_Knight_Sword_framedata

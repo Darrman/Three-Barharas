@@ -1,0 +1,54 @@
+//Non-Sacaean Nomad
+{
+#include "Arch Knight (eCut)/5. Bow/Bow Installer.event"
+}
+{
+#include "Arch Knight (eCut)/8. Unarmed/Unarmed Installer.event"
+}
+
+//Sword Dancer
+{
+#include "Dancer (Circles)/Sword/Sword Installer.event"
+}
+
+//FE7 Lord Knight
+{
+#include "Lord Knight/Lord Knight Sword/Lord Knight Sword Installer.event"
+}
+{
+#include "Lord Knight/Lord Knight Durandal/Lord Knight Durandal Installer.event"
+}
+{
+#include "Lord Knight/Lord Knight Lance/Lord Knight Lance Installer.event"
+}
+{
+#include "Lord Knight/Lord Knight Unarmed/Lord Knight Unarmed Installer.event"
+}
+
+//Master Knight female
+{
+#include "Master Knight F (St. Jack)/1. Sword/Sword Installer.event"
+}
+{
+#include "Master Knight F (St. Jack)/2. Lance/Lance Installer.event"
+}
+{
+#include "Master Knight F (St. Jack)/3. Axe/Axe Installer.event"
+}
+{
+#include "Master Knight F (St. Jack)/4. Handaxe/Handaxe Installer.event"
+}
+{
+#include "Master Knight F (St. Jack)/5. Bow/Bow Installer.event"
+}
+{
+#include "Master Knight F (St. Jack)/6. Magic/Magic Installer.event"
+}
+{
+#include "Master Knight F (St. Jack)/7. Staff/Staff Installer.event"
+}
+
+//Sword Armour
+{
+#include "Sword Armour (TBA)/Sword Installer.event"
+}

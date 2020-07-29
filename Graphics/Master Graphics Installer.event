@@ -6,11 +6,6 @@ PUSH
 //  ORG $AC188
 //  POIN NewDifficultyButtons
 
-  ORG $8AEFE4
-  BYTE 1 //make eirika use anims for lance not swd
-  ORG $8AEFFC
-  BYTE 1 //same for promo
-
   ORG $a16dec //I quite prefer sleep to freeze
   //#incext Png2Dmp "edited status names_a16dec.png"
 
@@ -50,6 +45,8 @@ SnowTileConfig:
 //EventPointerTable(0x8d, SnowTileConfig)
 
 #include "BattleAnimPointers.event"
+
+#include "Battle animations/Animation Installer.event"
 
 //there's like a 99% chance this won't be necessary but *just in case* I use Chiki for some reason...
 TikiTransformPal:
@@ -96,4 +93,4 @@ NewStatScreenPal:
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
 
-#include "LanceVoidPromo.event"
+//#include "LanceVoidPromo.event"

@@ -18,3 +18,47 @@ weaponTypeAnim(animNone, 0xc9)
 weaponAnim(WretchedAir,0xc9)
 weaponAnim(HolyDragonStone,0xc9)
 weaponAnimEnd
+
+SetAnimationPointers(LordKnight, LordKnightAnims) //overwrite lord anims
+LordKnightAnims:
+weaponTypeAnim(animSword, 0x5)
+weaponAnim(Tyrfing, 0x6)
+weaponTypeAnim(animLance,0x7)
+weaponTypeAnim(animNone,0x8)
+weaponAnimEnd
+
+SetAnimationPointers(Paladin_F, MasterKnight_FAnims) //paladin female = master knight, overwrite monsters
+MasterKnight_FAnims:
+weaponTypeAnim(animSword,0xA0)
+weaponTypeAnim(animLance,0xA1)
+weaponTypeAnim(animAxe,0xA2)
+weaponAnim(HandAxe,0xA3)
+weaponAnim(Tomahawk,0xA3)
+weaponTypeAnim(animBow,0xA4)
+weaponTypeAnim(animAnima,0xA5)
+weaponTypeAnim(animLight,0xA5)
+weaponTypeAnim(animDark,0xA5)
+weaponTypeAnim(animStaff,0xA6)
+weaponTypeAnim(animNone,0xA5)
+weaponAnimEnd
+
+SetAnimationPointers(Knight, ArmourAnims) //overwrite armour female
+ArmourAnims:
+weaponTypeAnim(animSword, 0x42)
+weaponTypeAnim(animLance, 0x40)
+weaponTypeAnim(animNone, 0x41)
+
+SetAnimationPointers(Dancer, DancerAnims)
+DancerAnims:
+weaponTypeAnim(animSword, 0xA7)
+weaponTypeAnim(animNone, 0x91)
+weaponTypeAnim(animAnima, 0x91)
+weaponTypeAnim(animLight, 0x91)
+weaponTypeAnim(animDark, 0x91)
+weaponAnimEnd
+
+SetAnimationPointers(Ranger_F, ArchKnightAnims) //ranger female replaced with unpromoted arch knight
+ArchKnightAnims:
+weaponTypeAnim(animBow, 0x32)
+weaponTypeAnim(animNone, 0x33)
+weaponAnimEnd

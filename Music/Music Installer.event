@@ -1,7 +1,8 @@
 #include "drumfix_fe8.event"
 
 PUSH
-ORG 0x1001860
+//ORG 0x1001860
+CustomPiano:
 #incbin "bin/custom_piano.bin"
 POP
 

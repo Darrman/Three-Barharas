@@ -9,7 +9,8 @@
     ORG 0xB30
     POIN DebugProjectName
     ORG FreeSpace
-    
+    PROTECT 0xC00000 0xC00001 //stop bleeding outside the free space zone
+//    PROTECT 0x1000000 0x10000001 //to find what's writing here
     DebugProjectName:
     String(Three_Barharas); BYTE 0x0 //pulls another string out of thin air if there's a space
 //    BYTE $41 $72 $63 $68 $20 $6F $66 $20 $43 $6F $75 $70 $73 $20 $32 $2E $30 $00 //Arch of Coups 2.0
@@ -78,13 +79,23 @@
     #include "Engine Hacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 
+    PUSH
+    
+    ORG 0x1000000
+
     //Graphics
     #include "Mugs/Mug Installer.event"
     #include "Graphics/Master Graphics Installer.event"
     //#include "Font/Font Installer.event"
+    
+    MESSAGE Used graphic space ends at currentOffset
 
     //Music
     #include "Music/Music Installer.event"
+
+    MESSAGE Used music space ends at currentOffset
+    
+    POP
 
     //Events
     #include "Events/Master Events Installer.event"
