@@ -404,5 +404,30 @@ STAL 120
 //STAL 1
 CALL 0xA0036C //Character Endings
 STAL 90
+MUSC 0x12
+Text(0x23,BarharaPostCredits)
+REMOVEPORTRAITS
+SetBackground(InsideChalphyCG)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW BarharaPostCreditsCG
+TEXTEND
+CALL $9EE2C4 //EndConvo
+Text(0x23,BarharaPostCredits2)
+STAL 60
+REMOVEPORTRAITS
+SetBackground(Black)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW BarharaYiedShrine
+TEXTEND
+TEXTSHOW JuliusRevengeForeshadowing
+TEXTEND
+CALL $9EE2C4 //EndConvo
+STAL 10
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW BarharaRevisitedFin
+TEXTEND
+CALL $9EE2C4 //EndConvo
+
 MNTS 0x0 //return to title screen
 ENDA
