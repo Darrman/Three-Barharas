@@ -58,7 +58,7 @@ UNIT Aira Swordmaster_F Sigurd Level(29, Ally, 0) [7,9] 0x00 0x00 0x0 0x00 [Brav
 UNIT
 
 BadNM:
-UNIT Alvis Sage 0x0 Level(30, Enemy, 0) [7,18] 0x00 0x00 0x0 0x00 [Falaflame, SilverBlade] PursueWithoutHeedAI
+UNIT Alvis Sage 0x0 Level(30, Enemy, 0) [7,18] 0x00 0x00 0x0 0x00 [Falaflame, SilverBlade, HoplonShield] PursueWithoutHeedAI
 UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
 UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [14,19] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI 
 UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
