@@ -110,3 +110,9 @@ Ballistician[X]
 ## BallisticianDesc
 Soldiers who use ballistas[N]
 to attack distant enemies.[X]
+
+## MeteorName
+Meteor[X]
+
+## MeteorDesc
+Incinerate foes from afar.[X]

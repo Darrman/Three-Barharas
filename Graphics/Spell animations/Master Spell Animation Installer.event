@@ -72,3 +72,7 @@ ALIGN 4
 {
 #include "Holsety (MisakaMikoto)/Holsety.event"
 }
+
+{
+#include "Meteor (Blazer-Jubby)/Meteor.event"
+}

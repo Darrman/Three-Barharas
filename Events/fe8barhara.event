@@ -63,12 +63,12 @@ UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [
 UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [14,19] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI 
 UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [23,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
 UNIT Velthomer Ballistician Alvis Level(30, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronBallista] AttackInRangeAI
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [Meteor] GuardTileAI 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Meteor] GuardTileAI 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Meteor, Elfire] GuardTileAI 
-UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [Meteor, Elfire] GuardTileAI
-UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SilverLance, Horseslayer] GuardTileAI 
-UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,9] 0x00 0x00 0x0 0x00 [SilverLance, Hammer] GuardTileAI
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [Meteor] NeverMoveAI 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Meteor] NeverMoveAI 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Meteor, Elfire] NeverMoveAI 
+UNIT Velthomer Sage Alvis Level(30, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [Meteor, Elfire] NeverMoveAI
+UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SilverLance, Horseslayer] NeverMoveAI 
+UNIT Velthomer General Alvis Level(30, Enemy, 1) [18,9] 0x00 0x00 0x0 0x00 [SilverLance, Hammer] NeverMoveAI
 UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Longbow, SilverBow] AttackInRangeAI 
 UNIT Velthomer Sniper Alvis Level(30, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [BraveBow] AttackInRangeAI
 UNIT Velthomer Hero Alvis Level(30, Enemy, 1) [5,13] 0x00 0x00 0x0 0x00 [BraveSword, Runesword] AttackInRangeAI 

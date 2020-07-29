@@ -79,7 +79,7 @@
 #define Velthomer 0x80
 #define LoptSect 0x81
 
-#define Meteor Bolting
+#define Meteor 0xBC
 #define Ballistician 0x77
 #define LordKnight EphraimMasterLord
 #define Tyrfing 0x92
