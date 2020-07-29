@@ -48,6 +48,7 @@ SnowTileConfig:
 
 #include "Battle animations/Animation Installer.event"
 
+#include "Spell animations/Master Spell Animation Installer.event"
 //there's like a 99% chance this won't be necessary but *just in case* I use Chiki for some reason...
 TikiTransformPal:
 //#incext compress "tiki_transformed_pal.dmp"
