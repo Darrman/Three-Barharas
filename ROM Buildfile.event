@@ -35,6 +35,13 @@
     BYTE 00 10 10 00 10 20 00 00 00 00
     ALIGN 4
 
+    PUSH //disables Sacred Strength
+    ORG 0x58B12
+    BYTE 00
+    ORG 0x58B16
+    BYTE 00
+    POP
+
     PUSH //because #inctext is broken
     MESSAGE Pointer changed at 0x8472c
     ORG 0x8472c

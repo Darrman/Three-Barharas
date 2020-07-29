@@ -88,3 +88,6 @@ SongTable(0x2C,EndOfDespair,1)
 //
 //SongTable(0xc6,skeletest,1)
 //#include "spoopy.event"
+
+SongTable(0x2D1,song02D1,1) //Lord Knight crit neigh
+#include "song02D1.event"

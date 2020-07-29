@@ -1,0 +1,43 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	song02D1_grp  voicegroup000
+	#define	song02D1_pri  20
+	#define	song02D1_rev  0
+	#define	song02D1_mvl  127
+	#define	song02D1_key  0
+	#define	song02D1_tbs  1
+	#define	song02D1_exg  0
+	#define	song02D1_cmp  1
+
+	// .rodata
+	//	song02D1
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+song02D1_001:
+// 000   ----------------------------------------
+ BYTE   TEMPO   150*song02D1_tbs/2
+ BYTE   VOL   100*song02D1_mvl/mxv
+ BYTE   VOICE   32
+ BYTE   KEYSH   song02D1_key+0
+ BYTE   N96  Cn3  v127
+ BYTE   W96
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+song02D1:
+	BYTE	1	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	song02D1_pri	// Priority
+	BYTE	song02D1_rev	// Reverb.
+    
+	POIN2	song02D1_grp
+    
+	POIN2	song02D1_001
+
+	
