@@ -59,3 +59,4 @@ INLINE BackgroundTable,Image Pointer,TSA Pointer,Palette Pointer
 0x39,KissImage|IsPointer,KissTSA|IsPointer,KissPalette|IsPointer
 0x3a,ChalphyImage|IsPointer,ChalphyTSA|IsPointer,ChalphyPalette|IsPointer
 0x3b,BadEndingImage|IsPointer,BadEndingTSA|IsPointer,BadEndingPalette|IsPointer
+0x3c,0x895d75c,BlankCGTSA|IsPointer,0x895dc1c

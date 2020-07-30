@@ -246,7 +246,7 @@ CALL $9EE2C4 //EndConvo
 Text(0x1,RecappingEverything)
 TEXTEND
 REMOVEPORTRAITS
-SetBackground(Black)
+SetBackground(Black2)
 WORD 0x1A22 // switch to cg text mode
 TEXTSHOW SigurdGoesHome
 TEXTEND
@@ -415,7 +415,7 @@ CALL $9EE2C4 //EndConvo
 Text(0x23,BarharaPostCredits2)
 STAL 60
 REMOVEPORTRAITS
-SetBackground(Black)
+SetBackground(Black2)
 WORD 0x1A22 // switch to cg text mode
 TEXTSHOW BarharaYiedShrine
 TEXTEND

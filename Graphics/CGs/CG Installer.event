@@ -19,6 +19,7 @@ POP
 #define SigurdDeirdreKissCG 0x39
 #define InsideChalphyCG 0x3A
 #define BadEndingCG 0x3B
+#define Black2 0x3C
 
 ReunionImage:
 #incbin "Reunion.img.bin"
@@ -68,3 +69,14 @@ BadEndingPalette:
 #incbin "BadEnding.pal.bin"
 ALIGN 4
 
+BlankCGImage:
+#incbin "BadEnding.img.bin"
+ALIGN 4
+
+BlankCGPalette:
+#incbin "BadEnding.pal.bin"
+ALIGN 4
+
+BlankCGTSA:
+#incbin "BadEnding.map.bin"
+ALIGN 4
