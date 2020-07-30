@@ -116,3 +116,38 @@ Meteor[X]
 
 ## MeteorDesc
 Incinerate foes from afar.[X]
+
+## ArchKnightName
+Arch Knight[X]
+
+## ArchKnightDesc
+Knights on horseback that[N]
+are armed with bows.[X]
+
+## MasterKnightName
+MasterKnight[X]
+
+## MasterKnightDesc
+A knight trained in the usage[N]
+of all types of weaponry.[X]
+
+## EarthSwordName
+Earth Sword[X]
+
+## JormungName
+Jormung[X]
+
+## DefenceSwordName
+Defence Sw.[X]
+
+## DefenceSwordDesc
++7 defence.[X]
+
+## ResireName
+Resire[X]
+
+## HelName
+Hel[X]
+
+## HelDesc
+Reduces enemy's HP to 1.[X]

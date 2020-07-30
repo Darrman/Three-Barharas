@@ -1,29 +1,29 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Sigurd ,0,5
+Sigurd ,1,5
 Noish,0,5
 Alec,0,5
 Arden,0,5
-Lex,0,5
-Azel,14,40
+Lex,1,5
+Azel,8,40
 Cuan,0,5
 Ethlin ,0,5
 Fin ,0,5
 Midir ,0,5
-Aideen ,21,30
+Aideen ,13,30
 Dew ,0,5
-Aira ,0,5
+Aira ,1,5
 Jamka ,0,0
 Deirdre,16,70
-Holyn ,0,5
+Holyn ,1,5
 Lachesis,8,5
 Levin ,12,30
-Sylvia ,0,30
+Sylvia ,5,30
 Beowulf,0,0
 Fury,1,10
-Briggid,0,20
+Briggid,3,20
 Claude ,13,40
-Tiltyu ,11,20
+Tiltyu ,5,20
 Elle,0,45
 Zane,0,55
 Adamminn,0,30
@@ -127,8 +127,8 @@ Orson (Ch 16),3,5
 0,0,0
 0,0,0
 Grado Soldier (Special),0,0
-Grado Soldier 1 (Normal),0,0
-Grado Soldier 2,0,0
+Velthomer (Barhara),-6,0
+Lopt Sect (Barhara),-10,0
 Grado Soldier 3,0,0
 Grado Soldier 4,0,0
 Grado Soldier 5,0,0
