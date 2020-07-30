@@ -103,6 +103,8 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+//sigurd's death causes the original intermission to play, then game over
+AFEV 0x65 AftermathOfBarhara 0x20
 //AREA 0x7 BarharaVisit [4,22] [4,22]
 END_MAIN
 
@@ -316,6 +318,19 @@ ENDA
 BarharaSpawns2:
 LOAD1 0x1 RepeatingSpawns2
 ENUN
+ENDA
+
+AftermathOfBarhara:
+MUSC M_Part1MapMedley
+SetBackground(Black2)
+SVAL 0xB 0x00F800FF
+//nears but can't hit the bottom, slightly indented
+//SVAL 0xB 0xFFFFFFFF
+//centred
+SOLOTEXTBOXSTART
+TEXTSHOW OriginalBarharaAftermath
+TEXTEND
+GameOver
 ENDA
 
 Waifu:

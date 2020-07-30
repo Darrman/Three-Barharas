@@ -16,6 +16,7 @@ POP
 #define M_EmperorAlvis 0x25
 #define M_BelovedOne 0x29
 #define M_EndOfDespair 0x2C
+#define M_Part1MapMedley 0x2B
 
 voicegroup000:
 #incbin "FE8_NI_Map_custompiano.bin"
@@ -25,28 +26,40 @@ SongTable(0x0A, isaachtest, 1) //Light Inheritors
 
 SongTable(0x19,FE4Attack, 0)
 //#include "FE4 - Attack (Sme).event"
+
 #include "FE4 - Ally Attack (pandan).event"
+
 SongTable(0x1A,FE4Defence, 0)
 #include "FE4 - Defense (MrGreen3339).event"
 //SongTable(0x09,FE4Ch0, 1)
 //#include "FE4 - Field (Pikmin1211).event"
+
 SongTable(0x04,GloriousGrandbell, 1)
 #include "FE4 - Glory to Grannvale (SurfingKyogre).event"
+
 SongTable(0x1D,VersusAlvis, 0)
 #include "FE4 - Vs Arvis (SaXor_the_Nobody).event"
+
 SongTable(0x1C,FatefulShowdown, 0)
 #include "FE4 - Fateful Showdown (SaXor_the_Nobody).event"
+
 SongTable(0x9,DoorsOfDestiny, 1)
 #include "CivilYoshi - Door of Destiny.event"
+
 SongTable(0x13,ArmyOfGrandbell1,1)
 #include "FE4 - Army of Grannvale 1 (SurfingKyogre).event"
+
 SongTable(0x25,AlvisTheme,1)
 #include "FE4 - Emperor Arvis (SurfingKyogre).event"
+
 SongTable(0x29,BelovedOne,1)
 #include "FE4 - Beloved One (SurfingKyogre).event"
+
 SongTable(0x2C,EndOfDespair,1)
 #include "FE4 - End of Despair -Smash Ultimate Arrangement (Mycahel).event"
 
+SongTable(0x2B,Gen1MapMedley,1)
+#include "FE4 - Part 1 Map Medley (SurfingKyogre).event"
 //SongTable(0x19,twelveatktest,0)
 //#include "twelveattack.event"
 //
