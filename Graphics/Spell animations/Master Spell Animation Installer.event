@@ -76,3 +76,7 @@ ALIGN 4
 {
 #include "Meteor (Blazer-Jubby)/Meteor.event"
 }
+
+{
+#include "FF5 Flare (St. Jack)/FF5Flare.event"
+}
