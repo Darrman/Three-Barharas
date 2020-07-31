@@ -1,0 +1,30 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	DummyTrack_grp  voicegroup000
+	#define	DummyTrack_pri  0
+	#define	DummyTrack_rev  0
+	#define	DummyTrack_mvl  127
+	#define	DummyTrack_key  0
+	#define	DummyTrack_tbs  1
+	#define	DummyTrack_exg  0
+	#define	DummyTrack_cmp  1
+
+	// .rodata
+	//	DummyTrack
+	ALIGN 4
+
+
+//******************************************************//
+	ALIGN 4
+
+DummyTrack:
+	BYTE	0	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	DummyTrack_pri	// Priority
+	BYTE	DummyTrack_rev	// Reverb.
+    
+	POIN2	DummyTrack_grp
+    
+
+	

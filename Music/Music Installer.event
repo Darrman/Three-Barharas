@@ -24,6 +24,8 @@ POP
 #define M_FE4Convo1 0x26
 #define M_ThoughtsGoingAround 0x33
 #define M_FE5Results 0x41
+#define M_VictoryMinor 0x32
+//#define M_FE5Sorrow 0x3F
 
 voicegroup000:
 #incbin "FE8_NI_Map_custompiano.bin"
@@ -89,6 +91,12 @@ SongTable(0x33,ThoughtsGoingAround,1)
 SongTable(0x41,FE5Results,1)
 #include "FE5 - Results (SurfingKyogre).event"
 
+SongTable(0x32,VictoryMinor,1)
+#include "FE5 - Victory Minor (Dolkar).event"
+
+//SongTable(0x3F,FE5Sorrow,1)
+//#include "FE5 - Sorrow (SurfingKyogre).event"
+
 //SongTable(0x19,twelveatktest,0)
 //#include "twelveattack.event"
 //
@@ -131,5 +139,11 @@ SongTable(0x41,FE5Results,1)
 //SongTable(0xc6,skeletest,1)
 //#include "spoopy.event"
 
+#include "GameOver.event"
+SongTable(Game_Over,GameOverMusic,0)
+
 SongTable(0x2D1,song02D1,2) //Lord Knight crit neigh
 #include "song02D1.event"
+
+SongTable(0x3F,DummyTrack,7) //Wipe out death music
+#include "Empty.event"

@@ -438,8 +438,7 @@ MUSC M_FE5Results
 //STAL 1
 CALL 0xA0036C //Character Endings
 STAL 90
-//I'm too tired to think of a good track for this.
-MUSC 0x12
+MUSC M_VictoryMinor
 Text(0x23,BarharaPostCredits)
 REMOVEPORTRAITS
 SetBackground(InsideChalphyCG)
