@@ -224,8 +224,9 @@ FADU 10
 ENDA
 
 EndingScene:
+CALL DeirdreEndingHandler
 MUSC M_Lopto
-Text(0x37,ManfloysDiary)
+Text(0x15,ManfloysDiary)
 WEA1 0x0
 FADI 2
 //HIDEMAP
@@ -236,7 +237,7 @@ STAL 10
 LOMA 0x6 //empty blank map to hide fades
 //Conversation 1? 
 MUSC M_FE4Convo1
-Text(0x1,IsaacianDirections)
+Text(0x18,IsaacianDirections)
 MUSC M_FE4Victory
 REMOVEPORTRAITS
 SetBackground(ReunionCG)
@@ -250,7 +251,16 @@ TEXTEND
 CALL $9EE2C4 //EndConvo
 //cut to FE5 Destiny at some point
 MUSC M_Destiny
-Text(0x1,RecappingEverything)
+CHECK_ALIVE Deirdre //If she's dead, carry on
+BNE 1 s0 sC
+Text(0x1F,BadEndingRecap)
+REMOVEPORTRAITS
+SetBackground(BadEndingCG)
+STAL 120
+CALL $9EE2C4 //EndConvo
+GOTO 2
+LABEL 1
+Text(0x1F,RecappingEverything)
 TEXTEND
 //Thoughts Going Around
 MUSC M_ThoughtsGoingAround
@@ -260,18 +270,19 @@ WORD 0x1A22 // switch to cg text mode
 TEXTSHOW SigurdGoesHome
 TEXTEND
 CALL $9EE2C4 //EndConvo
-Text(0x1,PreKiss)
+Text(0x24,PreKiss)
 REMOVEPORTRAITS
 SetBackground(SigurdDeirdreKissCG)
 STAL 120
 CALL $9EE2C4 //EndConvo
 //Chalphy Palace if it had a rip, but it doesn't so Victory it is
 MUSC M_FE4Victory
-Text(0x1,OifayesWithSigurd)
+Text(0x15,OifayesWithSigurd)
 //Julia's Theme, but yadda yadda
-Text(0x1,JuliaBorn)
+Text(0xE,JuliaBorn)
+LABEL 2 //skip ahead to the coronation
 //Back to Chalphy Palace
-Text(0x1,SigurdCoronation)
+Text(0x2F,SigurdCoronation)
 FADU 10
 CALL EpilogueEvents
 ENDA
@@ -302,7 +313,7 @@ Text(0x10,BringAzmureSigurd)
 FADI 16
 STAL 10
 FADU 16
-Text(0x10,MedievalPhotography)
+Text(0xE,MedievalPhotography)
 SVAL s3 Narga
 GIVEITEMTO 0xFFFF
 ENDA
@@ -349,6 +360,21 @@ SOLOTEXTBOXSTART
 TEXTSHOW OriginalBarharaAftermath
 TEXTEND
 GameOver
+ENDA
+
+DeirdreEndingHandler:
+CHECK_EXISTS Deirdre
+BNE 3 sC s0 //if she does then skip ahead
+LOAD1 0x1 Waifu //reload her
+KILL Deirdre //and murder her to break the support and fix Sigurd's ending
+AWAIT_KILL Deirdre
+GOTO 4
+LABEL 3
+CHECK_ALLEGIANCE Deirdre
+SVAL s1 1 //check for NPC
+BEQ 4 sC s1 //if she's not, jump
+TurnAlly(Deirdre) //if she is, you probably rescued her so turn her blue
+LABEL 4
 ENDA
 
 Waifu:
@@ -439,14 +465,28 @@ MUSC M_FE5Results
 CALL 0xA0036C //Character Endings
 STAL 90
 MUSC M_VictoryMinor
-Text(0x23,BarharaPostCredits)
+CHECK_ALIVE Deirdre
+BNE 6 sC s0
+Text(0x9,BarharaPostCreditsBad)
+STAL 60
+MUSC M_Lopto
+REMOVEPORTRAITS
+SetBackground(Black2)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW BarharaYiedShrineBad
+TEXTEND
+TEXTSHOW BarharaYiedShrineBad2
+TEXTEND
+GOTO 7
+LABEL 6
+Text(0x9,BarharaPostCredits)
 REMOVEPORTRAITS
 SetBackground(InsideChalphyCG)
 WORD 0x1A22 // switch to cg text mode
 TEXTSHOW BarharaPostCreditsCG
 TEXTEND
 CALL $9EE2C4 //EndConvo
-Text(0x23,BarharaPostCredits2)
+Text(0x9,BarharaPostCredits2)
 STAL 60
 MUSC M_Lopto
 REMOVEPORTRAITS
@@ -456,6 +496,7 @@ TEXTSHOW BarharaYiedShrine
 TEXTEND
 TEXTSHOW JuliusRevengeForeshadowing
 TEXTEND
+LABEL 7
 CALL $9EE2C4 //EndConvo
 STAL 10
 TUTORIALTEXTBOXSTART
