@@ -224,7 +224,7 @@ FADU 10
 ENDA
 
 EndingScene:
-MUSC 0x39 //FE7 Into the Shadow of Triumph
+MUSC M_Lopto
 Text(0x37,ManfloysDiary)
 WEA1 0x0
 FADI 2
@@ -234,7 +234,10 @@ CLEE 0xFF
 CLEN 0xFF
 STAL 10
 LOMA 0x6 //empty blank map to hide fades
+//Conversation 1? 
+MUSC M_FE4Convo1
 Text(0x1,IsaacianDirections)
+MUSC M_FE4Victory
 REMOVEPORTRAITS
 SetBackground(ReunionCG)
 WORD 0x1A22 // switch to cg text mode
@@ -245,8 +248,12 @@ TEXTEND
 TEXTSHOW ReunionOifaye
 TEXTEND
 CALL $9EE2C4 //EndConvo
+//cut to FE5 Destiny at some point
+MUSC M_Destiny
 Text(0x1,RecappingEverything)
 TEXTEND
+//Thoughts Going Around
+MUSC M_ThoughtsGoingAround
 REMOVEPORTRAITS
 SetBackground(Black2)
 WORD 0x1A22 // switch to cg text mode
@@ -258,8 +265,12 @@ REMOVEPORTRAITS
 SetBackground(SigurdDeirdreKissCG)
 STAL 120
 CALL $9EE2C4 //EndConvo
+//Chalphy Palace if it had a rip, but it doesn't so Victory it is
+MUSC M_FE4Victory
 Text(0x1,OifayesWithSigurd)
+//Julia's Theme, but yadda yadda
 Text(0x1,JuliaBorn)
+//Back to Chalphy Palace
 Text(0x1,SigurdCoronation)
 FADU 10
 CALL EpilogueEvents
@@ -286,6 +297,7 @@ NoFade
 ENDA
 
 BarharaVisit:
+MUSC M_FE4Convo1
 Text(0x10,BringAzmureSigurd)
 FADI 16
 STAL 10
@@ -296,6 +308,8 @@ GIVEITEMTO 0xFFFF
 ENDA
 
 SaveDeirdre:
+//Deirdre's Theme, but...
+MUSC M_BelovedOne
 Text(ByeAmnesia)
 TurnAlly(Deirdre)
 ENDA
@@ -303,21 +317,25 @@ ENDA
 SpawnPaladins:
 LOAD1 0x1 AmbushPaladins
 ENUN
+NoFade
 ENDA
 
 SpawnAxes:
 LOAD1 0x1 AxePressure
 ENUN
+NoFade
 ENDA
 
 BarharaSpawns1:
 LOAD1 0x1 RepeatingSpawns1
 ENUN
+NoFade
 ENDA
 
 BarharaSpawns2:
 LOAD1 0x1 RepeatingSpawns2
 ENUN
+NoFade
 ENDA
 
 AftermathOfBarhara:
@@ -415,10 +433,12 @@ EpilogueEvents:
 ASMC 0x30185 //clears map tilesets?
 EVBIT_F 0x2
 STAL 120
+MUSC M_FE5Results
 //ASMC 0xB8175 //turn counts display
 //STAL 1
 CALL 0xA0036C //Character Endings
 STAL 90
+//I'm too tired to think of a good track for this.
 MUSC 0x12
 Text(0x23,BarharaPostCredits)
 REMOVEPORTRAITS
@@ -429,6 +449,7 @@ TEXTEND
 CALL $9EE2C4 //EndConvo
 Text(0x23,BarharaPostCredits2)
 STAL 60
+MUSC M_Lopto
 REMOVEPORTRAITS
 SetBackground(Black2)
 WORD 0x1A22 // switch to cg text mode

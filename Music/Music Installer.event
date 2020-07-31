@@ -17,6 +17,13 @@ POP
 #define M_BelovedOne 0x29
 #define M_EndOfDespair 0x2C
 #define M_Part1MapMedley 0x2B
+#define M_Lopto 0x2E
+#define M_VictoryIsNear 0x10
+#define M_FE4Victory 0x31
+#define M_Destiny 0x28
+#define M_FE4Convo1 0x26
+#define M_ThoughtsGoingAround 0x33
+#define M_FE5Results 0x41
 
 voicegroup000:
 #incbin "FE8_NI_Map_custompiano.bin"
@@ -60,6 +67,28 @@ SongTable(0x2C,EndOfDespair,1)
 
 SongTable(0x2B,Gen1MapMedley,1)
 #include "FE4 - Part 1 Map Medley (SurfingKyogre).event"
+
+SongTable(0x2E,LoptSectTheme,1)
+#include "FE5 - Loptr B (SurfingKyogre).event"
+
+SongTable(0x10,VictoryIsNear,1)
+#include "FE4 - Victory is Near! (SurfingKyogre).event"
+
+SongTable(0x31,FE4Victory,1)
+#include "FE4 - Victory 1 (SurfingKyogre).event"
+
+SongTable(0x28,Destiny,1)
+#include "FE5 - Destiny (Dolkar).event"
+
+SongTable(0x26,FE4Convo1,1)
+#include "FE4 - Conversation 1 (SurfingKyogre).event"
+
+SongTable(0x33,ThoughtsGoingAround,1)
+#include "FE4 - Thoughts Going Around (SurfingKyogre).event"
+
+SongTable(0x41,FE5Results,1)
+#include "FE5 - Results (SurfingKyogre).event"
+
 //SongTable(0x19,twelveatktest,0)
 //#include "twelveattack.event"
 //
