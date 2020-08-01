@@ -85,11 +85,13 @@ POP
 NewStatScreen:
 //#incext Png2Dmp "StatScreen_B.png" --lz77
 //#incext Png2Dmp "EarthboundStatScreen.png" --lz77
-#incext Png2Dmp "LiveALiveStatScreen.png" --lz77
+//#incext Png2Dmp "LiveALiveStatScreen.png" --lz77
+#incext Png2Dmp "FE4AStatscreen.png" --lz77
 NewStatScreenPal:
 //#incext Png2Dmp "StatScreen_B.png" --palette-only
 //#incext Png2Dmp "EarthboundStatScreen.png" --palette-only
-#incext Png2Dmp "LiveALiveStatScreen.png" --palette-only
+//#incext Png2Dmp "LiveALiveStatScreen.png" --palette-only
+#incext Png2Dmp "FE4AStatscreen.png" --palette-only
 
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
