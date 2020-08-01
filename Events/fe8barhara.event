@@ -309,13 +309,17 @@ ENDA
 
 BarharaVisit:
 MUSC M_FE4Convo1
+CHECK_ACTIVEID Sigurd
+BNE 9 sC s0 //if it's Sigurd skip past this
 Text(0x10,BringAzmureSigurd)
-FADI 16
-STAL 10
-FADU 16
+//FADI 16
+//STAL 10
+//FADU 16
+LABEL 9
 Text(0xE,MedievalPhotography)
 SVAL s3 Narga
 GIVEITEMTO 0xFFFF
+NoFade
 ENDA
 
 SaveDeirdre:
@@ -378,7 +382,7 @@ LABEL 4
 ENDA
 
 Waifu:
-UNIT Deirdre Shaman_F Sigurd Level(10, NPC, 0) [8,21] 0x00 0x00 0x0 0x00 [Aura,Silence] [0x6,0xB,0xA,0x0]
+UNIT Deirdre Shaman_F Sigurd Level(10, NPC, 0) [8,21] 0x00 0x00 0x0 0x00 [Aura,Silence] DoNothing
 UNIT
 
 WaifuCutscene:

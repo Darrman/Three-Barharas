@@ -60,7 +60,8 @@ POP
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 
   //HP Bars (and effective weapon warning)
-  #include "QualityOfLife/HpBars/HpBars.event"
+  //Nope, too laggy
+  //#include "QualityOfLife/HpBars/HpBars.event"
 
   //Improved Sound Mixer
   #include "QualityOfLife/ImprovedSoundMixer/SoundMixer.event"

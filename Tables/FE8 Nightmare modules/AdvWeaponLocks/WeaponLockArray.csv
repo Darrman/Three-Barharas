@@ -1,10 +1,10 @@
 INLINE WeaponLockArrayPointerTable,Array Pointer
 Nothing,0x0
-0x1,RainbowSwordArray|IsPointer
-0x2,CrystalSwordArray|IsPointer
-0x3,PKRockinArray|IsPointer
-0x4,ErdrickSwordArray|IsPointer
-0x5,0x0
+0x1,TyrfingArray|IsPointer
+0x2,HolsetyArray|IsPointer
+0x3,IchivalArray|IsPointer
+0x4,FalaflameArray|IsPointer
+0x5,NargaArray|IsPointer
 0x6,0x0
 0x7,0x0
 0x8,0x0
