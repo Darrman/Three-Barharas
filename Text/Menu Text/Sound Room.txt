@@ -1,0 +1,65 @@
+# 0x78B FireEmblemTheme
+Main Theme[X]
+
+## GloriousGrandbellName
+Glorious Grandbell[X]
+
+## EmperorAlvisName
+Emperor Alvis[X]
+
+## BelovedOneName
+Beloved One[X]
+
+## EndOfDespairName
+End of Despair[X]
+
+## DoorsOfDestinyName
+Doors of Destiny[X]
+
+## ArmyOfGrandbellName
+Army of Grandbell[X]
+
+## FE4AttackName
+Attack[X]
+
+## FE4DefenceName
+Defence[X]
+
+## VersusAlvisName
+Versus Alvis[X]
+
+## FatefulShowdownName
+Fateful Showdown[X]
+
+## FE4Convo1Name
+Conversation 1[X]
+
+## FE5LoptoName
+Lopto[X]
+
+## FE4VictoryName
+Victory[X]
+
+## FE4VictoryIsNearName
+Victory is Near[X]
+
+## DestinyName
+Destiny[X]
+
+## ThoughtsGoingAroundName
+Thoughts Going Around[X]
+
+## FE5ResultsName
+Results[X]
+
+## VictoryMinorName
+Victory Minor[X]
+
+## GameOverName
+Game Over[X]
+
+## Part1MapMedleyName
+Part 1 Map Medley[X]
+
+## LightInheritorsName
+Light Inheritors[X]

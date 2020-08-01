@@ -18,6 +18,8 @@ Freeze[X]
 
 #include "Menu Text/ChapterNames.txt"
 
+#include "Menu Text/Sound Room.txt"
+
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]
