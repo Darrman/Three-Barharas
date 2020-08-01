@@ -18,24 +18,30 @@ POP
 #define HardClassLock 3
 #define EndLockArray 0
 
-RainbowSwordArray:
+TyrfingArray:
 BYTE 0x1
-BYTE Crono
+BYTE Sigurd Celice
 BYTE 0x0
 
-CrystalSwordArray:
+HolsetyArray:
 BYTE 0x1
-BYTE Cecil
+BYTE Levin Sety
 BYTE 0x0
 
-PKRockinArray:
+IchivalArray:
 BYTE 0x1
-BYTE Ness
+BYTE Briggid Faval
 BYTE 0x0
 
-ErdrickSwordArray:
+FalaflameArray:
 BYTE 0x1
-BYTE DQHero
+BYTE Alvis
+//Cyas
+BYTE 0x0
+
+NargaArray:
+BYTE 0x1
+BYTE Deirdre Julia
 BYTE 0x0
 
 #endif // ADV_WEAPON_LOCKS
