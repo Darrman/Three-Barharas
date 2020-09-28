@@ -1,0 +1,97 @@
+#include "Tools/Tool Helpers.txt"
+
+Julius_Mug:
+#incext PortraitFormatter "julius.png"
+setMugEntry(0x2, Julius_Mug, 4, 6, 4, 4)
+
+Aless_Mug:
+#incext PortraitFormatter "aless2.png"
+setMugEntry(0x7, Aless_Mug, 4,7,4,5)
+
+Arthur_Mug:
+#incext PortraitFormatter "arthur2.png"
+setMugEntry(0x5, Arthur_Mug, 4,7,3,5)
+
+Corple_Mug:
+#incext PortraitFormatter "corple.png"
+setMugEntry(0x9, Corple_Mug, 4,7,3,5)
+
+Delmud_Mug:
+#incext PortraitFormatter "delmud2.png"
+setMugEntry(0xc, Delmud_Mug, 4,7,3,5)
+
+Faval_Mug:
+#incext PortraitFormatter "faval2.png"
+setMugEntry(0xe, Faval_Mug, 3,7,4,4)
+
+Fee_Mug:
+#incext PortraitFormatter "fee2.png"
+setMugEntry(0x10, Fee_Mug, 4,7,3,5)
+
+Fin_Mug:
+#incext PortraitFormatter "fin3.png"
+setMugEntry(0x13, Fin_Mug, 4,7,3,5)
+
+Hannibal_Mug:
+#incext PortraitFormatter "hannibal2.png"
+setMugEntry(0x16, Hannibal_Mug, 4,6,4,5)
+
+Johan_Mug:
+#incext PortraitFormatter "johan2.png"
+setMugEntry(0x18, Johan_Mug, 4,7,3,5)
+
+Julia_Mug:
+#incext PortraitFormatter "julia2.png"
+setMugEntry(0x19, Julia_Mug, 4,7,3,5)
+
+Lakche_Mug:
+#incext PortraitFormatter "lakche2.png"
+setMugEntry(0x1a, Lakche_Mug, 3,6,3,4)
+
+Lana_Mug:
+#incext PortraitFormatter "lana2.png"
+setMugEntry(0x1b, Lana_Mug, 4,7,3,5)
+
+Leaf_Mug:
+#incext PortraitFormatter "leaf2.png"
+setMugEntry(0x1c, Leaf_Mug, 4,7,3,5)
+
+Leen_Mug:
+#incext PortraitFormatter "leen2.png"
+setMugEntry(0x1d, Leen_Mug, 4,7,3,6)
+
+Lester_Mug:
+#incext PortraitFormatter "lester2.png"
+setMugEntry(0x25, Lester_Mug, 2,7,3,5)
+
+Nanna_Mug:
+#incext PortraitFormatter "nanna2.png"
+setMugEntry(0x2a, Nanna_Mug, 4,7,3,5)
+
+OifayeMug:
+#incext PortraitFormatter "oifaye.png"
+setMugEntry(0x21, OifayeMug, 3, 6, 2, 4)
+
+CeliceMug:
+#incext PortraitFormatter "celice.png"
+setMugEntry(0x22, CeliceMug, 4, 7, 4, 5)
+
+PattyMug:
+#incext PortraitFormatter "patty2.png"
+setMugEntry(0x23, PattyMug, 3, 7, 3, 5)
+
+SetyMug:
+#incext PortraitFormatter "sety2.png"
+setMugEntry(0x48, SetyMug, 4, 7, 4, 5)
+
+ShananMug:
+#incext PortraitFormatter "shanan3.png"
+setMugEntry(0x2B, ShananMug, 4, 6, 4, 5)
+
+TinnyMug:
+#incext PortraitFormatter "tinny2.png"
+setMugEntry(0x2C, TinnyMug, 3, 7, 3, 3)
+
+SkaMug:
+#incext PortraitFormatter "skasaher.png"
+setMugEntry(0x30, SkaMug, 4, 7, 4, 5)
