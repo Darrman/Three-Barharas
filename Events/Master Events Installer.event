@@ -5,6 +5,9 @@ ALIGN 4
   #include "fe8barhara.event"
 }
 {
+  #include "CrusadersReturn.event"
+}
+{
   #include "Debug.event"
 }
 ALIGN 4

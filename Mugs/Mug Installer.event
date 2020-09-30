@@ -6,6 +6,8 @@ KagaMug:
 #incext PortraitFormatter "kaga.png"
 setMugEntry(0x23, KagaMug, 3, 5, 3, 3)
 
+//Gen 1
+
 SigurdMug:
 #incext PortraitFormatter "Sigurd.png"
 setMugEntry(0x02, SigurdMug, 4, 6, 4, 4)
@@ -110,3 +112,105 @@ AzmureMug:
 #incext PortraitFormatter "azmure.png"
 setMugEntry(0x1B, AzmureMug, 3, 6, 3, 4)
 
+//Gen 2
+
+Julius_Mug:
+#incext PortraitFormatter "Gen 2/julius.png"
+setMugEntry(0x19, Julius_Mug, 4, 6, 4, 4)
+
+Aless_Mug:
+#incext PortraitFormatter "Gen 2/aless2.png"
+setMugEntry(0x1A, Aless_Mug, 4,7,4,5)
+
+Arthur_Mug:
+#incext PortraitFormatter "Gen 2/arthur2.png"
+setMugEntry(0x1B, Arthur_Mug, 4,7,3,5)
+
+Corple_Mug:
+#incext PortraitFormatter "Gen 2/corple.png"
+setMugEntry(0x1C, Corple_Mug, 4,7,3,5)
+
+Delmud_Mug:
+#incext PortraitFormatter "Gen 2/delmud2.png"
+setMugEntry(0x1D, Delmud_Mug, 4,7,3,5)
+
+Faval_Mug:
+#incext PortraitFormatter "Gen 2/faval2.png"
+setMugEntry(0x1E, Faval_Mug, 3,7,4,4)
+
+Fee_Mug:
+#incext PortraitFormatter "Gen 2/fee2.png"
+setMugEntry(0x1F, Fee_Mug, 4,7,3,5)
+
+Fin_Mug:
+#incext PortraitFormatter "Gen 2/fin3.png"
+setMugEntry(0x20, Fin_Mug, 4,7,3,5)
+
+Hannibal_Mug:
+#incext PortraitFormatter "Gen 2/hannibal2.png"
+setMugEntry(0x21, Hannibal_Mug, 4,6,4,5)
+
+Johan_Mug:
+#incext PortraitFormatter "Gen 2/johan2.png"
+setMugEntry(0x22, Johan_Mug, 4,7,3,5)
+
+Julia_Mug:
+#incext PortraitFormatter "Gen 2/julia2.png"
+setMugEntry(0x23, Julia_Mug, 4,7,3,5)
+
+Lakche_Mug:
+#incext PortraitFormatter "Gen 2/lakche2.png"
+setMugEntry(0x24, Lakche_Mug, 3,6,3,4)
+
+Lana_Mug:
+#incext PortraitFormatter "Gen 2/lana2.png"
+setMugEntry(0x25, Lana_Mug, 4,7,3,5)
+
+Leaf_Mug:
+#incext PortraitFormatter "Gen 2/leaf2.png"
+setMugEntry(0x26, Leaf_Mug, 4,7,3,5)
+
+Leen_Mug:
+#incext PortraitFormatter "Gen 2/leen2.png"
+setMugEntry(0x27, Leen_Mug, 4,7,3,6)
+
+Lester_Mug:
+#incext PortraitFormatter "Gen 2/lester2.png"
+setMugEntry(0x28, Lester_Mug, 2,7,3,5)
+
+Nanna_Mug:
+#incext PortraitFormatter "Gen 2/nanna2.png"
+setMugEntry(0x29, Nanna_Mug, 4,7,3,5)
+
+OifayeMug:
+#incext PortraitFormatter "Gen 2/oifaye.png"
+setMugEntry(0x2A, OifayeMug, 3, 6, 2, 4)
+
+CeliceMug:
+#incext PortraitFormatter "Gen 2/celice.png"
+setMugEntry(0x2B, CeliceMug, 4, 7, 4, 5)
+
+PattyMug:
+#incext PortraitFormatter "Gen 2/patty2.png"
+setMugEntry(0x2C, PattyMug, 3, 7, 3, 5)
+
+SetyMug:
+#incext PortraitFormatter "Gen 2/sety2.png"
+setMugEntry(0x2D, SetyMug, 4, 7, 4, 5)
+
+ShananMug:
+#incext PortraitFormatter "Gen 2/shanan3.png"
+setMugEntry(0x2E, ShananMug, 4, 6, 4, 5)
+
+TinnyMug:
+#incext PortraitFormatter "Gen 2/tinny2.png"
+setMugEntry(0x2F, TinnyMug, 3, 7, 3, 3)
+
+SkaMug:
+#incext PortraitFormatter "Gen 2/skasaher.png"
+setMugEntry(0x30, SkaMug, 4, 7, 4, 5)
+
+// 3H and other weird stuff
+AnnetteMug:
+#incext PortraitFormatter "3H Requans/Annette.png"
+setMugEntry(0x31,AnnetteMug, 2, 6, 2, 4)	

@@ -762,3 +762,555 @@ Monster[X]
 ## FinalMonsterDesc
 Guardians of Demon King Feditor.[N]
 To this day, they worship him.[X]
+
+##Name_Void
+Julius[X]
+
+##Desc_Void
+The Dark Prince of Grandbell,[N]
+possessed by big bad Lopto.[X]
+
+##Name_Tim
+Eins[X]
+
+##Desc_Tim
+The first of the Dark Warlords,[N]
+a baron of Manster.[X]
+
+##Name_Tam
+Zwei[X]
+
+##Desc_Tam
+The second of the Dark Warlords,[N]
+a hero distantly related to Isaac.[X]
+
+##Name_Jerome
+Drei[X]
+
+##Desc_Jerome
+The third of the Dark Warlords,[N]
+a Thracian bandit from the hills.[X]
+
+##Name_Leeroy
+Vier[X]
+
+##Desc_Leeroy
+The fourth of the Dark[N]
+Warlords, a high priest.[X]
+
+##Name_Bede
+Sechs[X]
+
+##Desc_Bede
+The sixth of the Dark Warlords,[N]
+a mage fighter of Tordo blood.[X]
+
+##Name_Jay
+Sieben[X]
+
+##Desc_Jay
+The seventh of the Dark Warlords,[N]
+a bishop of Fala blood.[X]
+
+##Name_NotArch
+Acht[X]
+
+##Desc_NotArch
+The eighth of the Dark Warlords,[N]
+a sage of Holsety blood.[X]
+
+##Name_Kirsten
+Neun[X]
+
+##Desc_Kirsten
+The ninth of the Dark[N]
+Warlords, a swordmaster.[X]
+
+##Name_Bob
+Zehn[X]
+
+##Desc_Bob
+The tenth of the Dark[N]
+Warlords, a dark bishop.[X]
+
+##Name_Roshea
+Elf[X]
+
+##Desc_Roshea
+The eleventh of the Dark Warlords,[N]
+a shaman related to Manfloy.[X]
+
+##Name_Edge
+Edge[X]
+
+##Desc_Edge
+Can handle the weight.[X]
+
+##Name_Samson
+Celice[X]
+
+##Desc_Samson
+He calls himself the Scion of[N]
+Light, and is the son of Zigludo.[N]
+By the way, he likes healers.[X]
+
+##Name_Arve
+Lana[X]
+
+##Desc_Arve
+Celice's wife. Come on, look at[N]
+them. They're so cute together![N]
+You'd be a monster to split them.[X]
+
+##Name_Tye
+Skasaha[X]
+
+##Desc_Tye
+This guy's name is a pain to[N]
+pronounce. And spell. And it[N]
+keeps changing. Geez.[X]
+
+##Name_Celicia
+Lakche[X]
+
+##Desc_Celicia
+In a distant land, a great war took[N]
+place over her husband's identity.[N]
+Some say Johan, Shanan, Celice?![X]
+
+##Name_Eevster
+Delmud[X]
+
+##Desc_Eevster
+A boring, useless idiot who is[N]
+not very charismatic. Darn.[N]
+We think his dad is Beowulf.[X]
+
+##Desc_WyvAnna
+In all the years of namewanking,[N]
+he has been consistently Lester.[N]
+Compared to his poor mother...[X]
+
+##Name_Nikita
+Oifaye[X]
+
+##Desc_Nikita
+He's fought with Zigludo, he's[N]
+fought with Celice. All and all,[N]
+he's a good, loyal man.[X]
+
+## EdgeworthName
+Johan[X]
+
+## ZigludoName
+Arthur[X]
+
+##KagaName
+Fee[X]
+
+##MarfName
+Leen[X]
+
+##EdgeworthDesc
+He's head over heels in love[N]
+with Lakche. That being said,[N]
+you can get Johalva instead.[X]
+
+##ZigludoDesc
+Arthur, destroyer of worlds with[N]
+Holset- What? His dad is Azel?[N]
+Really? You're no fun.[X]
+
+##KagaDesc
+Daugher of Fury. Or Erin. Or[N]
+Ferry. Actually, do we spell[N]
+your name Fee or Phee now?[X]
+
+##MarfDesc
+You give her the Knight and[N]
+Leg Rings, and you've got a[N]
+super dancer on your hands.[X]
+
+##Desc_RogueAnna
+Celice's sister. She's also[N]
+in love with the man. Yes,[N]
+she loves him in *that* way.[X]
+
+##Name_Doot
+Shanan[X]
+
+##Desc_Doot
+Once a little kid that Zigludo[N]
+bailed out, now a swordmaster[N]
+ready to obliterate his foes.[X]
+
+##Name_Celica
+Patty[X]
+
+##Desc_Celica
+A thief that may be slightly[N]
+obsessed with Shanan. She did[N]
+freak out when seeing him.[X]
+
+##Name_Doowile
+Leaf[X]
+
+##Desc_Doowile
+A glorious Master Knight, all[N]
+ready to use whatever he pleases.[N]
+Except dark magic. But no matter.[X]
+
+##Name_EvilFlorina
+Nanna[X]
+
+##Desc_EvilFlorina
+Leaf's wife, Fin's daughter.[N]
+...I may have crossed many[N]
+lines with those statements.[X]
+
+##Name_Jake
+Aless[X]
+
+##Desc_Jake
+A palette swap of Eltshan.[N]
+Come on, he's just his father[N]
+but wearing black instead.[X]
+
+##Name_Tiki
+Tinny[X]
+
+##Desc_Tiki
+She's cute, I'll give her that.[N]
+Sadly, that's about her only[N]
+redeeming trait. *sighs*[X]
+
+##Name_Mark
+Sety[X]
+
+##Desc_Mark
+A truly amazing unit. Praise the[N]
+power of Holsety! By the way,[N]
+whoever invented "Ced" is stupid.[X]
+
+##Name_Bjoern
+Fin[X]
+
+##Desc_Bjoern
+You can't kill him. He's lived[N]
+through Barhara. He's lived in[N]
+the Empire. He's survived Thracia.[X]
+
+##Name_EdgeAlly
+Edge's Ally[X]
+
+##Desc_EdgeAlly
+Edge's old friend, with him[N]
+through thick and thin.[X]
+
+##Name_Lennon
+Lennon[X]
+
+##Desc_Lennon
+One of the four Beatles.[X]
+
+##Name_Paul
+Paul[X]
+
+##Desc_Paul
+One of the four Beatles.[X]
+
+##Name_Ringo
+Ringo[X]
+
+##Desc_Ringo
+One of the four Beatles.[X]
+
+##Name_Harrison
+Harrison[X]
+
+##Desc_Harrison
+One of the four Beatles.[X]
+
+##Name_Prine
+Zwolf[X]
+
+##Desc_Prine
+The twelveth of the Dark Warlords,[N]
+leader of a gang of pirates.[X]
+
+##Name_Maeda
+Maeda[X]
+
+##Desc_Maeda
+Saved the series,[N]
+but at what cost?[X]
+
+##Name_Saara
+Saara[X]
+
+##Desc_Saara
+A general of the Donatenaries.[N]
+She can control the weather.[X]
+
+##Name_MrBones
+Mr. Bones[X]
+
+##Desc_MrBones
+Governor of the skeleton colony.[N]
+Detests all fleshy beings.[X]
+
+##Name_Banana
+Banana[X]
+
+##Desc_Banana
+A harbinger of this[N]
+universe's destruction.[X]
+
+##Name_Grit
+Grit[X]
+
+##Desc_Grit
+A visitor from beyond[N]
+the Outrealms.[X]
+
+##Name_Gwendy
+Gwendolyn[X]
+
+##Desc_Gwendy
+The basics are everything.[X]
+
+## Name_Jenkins
+Jenkins[X]
+
+## Desc_Jenkins
+Bazba Jenkins, the enemy[N]
+of Leeroy. Wants revenge.[X]
+
+## Name_Tatara
+Tatara[X]
+
+## Desc_Tatara
+Shaman of the Doma Faithful.[N]
+He has Doot under his control.[X]
+
+## Name_Feditor
+Feditor[X]
+
+## Desc_Feditor
+Faithful servant of the dark god[N]
+Hex, causing havoc across the land.[X]
+
+## LyriaName
+Lyria[X]
+
+## LyriaDesc
+Former priestess of the Church[N]
+of Blood. Now, she dances.[X]
+
+## MeriahName
+Meriah[X]
+
+## MeriahDesc
+Granddaughter of the Great Sage,[N]
+Maios. Wasting away as a dancer.[X]
+
+## PlumName
+Plum[X]
+
+## PlumDesc
+Daughter of Lionheart and Lan,[N]
+Barts's foster sister, now a slave.[X]
+
+## YuniName
+Yuni[X]
+
+## YuniDesc
+Holmes's friend. An energetic[N]
+female thief... in days gone by.[X]
+
+## Name_Anna
+Funf[X]
+
+## GenericName
+Soldier[X]
+
+## GenericDesc
+A soldier of the Donateenaries.[X]
+
+## ONeillDesc
+The commander of the mysterious[N]
+force that killed Void's family.[X]
+
+## BoneDesc
+Ruler of the Bone Hole. A shaman[N]
+able to use an axe in a pinch.[X]
+
+## ZontaDesc
+An incredibly powerful summoner,[N]
+commanding the Bad region's men.[X]
+
+## MurrayDesc
+A captain of the Donateenaries.[N]
+Obsessed with collecting donations.[X]
+
+## TiradoDesc
+Yet another Donateenary commander,[N]
+who is attacking yet another town.[X]
+
+## SelenaDesc
+A powerful mage fighter lurking[N]
+among the Donateenary ranks.[X]
+
+## PabloDesc
+A mountain man, commanding a[N]
+small expeditionary force.[X]
+
+## Pablo2Desc
+A mountain man, now assigned to the[N]
+desert after being beaten by Void.[X]
+
+## GhebDesc
+Once a vile man and the "hero" of[N]
+GhebFE, now a simple card player.[X]
+
+## BeranDesc
+A mage of the Donateenaries. A[N]
+sadistic man in a sadistic fort.[X]
+
+## AiasDesc
+A Donateenary commander assigned to[N]
+the desert. He is sick of all the sand.[X]
+
+## CarlyleDesc
+The new King of the Basement, over-[N]
+-throwing Eevster in a coup.[X]
+
+## OrsonDesc
+A suspiciously similar substitute[N]
+for Nikita, who is also very tired.[X]
+
+## LyonDesc
+A dracozombie guarding the lava cave.[N]
+As a human, he wielded dark magic.[X]
+
+## VigardeDesc
+The emperor of Grado, henchman of[N]
+Maeda, and forgot to put clothes on.[X]
+
+## CaellachDesc
+A Donateenary who controls Darrman's[N]
+Lakes. Obeys Maeda's names, like Ced.[X]
+
+## Orson2Desc
+Freshened up and ready for a rematch,[N]
+he once again blocks Void's path.[X]
+
+## MorvaDesc
+Commanding the Donateenaries' last[N]
+stand against Void, a loyal knight.[X]
+
+## Lyon2Desc
+The King of the Donateenaries. He[N]
+will only fight Void in single combat.[X]
+
+## Ch11BossDesc
+A monster controlling the Travel[N]
+System. Surprisingly intelligent.[X]
+
+## FavalName
+Faval[X]
+
+## FavalDesc
+A guy with a legendary bow. Sure,[N]
+it's the worst of its kind, but[N]
+at least he has it. Binary, anyone?[X]
+
+## CorpleName
+Corple[X]
+
+## CorpleDesc
+A late-joining healer with almost[N]
+no redeeming features. As a result,[N]
+his mother dies for a berserk staff.[X]
+
+## HannibalName
+Hannibal[X]
+
+## HannibalDesc
+Nicknamed the "Shield of Thracia",[N]
+this veteran takes the dubious[N]
+honour of "Worst Unit in the Game."[X]
+
+## AltennaName
+Altenna[X]
+
+## AltennaDesc
+A woman on a dragon. Her mother was[N]
+kind of stupid: she brought her into[N]
+a desert. With dragons. Oh, Ethlin...[X]
+
+## JuliaName
+Julia[X]
+
+## LesterName
+Lester[X]
+
+## Claude3HName
+Claude[X]
+
+## Claude3HDesc
+Upside-down not priest[X]
+
+## Hilda3HName
+Hilda[X]
+
+## Hilda3HDesc
+Upside-down's girlfriend[X]
+
+## LysitheaName
+Lysithea[X]
+
+## LysitheaDesc
+Dark Spikes[X]
+
+## MarianneName
+Marianne[X]
+
+## MarianneDesc
+Sad[X]
+
+## AnnetteName
+Annette[X]
+
+## AnnetteDesc
+Cute[X]
+
+## DimitriName
+Dimitri[X]
+
+## DimitriDesc
+Kill every last one of them[X]
+
+## SylvainName
+Sylvain[X]
+
+## SylvainDesc
+Ladies' man[X]
+
+## BylethName
+Byleth[X]
+
+## BylethDesc
+Bland[X]
+
+## IngridName
+Ingrid[X]
+
+## IngridDesc
+Flier[X]
+
+## MercedesName
+Mercedes[X]
+
+## MercedesDesc
+Cleric[X]

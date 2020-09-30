@@ -1,0 +1,145 @@
+#include EAstdlib.event
+
+EventPointerTable(0x0A,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN HolyWeapons HolyWeapons
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+HolyWeapons:
+UNIT Celice LordKnight 0x00 Level(30, Ally, 0) [1,9] 0x00 0x00 0x0 0x00 [Tyrfing, Vulnerary] NoAI 
+UNIT Lana Valkyrie 0x00 Level(30,Ally,0) [2, 8] 0x00 0x00 0x0 0x00 [Physic, Sleep] NoAI 
+UNIT Leaf Paladin 0x00 Level(30,Ally,0) [2, 8] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI 
+UNIT Aless Paladin 0x00 Level(30,Ally,0) [3, 4] 0x00 0x00 0x0 0x00 [Mistoltin, Vulnerary] NoAI 
+UNIT Shanan Swordmaster 0x00 Level(30,Ally,0) [5, 1] 0x00 0x00 0x0 0x00 [Balmung, Vulnerary] NoAI 
+UNIT Altenna WyvernLord_F 0x00 Level(30,Ally,0) [3, 6] 0x00 0x00 0x0 0x00 [GaeBolg, Vulnerary] NoAI 
+//Arion
+//Burian
+UNIT Faval Sniper 0x00 Level(1,Ally,0) [6, 4] 0x00 0x00 0x0 0x00 [Ichival, Vulnerary] NoAI 
+UNIT Corple Bishop 0x00 Level(1,Ally,0) [10, 4] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI 
+//Alvis/Cyas
+//Ishtar
+UNIT Sety Sage 0x00 Level(1,Ally,0) [6, 4] 0x00 0x00 0x0 0x00 [Holsety, Vulnerary] NoAI 
+UNIT Julia Sage_F 0x00 Level(1,Ally,0) [7, 3] 0x00 0x00 0x0 0x00 [Narga, Vulnerary] NoAI 
+//Julius
+UNIT
+
+HeroesRelics:
+UNIT Byleth Swordmaster 0x00 Level(1,Ally,0) [0, 0] 0x00 0x00 0x0 0x00 [SilverSword, Vulnerary] NoAI //Creator's Sword
+UNIT Claude3H WyvernLord 0x00 Level(1,Ally,0) [5, 4] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Failnaught
+UNIT Dimitri General 0x00 Level(1,Ally,0) [5, 7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Arahedbar
+UNIT Hilda3H Warrior 0x00 Level(1,Ally,0) [4, 6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Freikugel
+UNIT Lysithea Sage_F 0x00 Level(1,Ally,0) [2, 7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Thyrsus
+UNIT Marianne Valkyrie 0x00 Level(1,Ally,0) [5,6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Blutgang
+UNIT Annette Sage_F 0x00 Level(1,Ally,0) [8, 6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Crusher
+UNIT Sylvain Paladin 0x00 Level(1,Ally,0) [6, 18] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Ruin
+UNIT Ingrid FalcoKnight 0x00 Level(1,Ally,0) [4,2] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Luin
+UNIT Mercedes Bishop 0x00 Level(1,Ally,0) [15, 21] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Rafiel
+//I think I'm forgetting someone but meh
+UNIT
+
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+#ifdef __DEBUG__
+House(0x00,DebugEntry,2,8)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 HolyWeapons
+LOAD1 0x1 HeroesRelics
+LOAD1 0x1 Bad
+MUSC M_FE4Convo1
+Text(Excuse)
+ENDA
+
+EndingScene:
+Text(EndExcuse)
+ENUT 0x3
+MNC2 0x1
+ENDA
+
+// Events
+
+DebugEntry:
+MNC2 0x3C
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Bad:
+UNIT Alvis Sage Alvis Level(30, NPC, 0) [7,18] 0x00 0x00 0x0 0x00 [Forblaze, SilverBlade] PursueWithoutHeedAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [5,15] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [5,14] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [5,13] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [5,12] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [5,11] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [5,10] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [9,15] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [9,14] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [9,13] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [9,12] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [9,11] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto Sage 0x00 Level(30, Enemy, 0) [9,10] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [11,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [17,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [15,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [14,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [13,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [12,7] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [17,10] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [16,10] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [15,10] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [14,10] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [13,10] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [12,10] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto General 0x00 Level(30, Enemy, 0) [11,10] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto Sniper 0x00 Level(30, Enemy, 0) [6,5] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto Sniper 0x00 Level(30, Enemy, 0) [8,5] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto Sniper 0x00 Level(30, Enemy, 0) [7,5] 0x00 0x00 0x0 0x00 [SilverLance, SilverAxe] NoAI 
+UNIT Lopto MageKnight 0x00 Level(30, Enemy, 0) [6,16] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto MageKnight 0x00 Level(30, Enemy, 0) [6,17] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto MageKnight 0x00 Level(30, Enemy, 0) [8,16] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT Lopto MageKnight 0x00 Level(30, Enemy, 0) [8,17] 0x00 0x00 0x0 0x00 [Elfire, Hammerne] NoAI 
+UNIT
+
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset

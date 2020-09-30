@@ -76,6 +76,18 @@
 #define Alvis 50
 #define Manfloy 51
 
+//Just for fun
+#define Claude3H 60
+#define Dimitri 61
+#define Hilda3H 62
+#define Lysithea 63
+#define Marianne 64
+#define Annette 65
+#define Ingrid 66
+#define Mercedes 67
+#define Sylvain 68
+#define Byleth 69
+
 #define Velthomer 0x80
 #define LoptSect 0x81
 
