@@ -10,9 +10,9 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x05"/>
    <property name="MapID" value="0x04"/>
-   <property name="ObjectType" value="0x1"/>
-   <property name="PaletteID" value="0x2"/>
-   <property name="TileConfig" value="0x3"/>
+   <property name="ObjectType" value="0x5F"/>
+   <property name="PaletteID" value="0x60"/>
+   <property name="TileConfig" value="0x61"/>
   </properties>
   <data encoding="base64" compression="zlib">
    eJx7yMzA8HAAMRsD8XhUL/l66Y0BGypMXQ==
