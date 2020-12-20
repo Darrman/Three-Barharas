@@ -2,6 +2,6 @@
 
 #include eastdlib.event
 
-SetChapterData(0x01,0x01,0,0x02,0x03,0x08,Map,0,0,0)
+SetChapterData(ChapterID,ObjectType,0,PaletteID,TileConfig,map_id,Map,0,0,0)
 Map:
-#incbin "Barhara_data.dmp"
+#incbin "Barhara - Copy_data.dmp"
