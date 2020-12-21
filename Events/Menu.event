@@ -71,19 +71,19 @@ ENDA
 EnterBarharaRevisited:
 //Text(BarharaEntry)
 REMU Sigurd
-MNC2 0x01
+MNCH 0x01
 ENDA
 
 EnterJuliusRevenge:
 //Text(JuliusEntry)
 //REMU Sigurd
-//MNC2 0x02
+//MNCH 0x02
 ENDA
 
 EnterCrusadersReturn:
 //Text(CrusadersEntry)
 REMU Sigurd
-MNC2 0x03
+MNCH 0x03
 ENDA
 
 // Manual Movement
