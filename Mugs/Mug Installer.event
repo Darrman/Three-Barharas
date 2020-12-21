@@ -2,215 +2,217 @@
 
 #include "PortraitUpshiftEditor.event"
 
-KagaMug:
+KagaMugLabel:
 #incext PortraitFormatter "kaga.png"
-setMugEntry(0x23, KagaMug, 3, 5, 3, 3)
+setMugEntry(0x23, KagaMugLabel, 3, 5, 3, 3)
 
 //Gen 1
 
-SigurdMug:
+SigurdMugLabel:
 #incext PortraitFormatter "Sigurd.png"
-setMugEntry(0x02, SigurdMug, 4, 6, 4, 4)
+setMugEntry(SigurdMug, SigurdMugLabel, 4, 6, 4, 4)
 
-NoishMug:
+NoishMugLabel:
 #incext PortraitFormatter "Noish.png"
-setMugEntry(0x03, NoishMug, 3, 6, 4, 4)
+setMugEntry(NoishMug, NoishMugLabel, 3, 6, 4, 4)
 
-AlecMug:
+AlecMugLabel:
 #incext PortraitFormatter "Alec.png"
-setMugEntry(0x04, AlecMug, 3, 6, 3, 4)
+setMugEntry(AlecMug, AlecMugLabel, 3, 6, 3, 4)
 
-ArdenMug:
+ArdenMugLabel:
 #incext PortraitFormatter "Arden.png"
-setMugEntry(0x05, ArdenMug, 4, 5, 4, 3)
+setMugEntry(ArdenMug, ArdenMugLabel, 4, 5, 4, 3)
 
-LexMug:
+LexMugLabel:
 #incext PortraitFormatter "Lex.png"
-setMugEntry(0x06, LexMug, 4, 6, 4, 4)
+setMugEntry(LexMug, LexMugLabel, 4, 6, 4, 4)
 
-AzelMug:
+AzelMugLabel:
 #incext PortraitFormatter "Azel.png"
-setMugEntry(0x07, AzelMug, 3, 6, 3, 4)
+setMugEntry(AzelMug, AzelMugLabel, 3, 6, 3, 4)
 
-MidirMug:
+MidirMugLabel:
 #incext PortraitFormatter "Midir.png"
-setMugEntry(0x08, MidirMug, 3, 6, 3, 4)
+setMugEntry(NoishMug, MidirMugLabel, 3, 6, 3, 4)
 
-AideenMug:
+AideenMugLabel:
 #incext PortraitFormatter "Aideen.png"
-setMugEntry(0x09, AideenMug, 3, 6, 3, 4)
+setMugEntry(AideenMug, AideenMugLabel, 3, 6, 3, 4)
 
-DewMug:
+DewMugLabel:
 #incext PortraitFormatter "Dew.png"
-setMugEntry(0x0A, DewMug, 3, 7, 3, 5)
+setMugEntry(DewMug, DewMugLabel, 3, 7, 3, 5)
 
-AiraMug:
+AiraMugLabel:
 #incext PortraitFormatter "Aira.png"
-setMugEntry(0x0B, AiraMug, 3, 6, 3, 4)
+setMugEntry(AiraMug, AiraMugLabel, 3, 6, 3, 4)
 
-JamkaMug:
+JamkaMugLabel:
 #incext PortraitFormatter "Jamka.png"
-setMugEntry(0x0C, JamkaMug, 4, 6, 4, 4)
+setMugEntry(JamkaMug, JamkaMugLabel, 4, 6, 4, 4)
 
-DeirdreMug:
+DeirdreMugLabel:
 #incext PortraitFormatter "Deirdre.png"
-setMugEntry(0x0D, DeirdreMug, 4, 6, 4, 4)
+setMugEntry(DeirdreMug, DeirdreMugLabel, 4, 6, 4, 4)
 
-HolynMug:
+HolynMugLabel:
 #incext PortraitFormatter "Holyn.png"
-setMugEntry(0x0E, HolynMug, 4, 6, 4, 4)
+setMugEntry(HolynMug, HolynMugLabel, 4, 6, 4, 4)
 
-LachesisMug:
+LachesisMugLabel:
 #incext PortraitFormatter "Lachesis.png"
-setMugEntry(0x0F, LachesisMug, 4, 7, 4, 5)
+setMugEntry(LachesisMug, LachesisMugLabel, 4, 7, 4, 5)
 
-LevinMug:
+LevinMugLabel:
 #incext PortraitFormatter "Levin.png"
-setMugEntry(0x10, LevinMug, 3, 6, 4, 4)
+setMugEntry(LevinMug, LevinMugLabel, 3, 6, 4, 4)
 
-SylviaMug:
+SylviaMugLabel:
 #incext PortraitFormatter "Sylvia.png"
-setMugEntry(0x11, SylviaMug, 4, 6, 4, 4)
+setMugEntry(SylviaMug, SylviaMugLabel, 4, 6, 4, 4)
 
-BeowulfMug:
+BeowulfMugLabel:
 #incext PortraitFormatter "Beowulf.png"
-setMugEntry(0x12, BeowulfMug, 3, 5, 3, 3)
+setMugEntry(BeowulfMug, BeowulfMugLabel, 3, 5, 3, 3)
 
-FuryMug:
+FuryMugLabel:
 #incext PortraitFormatter "Fury.png"
-setMugEntry(0x13, FuryMug, 4, 6, 4, 4)
+setMugEntry(FuryMug, FuryMugLabel, 4, 6, 4, 4)
 
-BriggidMug:
+BriggidMugLabel:
 #incext PortraitFormatter "Briggid.png"
-setMugEntry(0x14, BriggidMug, 3, 6, 3, 4)
+setMugEntry(BriggidMug, BriggidMugLabel, 3, 6, 3, 4)
 
-ClaudeMug:
+ClaudeMugLabel:
 #incext PortraitFormatter "Claude.png"
-setMugEntry(0x15, ClaudeMug, 3, 5, 4, 3)
+setMugEntry(ClaudeMug, ClaudeMugLabel, 3, 5, 4, 3)
 
-TiltyuMug:
+TiltyuMugLabel:
 #incext PortraitFormatter "Tiltyu.png"
-setMugEntry(0x16, TiltyuMug, 3, 6, 3, 4)
+setMugEntry(TiltyuMug, TiltyuMugLabel, 3, 6, 3, 4)
 
-AlvisMug:
+AlvisMugLabel:
 #incext PortraitFormatter "alvis.png"
-setMugEntry(0x17, AlvisMug, 3, 5, 4, 3)
+setMugEntry(AlvisMug, AlvisMugLabel, 3, 5, 4, 3)
 
-ManfloyMug:
+ManfloyMugLabel:
 #incext PortraitFormatter "manfloy.png"
-setMugEntry(0x18, ManfloyMug, 4, 7, 4, 5)
+setMugEntry(ManfloyMug, ManfloyMugLabel, 4, 7, 4, 5)
 
-YoungOifayeMug:
+YoungOifayeMugLabel:
 #incext PortraitFormatter "oifaye2.png"
-setMugEntry(0x19, YoungOifayeMug, 3, 6, 3, 4)
+setMugEntry(YoungOifayeMug, YoungOifayeMugLabel, 3, 6, 3, 4)
 
-YoungShananMug:
+YoungShananMugLabel:
 #incext PortraitFormatter "shanan2.png"
-setMugEntry(0x1A, YoungShananMug, 3, 6, 3, 4)
+setMugEntry(YoungShananMug, YoungShananMugLabel, 3, 6, 3, 4)
 
-AzmureMug:
+AzmureMugLabel:
 #incext PortraitFormatter "azmure.png"
-setMugEntry(0x1B, AzmureMug, 3, 6, 3, 4)
+setMugEntry(AzmureMug, AzmureMugLabel, 3, 6, 3, 4)
+
 
 //Gen 2
 
-Julius_Mug:
+Julius_MugLabel:
 #incext PortraitFormatter "Gen 2/julius.png"
-setMugEntry(0x19, Julius_Mug, 4, 6, 4, 4)
+setMugEntry(JuliusMug, Julius_MugLabel, 4, 6, 4, 4)
 
-Aless_Mug:
+Aless_MugLabel:
 #incext PortraitFormatter "Gen 2/aless2.png"
-setMugEntry(0x1A, Aless_Mug, 4,7,4,5)
+setMugEntry(AlessMug, Aless_MugLabel, 4,7,4,5)
 
-Arthur_Mug:
+Arthur_MugLabel:
 #incext PortraitFormatter "Gen 2/arthur2.png"
-setMugEntry(0x1B, Arthur_Mug, 4,7,3,5)
+setMugEntry(ArthurMug, Arthur_MugLabel, 4,7,3,5)
 
-Corple_Mug:
+Corple_MugLabel:
 #incext PortraitFormatter "Gen 2/corple.png"
-setMugEntry(0x1C, Corple_Mug, 4,7,3,5)
+setMugEntry(CorpleMug, Corple_MugLabel, 4,7,3,5)
 
-Delmud_Mug:
+Delmud_MugLabel:
 #incext PortraitFormatter "Gen 2/delmud2.png"
-setMugEntry(0x1D, Delmud_Mug, 4,7,3,5)
+setMugEntry(DelmudMug, Delmud_MugLabel, 4,7,3,5)
 
-Faval_Mug:
+Faval_MugLabel:
 #incext PortraitFormatter "Gen 2/faval2.png"
-setMugEntry(0x1E, Faval_Mug, 3,7,4,4)
+setMugEntry(FavalMug, Faval_MugLabel, 3,7,4,4)
 
-Fee_Mug:
+Fee_MugLabel:
 #incext PortraitFormatter "Gen 2/fee2.png"
-setMugEntry(0x1F, Fee_Mug, 4,7,3,5)
+setMugEntry(FeeMug, Fee_MugLabel, 4,7,3,5)
 
-Fin_Mug:
+Fin_MugLabel:
 #incext PortraitFormatter "Gen 2/fin3.png"
-setMugEntry(0x20, Fin_Mug, 4,7,3,5)
+setMugEntry(FinMug, Fin_MugLabel, 4,7,3,5)
 
-Hannibal_Mug:
+Hannibal_MugLabel:
 #incext PortraitFormatter "Gen 2/hannibal2.png"
-setMugEntry(0x21, Hannibal_Mug, 4,6,4,5)
+setMugEntry(HannibalMug, Hannibal_MugLabel, 4,6,4,5)
 
-Johan_Mug:
+Johan_MugLabel:
 #incext PortraitFormatter "Gen 2/johan2.png"
-setMugEntry(0x22, Johan_Mug, 4,7,3,5)
+setMugEntry(JohanMug, Johan_MugLabel, 4,7,3,5)
 
-Julia_Mug:
+Julia_MugLabel:
 #incext PortraitFormatter "Gen 2/julia2.png"
-setMugEntry(0x23, Julia_Mug, 4,7,3,5)
+setMugEntry(JuliaMug, Julia_MugLabel, 4,7,3,5)
 
-Lakche_Mug:
+Lakche_MugLabel:
 #incext PortraitFormatter "Gen 2/lakche2.png"
-setMugEntry(0x24, Lakche_Mug, 3,6,3,4)
+setMugEntry(LakcheMug, Lakche_MugLabel, 3,6,3,4)
 
-Lana_Mug:
+Lana_MugLabel:
 #incext PortraitFormatter "Gen 2/lana2.png"
-setMugEntry(0x25, Lana_Mug, 4,7,3,5)
+setMugEntry(LanaMug, Lana_MugLabel, 4,7,4,5)
 
-Leaf_Mug:
+Leaf_MugLabel:
 #incext PortraitFormatter "Gen 2/leaf2.png"
-setMugEntry(0x26, Leaf_Mug, 4,7,3,5)
+setMugEntry(LeafMug, Leaf_MugLabel, 4,7,3,5)
 
-Leen_Mug:
+Leen_MugLabel:
 #incext PortraitFormatter "Gen 2/leen2.png"
-setMugEntry(0x27, Leen_Mug, 4,7,3,6)
+setMugEntry(LeenMug, Leen_MugLabel, 4,7,3,6)
 
-Lester_Mug:
+Lester_MugLabel:
 #incext PortraitFormatter "Gen 2/lester2.png"
-setMugEntry(0x28, Lester_Mug, 2,7,3,5)
+setMugEntry(LesterMug, Lester_MugLabel, 2,7,3,5)
 
-Nanna_Mug:
+Nanna_MugLabel:
 #incext PortraitFormatter "Gen 2/nanna2.png"
-setMugEntry(0x29, Nanna_Mug, 4,7,3,5)
+setMugEntry(NannaMug, Nanna_MugLabel, 4,7,3,5)
 
-OifayeMug:
+OifayeMugLabel:
 #incext PortraitFormatter "Gen 2/oifaye.png"
-setMugEntry(0x2A, OifayeMug, 3, 6, 2, 4)
+setMugEntry(OifayeMug, OifayeMugLabel, 3, 6, 2, 4)
 
-CeliceMug:
+CeliceMugLabel:
 #incext PortraitFormatter "Gen 2/celice.png"
-setMugEntry(0x2B, CeliceMug, 4, 7, 4, 5)
+setMugEntry(CeliceMug, CeliceMugLabel, 4, 7, 4, 5)
 
-PattyMug:
+PattyMugLabel:
 #incext PortraitFormatter "Gen 2/patty2.png"
-setMugEntry(0x2C, PattyMug, 3, 7, 3, 5)
+setMugEntry(PattyMug, PattyMugLabel, 3, 7, 3, 5)
 
-SetyMug:
+SetyMugLabel:
 #incext PortraitFormatter "Gen 2/sety2.png"
-setMugEntry(0x2D, SetyMug, 4, 7, 4, 5)
+setMugEntry(SetyMug, SetyMugLabel, 4, 7, 4, 5)
 
-ShananMug:
+ShananMugLabel:
 #incext PortraitFormatter "Gen 2/shanan3.png"
-setMugEntry(0x2E, ShananMug, 4, 6, 4, 5)
+setMugEntry(ShananMug, ShananMugLabel, 4, 6, 4, 5)
 
-TinnyMug:
+TinnyMugLabel:
 #incext PortraitFormatter "Gen 2/tinny2.png"
-setMugEntry(0x2F, TinnyMug, 3, 7, 3, 3)
+setMugEntry(TinnyMug, TinnyMugLabel, 3, 7, 3, 3)
 
-SkaMug:
+SkaMugLabel:
 #incext PortraitFormatter "Gen 2/skasaher.png"
-setMugEntry(0x30, SkaMug, 4, 7, 4, 5)
+setMugEntry(SkaMug, SkaMugLabel, 4, 7, 4, 5)
+
 
 // 3H and other weird stuff
-AnnetteMug:
+AnnetteMugLabel:
 #incext PortraitFormatter "3H Requans/Annette.png"
-setMugEntry(0x31,AnnetteMug, 2, 6, 2, 4)	
+setMugEntry(AnnetteMug,AnnetteMugLabel, 2, 6, 2, 4)
