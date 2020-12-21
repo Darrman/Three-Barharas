@@ -1,4 +1,4 @@
-WorldMapPointerTable(2,WM_Events)
+WorldMapPointerTable(0,WM_Events)
 #define BeginWorldMap "/*EVBIT_MODIFY 0x1*/; _0xC220; WM_SHOWDRAWNMAP 0x0 0x0 0x0 0x10 0x0; STAL 2; WM_FADEOUT 0x0 0x0 0x0"
 #define WorldMapShowTextBox "WM_TEXTDECORATE; WM_SHOWTEXTWINDOW 0x0 0x28 0x1; WM_WAITFORTEXT"
 #define WorldMapTextBegin(textID) "WM_TEXTSTART; WM_TEXT textID"
@@ -16,11 +16,8 @@ WM_Events:
 ENDA*/
 BeginWorldMap
 MUSC 0x4
-WM_SETDESTINATION 0x0 0x1 0x0 //because it loads the map otherwise? testing stuff here
-_0xA640 0x0 0x0 0x1 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
-WM_TEXTDECORATE //because the macro's in a bad mood
 WorldMapShowTextBox
-WorldMapTextBegin(BarharaWorldMapNarration)
+WorldMapTextBegin(0x815) //placeholder
 TEXTEND
 
 STAL 60

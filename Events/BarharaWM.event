@@ -1,0 +1,18 @@
+WorldMapPointerTable(2,WM_Events)
+
+WM_Events:
+/*SKIPWN
+ENDA*/
+BeginWorldMap
+MUSC 0x4
+//WM_SETDESTINATION 0x0 0x1 0x0 //because it loads the map otherwise? testing stuff here
+//_0xA640 0x0 0x0 0x1 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
+WM_TEXTDECORATE //because the macro's in a bad mood
+WorldMapShowTextBox
+WorldMapTextBegin(BarharaWorldMapNarration)
+TEXTEND
+
+STAL 60
+FADI 16
+SKIPWN
+ENDA
