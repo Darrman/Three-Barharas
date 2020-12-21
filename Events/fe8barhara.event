@@ -9,7 +9,7 @@
 //                                                //
 ////////////////////////////////////////////////////
 
-EventPointerTable(0x07,PointerList)
+EventPointerTable(0x0A,PointerList)
 
 #include EAstdlib.event
 //#define OLD_AI

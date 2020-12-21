@@ -75,6 +75,8 @@
 
 #define Alvis 50
 #define Manfloy 51
+#define Julius 52
+//the dark warlords can go somewhere else
 
 //Just for fun
 #define Claude3H 60
@@ -87,6 +89,7 @@
 #define Mercedes 67
 #define Sylvain 68
 #define Byleth 69
+#define Felix 70
 
 #define Velthomer 0x80
 #define LoptSect 0x81

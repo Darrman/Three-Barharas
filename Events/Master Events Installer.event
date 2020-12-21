@@ -2,6 +2,9 @@
 // #define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3ad8+(4*id); POIN offset; POP"
 ALIGN 4
 {
+  #include "Menu.event"
+}
+{
   #include "fe8barhara.event"
 }
 {
@@ -11,27 +14,3 @@ ALIGN 4
   #include "Debug.event"
 }
 ALIGN 4
-//ShieldThrowPP:
-//ASMC PlayerPhaseASMC|1
-//BEQ 0x0 0xc 0x0
-//  Text(ItsOverAnakin)
-//LABEL 0x0
-//NoFade
-//ENDA
-//
-//ShieldThrowEP:
-//ASMC EnemyPhaseASMC|1
-//BEQ 0x1 0xc 0x0
-//  Text(ItsOverAnakin)
-//LABEL 0x1
-//NoFade
-//ENDA
-//
-//PlayerPhaseASMC:
-//#incbin "PlayerPhaseASMC.dmp"
-//
-//EnemyPhaseASMC:
-//#incbin "EnemyPhaseASMC.dmp"
-//ALIGN 4
-//
-
