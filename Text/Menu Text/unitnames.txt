@@ -194,1028 +194,243 @@ Lopto[X]
 A member of the Lopt Sect,[N]
 who wish to revive the Dark Lord.[X]
 
-##Name_Mario
-Mario[X]
-
-##Desc_Mario
-Our Goomba-stomping, Bowser[N]
-beating, mushroom eating hero.[X]
-
-##Name_Bowser
-Bowser[X]
-
-##Desc_Bowser
-Professional princess kidnapper.[N]
-Ready to burn things.[X]
-
-##Name_DQHero
-Hero[X]
-
-##Desc_DQHero
-Saved thy world from thy evil[N]
-Dragonlord. Speaks ye olde.[X]
-
-##Name_Kaga
-Kaga[X]
-
-##Desc_Kaga
-The man who made Fire Emblem.[N]
-Desires to be overthrown.[X]
-
-##Name_Crono
-Crono[X]
-
-##Desc_Crono
-Time travelling, history meddling,[N]
-convicted criminal...[X]
-
-##Name_Marle
-Marle[X]
-
-##Desc_Marle
-Time travelling, pretended to be[N]
-queen, allegedly kidnapped...[X]
-
-##Name_Terra
-Terra[X]
-
-##Desc_Terra
-She can cast magic![N]
-M-m-m-m-m-m-m-magic![X]
-
-##Name_Cecil
-Cecil[X]
-
-##Desc_Cecil
-Keeps running around after crystals.[N]
-Not sure if he's evil or not.[X]
-
-##Name_Ness
-Ness[X]
-
-##Desc_Ness
-Nothing brings him greater[N]
-joy than cycling. Alone.[X]
-
-##Name_Red
-Red[X]
-
-##Desc_Red
-A Pokemon Master. Cycles in order[N]
-to travel at a reasonable pace.[X]
-
-##Name_Butz
-Butz[X]
-
-##Desc_Butz
-He's seen better days. Chose a[N]
-strange class for himself today.[X]
-
-##Name_Kazuya
-Kazuya[X]
-
-##Desc_Kazuya
-After his home was blown up,[N]
-he's taken to summoning demons.[X]
-
-##Name_Rydia
-Rydia[X]
-
-##Desc_Rydia
-After being eaten by a monster,[N]
-she suddenly got a lot older.[X]
-
-##Name_Ryu
-Ryu[X]
-
-##Desc_Ryu
-After burglarising things,[N]
-he fished with lod and bait.[X]
-
-##Name_Purim
-Purim[X]
-
-##Desc_Purim
-Some evil guy stole her boyfriend.[N]
-She didn't take too kindly to it.[X]
-
-## GenericName
-Enemy[X]
-
-## GenericDesc
-A soldier fighting for[N]
-some villainous force.[X]
-
-## Ch1BossName
-Ch. 1 Boss[X]
-
-## Ch1BossDesc
-Boss of Chapter 1.[X]
-
-## Ch2BossName
-Ch. 2 Boss[X]
-
-## Ch2BossDesc
-Boss of Chapter 2.[N]
-Leader of the pirates.[X]
-
-## Ch3BossName
-Ch. 3 Boss[X]
-
-## Ch3BossDesc
-Boss of Chapter 3.[X]
-
-## Ch4BossName
-Ch. 4 Boss[X]
-
-## Ch4BossDesc
-Boss of Chapter 4.[X]
-
-## PascalName
-Pascal[X]
-
-## PascalDesc
-Remember when your dog[N]
-fused into a huge demon?[X]
-
-## BahamutName
-Bahamut[X]
-
-## BahamutDesc
-Has a bad habit of counting[N]
-down to his ultimate attack.[X]
-
-##Name_Tye
-Tye[X]
-
-##Desc_Tye
-Archenemy of Tim and Tam.[N]
-Or so he keeps claiming.[X]
-
-##Name_Celicia
-Celicia[X]
-
-##Desc_Celicia
-Prone to wandering off alone,[N]
-lost in thoughts of grey waves.[X]
-
-##Name_Eevster
-Eevster[X]
-
-##Desc_Eevster
-The (Former) King of[N]
-the Basement.[X]
-
-##Desc_WyvAnna
-How many Annas are[N]
-there, anyway?[X]
-
-##Name_Nikita
-Nikita[X]
-
-##Desc_Nikita
-Axe-focused GK[X]
-
-## EdgeworthName
-Edgeworth[X]
-
-## ZigludoName
-Zigludo[X]
-
-##KagaName
-Kaga[X]
-
-##MarfName
-Marf[X]
-
-##EdgeworthDesc
-HIS EDGE IS WORTH[X]
-
-##ZigludoDesc
-Haha Funny fire meme[N]
-wank Xdddd dab[X]
-
-##KagaDesc
-The man who made Fire Emblem.[N]
-Desires to be overthrown.[X]
-
-##MarfDesc
-Not amused[X]
-
-##Desc_RogueAnna
-A girl with a familiar face.[N]
-Her love of money is REALLY strong.[X]
-
-##Name_Doot
-Doot[X]
-
-##Desc_Doot
-DOOT DOOT[X]
-
-##Name_Celica
-Celica[X]
-
-##Desc_Celica
-Princess of the Pirates.[N]
-Hails from a distant land.[X]
-
-##Name_Doowile
-Doowile[X]
-
-##Desc_Doowile
-Consume thy enemy![X]
-
-##Name_EvilFlorina
-Evil Florina[X]
-
-##Desc_EvilFlorina
-uweeheehee[X]
-
-##Name_Jake
-Jake[X]
-
-##Desc_Jake
-Anna's boyfriend.[N]
-Beat Leeroy at Monopoly.[X]
-
-##Name_Tiki
-Tiki[X]
-
-##Desc_Tiki
-Pining for Mar-Mar.[X]
-
-##Name_Mark
-Mark[X]
-
-##Desc_Mark
-A mysterious person who[N]
-claims to be a tactician.[X]
-
-##Name_Bjoern
-Bj[0xf6]rn[X]
-
-##Desc_Bjoern
-His raison d'[0xea]tre: na[0xef]vet[0xe9] as[N]
-a fa[0xe7]ade for doppelg[0xe4]ngers.[X]
-
-##Name_EdgeAlly
-Edge's Ally[X]
-
-##Desc_EdgeAlly
-Edge's old friend, with him[N]
-through thick and thin.[X]
-
-##Name_Lennon
-Lennon[X]
-
-##Desc_Lennon
-One of the four Beatles.[X]
-
-##Name_Paul
-Paul[X]
-
-##Desc_Paul
-One of the four Beatles.[X]
-
-##Name_Ringo
-Ringo[X]
-
-##Desc_Ringo
-One of the four Beatles.[X]
-
-##Name_Harrison
-Harrison[X]
-
-##Desc_Harrison
-One of the four Beatles.[X]
-
-##Name_Prine
-Prine[X]
-
-##Desc_Prine
-onii-nyama sugoi~[X]
-
-##Name_Maeda
-Maeda[X]
-
-##Desc_Maeda
-Saved the series,[N]
-but at what cost?[X]
-
-##Name_Saara
-Saara[X]
-
-##Desc_Saara
-A general of the Donatenaries.[N]
-She can control the weather.[X]
-
-##Name_MrBones
-Mr. Bones[X]
-
-##Desc_MrBones
-Governor of the skeleton colony.[N]
-Detests all fleshy beings.[X]
-
-##Name_Banana
-Banana[X]
-
-##Desc_Banana
-A harbinger of this[N]
-universe's destruction.[X]
-
-##Name_Grit
-Grit[X]
-
-##Desc_Grit
-A visitor from beyond[N]
-the Outrealms.[X]
-
-##Name_Gwendy
-Gwendolyn[X]
-
-##Desc_Gwendy
-The basics are everything.[X]
-
-## Name_Jenkins
-Jenkins[X]
-
-## Desc_Jenkins
-Bazba Jenkins, the enemy[N]
-of Leeroy. Wants revenge.[X]
-
-## Name_Tatara
-Tatara[X]
-
-## Desc_Tatara
-Shaman of the Doma Faithful.[N]
-He has Doot under his control.[X]
-
-## Name_Feditor
-Feditor[X]
-
-## Desc_Feditor
-Faithful servant of the dark god[N]
-Hex, causing havoc across the land.[X]
-
-## LyriaName
-Lyria[X]
-
-## LyriaDesc
-Former priestess of the Church[N]
-of Blood. Now, she dances.[X]
-
-## MeriahName
-Meriah[X]
-
-## MeriahDesc
-Granddaughter of the Great Sage,[N]
-Maios. Wasting away as a dancer.[X]
-
-## PlumName
-Plum[X]
-
-## PlumDesc
-Daughter of Lionheart and Lan,[N]
-Barts's foster sister, now a slave.[X]
-
-## YuniName
-Yuni[X]
-
-## YuniDesc
-Holmes's friend. An energetic[N]
-female thief... in days gone by.[X]
-
-## Name_Anna
-Anna[X]
-
-## OldGenericName
-Donatenry[X]
-
-## OldGenericDesc
-A soldier of the Donateenaries, who[N]
-seek the revival of the Demon King.[X]
-
-## ONeillDesc
-The commander of the mysterious[N]
-force that killed Void's family.[X]
-
-## BoneDesc
-Ruler of the Bone Hole. A shaman[N]
-able to use an axe in a pinch.[X]
-
-## ZontaDesc
-An incredibly powerful summoner,[N]
-commanding the Bad region's men.[X]
-
-## MurrayDesc
-A captain of the Donateenaries.[N]
-Obsessed with collecting donations.[X]
-
-## TiradoDesc
-Yet another Donateenary commander,[N]
-who is attacking yet another town.[X]
-
-## SelenaDesc
-A powerful mage fighter lurking[N]
-among the Donateenary ranks.[X]
-
-## PabloDesc
-A mountain man, commanding a[N]
-small expeditionary force.[X]
-
-## Pablo2Desc
-A mountain man, now assigned to the[N]
-desert after being beaten by Void.[X]
-
-## GhebDesc
-Once a vile man and the "hero" of[N]
-GhebFE, now a simple card player.[X]
-
-## BeranDesc
-A mage of the Donateenaries. A[N]
-sadistic man in a sadistic fort.[X]
-
-## AiasDesc
-A Donateenary commander assigned to[N]
-the desert. He is sick of all the sand.[X]
-
-## CarlyleDesc
-The new King of the Basement, over-[N]
--throwing Eevster in a coup.[X]
-
-## OrsonDesc
-A suspiciously similar substitute[N]
-for Nikita, who is also very tired.[X]
-
-## LyonDesc
-A dracozombie guarding the lava cave.[N]
-As a human, he wielded dark magic.[X]
-
-## VigardeDesc
-The emperor of Grado, henchman of[N]
-Maeda, and forgot to put clothes on.[X]
-
-## CaellachDesc
-A Donateenary who controls Darrman's[N]
-Lakes. Obeys Maeda's names, like Ced.[X]
-
-## Orson2Desc
-Freshened up and ready for a rematch,[N]
-he once again blocks Void's path.[X]
-
-## MorvaDesc
-Commanding the Donateenaries' last[N]
-stand against Void, a loyal knight.[X]
-
-## Lyon2Desc
-The King of the Donateenaries. He[N]
-will only fight Void in single combat.[X]
-
-## Ch11BossDesc
-A monster controlling the Travel[N]
-System. Surprisingly intelligent.[X]
-
-## BasementName
-Basement[X]
-
-## AllyBasementDesc
-Soldiers still loyal to Eevster[N]
-after the Basement coup.[X]
-
-## EnemyBasementDesc
-Soldiers who believe in Carlyle,[N]
-and are fighting against the regime.[X]
-
-## BlueMoonName
-Blue Moon[X]
-
-## BlueMoonDesc
-A soldier of the Blue Moon Army,[N]
-under command of marksman Grit.[X]
-
-## Ch15AllyName
-Anna's[X]
-
-## Ch15AllyDesc
-Fighters engaged in battle against[N]
-Blue Moon, commanded by Anna.[X]
-
-## MaedaGenericName
-Maeda's[X]
-
-## MaedaGenericDesc
-A man in the service of Maeda. They[N]
-want to preserve Fire Emblem...[X]
-
-## Ch19AllyName
-Rebels[X]
-
-## Ch19AllyDesc
-Rebels against Maeda's rule.[N]
-They wish to return to Kaga.[X]
-
-## DomaFaithfulName
-D. Faithful[X]
-
-## DomaFaithfulDesc
-Cultists part of the Doma Faithful,[N]
-based in eastern Rigel. Cruel.[X]
-
-## CelicaSummonName
-Summon[X]
-
-## CelicaSummonDesc
-A monster called from the darkness.[N]
-They bring ruin to wherever they go.[X]
-
-## SkeletonName
-Skeleton[X]
-
-## SkeletonDesc
-A member of the skeleton colony.[N]
-Waging war with the zombies.[X]
-
-## ZombieName
-Zombie[X]
-
-## ZombieDesc
-A member of the zombie colony.[N]
-Waging war with the skeletons.[X]
-
-## WendyGenericName
-Gwendy's[X]
-
-## WendyGenericDesc
-Eager young fighters who heard the[N]
-call to arms by Gwendolyn.[X]
-
-## Ch25DragonName
-Dragon[X]
-
-## Ch25DragonDesc
-A dragon sealed away at the Shrine[N]
-of Meals. However, it's awakening...[X]
-
-## FinalMonsterName
-Monster[X]
-
-## FinalMonsterDesc
-Guardians of Demon King Feditor.[N]
-To this day, they worship him.[X]
-
-##Name_Void
+## JuliusName
 Julius[X]
 
-##Desc_Void
+## JuliusDesc
 The Dark Prince of Grandbell,[N]
 possessed by big bad Lopto.[X]
 
-##Name_Tim
+## EinsName
 Eins[X]
 
-##Desc_Tim
+## EinsDesc
 The first of the Dark Warlords,[N]
 a baron of Manster.[X]
 
-##Name_Tam
+## ZweiName
 Zwei[X]
 
-##Desc_Tam
+## ZweiDesc
 The second of the Dark Warlords,[N]
 a hero distantly related to Isaac.[X]
 
-##Name_Jerome
+## DreiName
 Drei[X]
 
-##Desc_Jerome
+## DreiDesc
 The third of the Dark Warlords,[N]
 a Thracian bandit from the hills.[X]
 
-##Name_Leeroy
+## VierName
 Vier[X]
 
-##Desc_Leeroy
+## VierDesc
 The fourth of the Dark[N]
 Warlords, a high priest.[X]
 
-##Name_Bede
+## SechsName
 Sechs[X]
 
-##Desc_Bede
+## SechsDesc
 The sixth of the Dark Warlords,[N]
 a mage fighter of Tordo blood.[X]
 
-##Name_Jay
+## SiebenName
 Sieben[X]
 
-##Desc_Jay
+## SiebenDesc
 The seventh of the Dark Warlords,[N]
 a bishop of Fala blood.[X]
 
-##Name_NotArch
+## AchtName
 Acht[X]
 
-##Desc_NotArch
+## AchtDesc
 The eighth of the Dark Warlords,[N]
 a sage of Holsety blood.[X]
 
-##Name_Kirsten
+## NeunName
 Neun[X]
 
-##Desc_Kirsten
+## NeunDesc
 The ninth of the Dark[N]
 Warlords, a swordmaster.[X]
 
-##Name_Bob
+## ZehnName
 Zehn[X]
 
-##Desc_Bob
+## ZehnDesc
 The tenth of the Dark[N]
 Warlords, a dark bishop.[X]
 
-##Name_Roshea
+## ElfName
 Elf[X]
 
-##Desc_Roshea
+## ElfDesc
 The eleventh of the Dark Warlords,[N]
 a shaman related to Manfloy.[X]
 
-##Name_Edge
-Edge[X]
+## ZwolfName
+Zwolf[X]
 
-##Desc_Edge
-Can handle the weight.[X]
+## ZwolfDesc
+The twelfth of the Dark Warlords,[N]
+leader of a gang of pirates.[X]
 
-##Name_Samson
+## CeliceName
 Celice[X]
 
-##Desc_Samson
+## CeliceDesc
 He calls himself the Scion of[N]
 Light, and is the son of Zigludo.[N]
 By the way, he likes healers.[X]
 
-##Name_Arve
+## LanaName
 Lana[X]
 
-##Desc_Arve
+## LanaDesc
 Celice's wife. Come on, look at[N]
 them. They're so cute together![N]
 You'd be a monster to split them.[X]
 
-##Name_Tye
+## SkasahaName
 Skasaha[X]
 
-##Desc_Tye
+## SkasahaDesc
 This guy's name is a pain to[N]
 pronounce. And spell. And it[N]
 keeps changing. Geez.[X]
 
-##Name_Celicia
+## LakcheName
 Lakche[X]
 
-##Desc_Celicia
+## LakcheDesc
 In a distant land, a great war took[N]
 place over her husband's identity.[N]
 Some say Johan, Shanan, Celice?![X]
 
-##Name_Eevster
+## DelmudName
 Delmud[X]
 
-##Desc_Eevster
+## DelmudDesc
 A boring, useless idiot who is[N]
 not very charismatic. Darn.[N]
 We think his dad is Beowulf.[X]
 
-##Desc_WyvAnna
+## LesterName
+Lester[X]
+
+## LesterDesc
 In all the years of namewanking,[N]
 he has been consistently Lester.[N]
 Compared to his poor mother...[X]
 
-##Name_Nikita
+## OifayeName
 Oifaye[X]
 
-##Desc_Nikita
+## OifayeDesc
 He's fought with Zigludo, he's[N]
 fought with Celice. All and all,[N]
 he's a good, loyal man.[X]
 
-## EdgeworthName
+## JohanName
 Johan[X]
 
-## ZigludoName
+## ArthurName
 Arthur[X]
 
-##KagaName
+## FeeName
 Fee[X]
 
-##MarfName
+## LeenName
 Leen[X]
 
-##EdgeworthDesc
+## JohanDesc
 He's head over heels in love[N]
 with Lakche. That being said,[N]
 you can get Johalva instead.[X]
 
-##ZigludoDesc
+## ArthurDesc
 Arthur, destroyer of worlds with[N]
 Holset- What? His dad is Azel?[N]
 Really? You're no fun.[X]
 
-##KagaDesc
+## FeeDesc
 Daugher of Fury. Or Erin. Or[N]
 Ferry. Actually, do we spell[N]
 your name Fee or Phee now?[X]
 
-##MarfDesc
+## LeenDesc
 You give her the Knight and[N]
 Leg Rings, and you've got a[N]
 super dancer on your hands.[X]
 
-##Desc_RogueAnna
+## JuliaDesc
 Celice's sister. She's also[N]
 in love with the man. Yes,[N]
 she loves him in *that* way.[X]
 
-##Name_Doot
+## ShananName
 Shanan[X]
 
-##Desc_Doot
+## ShananDesc
 Once a little kid that Zigludo[N]
 bailed out, now a swordmaster[N]
 ready to obliterate his foes.[X]
 
-##Name_Celica
+## PattyName
 Patty[X]
 
-##Desc_Celica
+## PattyDesc
 A thief that may be slightly[N]
 obsessed with Shanan. She did[N]
 freak out when seeing him.[X]
 
-##Name_Doowile
+## LeafName
 Leaf[X]
 
-##Desc_Doowile
+## LeafDesc
 A glorious Master Knight, all[N]
 ready to use whatever he pleases.[N]
 Except dark magic. But no matter.[X]
 
-##Name_EvilFlorina
+## NannaName
 Nanna[X]
 
-##Desc_EvilFlorina
+## NannaDesc
 Leaf's wife, Fin's daughter.[N]
 ...I may have crossed many[N]
 lines with those statements.[X]
 
-##Name_Jake
+## AlessName
 Aless[X]
 
-##Desc_Jake
+## AlessDesc
 A palette swap of Eltshan.[N]
 Come on, he's just his father[N]
 but wearing black instead.[X]
 
-##Name_Tiki
+## TinnyName
 Tinny[X]
 
-##Desc_Tiki
+## TinnyDesc
 She's cute, I'll give her that.[N]
 Sadly, that's about her only[N]
 redeeming trait. *sighs*[X]
 
-##Name_Mark
+## SetyName
 Sety[X]
 
-##Desc_Mark
+## SetyDesc
 A truly amazing unit. Praise the[N]
 power of Holsety! By the way,[N]
 whoever invented "Ced" is stupid.[X]
 
-##Name_Bjoern
-Fin[X]
-
-##Desc_Bjoern
+## Fin2Desc
 You can't kill him. He's lived[N]
 through Barhara. He's lived in[N]
 the Empire. He's survived Thracia.[X]
-
-##Name_EdgeAlly
-Edge's Ally[X]
-
-##Desc_EdgeAlly
-Edge's old friend, with him[N]
-through thick and thin.[X]
-
-##Name_Lennon
-Lennon[X]
-
-##Desc_Lennon
-One of the four Beatles.[X]
-
-##Name_Paul
-Paul[X]
-
-##Desc_Paul
-One of the four Beatles.[X]
-
-##Name_Ringo
-Ringo[X]
-
-##Desc_Ringo
-One of the four Beatles.[X]
-
-##Name_Harrison
-Harrison[X]
-
-##Desc_Harrison
-One of the four Beatles.[X]
-
-##Name_Prine
-Zwolf[X]
-
-##Desc_Prine
-The twelveth of the Dark Warlords,[N]
-leader of a gang of pirates.[X]
-
-##Name_Maeda
-Maeda[X]
-
-##Desc_Maeda
-Saved the series,[N]
-but at what cost?[X]
-
-##Name_Saara
-Saara[X]
-
-##Desc_Saara
-A general of the Donatenaries.[N]
-She can control the weather.[X]
-
-##Name_MrBones
-Mr. Bones[X]
-
-##Desc_MrBones
-Governor of the skeleton colony.[N]
-Detests all fleshy beings.[X]
-
-##Name_Banana
-Banana[X]
-
-##Desc_Banana
-A harbinger of this[N]
-universe's destruction.[X]
-
-##Name_Grit
-Grit[X]
-
-##Desc_Grit
-A visitor from beyond[N]
-the Outrealms.[X]
-
-##Name_Gwendy
-Gwendolyn[X]
-
-##Desc_Gwendy
-The basics are everything.[X]
-
-## Name_Jenkins
-Jenkins[X]
-
-## Desc_Jenkins
-Bazba Jenkins, the enemy[N]
-of Leeroy. Wants revenge.[X]
-
-## Name_Tatara
-Tatara[X]
-
-## Desc_Tatara
-Shaman of the Doma Faithful.[N]
-He has Doot under his control.[X]
-
-## Name_Feditor
-Feditor[X]
-
-## Desc_Feditor
-Faithful servant of the dark god[N]
-Hex, causing havoc across the land.[X]
-
-## LyriaName
-Lyria[X]
-
-## LyriaDesc
-Former priestess of the Church[N]
-of Blood. Now, she dances.[X]
-
-## MeriahName
-Meriah[X]
-
-## MeriahDesc
-Granddaughter of the Great Sage,[N]
-Maios. Wasting away as a dancer.[X]
-
-## PlumName
-Plum[X]
-
-## PlumDesc
-Daughter of Lionheart and Lan,[N]
-Barts's foster sister, now a slave.[X]
-
-## YuniName
-Yuni[X]
-
-## YuniDesc
-Holmes's friend. An energetic[N]
-female thief... in days gone by.[X]
-
-## Name_Anna
-Funf[X]
-
-## GenericName
-Soldier[X]
-
-## GenericDesc
-A soldier of the Donateenaries.[X]
-
-## ONeillDesc
-The commander of the mysterious[N]
-force that killed Void's family.[X]
-
-## BoneDesc
-Ruler of the Bone Hole. A shaman[N]
-able to use an axe in a pinch.[X]
-
-## ZontaDesc
-An incredibly powerful summoner,[N]
-commanding the Bad region's men.[X]
-
-## MurrayDesc
-A captain of the Donateenaries.[N]
-Obsessed with collecting donations.[X]
-
-## TiradoDesc
-Yet another Donateenary commander,[N]
-who is attacking yet another town.[X]
-
-## SelenaDesc
-A powerful mage fighter lurking[N]
-among the Donateenary ranks.[X]
-
-## PabloDesc
-A mountain man, commanding a[N]
-small expeditionary force.[X]
-
-## Pablo2Desc
-A mountain man, now assigned to the[N]
-desert after being beaten by Void.[X]
-
-## GhebDesc
-Once a vile man and the "hero" of[N]
-GhebFE, now a simple card player.[X]
-
-## BeranDesc
-A mage of the Donateenaries. A[N]
-sadistic man in a sadistic fort.[X]
-
-## AiasDesc
-A Donateenary commander assigned to[N]
-the desert. He is sick of all the sand.[X]
-
-## CarlyleDesc
-The new King of the Basement, over-[N]
--throwing Eevster in a coup.[X]
-
-## OrsonDesc
-A suspiciously similar substitute[N]
-for Nikita, who is also very tired.[X]
-
-## LyonDesc
-A dracozombie guarding the lava cave.[N]
-As a human, he wielded dark magic.[X]
-
-## VigardeDesc
-The emperor of Grado, henchman of[N]
-Maeda, and forgot to put clothes on.[X]
-
-## CaellachDesc
-A Donateenary who controls Darrman's[N]
-Lakes. Obeys Maeda's names, like Ced.[X]
-
-## Orson2Desc
-Freshened up and ready for a rematch,[N]
-he once again blocks Void's path.[X]
-
-## MorvaDesc
-Commanding the Donateenaries' last[N]
-stand against Void, a loyal knight.[X]
-
-## Lyon2Desc
-The King of the Donateenaries. He[N]
-will only fight Void in single combat.[X]
-
-## Ch11BossDesc
-A monster controlling the Travel[N]
-System. Surprisingly intelligent.[X]
 
 ## FavalName
 Faval[X]
@@ -1251,9 +466,6 @@ a desert. With dragons. Oh, Ethlin...[X]
 
 ## JuliaName
 Julia[X]
-
-## LesterName
-Lester[X]
 
 ## Claude3HName
 Claude[X]
@@ -1314,3 +526,9 @@ Mercedes[X]
 
 ## MercedesDesc
 Cleric[X]
+
+## FelixName
+Felix[X]
+
+## FelixDesc
+Edgy[X]

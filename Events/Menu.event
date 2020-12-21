@@ -30,7 +30,7 @@ END_MAIN
 
 LocationBasedEvents:
 #ifdef __DEBUG__
-House(0x00,DebugEntry,2,8)
+House(0x00,DebugEntry,2,7)
 #endif
 END_MAIN
 
@@ -70,16 +70,19 @@ ENDA
 
 EnterBarharaRevisited:
 //Text(BarharaEntry)
+REMU Sigurd
 MNC2 0x01
 ENDA
 
 EnterJuliusRevenge:
 //Text(JuliusEntry)
+//REMU Sigurd
 //MNC2 0x02
 ENDA
 
 EnterCrusadersReturn:
 //Text(CrusadersEntry)
+REMU Sigurd
 MNC2 0x03
 ENDA
 

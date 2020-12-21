@@ -76,20 +76,20 @@
 #define Alvis 50
 #define Manfloy 51
 #define Julius 52
-//the dark warlords can go somewhere else
+#define MenuCharacter 53 //don't know who yet. kid oifaye?
 
 //Just for fun
-#define Claude3H 60
-#define Dimitri 61
-#define Hilda3H 62
-#define Lysithea 63
-#define Marianne 64
-#define Annette 65
-#define Ingrid 66
-#define Mercedes 67
-#define Sylvain 68
-#define Byleth 69
-#define Felix 70
+#define Claude3H 55
+#define Dimitri 56
+#define Hilda3H 57
+#define Lysithea 58
+#define Marianne 59
+#define Annette 60
+#define Ingrid 61
+#define Mercedes 62
+#define Sylvain 63
+#define Byleth 64
+#define Felix 65
 
 #define Velthomer 0x80
 #define LoptSect 0x81
