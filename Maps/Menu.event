@@ -2,7 +2,7 @@
 
 #include eastdlib.event
 
-SetChapterData(0,0x1,0,0x2,0x3,0x04,Map,0,0,0x05)
+SetChapterData(0,0x5f,0,0x60,0x61,0x04,Map,0,0,0x05)
 EventPointerTable(0x05, MapChanges)
 Map:
 #incbin "Menu_data.dmp"
@@ -12,6 +12,6 @@ TileMap(1,6,0,2,2,Dummy_Change)
 TileMapEnd
 
 Dummy_Change:
-SHORT 0x94 0x94 0x94 0x94 
+SHORT 
 ALIGN 4
 

@@ -112,7 +112,6 @@ TrapData:
 END_MAIN
 
 BeginningScene:
-MNC2 0x1
 MUSC M_EmperorAlvis //FE7 Eight Generals; FE4 Conspiracy
 LOAD2 0x1 GoodNM
 ENUN

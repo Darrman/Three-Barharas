@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
- <tileset firstgid="1" name="8800898a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../BadIdea/Maps/Tilesets/FE8/8800898a.png" width="512" height="512"/>
+ <tileset firstgid="1" name="5f006061" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../../BadIdea/Maps/Tilesets/FE8/5f006061.png" width="512" height="512"/>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="15" height="10">
   <properties>
@@ -10,12 +10,12 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x05"/>
    <property name="MapID" value="0x04"/>
-   <property name="ObjectType" value="0x5F"/>
+   <property name="ObjectType" value="0x5f"/>
    <property name="PaletteID" value="0x60"/>
    <property name="TileConfig" value="0x61"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJx7yMzA8HAAMRsD8XhUL/l66Y0BGypMXQ==
+   eJwTZ2RgEB9AvJmZeDyql3y99MYAqaY2zQ==
   </data>
  </layer>
  <layer id="2" name="Dummy Change" width="15" height="10">
@@ -27,7 +27,7 @@
    <property name="Y" value="0"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYMAO1KCYHECJ3lEwPAAARWcAmQ==
+   eJxjYBgFo4D6AAACWAAB
   </data>
  </layer>
 </map>

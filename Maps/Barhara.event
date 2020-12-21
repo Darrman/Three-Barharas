@@ -2,7 +2,7 @@
 
 #include eastdlib.event
 
-SetChapterData(1,0x5F,0,0x60,0x61,0x08,Map,0,0,0x09)
+SetChapterData(1,0x1,0,0x2,0x3,0x08,Map,0,0,0x09)
 EventPointerTable(0x09, MapChanges)
 Map:
 #incbin "Barhara_data.dmp"
