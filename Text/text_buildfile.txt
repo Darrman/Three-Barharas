@@ -47,6 +47,7 @@ for one turn[X]
 #include "Menu Text/items.txt"
 #include "Menu Text/Debug Text.txt"
 #include "Chapter Text/Barhara Revisited.txt"
+#include "Chapter Text/Julius's Revenge.txt"
 #include "Chapter Text/Crusaders Return.txt"
 #include "Chapter Text/DeathQuotes.txt"
 #include "Chapter Text/Ending.txt"

@@ -143,6 +143,113 @@ You ruined so many lives...[AN]
 I'm going to put an[N]
 end to all of this![A][X]
 
+## JuliusDeath
+[OpenMidLeft][LoadVoid]
+NaRgA... YoU'vE RuInEd[N]
+EvErYtHiNg YeT AgAiN...[A][X]
+
+## CeliceDeath
+[MR][Load][0x22][0x01]
+Ahh... Father...[A][X]
+
+## LakcheDeath
+[MR][Load][0x1A][0x01]
+Urgh... Is this the[N]
+end...? Johan...[A][X]
+
+## SkasahaDeath
+[MR][Load][0x30][0x01]
+How is this... Lakche...[N]
+I'll leave the rest to you...[A][X]
+
+## LanaDeath
+[MR][Load][0x1B][0x01]
+Aah, mother... Celice...[A][X]
+
+## OifayeDeath
+[MR][Load][0x21][0x01]
+Sir Sigurd, I'm so sorry...[N]
+...I'm already...[A][X]
+
+## DelmudDeath
+[MR][Load][0x0C][0x01]
+Sir Celice, good luck...[A][X]
+
+## LesterDeath
+[MR][Load][0x25][0x01]
+Lord Celice, I leave[N]
+the rest to you...[A][X]
+
+## FeeDeath
+[MR][Load][0x10][0x01]
+Aah, brother... Arthur...[A][X]
+
+## ArthurDeath
+[MR][Load][0x05][0x01]
+Heh... How silly...[A][X]
+
+## JuliaDeath
+[MR][Load][0x19][0x01]
+Ahh, Sir Celice...[A][X]
+
+## JohanDeath
+[MR][Load][0x18][0x01]
+Though Johan dies, love[N]
+will never... Guhaa...[A][X]
+
+## ShananDeath
+[MR][Load][0x2B][0x01]
+Urgh... Celice, forgive me![A][X]
+
+## PattyDeath
+[MR][Load][0x23][0x01]
+Help me, Faval![A][X]
+
+## LeafDeath
+[MR][Load][0x1C][0x01]
+Father... Mother...[A][X]
+
+## NannaDeath
+[MR][Load][0x2A][0x01]
+Prince Leaf, I leave the[N]
+rest in your hands...[A][X]
+
+## FinDeath
+[MR][Load][0x13][0x01]
+Lord Cuan... ...Lady Ethlin...[N]
+Please forgive me...[A][X]
+
+## AlessDeath
+[MR][Load][0x7][0x01]
+No... How could I be...[A][X]
+
+## TinnyDeath
+[MR][Load][0x2C][0x01]
+Mother... Sety...[A][X]
+
+## LeenDeath
+[MR][Load][0x1D][0x01]
+Aless... I'm sorry...[A][X]
+
+## FavalDeath
+[MR][Load][0x0E][0x01]
+Patty... I'm sorry...[A][X]
+
+## SetyDeath
+[MR][Load][0x48][0x01]
+Is this the limit of my[N]
+power...? ...How sad...![A][X]
+
+## CorpleDeath
+[MR][Load][0x09][0x01]
+...Father... Thank you for[N]
+raising me...[A][X]
+
+## HannibalDeath
+[MR][Load][0x16][0x01]
+This is fate...[N]
+Aah, my son...[A][X]
+
 ## MarioDeath
 [MidRight][LoadMario]
 Oh... Mamma mia...[A][X]

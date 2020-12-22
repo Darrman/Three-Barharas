@@ -5,10 +5,17 @@
   ALIGN 4
   #include "IntroWM.event"
 }
-
 {
   ALIGN 4
   #include "BarharaWM.event"
+}
+{
+  ALIGN 4
+  #include "JuliusWM.event"
+}
+{
+  ALIGN 4
+  #include "CrusadersWM.event"
 }
 {
   ALIGN 4

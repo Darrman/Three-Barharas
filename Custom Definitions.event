@@ -93,6 +93,18 @@
 
 #define Velthomer 0x80
 #define LoptSect 0x81
+#define Eins 0x82
+#define Zwei 0x83
+#define Drei 0x84
+#define Vier 0x85
+#define Funf 0x86
+#define Sechs 0x87
+#define Sieben 0x88
+#define Acht 0x89
+#define Neun 0x8A
+#define Zehn 0x8B
+#define Elf 0x8C
+#define Zwolf 0x8D
 
 #define Meteor 0xBC
 #define Ballistician 0x77

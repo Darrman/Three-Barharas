@@ -8,6 +8,9 @@ ALIGN 4
   #include "fe8barhara.event"
 }
 {
+  #include "JuliusRevenge.event"
+}
+{
   #include "CrusadersReturn.event"
 }
 {
