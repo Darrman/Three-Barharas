@@ -34,7 +34,7 @@ setMugEntry(AzelMug, AzelMugLabel, 3, 6, 3, 4)
 
 MidirMugLabel:
 #incext PortraitFormatter "Midir.png"
-setMugEntry(NoishMug, MidirMugLabel, 3, 6, 3, 4)
+setMugEntry(MidirMug, MidirMugLabel, 3, 6, 3, 4)
 
 AideenMugLabel:
 #incext PortraitFormatter "Aideen.png"

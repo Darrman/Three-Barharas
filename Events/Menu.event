@@ -15,7 +15,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 Units:
-UNIT Sigurd LordKnight 0x00 Level(1, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [Tyrfing] NoAI 
+UNIT MenuUnit Paladin 0x00 Level(1, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [SilverSword] NoAI 
 UNIT
 
 
@@ -23,9 +23,9 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEvent(0x00,EnterBarharaRevisited,Sigurd,Alvis)
-CharacterEvent(0x00,EnterJuliusRevenge,Sigurd,Julius)
-CharacterEvent(0x00,EnterCrusadersReturn,Sigurd,Dimitri)
+CharacterEvent(0x00,EnterBarharaRevisited,MenuUnit,Sigurd)
+CharacterEvent(0x00,EnterJuliusRevenge,MenuUnit,Julius)
+CharacterEvent(0x00,EnterCrusadersReturn,MenuUnit,Dimitri)
 END_MAIN
 
 LocationBasedEvents:
@@ -70,7 +70,7 @@ ENDA
 
 EnterBarharaRevisited:
 //Text(BarharaEntry)
-REMU Sigurd
+REMU MenuUnit
 WM_SETDESTINATION 0x0 0x1 0x0 //because it loads the map otherwise? testing stuff here
 _0xA640 0x0 0x0 0x1 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
 MNCH 0x01
@@ -78,7 +78,7 @@ ENDA
 
 EnterJuliusRevenge:
 //Text(JuliusEntry)
-//REMU Sigurd
+//REMU MenuUnit
 //WM_SETDESTINATION 0x0 0x2 0x0 //because it loads the map otherwise? testing stuff here
 //_0xA640 0x0 0x0 0x2 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
 //MNCH 0x02
@@ -86,7 +86,7 @@ ENDA
 
 EnterCrusadersReturn:
 //Text(CrusadersEntry)
-REMU Sigurd
+REMU MenuUnit
 WM_SETDESTINATION 0x0 0x3 0x0 //because it loads the map otherwise? testing stuff here
 _0xA640 0x0 0x0 0x3 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
 MNCH 0x03
@@ -98,7 +98,7 @@ ENDA
 
 // Units
 ChapterWarps:
-UNIT Alvis Sage 0x00 Level(1, NPC, 0) [3,3] 0x00 0x00 0x0 0x00 [Falaflame] NoAI 
+UNIT Sigurd LordKnight 0x00 Level(1, NPC, 0) [3,3] 0x00 0x00 0x0 0x00 [Tyrfing] NoAI 
 UNIT Julius Necromancer  0x00 Level(1, NPC, 0) [5,3] 0x00 0x00 0x0 0x00 [Lopto] NoAI
 UNIT Dimitri General 0x00 Level(1, NPC, 0) [8,3] 0x00 0x00 0x0 0x00 [Siegmund] NoAI //Areadbhar eventually
 UNIT

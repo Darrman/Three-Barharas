@@ -76,7 +76,7 @@
 #define Alvis 50
 #define Manfloy 51
 #define Julius 52
-#define MenuCharacter 53 //don't know who yet. kid oifaye?
+#define MenuUnit 53 //don't know who yet. kid oifaye?
 
 //Just for fun
 #define Claude3H 55
@@ -139,32 +139,32 @@
 #define AzmureMug 0x1b
 #define CuanMug 0x01
 #define EthlinMug 0x01
-#define JuliusMug 0x19
-#define AlessMug 0x1A
-#define ArthurMug 0x1b
-#define CorpleMug 0x1C
-#define DelmudMug 0x1D
-#define FavalMug 0x1E
-#define FeeMug 0x1F
-#define FinMug 0x20
-#define HannibalMug 0x21
-#define JohanMug 0x22
-#define JuliaMug 0x23
-#define LakcheMug 0x24
-#define LanaMug 0x25
-#define LeafMug 0x26
-#define LeenMug 0x27
-#define LesterMug 0x28
-#define NannaMug 0x29
-#define OifayeMug 0x2A
-#define CeliceMug 0x2B
-#define PattyMug 0x2C
-#define SetyMug 0x2D
-#define ShananMug 0x2E
-#define TinnyMug 0x2F
-#define SkaMug 0x30
+#define JuliusMug 0x1C
+#define AlessMug 0x1D
+#define ArthurMug 0x1E
+#define CorpleMug 0x1F
+#define DelmudMug 0x20
+#define FavalMug 0x21
+#define FeeMug 0x22
+#define FinMug 0x23
+#define HannibalMug 0x24
+#define JohanMug 0x25
+#define JuliaMug 0x26
+#define LakcheMug 0x27
+#define LanaMug 0x28
+#define LeafMug 0x29
+#define LeenMug 0x2A
+#define LesterMug 0x2B
+#define NannaMug 0x2C
+#define OifayeMug 0x2D
+#define CeliceMug 0x2E
+#define PattyMug 0x2F
+#define SetyMug 0x30
+#define ShananMug 0x31
+#define TinnyMug 0x32
+#define SkaMug 0x33
 #define AltennaMug CuanMug //placeholder
-#define AnnetteMug 0x31
+#define AnnetteMug 0x34
 #define BylethMug ManfloyMug
 #define Claude3HMug JamkaMug
 #define DimitriMug BeowulfMug
