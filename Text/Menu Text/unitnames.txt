@@ -229,6 +229,13 @@ Vier[X]
 The fourth of the Dark[N]
 Warlords, a high priest.[X]
 
+## FunfName
+Funf[X]
+
+## FunfDesc
+The fifth of the Dark Warlords,[N]
+a sniper of Ulir blood.[X]
+
 ## SechsName
 Sechs[X]
 
