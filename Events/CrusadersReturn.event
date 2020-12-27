@@ -23,26 +23,26 @@ UNIT Shanan Swordmaster 0x00 Level(30,Ally,0) [5, 1] 0x00 0x00 0x0 0x00 [Balmung
 UNIT Altenna WyvernLord_F 0x00 Level(30,Ally,0) [3, 6] 0x00 0x00 0x0 0x00 [GaeBolg, Vulnerary] NoAI 
 //Arion
 //Burian
-UNIT Faval Sniper 0x00 Level(1,Ally,0) [6, 4] 0x00 0x00 0x0 0x00 [Ichival, Vulnerary] NoAI 
-UNIT Corple Bishop 0x00 Level(1,Ally,0) [10, 4] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI 
+UNIT Faval Sniper 0x00 Level(30,Ally,0) [6, 4] 0x00 0x00 0x0 0x00 [Ichival, Vulnerary] NoAI 
+UNIT Corple Bishop 0x00 Level(30,Ally,0) [10, 4] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI 
 //Alvis/Cyas
 //Ishtar
-UNIT Sety Sage 0x00 Level(1,Ally,0) [6, 4] 0x00 0x00 0x0 0x00 [Holsety, Vulnerary] NoAI 
-UNIT Julia Sage_F 0x00 Level(1,Ally,0) [7, 3] 0x00 0x00 0x0 0x00 [Narga, Vulnerary] NoAI 
+UNIT Sety Sage 0x00 Level(30,Ally,0) [6, 4] 0x00 0x00 0x0 0x00 [Holsety, Vulnerary] NoAI 
+UNIT Julia Sage_F 0x00 Level(30,Ally,0) [7, 3] 0x00 0x00 0x0 0x00 [Narga, Vulnerary] NoAI 
 //Julius
 UNIT
 
 HeroesRelics:
-UNIT Byleth Swordmaster 0x00 Level(1,Ally,0) [0, 0] 0x00 0x00 0x0 0x00 [SilverSword, Vulnerary] NoAI //Creator's Sword
-UNIT Claude3H WyvernLord 0x00 Level(1,Ally,0) [5, 4] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Failnaught
-UNIT Dimitri General 0x00 Level(1,Ally,0) [5, 7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Arahedbar
-UNIT Hilda3H Warrior 0x00 Level(1,Ally,0) [4, 6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Freikugel
-UNIT Lysithea Sage_F 0x00 Level(1,Ally,0) [2, 7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Thyrsus
-UNIT Marianne Valkyrie 0x00 Level(1,Ally,0) [5,6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Blutgang
-UNIT Annette Sage_F 0x00 Level(1,Ally,0) [8, 6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Crusher
-UNIT Sylvain Paladin 0x00 Level(1,Ally,0) [6, 18] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Ruin
-UNIT Ingrid FalcoKnight 0x00 Level(1,Ally,0) [4,2] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Luin
-UNIT Mercedes Bishop 0x00 Level(1,Ally,0) [15, 21] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Rafiel
+UNIT Byleth Swordmaster 0x00 Level(30,Ally,0) [0, 0] 0x00 0x00 0x0 0x00 [SilverSword, Vulnerary] NoAI //Creator's Sword
+UNIT Claude3H WyvernLord 0x00 Level(30,Ally,0) [5, 4] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Failnaught
+UNIT Dimitri General 0x00 Level(30,Ally,0) [5, 7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Arahedbar
+UNIT Hilda3H Warrior 0x00 Level(30,Ally,0) [4, 6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Freikugel
+UNIT Lysithea Sage_F 0x00 Level(30,Ally,0) [2, 7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Thyrsus
+UNIT Marianne Valkyrie 0x00 Level(30,Ally,0) [5,6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Blutgang
+UNIT Annette Sage_F 0x00 Level(30,Ally,0) [8, 6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Crusher
+UNIT Sylvain Paladin 0x00 Level(30,Ally,0) [6, 18] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Ruin
+UNIT Ingrid FalcoKnight 0x00 Level(30,Ally,0) [4,2] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Luin
+UNIT Mercedes Bishop 0x00 Level(30,Ally,0) [15, 21] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI //Rafiel
 //I think I'm forgetting someone but meh
 UNIT
 
