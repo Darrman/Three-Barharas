@@ -1,18 +1,18 @@
 #0x1a2 PrologueGoal
+Please, select[N]
+a chapter.[X]
+
+## Ch1Goal
 Get to Velthomer,[N]
 and get there fast![X]
 
-## Ch1Goal
-Seize that castle[N]
-over yonder[X]
-
 ## Ch2Goal
-Kill the boss of[N]
-those mad pirates[X]
+Kill Celice, that[N]
+pleasant fellow[X]
 
 ## Ch3Goal
-Kill every single[N]
-random monster[X]
+I'll figure it out[N]
+sooner or later[X]
 
 ## Ch4Goal
 Seize the ruins in[N]
@@ -23,6 +23,18 @@ End Kaga[X]
 
 ## RunAwayGoal
 Run away[X]
+
+## MenuGoal
+Select Level[X]
+
+## BarharaGoal
+To Velthomer[X]
+
+## JuliusGoal
+Kill Celice[X]
+
+## CrusadersGoal
+T. B. D.[X]
 
 ## Ch6Goal
 Beware of Zonta and[N]

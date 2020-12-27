@@ -1,15 +1,15 @@
 
 # 0x160 PrologueChName
-Ch. 5-4: Battle of Barhara[X]
+Chapter Selection[X]
 
 #0x161
-Ch. 1: Dragon Warrior[X]
+1: Barhara Revisited[X]
 
 #0x162
-Ch. 2: Bicycle Squad[X]
+2: Julius's Revenge[X]
 
 #0x163
-Ch. 3: Forest of Summons[X]
+3: Crusaders' Return[X]
 
 #0x164
 Ch. 4: Winding Swamp[X]

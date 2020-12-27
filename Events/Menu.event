@@ -69,7 +69,10 @@ MNC2 0x3C
 ENDA
 
 EnterBarharaRevisited:
-//Text(BarharaEntry)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW BarharaRevisitedSelected
+TEXTEND
 REMU MenuUnit
 WM_SETDESTINATION 0x0 0x1 0x0 //because it loads the map otherwise? testing stuff here
 _0xA640 0x0 0x0 0x1 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
@@ -77,7 +80,10 @@ MNCH 0x01
 ENDA
 
 EnterJuliusRevenge:
-//Text(JuliusEntry)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW JuliusRevengeSelected
+TEXTEND
 REMU MenuUnit
 WM_SETDESTINATION 0x0 0x2 0x0 //because it loads the map otherwise? testing stuff here
 _0xA640 0x0 0x0 0x2 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
@@ -85,7 +91,10 @@ MNCH 0x02
 ENDA
 
 EnterCrusadersReturn:
-//Text(CrusadersEntry)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW CrusadersReturnSelected
+TEXTEND
 REMU MenuUnit
 WM_SETDESTINATION 0x0 0x3 0x0 //because it loads the map otherwise? testing stuff here
 _0xA640 0x0 0x0 0x3 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?

@@ -17,7 +17,7 @@ ENDA*/
 BeginWorldMap
 MUSC 0x4
 WorldMapShowTextBox
-WorldMapTextBegin(0x815) //placeholder
+WorldMapTextBegin(NewGameText)
 TEXTEND
 
 STAL 60
