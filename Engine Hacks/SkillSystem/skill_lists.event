@@ -4,7 +4,7 @@ BYTE 00 00
 ALIGN 4
 
 LexSkills:
-BYTE 30 VantageID
+BYTE 255 VantageID
 BYTE 00 00
 ALIGN 4
 
@@ -14,12 +14,12 @@ BYTE 00 00
 ALIGN 4
 
 AiraSkills:
-BYTE 30 NihilID
+BYTE 255 NihilID
 BYTE 00 00
 ALIGN 4
 
 LevinSkills:
-BYTE 30 AdeptID
+BYTE 255 AdeptID
 BYTE 00 00
 ALIGN 4
 
@@ -28,6 +28,15 @@ BYTE 255 AdeptID
 BYTE 00 00
 ALIGN 4
 
+NoishSkills:
+BYTE 255 ChargeID
+BYTE 00 00
+ALIGN 4
+
+JamkaSkills:
+BYTE 255 ChargeID
+BYTE 00 00
+
 AlvisSkills:
 BYTE 30 CharismaID
 BYTE 00 00
@@ -35,5 +44,80 @@ ALIGN 4
 
 ManfloySkills:
 BYTE 30 CharismaID
+BYTE 00 00
+ALIGN 4
+
+LakcheSkills:
+BYTE 255 ParagonID
+BYTE 255 VantageID
+BYTE 255 NihilID
+BYTE 00 00
+ALIGN 4
+
+JuliaSkills:
+BYTE 255 AdeptID
+BYTE 00 00
+ALIGN 4
+
+FeeSkills:
+BYTE 255 AdeptID
+BYTE 00 00
+ALIGN 4
+
+ShananSkills:
+BYTE 255 AdeptID
+BYTE 00 00
+ALIGN 4
+
+LeafSkills:
+BYTE 255 CritUpID
+BYTE 00 00
+ALIGN 4
+
+NannaSkills:
+BYTE 255 MiracleID
+BYTE 00 00
+ALIGN 4
+
+AlessSkills:
+BYTE 255 AdeptID
+BYTE 00 00
+ALIGN 4
+
+LeenSkills:
+BYTE 255 AdeptID
+BYTE 255 RenewalID
+BYTE 00 00
+ALIGN 4
+
+FavalSkills:
+BYTE 255 ChargeID
+BYTE 00 00
+ALIGN 4
+
+SetySkills:
+BYTE 255 AdeptID
+BYTE 00 00
+ALIGN 4
+
+CorpleSkills:
+BYTE 255 AdeptID
+BYTE 255 RenewalID
+BYTE 00 00
+ALIGN 4
+
+HannibalSkills:
+BYTE 255 AdeptID
+BYTE 00 00
+ALIGN 4
+
+AltennaSkills:
+BYTE 255 CritUpID
+BYTE 00 00
+ALIGN 4
+
+JuliusSkills:
+BYTE 255 NihilID
+BYTE 255 ChargeID
 BYTE 00 00
 ALIGN 4

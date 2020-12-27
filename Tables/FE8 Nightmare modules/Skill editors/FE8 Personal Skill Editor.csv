@@ -9,7 +9,7 @@ Azel,0x0
 Cuan,AdeptID
 Ethlin ,CritUpID
 Fin ,MiracleID
-Midir ,0x0
+Midir ,ChargeID
 Aideen ,0x0
 Dew ,SolID
 Aira ,AstraID
@@ -19,52 +19,52 @@ Holyn ,LunaID
 Lachesis,CharismaID
 Levin ,CritUpID
 Sylvia ,MiracleID
-Beowulf,0x0
+Beowulf,ChargeID
 Fury,0x0
 Briggid,0x0
-Claude ,0x0
+Claude ,RenewalID
 Tiltyu ,WrathID
-Zigludo,0x0
-Kaga,0x0
-Doot,0x0
-Celica,0x0
-Doowile,0x0
-Evil Florina,0x0
-Bj”rn,0x0
-Jake,0x0
-Marf,0x0
-Tiki,0x0
-Lyon,0x0
-Mark,0x0
-Glen,0x0
-Selena,0x0
-Valter,0x0
-Riev,0x0
-Caellach,0x0
-Fado,0x0
-Ismaire,0x0
-Hayden,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
+Celice,NihilID
+Lana,ChargeID
+Skasaha,AstraID
+Lakche,AstraID
+Delmud,ChargeID
+Lester,ChargeID
+Oifaye,CritUpID
+Julia,NihilID
+Johan,VantageID
+Arthur,WrathID
+Fee,CritUpID
+Shanan,AstraID
+Patty,LunaID
+Leaf,AdeptID
+Nanna,CharismaID
+Fin,MiracleID
+Aless,VantageID
+Leen,MiracleID
+Tinny,WrathID
+Faval,AdeptID
+Sety,CritUpID
+Corple,MiracleID
+Hannibal,VantageID
+Altenna,AdeptID
 0,0x0
 Alvis,NihilID
 Manfloy,AdeptID
+Julius,WrathID
 0,0x0
 0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-0,0x0
-Lyon's Summon,0x0
-0,0x0
-0,0x0
-Florina's Summon,0x0
-Arve's Summon,0x0
-Dracozombie (Ch 17),0x0
-Morva (Ch 28),0x0
+Claude ,PassID
+Dimitri,ChargeID
+Hilda,WrathID
+Lysithea,DisciplineID
+Marianne,RenewalID
+Annette,CharismaID
+Ingrid,AdeptID
+Mercedes,MiracleID
+Sylvain,ProvokeID
+Byleth,ShoveID
+Felix,AstraID
 Orson (Ch 27),0x0
 Grit (Ch 15),0x0
 Selena (Ch 24),0x0

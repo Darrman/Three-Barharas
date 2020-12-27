@@ -1,7 +1,7 @@
 INLINE CharLevelUpSkillTable,Skill List Address
 None,0
 Sigurd ,0
-Noish,0
+Noish,NoishSkills|IsPointer
 Alec,0
 Arden,ArdenSkills|IsPointer
 Lex,LexSkills|IsPointer
@@ -13,7 +13,7 @@ Midir ,0
 Aideen ,0
 Dew ,DewSkills|IsPointer
 Aira ,AiraSkills|IsPointer
-Jamka ,0
+Jamka ,JamkaSkills|IsPointer
 Deirdre,0
 Holyn ,0
 Lachesis,0
@@ -24,34 +24,34 @@ Fury,0
 Briggid,0
 Claude ,0
 Tiltyu ,0
-L'Arachel,0
-Dozla,0
--,0
-Rennac,0
-Duessel,0
-Myrrh,0
-Knoll,0
-Joshua,0
-Syrene,0
-Tana,0
-Lyon,0
-Orson,0
-Glen,0
-Selena,0
-Valter,0
-Riev,0
-Caellach,0
-Fado,0
-Ismaire,0
-Hayden,0
--,0
--,0
--,0
--,0
+Celice,0
+Lana,0
+Skasaha,LakcheSkills|IsPointer
+Lakche,LakcheSkills|IsPointer
+Delmud,0
+Lester,0
+Oifaye,0
+Julia,JuliaSkills|IsPointer
+Johan,0
+Arthur,0
+Fee,FeeSkills|IsPointer
+Shanan,ShananSkills|IsPointer
+Patty,0
+Leaf,LeafSkills|IsPointer
+Nanna,NannaSkills|IsPointer
+Fin,0
+Aless,AlessSkills|IsPointer
+Leen,LeenSkills|IsPointer
+Tinny,0
+Faval,FavalSkills|IsPointer
+Sety,SetySkills|IsPointer
+Corple,CorpleSkills|IsPointer
+Hannibal,0
+Altenna,0
 -,0
 Alvis,AlvisSkills|IsPointer
 Manfloy,ManfloySkills|IsPointer
--,0
+Julius,JuliusSkills|IsPointer
 -,0
 -,0
 -,0
