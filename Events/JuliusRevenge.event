@@ -18,18 +18,19 @@ POIN BeginningScene EndingScene
 
 Units:
 UNIT Julius Necromancer 0x00 Level(30, Ally, 0) [4,22] 0x2 0x00 0x0 0x00 [Naglfar] NoAI 
-UNIT Eins General 0x00 Level(30, Ally, 0) [2,23] 0x2 0x00 0x0 0x00 [SilverLance] NoAI 
-UNIT Zwei Hero 0x00 Level(30, Ally, 0) [1,25] 0x2 0x00 0x0 0x00 [SilverBlade, BraveSword, Elixir] NoAI 
-UNIT Drei Warrior 0x00 Level(30, Ally, 0) [2,24] 0x2 0x00 0x0 0x00 [SilverAxe, BraveAxe, Tomahawk] NoAI 
+UNIT Eins General 0x00 Level(30, Ally, 0) [2,23] 0x2 0x00 0x0 0x00 [SilverLance] NoAI //Raydrick or whatever he's spelt
+UNIT Zwei Hero 0x00 Level(30, Ally, 0) [1,25] 0x2 0x00 0x0 0x00 [SilverBlade, BraveSword, Elixir] NoAI //Galzus
+UNIT Drei Warrior 0x00 Level(30, Ally, 0) [2,24] 0x2 0x00 0x0 0x00 [SilverAxe, BraveAxe, Tomahawk] NoAI //Dagda
 UNIT Vier Bishop_F 0x00 Level(30, Ally, 0) [3,23] 0x2 0x00 0x0 0x00 [Fortify, Silence, Lightning] NoAI 
-UNIT Funf Sniper 0x00 Level(30, Ally, 0) [3,24] 0x2 0x00 0x0 0x00 [KillerBow, BraveBow] NoAI 
-UNIT Sechs Sage_F 0x00 Level(30, Ally, 0) [3,26] 0x2 0x00 0x0 0x00 [Bolting] NoAI 
-UNIT Sieben Bishop 0x00 Level(30, Ally, 0) [4,25] 0x2 0x00 0x0 0x00 [Elfire, Berserk] NoAI 
-UNIT Acht Sage 0x00 Level(30, Ally, 0) [5,26] 0x2 0x00 0x0 0x00 [Fimbulvetr] NoAI 
+UNIT Funf Sniper 0x00 Level(30, Ally, 0) [3,24] 0x2 0x00 0x0 0x00 [KillerBow, BraveBow] NoAI //Brigid
+UNIT Sechs Sage_F 0x00 Level(30, Ally, 0) [3,26] 0x2 0x00 0x0 0x00 [Bolting] NoAI //Minor Tordo - Tiltyu?
+UNIT Sieben Bishop 0x00 Level(30, Ally, 0) [4,25] 0x2 0x00 0x0 0x00 [Elfire, Berserk] NoAI //Minor Fala - Azel?
+UNIT Acht Sage 0x00 Level(30, Ally, 0) [5,26] 0x2 0x00 0x0 0x00 [Fimbulvetr] NoAI //Minor Sety - Levin???
 UNIT Neun Swordmaster_F 0x00 Level(30, Ally, 0) [7,24] 0x2 0x00 0x0 0x00 [SilverSword] NoAI 
 UNIT Zehn Druid 0x00 Level(30, Ally, 0) [5,24] 0x2 0x00 0x0 0x00 [Eclipse] NoAI 
-UNIT Elf Sage 0x00 Level(30, Ally, 0) [4,24] 0x2 0x00 0x0 0x00 [Nosferatu, Sleep] NoAI 
-UNIT Zwolf Rogue 0x00 Level(30, Ally, 0) [5,23] 0x2 0x00 0x0 0x00 [BraveSword] NoAI 
+UNIT Elf Sage_F 0x00 Level(30, Ally, 0) [4,24] 0x2 0x00 0x0 0x00 [Nosferatu, Sleep] NoAI //Sara
+UNIT Zwolf Rogue 0x00 Level(30, Ally, 0) [5,23] 0x2 0x00 0x0 0x00 [BraveSword] NoAI //Lifis
+//Match with FE5 when applicable, else go nuts.
 UNIT
 
 
