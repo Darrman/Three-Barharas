@@ -79,6 +79,6 @@ shadow once more. Ensure the line of Narga[N]
 can no longer threaten the line of Lopt...[A][X]
 
 ## CrusadersReturnSelected
-[Red]Crusaders' Return[Red]
+[Red]Crusaders' Return[Red][N]
 Well, it kind of needs to be finished first.[N]
 For now, enjoy my One Hour Blitz entry.[A][X]
