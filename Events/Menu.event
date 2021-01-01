@@ -26,6 +26,7 @@ CharacterBasedEvents:
 CharacterEvent(0x00,EnterBarharaRevisited,MenuUnit,Sigurd)
 CharacterEvent(0x00,EnterJuliusRevenge,MenuUnit,Julius)
 CharacterEvent(0x00,EnterCrusadersReturn,MenuUnit,Dimitri)
+CharacterEvent(0x00,EnterElectionSimulator,MenuUnit,Celice)
 END_MAIN
 
 LocationBasedEvents:
@@ -101,6 +102,15 @@ _0xA640 0x0 0x0 0x3 //Move to whatever location. Assuming this 2015 thread isn't
 MNCH 0x03
 ENDA
 
+EnterElectionSimulator:
+//Text here
+REMU MenuUnit
+WM_SETDESTINATION 0x0 0x4 0x0 //because it loads the map otherwise? testing stuff here
+_0xA640 0x0 0x0 0x4 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
+MNCH 0x04
+ENDA
+
+
 // Manual Movement
 
 // Scripted Fights
@@ -110,6 +120,7 @@ ChapterWarps:
 UNIT Sigurd LordKnight 0x00 Level(1, NPC, 0) [3,3] 0x00 0x00 0x0 0x00 [Tyrfing] NoAI 
 UNIT Julius Necromancer  0x00 Level(1, NPC, 0) [5,3] 0x00 0x00 0x0 0x00 [Lopto] NoAI
 UNIT Dimitri General 0x00 Level(1, NPC, 0) [8,3] 0x00 0x00 0x0 0x00 [Siegmund] NoAI //Areadbhar eventually
+UNIT Celice LordKnight 0x00 Level(1, NPC, 0) [3,3] 0x00 0x00 0x0 0x00 [Tyrfing] NoAI 
 UNIT
 
 
