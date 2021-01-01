@@ -50,6 +50,7 @@ for one turn[X]
 #include "Chapter Text/Barhara Revisited.txt"
 #include "Chapter Text/Julius's Revenge.txt"
 #include "Chapter Text/Crusaders Return.txt"
+#include "Chapter Text/MAFC5.txt"
 #include "Chapter Text/DeathQuotes.txt"
 #include "Chapter Text/Ending.txt"
 
