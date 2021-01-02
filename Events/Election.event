@@ -59,22 +59,156 @@ TEXTSHOW MAFC5OpeningInitialVisits
 TEXTEND
 REMA
 CALL $9EE2C4 //EndConvo. The tutorial *lied*
+
 LOAD1 0x1 Units
 EVBIT_T 9 //CMON; camera follows
 MOVE 5 Sigurd [27,3]
-STAL 5
+STAL 15
 MOVE 5 Celice [27,3]
 ENUN
 SetBackground(0x11) //check the real defs later
 TEXTSHOW MAFC5OpeningVelthomer
 TEXTEND
 CALL $9EE2C4 //EndConvo
+
+EVBIT_T 9 //CMON; camera follows
+MOVE 5 Sigurd [3,8]
+STAL 15
+MOVE 5 Celice [3,8]
+ENUN
+SetBackground(0x11) //check the real defs later
+TEXTSHOW MAFC5OpeningFreege
+TEXTEND
+CALL $9EE2C4 //EndConvo
+
+EVBIT_T 9 //CMON; camera follows
+MOVE 5 Sigurd [18,13]
+STAL 15
+MOVE 5 Celice [18,13]
+ENUN
+SetBackground(0x11) //check the real defs later
+TEXTSHOW MAFC5OpeningDozel
+TEXTEND
+CALL $9EE2C4 //EndConvo
+
+EVBIT_T 9 //CMON; camera follows
+MOVE 5 Sigurd [27,18]
+STAL 15
+MOVE 5 Celice [27,18]
+ENUN
+SetBackground(0x11) //check the real defs later
+TEXTSHOW MAFC5OpeningEdda
+TEXTEND
+CALL $9EE2C4 //EndConvo
+
+EVBIT_T 9 //CMON; camera follows
+MOVE 5 Sigurd [14,22]
+STAL 15
+MOVE 5 Celice [14,22]
+ENUN
+SetBackground(0x11) //check the real defs later
+TEXTSHOW MAFC5OpeningChalphy
+TEXTEND
+CALL $9EE2C4 //EndConvo
+
+EVBIT_T 9 //CMON; camera follows
+MOVE 5 Sigurd [4,27]
+STAL 15
+MOVE 5 Celice [4,27]
+ENUN
+SetBackground(0x11) //check the real defs later
+TEXTSHOW MAFC5OpeningJungby
+TEXTEND
+CALL $9EE2C4 //EndConvo
+
+STAL 10
+SVAL 0x2 Sigurd
+CALL WarpOutEffect
+STAL 0x08
+DISA Sigurd
+SVAL 0x2 Celice
+CALL WarpOutEffect
+STAL 0x08
+DISA Celice
+STAL 10
+CAM1 [21,7]
+WARPIN [21,7]
+LOAD1 0x1 Units
+ENDWARP
+STAL 10
+SetBackground(0x11)
+TEXTSHOW 0x123 //placeholder
+TEXTEND
+CALL InitialSetup
+CALL TutorialMessage
 ENDA
 
 EndingScene:
 ENDA
 
 // Events
+
+InitialSetup:
+#define BarharaCounter 0
+#define ChalphyCounter 1
+#define JungbyCounter 2
+#define EddaCounter 3
+#define DozelCounter 4
+#define FreegeCounter 5
+#define VelthomerCounter 6
+#define SpareCounter 7
+
+//So the plan is roughly to mess with counters to represent polls.
+//Counter at 15 means pretty much 100% of the vote.
+//Counter at 0 means pretty much 0% of the vote.
+//Things in between mean things in between.
+//I'll figure out the balance in time.
+//But probably around 10 or so to hit quota for all candidates?
+COUNTER_SET BarharaCounter 12
+COUNTER_SET ChalphyCounter 8
+COUNTER_SET JungbyCounter 5
+COUNTER_SET EddaCounter 3
+COUNTER_SET DozelCounter 7
+COUNTER_SET FreegeCounter 6
+COUNTER_SET VelthomerCounter 8
+ENDA
+
+//Let's give the player 30 turns. Or a month.
+//Move Sigurd and Celice around the place
+//visiting the castles to canvas for the Party.
+//Canvas to shore up support and manage the
+//various events I throw in your face.
+//Can the Jugdral Party weather the crises,
+//or get shredded to pieces by them?
+
+TutorialMessage:
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5Tutorial
+TEXTEND
+ENDA
+
+WarpOutEffect: //thanks gamma
+    CAM1 0xFFFD
+    CHECK_COORDS 0xFFFD
+    SADD 0xCB
+    WARP_OUT
+    STAL2 0x14
+    REMU 0xFFFD
+    ENDWARP
+    ENDA
+    
+WarpInEffect: //based off of gamma's above
+    CAM1 0xFFFD
+    CHECK_COORDS 0xFFFD
+    SADD 0xCB
+    WARP_IN
+    STAL2 0x14
+    REMU 0xFFFD
+    ENDWARP
+    ENDA
+
+
 
 // Manual Movement
 
