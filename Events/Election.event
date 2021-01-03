@@ -2,7 +2,25 @@
 
 EventPointerTable(0x17,ThisChapter)
 
-ORG 0xE80000
+Definitions:
+#define BarharaCounter 0
+#define ChalphyCounter 1
+#define JungbyCounter 2
+#define EddaCounter 3
+#define DozelCounter 4
+#define FreegeCounter 5
+#define VelthomerCounter 6
+#define SpareCounter 7
+
+#define BarharaVisited 0x7
+#define ChalphyVisited 0x8
+#define JungbyVisited 0x9
+#define EddaVisited 0xA
+#define DozelVisited 0xB
+#define FreegeVisited 0xC
+#define VelthomerVisited 0xD
+
+
 
 ThisChapter:
 POIN TurnBasedEvents
@@ -29,6 +47,13 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Village(BarharaVisited,BarharaEntered,21,7)
+Village(ChalphyVisited,ChalphyEntered,14,22)
+Village(JungbyVisited,JungbyEntered,4,27)
+Village(EddaVisited,EddaEntered,27,18)
+Village(DozelVisited,DozelEntered,18,13)
+Village(FreegeVisited,FreegeEntered,3,8)
+Village(VelthomerVisited,VelthomerEntered,27,3)
 END_MAIN
 
 MiscBasedEvents:
@@ -146,18 +171,11 @@ ENDA
 EndingScene:
 ENDA
 
+
+
 // Events
 
 InitialSetup:
-#define BarharaCounter 0
-#define ChalphyCounter 1
-#define JungbyCounter 2
-#define EddaCounter 3
-#define DozelCounter 4
-#define FreegeCounter 5
-#define VelthomerCounter 6
-#define SpareCounter 7
-
 //So the plan is roughly to mess with counters to represent polls.
 //Counter at 15 means pretty much 100% of the vote.
 //Counter at 0 means pretty much 0% of the vote.
@@ -207,6 +225,35 @@ WarpInEffect: //based off of gamma's above
     REMU 0xFFFD
     ENDWARP
     ENDA
+
+BarharaEntered:
+Text(BarharaPlaceholder)
+ENDA
+
+ChalphyEntered:
+Text(ChalphyPlaceholder)
+ENDA
+
+JungbyEntered:
+Text(JungbyPlaceholder)
+ENDA
+
+EddaEntered:
+Text(EddaPlaceholder)
+ENDA
+
+DozelEntered:
+Text(DozelPlaceholder)
+ENDA
+
+FreegeEntered:
+Text(FreegePlaceholder)
+ENDA
+
+VelthomerEntered:
+Text(VelthomerPlaceholder)
+ENDA
+
 
 
 

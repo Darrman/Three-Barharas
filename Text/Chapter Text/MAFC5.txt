@@ -445,3 +445,31 @@ is to represent the interests of this[N]
 fair continent in the Parliament of[N]
 Heroes. Call management at any time.[N]
  - O. Chalphy, Secetary[A][X]
+
+## BarharaPlaceholder
+[ML][LoadJulia]
+Um... This text is a placeholder...[A][X]
+
+## ChalphyPlaceholder
+[ML][LoadOifaye]
+This text is a placeholder![A][X]
+
+## JungbyPlaceholder
+[ML][LoadLana]
+This text's a placeholder.[A][X]
+
+## EddaPlaceholder
+[ML][LoadClaude]
+The text here is yet to be written.[A][X]
+
+## DozelPlaceholder
+[ML][LoadLex]
+This is a placeholder. Get it?![A][X]
+
+## FreegePlaceholder
+[ML][LoadTiltyu]
+Ya know, this is just a placeholder...[A][X]
+
+## VelthomerPlaceholder
+[ML][LoadAlvis]
+Hmph. This is a placeholder. Leave.[A][X]

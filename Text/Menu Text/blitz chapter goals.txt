@@ -15,8 +15,8 @@ I'll figure it out[N]
 sooner or later[X]
 
 ## Ch4Goal
-Seize the ruins in[N]
-the swamp's core[X]
+Succeed in Jugdral's[N]
+electoral campaign[X]
 
 ## Ch5Goal
 End Kaga[X]
@@ -35,6 +35,9 @@ Kill Celice[X]
 
 ## CrusadersGoal
 T. B. D.[X]
+
+## ElectionGoal
+Campaign[X]
 
 ## Ch6Goal
 Beware of Zonta and[N]

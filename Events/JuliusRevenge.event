@@ -2,8 +2,6 @@
 
 EventPointerTable(0x0D,ThisChapter)
 
-ORG 0xE80000
-
 ThisChapter:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
