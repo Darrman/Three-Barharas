@@ -41,6 +41,7 @@ UNIT
 
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,Journalism,2)
 END_MAIN
 
 CharacterBasedEvents:
@@ -254,7 +255,13 @@ VelthomerEntered:
 Text(VelthomerPlaceholder)
 ENDA
 
-
+Journalism:
+RANDOMNUMBER 1 //random from 0-1. Placeholder value but here to randomise event order.
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5NewsReportCelice //Every article would have its own event called from here, this is just testing the text
+TEXTEND
+ENDA
 
 
 // Manual Movement

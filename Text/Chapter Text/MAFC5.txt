@@ -473,3 +473,227 @@ Ya know, this is just a placeholder...[A][X]
 ## VelthomerPlaceholder
 [ML][LoadAlvis]
 Hmph. This is a placeholder. Leave.[A][X]
+
+## MAFC5PartyInfightingFaith
+Disestablish the Church of Edda?[A][X]
+
+## MAFC5PartyInfightingMoney
+Taxes, of course.[A][X]
+
+## MAFC5PartyInfightingCrime
+Crack down on banditry?[A][X]
+
+## MAFC5PartyInfightingForeignAffairs
+So what's the attitude to the Order?[A][X]
+
+## MAFC5PartyInfightingEducation
+What should be taught, anyway?[A][X]
+
+## MAFC5PartyInfightingEnvironment
+Bulldoze the Spirit Forest?[A][X]
+
+## MAFC5PartyInfightingDefence
+If the Sect returns, what to do?[A][X]
+
+## MAFC5LeadershipChallenge
+Oh dear. Alvis wants you gone.[A][X]
+
+## MAFC5NewsReportSigurd
+[Red]-- THE ASKR GUARDIAN --[Red][N]
+Sigurd Chalphy: The Greatest Warmonger[N]
+in the 8th Century G.C.[AN]
+Lord Chalphy has many titles. Duke of[N]
+Chalphy. King of Grandbell. Indeed,[N]
+there was a time he could have pushed[AN]
+to become Emperor of Jugdral. And he[N]
+went about this by burning Jugdral to[N]
+ashes. Agustria remembers well the[AN]
+devestation wrought upon it by Chalphy's[N]
+army. The old nobility was decimated.[N]
+Two decades of instability? Chalphy.[AN]
+Take Verdane. A better statesman would[N]
+have negotiated with King Batou during[N]
+the Aideen Jungby abduction scandal.[AN]
+But he did not wait. He instantly[N]
+waged war without any thought for the[N]
+consequences. And those consequences?[AN]
+Verdane is still utterly deprived after[N]
+that brutal, savage war. Their king is[N]
+the son of a shameless collaborator[AN]
+that joined the Chalphy army, though[N]
+he is still of the royal line. This was[N]
+entirely Chalphy's fault.[AN]
+(See Page 10 for our analysis on Jamka[N]
+Verdane and his role in Verdane's state.)[A][X]
+
+
+## MAFC5NewsReportAlvis
+[Red]-- THE ASKR TELEGRAPH --[Red][N]
+Alvis Velthomer: Secret Links to the[N]
+Evil Sect of Loputousu[AN]
+When one thinks of the Duke of Velthomer,[N]
+they tend to think of a stern, imposing[N]
+man. A man with high ideals, but with[AN]
+few scruples when it comes to what he[N]
+believes to be the "greater good".[N]
+According to a man known as Galle XVIII,[AN]
+Velthomer has gone to extreme lengths[N]
+to bring about his ideal world. Our[N]
+source claims this to have started during[AN]
+the instability of the 750s. Working[N]
+in collaboration with a figure known as[N]
+"Archbishop Manfloy", the pair orchestrated[AN]
+a cunning scheme to resurrect the evil[N]
+Earth Dragon Loputousu, along with other[N]
+members of the Lopt Sect. During his[AN]
+tenure as King of Grandbell, he had wed[N]
+now-Queen Deirdre Heim. Interviews with[N]
+King Shanan Isaac confirm Manfloy's[AN]
+involvment in the abduction. The plot[N]
+was most likely foiled during the Battle[N]
+of Barhara, 760, when Velthomer was[AN]
+defeated by Sigurd Chalphy. Our sources[N]
+also contain more horrifying details,[N]
+implicating Celice Chalphy...[AN]
+Come back tomorrow to find the Chalphy[N]
+dynasty's involvment in this conspiracy[N]
+that incriminates the Jugdral Party.[A][X]
+
+## MAFC5NewsReportCelice
+[Red]-- THE ASKR SUN --[N]
+Celice Chalphy Exposed: Horrifc Acts[N]
+Caught on Camera with Julia Velthomer[AN][Red]
+We at the Askr Sun have discovered some[N]
+horrific images confirming the truth[N]
+in regards to those persistent rumours[AN]
+regarding the Crown Prince and his[N]
+sister's relationship. Turn to Page[N]
+3 to see our photographic proof![AN]
+Rumours about this relationship have[N]
+been slowly burning for the past two[N]
+decades or so. The Askr Sun's team[AN]
+of high-quality investigators slipped[N]
+off to the remote town of Tilnanogue[N]
+in northwest Isaac to follow some[AN]
+leads. The sleepy Isaacian town is a[N]
+popular royal retreat for some reason,[N]
+and we were determined to expose this.[AN]
+In go the Prince and Princess, with[N]
+Duke Chalphy preventing trespassers.[N]
+But the party continued so late into[AN]
+the night, the hapless Oifaye had to go[N]
+to sleep. Click-click-click, concrete[N]
+proof Celice Chalphy, the so-called[AN]
+"Light Inheritor", is a good-for-nothing[N]
+dirty scoundrel of a cheater, prefering[N]
+the company of his sister, herself a[AN]
+product of incest, to his actual wife.[N]
+We're not quite sure if Lana knows about[N]
+this yet, but you can be sure we'll have[AN]
+the scoop on her reaction in tomorrow's[N]
+Askr Sun. Turn to Page 5 to figure out[N]
+if Celice's son has Ulir or Fala blood![AN][X]
+
+## MAFC5NewsReportJulia
+[Red]-- THE ASKR MIRROR --[Red][N]
+Julia Velthomer: The Inbred Airhead[N]
+- The Result of Alvis's Schemes -[AN]
+Despite the official government reports[N]
+to the contrairy, Princess Julia's true[N]
+paternity lies with Duke Alvis Velthomer.[AN]
+As a result, we won't use the legal fiction[N]
+of "Julia Chalphy" in this article.[N]
+We will use the truth of the matter.[AN]
+Alvis had partaken in an incestous[N]
+relationship during the 750s with his[N]
+own sister, Deirdre Heim/Chalphy/[AN]
+Velthomer, depending on which of her[N]
+marraiges you consider to be rightful.[N]
+Rumours had circulated Barhara since[AN]
+the day Julia was born about the truth[N]
+of things. Officially she was a single[N]
+child of Sigurd and Deirdre's.[AN]
+This is an utterly shameless lie. DNA[N]
+tests imported from Tokyo suggest[N]
+Minor Fala Holy Blood where Minor Baldo[AN]
+should reside. Royal officials have yet[N]
+to allow us to test Fortuna's product on[N]
+Celice's son. But we at the Mirror can[AN]
+confirm their absolute reliability.[N]
+Itsuki Aoi, CEO, had this to say.[AN]
+"Our DNA tests can detect Jugdralian Holy[N]
+Blood and Fodlanese Crests in just 24 hours.[N]
+It is a very quick and effective test."[AN]
+We have faith in these tests, and our faith[N]
+in Celice's marital fidelity to Lana Chalphy[N]
+is the exact opposite. Turn the page to[AN]
+get a detailed study on the likelihood[N]
+of the incesteous child of an incesteous[N]
+parent having genetic defects![A][X]
+
+## MAFC5NewsReportFreege
+[Red]-- THE ASKR EXAMINER --[Red][N]
+Ishtar Freege and her connections[N]
+to the Lopt Sect[AN]
+While the Duchy of Freege passed on to[N]
+Tiltyu Freege in the aftermath of the[N]
+Battle of Barhara and the ensuing power[AN]
+struggle, by no means did this eliminate[N]
+Blume Freege from local politics.[N]
+His side of the Freege family served[AN]
+as a mirror to Tiltyu's. As Tiltyu[N]
+married Azel Velthomer, Blume married[N]
+Hilda Velthomer. Ishtore and Ishtar[AN]
+are to Arthur and Tinny. Investigations[N]
+into the Freege family reveal Ishtar[N]
+had entered into a relationship with[AN]
+Julius "Velthomer", who declared himself[N]
+the Dark Lord and led an insurrection[N]
+against the government in 777. While[AN]
+he disappeared afterwards and the relation-[N]
+ship is widely agreed to have ended,[N]
+the question marks around Ishtar, and[AN]
+by extension other members of the Freege[N]
+clan, including her cousin Tinny and[N]
+mother Hilda, remain.[A][X]
+
+## MAFC5NewsReportDozel
+Discovery of ancestral involvment in Isaac war[A][X]
+
+## MAFC5NewsReportEdda
+More church corruption uncovered[A][X]
+
+## MAFC5NewsReportChalphy
+Candidates slow on the uptake[A][X]
+
+## MAFC5NewsReportJungby
+Grandbell defence in shambles[A][X]
+
+## MAFC5OppositionAdvertising1
+C. Edda? No! Vote C. Riegan![A][X]
+
+## MAFC5OppositionAdvertising2
+The Windmire MP needs your seat![A][X]
+
+## MAFC5OppositionAdvertising3
+We are the future: L. Ylisse No. 1![A][X]
+
+## MAFC5OppositionAdvertising4
+It's time for the Order to take control.
+Vote A. Askr today.[A][X]
+
+## MAFC5EnemyAttackAd1
+The Chalphies are a disgrace. E. Hresvelg No. 1![A][X]
+
+## MAFC5EnemyAttackAd2
+Never trust a Sect member. Vote D. Blaydid to get them all out.[A][X]
+
+## MAFC5EnemyAttackAd3
+Take an outside perspective and deal with the stuffy big shots. C. Riegan No. 1.[A][X]
+
+## MAFC5EnemyAttackAd4
+There's no backbone to be found in Freege. H. Goneril will give it some![A][X]
+
+## MAFC5EnemyAttackAd5
+M. Edmund has gone through hard times. If you vote C. Chalphy, you're denying her a Senate place.[A][X]
+
