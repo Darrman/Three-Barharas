@@ -970,6 +970,7 @@ Faval Verdane gets himself an heir soon:[N]
 Grandbell or Isaac could profit otherwise.[A][X]
 
 ## MAFC5OppositionAdvertising1
+[MR][LoadByleth]
 This is a message from Byleth Eisner on[N]
 behalf of the Fodlan Party.[AN]
 "Citizens of Jugdral! Lend me your[N]
@@ -978,6 +979,7 @@ party of progress! Vote for us and[N]
 we will bring the old order down![A][X]
 
 ## MAFC5OppositionAdvertising2
+[MR][LoadAnna]
 Camilla of Nohr has one goal.[N]
 Her goal is to claim as many[AN]
 seats in Parliament as possible.[N]
@@ -986,6 +988,7 @@ now she must take one in Jugdral[N]
 too. Vote the Party of Conquest![A][X]
 
 ## MAFC5OppositionAdvertising3
+[MR][LoadAnna]
 The future does not lie in outdated[N]
 Jugdral traditions. Only those who[AN]
 stand with the Shepards' Party know[N]
@@ -994,6 +997,7 @@ Lucina Ylisse wants YOU to vote for[N]
 your local Shepard candidate.[A][X]
 
 ## MAFC5OppositionAdvertising4
+[MR][LoadAnna]
 The only way to bring prosperity to[N]
 Jugdral-no, Earth- is for the Order[AN]
 of Heroes to unite the various[N]
@@ -1002,6 +1006,7 @@ Prince of Askr and his comrades in[N]
 the Order to bring ever-closer unity.[A][X]
 
 ## MAFC5EnemyAttackAd1
+[MR][LoadEdelgard]
 Jugdral is in a state of decay. This is[N]
 the fault of the rotten Chalphy clan.[AN]
 Vote Edelgard von Hresvelg Number 1[N]
@@ -1010,6 +1015,7 @@ Vive la revolution. Vote Hresvelg.[N]
 Vote for Fodlan.[A][X]
 
 ## MAFC5EnemyAttackAd2
+[MR][LoadDimitri]
 The evil of the Lopt Sect slither[N]
 throughout the halls of power.[AN]
 And Velthomer is the pure heart of[N]
@@ -1020,6 +1026,7 @@ Parliament and have them face[N]
 justice. Vote for Fodlan.[A][X]
 
 ## MAFC5EnemyAttackAd3
+[MR][LoadClaude3H]
 My Jugdralian namesake is a useless[N]
 old reactionary bishop. Claude Edda?[AN]
 Vote him out, and vote Claude Riegan[N]
@@ -1028,6 +1035,7 @@ provide Jugdral with a breath of[N]
 fresh air. Vote for Fodlan.[A][X]
 
 ## MAFC5EnemyAttackAd4
+[MR][LoadHilda3H]
 Freege is set to be inherited by a[N]
 snivelling coward. Tinny Freege[AN]
 cries at the mention of my name![N]
@@ -1036,6 +1044,7 @@ I'll get some experts to do all my[N]
 work for me. Vote for Fodlan.[A][X]
 
 ## MAFC5EnemyAttackAd5
+[MR][LoadMarianne][ML][LoadByleth]
 Just look at poor Marianne Edmund.[N]
 Everything seems to go wrong for her.[AN]
 Please, lend her your vote for the Senate.[N]

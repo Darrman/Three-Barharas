@@ -42,6 +42,9 @@ UNIT
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,Journalism,2)
+TurnEventPlayer(0x0,AttackAds,3)
+//TurnEventPlayer(0x0,EnemyAds,3)
+//TurnEventPlayer(0x0,Infighting,3)
 END_MAIN
 
 CharacterBasedEvents:
@@ -256,9 +259,11 @@ Text(VelthomerPlaceholder)
 ENDA
 
 Journalism:
-RANDOMNUMBER 4 //Call a random event. Used to make the chapter a bit less repetitive.
-SVAL s1 0
-BEQ 100 s1 sC //CeliceNews
+RANDOMNUMBER 8 //Call a random event. Used to make the chapter a bit less repetitive.
+//Nine newspaper articles. Might slash out the big Celice one for forced plot progression.
+//SVAL s1 0
+//BEQ 100 s1 sC //CeliceNews
+//Fix this event as part of the plot?
 SVAL s1 1
 BEQ 101 s1 sC //SigurdNews
 SVAL s1 2
@@ -267,6 +272,16 @@ SVAL s1 3
 BEQ 103 s1 sC //JuliaNews
 SVAL s1 4
 BEQ 104 s1 sC //FreegeNews
+SVAL s1 5
+BEQ 105 s1 sC //DozelNews
+SVAL s1 6
+BEQ 106 s1 sC //EddaNews
+SVAL s1 7
+BEQ 107 s1 sC //ChalphyNews
+SVAL s1 8
+BEQ 108 s1 sC //JungbyNews
+ENDA
+
 CeliceNews:
 LABEL 100
 CenterTutorialTextBox
@@ -307,6 +322,88 @@ TEXTSHOW MAFC5NewsReportFreege
 TEXTEND
 ENDA
 
+DozelNews:
+LABEL 105
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5NewsReportFreege
+TEXTEND
+ENDA
+
+EddaNews:
+LABEL 106
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5NewsReportFreege
+TEXTEND
+ENDA
+
+ChalphyNews:
+LABEL 107
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5NewsReportFreege
+TEXTEND
+ENDA
+
+JungbyNews:
+LABEL 108
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5NewsReportFreege
+TEXTEND
+ENDA
+
+AttackAds:
+RANDOMNUMBER 4 //five attack ads
+SVAL s1 0
+BEQ 200 s1 sC //ad 1
+SVAL s1 1
+BEQ 201 s1 sC //ad 2
+SVAL s1 2
+BEQ 202 s1 sC //ad 3
+SVAL s1 3
+BEQ 203 s1 sC //ad 4
+SVAL s1 4
+BEQ 204 s1 sC //ad 5
+ENDA
+
+EdelgardAttackAd:
+LABEL 201
+SetBackground(0x14) //check the real defs later
+TEXTSHOW MAFC5EnemyAttackAd1
+TEXTEND
+ENDA
+
+DimitriAttackAd:
+LABEL 202
+SetBackground(0x14) //check the real defs later
+TEXTSHOW MAFC5EnemyAttackAd2
+TEXTEND
+ENDA
+
+ClaudeAttackAd:
+LABEL 203
+SetBackground(0x14) //check the real defs later
+TEXTSHOW MAFC5EnemyAttackAd3
+TEXTEND
+ENDA
+
+HildaAttackAd:
+LABEL 204
+SetBackground(0x14) //check the real defs later
+TEXTSHOW MAFC5EnemyAttackAd4
+TEXTEND
+ENDA
+
+MarianneAttackAd:
+LABEL 205
+SetBackground(0x14) //check the real defs later
+TEXTSHOW MAFC5EnemyAttackAd5
+TEXTEND
+ENDA
+
+//todo: figure out inexplicable hanging
 
 
 // Manual Movement
