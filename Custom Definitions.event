@@ -177,15 +177,15 @@
 #define SkaMug 0x33
 #define AltennaMug CuanMug //placeholder
 #define AnnetteMug 0x34
-#define BylethMug ManfloyMug
-#define Claude3HMug JamkaMug
-#define DimitriMug BeowulfMug
-#define Hilda3HMug EthlinMug
-#define LysitheaMug TiltyuMug
-#define MarianneMug DeirdreMug
-#define IngridMug LachesisMug
-#define MercedesMug AideenMug
-#define SylvainMug AzelMug
-#define FelixMug LexMug
-//placeholders that have slight resemblance to the character
-//except byleth. he's an evil wizard because to hell with him.
+#define BylethMug 0x35
+#define Claude3HMug 0x36
+#define DimitriMug 0x37
+#define Hilda3HMug 0x38
+#define LysitheaMug 0x39
+#define MarianneMug 0x3A
+#define IngridMug 0x3B
+#define MercedesMug 0x3C
+#define SylvainMug 0x3D
+#define FelixMug 0x3E
+#define EdelgardMug 0x3F
+#define LorenzMug 0x40

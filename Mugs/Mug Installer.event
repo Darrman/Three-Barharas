@@ -216,3 +216,54 @@ setMugEntry(SkaMug, SkaMugLabel, 4, 7, 4, 5)
 AnnetteMugLabel:
 #incext PortraitFormatter "3H Requans/Annette.png"
 setMugEntry(AnnetteMug,AnnetteMugLabel, 2, 6, 2, 4)
+
+BylethMugLabel:
+#incext PortraitFormatter "3H Requans/Byleth.png"
+setMugEntry(BylethMug,BylethMugLabel, 4, 7, 4, 4)
+
+Claude3HMugLabel:
+#incext PortraitFormatter "3H Requans/Claude3H.png"
+setMugEntry(Claude3HMug,Claude3HMugLabel, 3, 6, 3, 4)
+
+DimitriMugLabel:
+#incext PortraitFormatter "3H Requans/Dimitri.png"
+setMugEntry(DimitriMug,DimitriMugLabel, 3, 7, 3, 5)
+
+EdelgardMugLabel:
+#incext PortraitFormatter "3H Requans/Edelgard.png"
+setMugEntry(EdelgardMug,EdelgardMugLabel, 3, 7, 3, 5)
+
+FelixMugLabel:
+#incext PortraitFormatter "3H Requans/Felix.png"
+setMugEntry(FelixMug,FelixMugLabel, 3, 7, 3, 4)
+
+Hilda3HMugLabel:
+#incext PortraitFormatter "3H Requans/Hilda3H.png"
+setMugEntry(Hilda3HMug,Hilda3HMugLabel, 2, 7, 2, 5)
+
+IngridMugLabel:
+#incext PortraitFormatter "3H Requans/Ingrid.png"
+setMugEntry(IngridMug,IngridMugLabel, 3, 7, 3, 4)
+
+LorenzMugLabel:
+#incext PortraitFormatter "3H Requans/Lorenz.png"
+setMugEntry(LorenzMug,LorenzMugLabel, 2, 6, 2, 4)
+
+LysitheaMugLabel:
+#incext PortraitFormatter "3H Requans/Lysithea.png"
+setMugEntry(LysitheaMug,LysitheaMugLabel, 2, 7, 3, 4)
+
+MarianneMugLabel:
+#incext PortraitFormatter "3H Requans/Marianne.png"
+setMugEntry(MarianneMug,MarianneMugLabel, 3, 7, 2, 5)
+
+MercedesMugLabel:
+#incext PortraitFormatter "3H Requans/Mercedes.png"
+setMugEntry(MercedesMug,MercedesMugLabel, 3, 7, 3, 5)
+
+SylvainMugLabel:
+#incext PortraitFormatter "3H Requans/Sylvain.png"
+setMugEntry(SylvainMug,SylvainMugLabel, 3, 7, 3, 4)
+
+
+

@@ -524,8 +524,7 @@ and business grows. Eventually, that[N]
 too trickles down towards health.[A]
 [Left][LoadOifaye]
 YES: Aideen. NO: Alvis.[N]
-[Yes][X]
-[A][X]
+[Yes][A][X]
 
 ## MAFC5PartyInfightingCrime
 [FL][LoadJamka][FR][LoadShanan][Left][LoadOifaye]
@@ -1045,3 +1044,4 @@ you are crushing this woman's dreams. Can[N]
 you live with yourself? Vote for Fodlan.[A][X]
 
 ## MAFC5GreatDebate
+Placeholder[A][X]
