@@ -494,11 +494,20 @@ attitude is blasmepheous! The Church[AN]
 of Edda is a holy institution, and[N]
 its mission is to convert all of the[AN]
 continent to the true faith. Divine[N]
-right is meaningless without Narga![AN]
-[Left][LoadOifaye]
+right is meaningless without Narga![A][X]
+
+## MAFC5FaithChoice
+[Left] #Oifaye
 YES: Lex. NO: Claude.[N]
-[Yes]
-[X]
+[Yes][......][X]
+
+## MAFC5FaithLex
+[FL]
+You support me.[A][X]
+
+## MAFC5FaithClaude
+[FR]
+You support me.[A][X]
 
 ## MAFC5PartyInfightingMoney
 [FL][LoadAideen][FR][LoadAlvis][Left][LoadOifaye]
@@ -524,7 +533,7 @@ and business grows. Eventually, that[N]
 too trickles down towards health.[A]
 [Left][LoadOifaye]
 YES: Aideen. NO: Alvis.[N]
-[Yes][A][X]
+[Yes][X]
 
 ## MAFC5PartyInfightingCrime
 [FL][LoadJamka][FR][LoadShanan][Left][LoadOifaye]
@@ -573,7 +582,7 @@ tears down pillars of the[N]
 natural order wherever he goes.[AN]
 [Left][LoadOifaye]
 YES: Tiltyu. NO: Claude.[N]
-[Yes][A][X]
+[Yes][X]
 
 ## MAFC5PartyInfightingEducation
 [FL][LoadAless][FR][LoadLeaf][Left][LoadOifaye]
@@ -597,7 +606,7 @@ be careful and prevent schools turning[N]
 into hives of the Lopt Sect.[A]
 [Left][LoadOifaye]
 YES: Aless. NO: Leaf.[N]
-[Yes][A][X]
+[Yes][X]
 
 ## MAFC5PartyInfightingEnvironment
 [FL][LoadJohan][FR][LoadTiltyu][Left][LoadOifaye]
@@ -625,7 +634,7 @@ time sounds like a very good thing.[N]
 Who needs a big, tedious, crawl?[A]
 [Left][LoadOifaye]
 YES: Johan. NO: Tiltyu.[N]
-[Yes][A][X]
+[Yes][X]
 
 ## MAFC5PartyInfightingDefence
 [FL][LoadLana][FR][LoadAlvis][Left][LoadOifaye]
@@ -665,7 +674,7 @@ whole crisis? The Sect is to[N]
 blame. Wipe them all out.[A]
 [Left][LoadOifaye]
 YES: Lana. NO: Alvis.[N]
-[Yes][A][X]
+[Yes][X]
 
 ## MAFC5LeadershipChallenge
 Oh dear. Alvis wants you gone.[A][X]

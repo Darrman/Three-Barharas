@@ -41,8 +41,9 @@ UNIT
 
 
 TurnBasedEvents:
-TurnEventPlayer(0x0,Journalism,2)
-TurnEventPlayer(0x0,AttackAds,3)
+TurnEventPlayer(0x0,ReligionInfighting,2)
+//TurnEventPlayer(0x0,Journalism,2)
+//TurnEventPlayer(0x0,AttackAds,3)
 //TurnEventPlayer(0x0,EnemyAds,3)
 //TurnEventPlayer(0x0,Infighting,3)
 END_MAIN
@@ -403,7 +404,44 @@ TEXTSHOW MAFC5EnemyAttackAd5
 TEXTEND
 ENDA
 
-//todo: figure out inexplicable hanging
+PartyInfighting:
+RANDOMNUMBER 6 //some number of party conflicts
+SVAL s1 0
+BEQ 300 s1 sC //ad 1
+SVAL s1 1
+BEQ 301 s1 sC //ad 2
+SVAL s1 2
+BEQ 302 s1 sC //ad 3
+SVAL s1 3
+BEQ 303 s1 sC //ad 4
+SVAL s1 4
+BEQ 304 s1 sC //ad 5
+
+ReligionInfighting:
+LABEL 300
+SetBackground(0x18) //check the real defs later
+TEXTSHOW MAFC5PartyInfightingFaith
+TEXTEND
+EVBIT_MODIFY 4 //no skipping
+STAL 10 //stall to prevent mashing into a choice
+SOUN 0x100 //random sound for testing. Sound an alarm on choices?
+TEXTSHOW MAFC5FaithChoice
+TEXTEND
+EVBIT_MODIFY 0 //you can skip again
+//pinched this from VBA ch24, thanks tera
+SVAL r7 True
+BEQ 3002 rC r7
+  LABEL 3001
+  TEXTSHOW MAFC5FaithClaude
+  TEXTEND
+  REMA
+  GOTO 3003
+LABEL 3002
+  TEXTSHOW MAFC5FaithLex
+  TEXTEND
+  REMA
+LABEL 3003
+ENDA
 
 
 // Manual Movement
