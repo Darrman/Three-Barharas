@@ -326,7 +326,7 @@ DozelNews:
 LABEL 105
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
-TEXTSHOW MAFC5NewsReportFreege
+TEXTSHOW MAFC5NewsReportDozel
 TEXTEND
 ENDA
 
@@ -334,7 +334,7 @@ EddaNews:
 LABEL 106
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
-TEXTSHOW MAFC5NewsReportFreege
+TEXTSHOW MAFC5NewsReportEdda
 TEXTEND
 ENDA
 
@@ -342,7 +342,7 @@ ChalphyNews:
 LABEL 107
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
-TEXTSHOW MAFC5NewsReportFreege
+TEXTSHOW MAFC5NewsReportChalphy
 TEXTEND
 ENDA
 
@@ -350,7 +350,7 @@ JungbyNews:
 LABEL 108
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
-TEXTSHOW MAFC5NewsReportFreege
+TEXTSHOW MAFC5NewsReportJungby
 TEXTEND
 ENDA
 
@@ -369,35 +369,35 @@ BEQ 204 s1 sC //ad 5
 ENDA
 
 EdelgardAttackAd:
-LABEL 201
+LABEL 200
 SetBackground(0x14) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd1
 TEXTEND
 ENDA
 
 DimitriAttackAd:
-LABEL 202
+LABEL 201
 SetBackground(0x14) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd2
 TEXTEND
 ENDA
 
 ClaudeAttackAd:
-LABEL 203
+LABEL 202
 SetBackground(0x14) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd3
 TEXTEND
 ENDA
 
 HildaAttackAd:
-LABEL 204
+LABEL 203
 SetBackground(0x14) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd4
 TEXTEND
 ENDA
 
 MarianneAttackAd:
-LABEL 205
+LABEL 204
 SetBackground(0x14) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd5
 TEXTEND
