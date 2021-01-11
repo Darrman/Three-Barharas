@@ -41,11 +41,10 @@ UNIT
 
 
 TurnBasedEvents:
-TurnEventPlayer(0x0,ReligionInfighting,2)
-//TurnEventPlayer(0x0,Journalism,2)
-//TurnEventPlayer(0x0,AttackAds,3)
+TurnEventPlayer(0x0,Journalism,2)
+TurnEventPlayer(0x0,AttackAds,3)
 //TurnEventPlayer(0x0,EnemyAds,3)
-//TurnEventPlayer(0x0,Infighting,3)
+TurnEventPlayer(0x0,PartyInfighting,4)
 END_MAIN
 
 CharacterBasedEvents:
@@ -407,15 +406,21 @@ ENDA
 PartyInfighting:
 RANDOMNUMBER 6 //some number of party conflicts
 SVAL s1 0
-BEQ 300 s1 sC //ad 1
+BEQ 300 s1 sC //"culture", i guess?
 SVAL s1 1
-BEQ 301 s1 sC //ad 2
+BEQ 301 s1 sC //finance
 SVAL s1 2
-BEQ 302 s1 sC //ad 3
+BEQ 302 s1 sC //justice
 SVAL s1 3
-BEQ 303 s1 sC //ad 4
+BEQ 303 s1 sC //foreign affairs
 SVAL s1 4
-BEQ 304 s1 sC //ad 5
+BEQ 304 s1 sC //education
+SVAL s1 5
+BEQ 305 s1 sC //enviroment
+SVAL s1 6
+BEQ 306 s1 sC //defence
+ENDA
+
 
 ReligionInfighting:
 LABEL 300
@@ -457,6 +462,135 @@ LABEL 3001
   REMA
 LABEL 3003
 ENDA
+
+TaxInfighting:
+LABEL 301
+SetBackground(0x18) //check the real defs later
+TEXTSHOW MAFC5PartyInfightingMoney
+TEXTEND
+EVBIT_MODIFY 4 //no skipping
+STAL 10 //stall to prevent mashing into a choice
+SOUN 0x100 //random sound for testing. Sound an alarm on choices?
+TEXTCLOSE
+STAL 10
+ASMC CallMoneyMenu|1
+BEQ 3011 0xC 0x0 //if C = 0 go to Lex
+  LABEL 3012
+  TEXTSHOW MAFC5MoneyAlvis
+  TEXTEND
+  REMA
+  GOTO 3013
+LABEL 3011
+  TEXTSHOW MAFC5MoneyAideen
+  TEXTEND
+  REMA
+LABEL 3013
+ENDA
+
+CrimeInfighting:
+LABEL 302
+SetBackground(0x18) //check the real defs later
+TEXTSHOW MAFC5PartyInfightingCrime
+TEXTEND
+ENDA
+
+ForeignAffairsInfighting:
+LABEL 303
+SetBackground(0x18) //check the real defs later
+TEXTSHOW MAFC5PartyInfightingForeignAffairs
+TEXTEND
+EVBIT_MODIFY 4 //no skipping
+STAL 10 //stall to prevent mashing into a choice
+SOUN 0x100 //random sound for testing. Sound an alarm on choices?
+TEXTCLOSE
+STAL 10
+ASMC CallFAMenu|1
+BEQ 3031 0xC 0x0 //if C = 0 go to Lex
+  LABEL 3032
+  TEXTSHOW MAFC5FAClaude
+  TEXTEND
+  REMA
+  GOTO 3033
+LABEL 3031
+  TEXTSHOW MAFC5FATiltyu
+  TEXTEND
+  REMA
+LABEL 3033
+ENDA
+
+EducationInfighting:
+LABEL 304
+SetBackground(0x18) //check the real defs later
+TEXTSHOW MAFC5PartyInfightingEducation
+TEXTEND
+EVBIT_MODIFY 4 //no skipping
+STAL 10 //stall to prevent mashing into a choice
+SOUN 0x100 //random sound for testing. Sound an alarm on choices?
+TEXTCLOSE
+STAL 10
+ASMC CallEducationMenu|1
+BEQ 3041 0xC 0x0 //if C = 0 go to top option
+  LABEL 3042
+  TEXTSHOW MAFC5EducationAless
+  TEXTEND
+  REMA
+  GOTO 3043
+LABEL 3041
+  TEXTSHOW MAFC5EducationLeaf
+  TEXTEND
+  REMA
+LABEL 3043
+ENDA
+
+EnvironmentInfighting:
+LABEL 305
+SetBackground(0x18) //check the real defs later
+TEXTSHOW MAFC5PartyInfightingEnvironment
+TEXTEND
+EVBIT_MODIFY 4 //no skipping
+STAL 10 //stall to prevent mashing into a choice
+SOUN 0x100 //random sound for testing. Sound an alarm on choices?
+TEXTCLOSE
+STAL 10
+ASMC CallEnvironmentMenu|1
+BEQ 3051 0xC 0x0 //if C = 0 go to top
+  LABEL 3052
+  TEXTSHOW MAFC5EnvironmentTiltyu
+  TEXTEND
+  REMA
+  GOTO 3053
+LABEL 3051
+  TEXTSHOW MAFC5EnvironmentJohan
+  TEXTEND
+  REMA
+LABEL 3053
+ENDA
+
+DefenceInfighting:
+LABEL 306
+SetBackground(0x18) //check the real defs later
+TEXTSHOW MAFC5PartyInfightingDefence
+TEXTEND
+EVBIT_MODIFY 4 //no skipping
+STAL 10 //stall to prevent mashing into a choice
+SOUN 0x100 //random sound for testing. Sound an alarm on choices?
+TEXTCLOSE
+STAL 10
+ASMC CallDefenceMenu|1
+BEQ 3031 0xC 0x0 //if C = 0 go to Lex
+  LABEL 3062
+  TEXTSHOW MAFC5DefenceAlvis
+  TEXTEND
+  REMA
+  GOTO 3063
+LABEL 3061
+  TEXTSHOW MAFC5DefenceLana
+  TEXTEND
+  REMA
+LABEL 3063
+ENDA
+
+
 
 // Manual Movement
 

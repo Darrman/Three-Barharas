@@ -536,10 +536,22 @@ taxes. Indeed, many just evade them.[AN]
 We should cut them down. People like[N]
 it when taxes drop. Trade flourishes[AN]
 and business grows. Eventually, that[N]
-too trickles down towards health.[A]
-[Left][LoadOifaye]
-YES: Aideen. NO: Alvis.[N]
-[Yes][X]
+too trickles down towards health.[A][X]
+
+## MAFC5MoneyBackAideen
+Side with Aideen[X]
+
+## MAFC5MoneyBackAlvis
+Side with Alvis[X]
+
+## MAFC5MoneyAideen
+[FL]
+You support me.[A][X]
+
+## MAFC5MoneyAlvis
+[FR]
+You support me.[A][X]
+
 
 ## MAFC5PartyInfightingCrime
 [FL][LoadJamka][FR][LoadShanan][Left][LoadOifaye]
@@ -585,10 +597,22 @@ Incarnate is a dangerous one.[AN]
 Perhaps it would be wise to[N]
 refrain from allying one who[AN]
 tears down pillars of the[N]
-natural order wherever he goes.[AN]
-[Left][LoadOifaye]
-YES: Tiltyu. NO: Claude.[N]
-[Yes][X]
+natural order wherever he goes.[A][X]
+
+## MAFC5FABackTiltyu
+Side with Tiltyu[X]
+
+## MAFC5FABackClaude
+Side with Claude[X]
+
+## MAFC5FATiltyu
+[FL]
+You support me.[A][X]
+
+## MAFC5FAClaude
+[FR]
+You support me.[A][X]
+
 
 ## MAFC5PartyInfightingEducation
 [FL][LoadAless][FR][LoadLeaf][Left][LoadOifaye]
@@ -609,10 +633,22 @@ careful with education. I doubt anyone[AN]
 would disagree the Crusaders were good[N]
 and the Empire was evil. We should[AN]
 be careful and prevent schools turning[N]
-into hives of the Lopt Sect.[A]
-[Left][LoadOifaye]
-YES: Aless. NO: Leaf.[N]
-[Yes][X]
+into hives of the Lopt Sect.[A][X]
+
+## MAFC5EducationBackLeaf
+Side with Leaf[X]
+
+## MAFC5EducationBackAless
+Side with Aless[X]
+
+## MAFC5EducationLeaf
+[FL]
+You support me.[A][X]
+
+## MAFC5EducationAless
+[FR]
+You support me.[A][X]
+
 
 ## MAFC5PartyInfightingEnvironment
 [FL][LoadJohan][FR][LoadTiltyu][Left][LoadOifaye]
@@ -637,10 +673,22 @@ makes about as much sense as[AN]
 most poetry makes: very little.[N]
 If you ask me, faster travel[AN]
 time sounds like a very good thing.[N]
-Who needs a big, tedious, crawl?[A]
-[Left][LoadOifaye]
-YES: Johan. NO: Tiltyu.[N]
-[Yes][X]
+Who needs a big, tedious, crawl?[A][X]
+
+## MAFC5EnvironmentBackJohan
+Side with Johan[X]
+
+## MAFC5EnvironmentBackTiltyu
+Side with Tiltyu[X]
+
+## MAFC5EnvironmentJohan
+[FL]
+You support me.[A][X]
+
+## MAFC5EnvironmentTiltyu
+[FR]
+You support me.[A][X]
+
 
 ## MAFC5PartyInfightingDefence
 [FL][LoadLana][FR][LoadAlvis][Left][LoadOifaye]
@@ -677,10 +725,22 @@ were I to have won the battle.[AN]
 Small scale events may have[N]
 happened regardless. But the[AN]
 whole crisis? The Sect is to[N]
-blame. Wipe them all out.[A]
-[Left][LoadOifaye]
-YES: Lana. NO: Alvis.[N]
-[Yes][X]
+blame. Wipe them all out.[A][X]
+
+## MAFC5DefenceBackLana
+Side with Lana[X]
+
+## MAFC5DefenceBackAlvis
+Side with Alvis[X]
+
+## MAFC5DefenceLana
+[FL]
+You support me.[A][X]
+
+## MAFC5DefenceAlvis
+[FR]
+You support me.[A][X]
+
 
 ## MAFC5LeadershipChallenge
 Oh dear. Alvis wants you gone.[A][X]
