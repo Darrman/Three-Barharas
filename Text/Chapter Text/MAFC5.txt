@@ -501,6 +501,12 @@ right is meaningless without Narga![A][X]
 YES: Lex. NO: Claude.[N]
 [Yes][......][X]
 
+## MAFC5FaithBackLex
+Side with Lex[X]
+
+## MAFC5FaithBackClaude
+Side with Claude[X]
+
 ## MAFC5FaithLex
 [FL]
 You support me.[A][X]

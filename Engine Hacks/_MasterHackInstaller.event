@@ -257,3 +257,6 @@ POP
 #include "AoC/FillAIRangeMapFix/FillAIDangerMap.event"
 
 ALIGN 4
+
+//Lord split menus for any purpose
+#include "AoC/Menus/Menu Commands.event"
