@@ -45,6 +45,7 @@ TurnEventPlayer(0x0,Journalism,2)
 TurnEventPlayer(0x0,AttackAds,3)
 //TurnEventPlayer(0x0,EnemyAds,3)
 TurnEventPlayer(0x0,PartyInfighting,4)
+TurnEventPlayer(0x0,GreatDebate,5) //placeholder turn count
 END_MAIN
 
 CharacterBasedEvents:
@@ -590,7 +591,11 @@ LABEL 3061
 LABEL 3063
 ENDA
 
-
+GreatDebate:
+SetBackground(0x03) //placeholder
+TEXTSHOW MAFC5GreatDebateGroomingCounter
+TEXTEND
+ENDA
 
 // Manual Movement
 
