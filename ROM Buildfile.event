@@ -35,6 +35,11 @@
     BYTE 00 10 10 00 10 20 00 00 00 00
     ALIGN 4
 
+    PUSH
+    ORG 0x206948 //disable skirmishes, should fix chapter name
+    BYTE 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+    POP
+
     PUSH //disables Sacred Strength
     ORG 0x58B12
     BYTE 00

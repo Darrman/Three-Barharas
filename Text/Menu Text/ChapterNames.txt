@@ -12,7 +12,7 @@ Chapter Selection[X]
 3: Crusaders' Return[X]
 
 #0x164
-Ch. 4: Winding Swamp[X]
+Parliament of Heroes[X]
 
 #0x166
 Ch. 5: Arch of Coups[X]
