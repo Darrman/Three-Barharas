@@ -205,6 +205,7 @@ ENDA
 //or get shredded to pieces by them?
 
 TutorialMessage:
+MUSC M_LightInheritors
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5Tutorial
@@ -285,6 +286,7 @@ ENDA
 
 CeliceNews:
 LABEL 100
+MUSC M_Lopto
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportCelice 
@@ -293,6 +295,7 @@ ENDA
 
 SigurdNews:
 LABEL 101
+MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportSigurd 
@@ -301,6 +304,7 @@ ENDA
 
 AlvisNews:
 LABEL 102
+MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportAlvis
@@ -309,6 +313,7 @@ ENDA
 
 JuliaNews:
 LABEL 103
+MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportJulia
@@ -317,6 +322,7 @@ ENDA
 
 FreegeNews:
 LABEL 104
+MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportFreege
@@ -325,6 +331,7 @@ ENDA
 
 DozelNews:
 LABEL 105
+MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportDozel
@@ -333,6 +340,7 @@ ENDA
 
 EddaNews:
 LABEL 106
+MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportEdda
@@ -341,6 +349,7 @@ ENDA
 
 ChalphyNews:
 LABEL 107
+MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportChalphy
@@ -349,6 +358,7 @@ ENDA
 
 JungbyNews:
 LABEL 108
+MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportJungby
@@ -371,6 +381,7 @@ ENDA
 
 EdelgardAttackAd:
 LABEL 200
+MUSC M_EmperorAlvis
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd1
 TEXTEND
@@ -378,6 +389,7 @@ ENDA
 
 DimitriAttackAd:
 LABEL 201
+MUSC M_EmperorAlvis
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd2
 TEXTEND
@@ -385,6 +397,7 @@ ENDA
 
 ClaudeAttackAd:
 LABEL 202
+MUSC M_EmperorAlvis
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd3
 TEXTEND
@@ -392,6 +405,7 @@ ENDA
 
 HildaAttackAd:
 LABEL 203
+MUSC M_EmperorAlvis
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd4
 TEXTEND
@@ -399,6 +413,7 @@ ENDA
 
 MarianneAttackAd:
 LABEL 204
+MUSC M_BelovedOne
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd5
 TEXTEND
@@ -425,6 +440,7 @@ ENDA
 
 ReligionInfighting:
 LABEL 300
+MUSC M_FE4Convo1
 SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingFaith
 TEXTEND
@@ -466,6 +482,7 @@ ENDA
 
 TaxInfighting:
 LABEL 301
+MUSC M_FE4Convo1
 SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingMoney
 TEXTEND
@@ -490,6 +507,7 @@ ENDA
 
 CrimeInfighting:
 LABEL 302
+MUSC M_FE4Convo1
 SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingCrime
 TEXTEND
@@ -497,6 +515,7 @@ ENDA
 
 ForeignAffairsInfighting:
 LABEL 303
+MUSC M_FE4Convo1
 SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingForeignAffairs
 TEXTEND
@@ -521,6 +540,7 @@ ENDA
 
 EducationInfighting:
 LABEL 304
+MUSC M_FE4Convo1
 SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingEducation
 TEXTEND
@@ -545,6 +565,7 @@ ENDA
 
 EnvironmentInfighting:
 LABEL 305
+MUSC M_FE4Convo1
 SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingEnvironment
 TEXTEND
@@ -569,6 +590,7 @@ ENDA
 
 DefenceInfighting:
 LABEL 306
+MUSC M_FE4Convo1
 SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingDefence
 TEXTEND
@@ -593,10 +615,13 @@ ENDA
 
 GreatDebate:
 SetBackground(Shrine_2)
+MUSC M_ThraciaTheme
 TEXTSHOW MAFC5GreatDebateIntro
 TEXTEND
+MUSC M_Lopto
 TEXTSHOW MAFC5GreatDebateRelations
 TEXTEND
+MUSC M_VersusAlvis
 TEXTSHOW MAFC5GreatDebateGroomingCounter
 TEXTEND
 ENDA
