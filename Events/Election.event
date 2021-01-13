@@ -82,7 +82,7 @@ ALIGN 4
 BeginningScene:
 CAM1 [21,7]
 MUSC M_FE4Convo1
-SetBackground(0x11) //check the real defs later
+SetBackground(Castle_Room) //check the real defs later
 TEXTSHOW MAFC5OpeningSigurdRatings
 TEXTEND
 TEXTSHOW MAFC5OpeningInitialVisits
@@ -96,7 +96,7 @@ MOVE 5 Sigurd [27,3]
 STAL 15
 MOVE 5 Celice [27,3]
 ENUN
-SetBackground(0x11) //check the real defs later
+SetBackground(Castle_Hall) //check the real defs later
 TEXTSHOW MAFC5OpeningVelthomer
 TEXTEND
 CALL $9EE2C4 //EndConvo
@@ -106,7 +106,7 @@ MOVE 5 Sigurd [3,8]
 STAL 15
 MOVE 5 Celice [3,8]
 ENUN
-SetBackground(0x11) //check the real defs later
+SetBackground(Castle_Hall) //check the real defs later
 TEXTSHOW MAFC5OpeningFreege
 TEXTEND
 CALL $9EE2C4 //EndConvo
@@ -116,7 +116,7 @@ MOVE 5 Sigurd [18,13]
 STAL 15
 MOVE 5 Celice [18,13]
 ENUN
-SetBackground(0x11) //check the real defs later
+SetBackground(Castle_Hall) //check the real defs later
 TEXTSHOW MAFC5OpeningDozel
 TEXTEND
 CALL $9EE2C4 //EndConvo
@@ -126,7 +126,7 @@ MOVE 5 Sigurd [27,18]
 STAL 15
 MOVE 5 Celice [27,18]
 ENUN
-SetBackground(0x11) //check the real defs later
+SetBackground(Castle_Hall) //check the real defs later
 TEXTSHOW MAFC5OpeningEdda
 TEXTEND
 CALL $9EE2C4 //EndConvo
@@ -136,7 +136,7 @@ MOVE 5 Sigurd [14,22]
 STAL 15
 MOVE 5 Celice [14,22]
 ENUN
-SetBackground(0x11) //check the real defs later
+SetBackground(Castle_Hall) //check the real defs later
 TEXTSHOW MAFC5OpeningChalphy
 TEXTEND
 CALL $9EE2C4 //EndConvo
@@ -146,7 +146,7 @@ MOVE 5 Sigurd [4,27]
 STAL 15
 MOVE 5 Celice [4,27]
 ENUN
-SetBackground(0x11) //check the real defs later
+SetBackground(Castle_Hall) //check the real defs later
 TEXTSHOW MAFC5OpeningJungby
 TEXTEND
 CALL $9EE2C4 //EndConvo
@@ -166,7 +166,7 @@ WARPIN [21,7]
 LOAD1 0x1 Units
 ENDWARP
 STAL 10
-SetBackground(0x11)
+SetBackground(Castle_Room)
 TEXTSHOW 0x123 //placeholder
 TEXTEND
 CALL InitialSetup
@@ -371,35 +371,35 @@ ENDA
 
 EdelgardAttackAd:
 LABEL 200
-SetBackground(0x14) //check the real defs later
+SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd1
 TEXTEND
 ENDA
 
 DimitriAttackAd:
 LABEL 201
-SetBackground(0x14) //check the real defs later
+SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd2
 TEXTEND
 ENDA
 
 ClaudeAttackAd:
 LABEL 202
-SetBackground(0x14) //check the real defs later
+SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd3
 TEXTEND
 ENDA
 
 HildaAttackAd:
 LABEL 203
-SetBackground(0x14) //check the real defs later
+SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd4
 TEXTEND
 ENDA
 
 MarianneAttackAd:
 LABEL 204
-SetBackground(0x14) //check the real defs later
+SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd5
 TEXTEND
 ENDA
@@ -425,7 +425,7 @@ ENDA
 
 ReligionInfighting:
 LABEL 300
-SetBackground(0x18) //check the real defs later
+SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingFaith
 TEXTEND
 EVBIT_MODIFY 4 //no skipping
@@ -466,7 +466,7 @@ ENDA
 
 TaxInfighting:
 LABEL 301
-SetBackground(0x18) //check the real defs later
+SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingMoney
 TEXTEND
 EVBIT_MODIFY 4 //no skipping
@@ -490,14 +490,14 @@ ENDA
 
 CrimeInfighting:
 LABEL 302
-SetBackground(0x18) //check the real defs later
+SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingCrime
 TEXTEND
 ENDA
 
 ForeignAffairsInfighting:
 LABEL 303
-SetBackground(0x18) //check the real defs later
+SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingForeignAffairs
 TEXTEND
 EVBIT_MODIFY 4 //no skipping
@@ -521,7 +521,7 @@ ENDA
 
 EducationInfighting:
 LABEL 304
-SetBackground(0x18) //check the real defs later
+SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingEducation
 TEXTEND
 EVBIT_MODIFY 4 //no skipping
@@ -545,7 +545,7 @@ ENDA
 
 EnvironmentInfighting:
 LABEL 305
-SetBackground(0x18) //check the real defs later
+SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingEnvironment
 TEXTEND
 EVBIT_MODIFY 4 //no skipping
@@ -569,7 +569,7 @@ ENDA
 
 DefenceInfighting:
 LABEL 306
-SetBackground(0x18) //check the real defs later
+SetBackground(Castle_Hall_4) //check the real defs later
 TEXTSHOW MAFC5PartyInfightingDefence
 TEXTEND
 EVBIT_MODIFY 4 //no skipping
@@ -592,7 +592,11 @@ LABEL 3063
 ENDA
 
 GreatDebate:
-SetBackground(0x03) //placeholder
+SetBackground(Shrine_2)
+TEXTSHOW MAFC5GreatDebateIntro
+TEXTEND
+TEXTSHOW MAFC5GreatDebateRelations
+TEXTEND
 TEXTSHOW MAFC5GreatDebateGroomingCounter
 TEXTEND
 ENDA
