@@ -38,6 +38,24 @@ Peace was finally restored to Jugdral.[AN]
 However, twenty years of war ravaged the land.[N]
 Can Celice truly break the cycle of war?[AN][X]
 
+## MAFC5Intro
+Greetings! Welcome to my Make a Fun Chapter[N]
+Five entry. This is Darrman speaking.[AN]
+Feel free to skip this if you don't care[N]
+about the creator's ranting.[AN]
+As this is a DarrCorp product, all DarrCorp[N]
+specifications will be followed. This[AN]
+includes DarrNames, DarrGimmicks, and[N]
+DarrShips. ...Enough acting like a CEO.[AN]
+FE4 Gen 2's lord is Celice, he's part[N]
+of an election campaign, and he is wed[AN]
+to Lana. Don't know what any of that[N]
+means? It will become clear in time.[AN]
+Spoilers for FE4 and 3H abound, and darker[N]
+elements of their stories are parodied.[AN]
+You have been warned. On that note, let[N]
+the games begin. I hope you enjoy.[AN][X]
+
 ## BarharaRevisitedSelected
 [Red]Barhara Revisited[Red][AN]
 At long last, Sigurd of Chalphy has reached[N]
@@ -82,3 +100,8 @@ can no longer threaten the line of Lopt...[A][X]
 [Red]Crusaders' Return[Red][N]
 Well, it kind of needs to be finished first.[N]
 For now, enjoy my One Hour Blitz entry.[A][X]
+
+## ParliamentOfHeroesSelected
+[Red]Parliament of Heroes[Red]
+This won't be shown in standalone MAFC.[N]
+Do this later.[A][X]

@@ -54,8 +54,9 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Units
-LOAD1 0x1 ChapterWarps
+CALL EnterElectionSimulator
+//LOAD1 0x1 Units
+//LOAD1 0x1 ChapterWarps
 //Text(Ch0Opening)
 ENDA
 
@@ -104,7 +105,7 @@ ENDA
 
 EnterElectionSimulator:
 //Text here
-REMU MenuUnit
+//REMU MenuUnit
 WM_SETDESTINATION 0x0 0x4 0x0 //because it loads the map otherwise? testing stuff here
 _0xA640 0x0 0x0 0x4 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
 MNCH 0x04

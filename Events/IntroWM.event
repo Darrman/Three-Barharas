@@ -17,7 +17,8 @@ ENDA*/
 BeginWorldMap
 MUSC 0x4
 WorldMapShowTextBox
-WorldMapTextBegin(NewGameText)
+//WorldMapTextBegin(NewGameText)
+WorldMapTextBegin(MAFC5Intro)
 TEXTEND
 
 STAL 60
