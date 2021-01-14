@@ -35,17 +35,42 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 Units:
-UNIT Sigurd LordKnight 0x00 Level(30, Ally, 0) [21,7] 0x0 0x00 0x0 0x00 [Tyrfing] NoAI 
+UNIT Sigurd LordKnight 0x00 Level(30, Ally, 0) [14,22] 0x0 0x00 0x0 0x00 [Tyrfing] NoAI 
 UNIT Celice LordKnight 0x00 Level(30, Ally, 0) [21,7] 0x0 0x00 0x0 0x00 [SilverSword] NoAI 
 UNIT
 
 
 TurnBasedEvents:
-TurnEventPlayer(0x0,Journalism,2)
-TurnEventPlayer(0x0,AttackAds,3)
-//TurnEventPlayer(0x0,EnemyAds,3)
-TurnEventPlayer(0x0,PartyInfighting,4)
-TurnEventPlayer(0x0,GreatDebate,5) //placeholder turn count
+TurnEventPlayer(0x0,FodlanSpies,2)
+TurnEventPlayer(0x0,Journalism,3)
+TurnEventPlayer(0x0,AttackAds,4)
+//TurnEventPlayer(0x0,EnemyAds,5)
+TurnEventPlayer(0x0,PartyInfighting,6)
+TurnEventPlayer(0x0,AttackAds,7)
+TurnEventPlayer(0x0,Journalism,8)
+//plot event
+//TurnEventPlayer(0x0,EnemyAds,10)
+TurnEventPlayer(0x0,PartyInfighting,11)
+TurnEventPlayer(0x0,PartyInfighting,12)
+TurnEventPlayer(0x0,Journalism,13)
+TurnEventPlayer(0x0,AttackAds,14)
+//plot event
+//TurnEventPlayer(0x0,EnemyAds,16)
+TurnEventPlayer(0x0,Journalism,17)
+TurnEventPlayer(0x0,AttackAds,18)
+//prepare for great debate
+TurnEventPlayer(0x0,PartyInfighting,20)
+//i'd put in alvis's coup here, but i won't make that i don't think
+TurnEventPlayer(0x0,AttackAds,22)
+TurnEventPlayer(0x0,Journalism,23)
+//night before great debate
+TurnEventPlayer(0x0,GreatDebate,25)
+//celice x julia
+TurnEventPlayer(0x0,AttackAds,27)
+//last day of campaign
+//discuss things
+//election tomorrow
+//election!
 END_MAIN
 
 CharacterBasedEvents:
@@ -613,6 +638,14 @@ LABEL 3061
 LABEL 3063
 ENDA
 
+FodlanSpies:
+MUSC M_ThraciaTheme
+LOAD1 0x1 ClaudeGroup
+TEXTSTART
+TEXTSHOW MAFC5Turn1FodlanSpies
+TEXTEND
+ENDA
+
 GreatDebate:
 SetBackground(Shrine_2)
 MUSC M_ThraciaTheme
@@ -631,6 +664,15 @@ ENDA
 // Scripted Fights
 
 // Units
+OpeningCutsceneUnits:
+UNIT Sigurd LordKnight 0x00 Level(30, Ally, 0) [21,8] 0x0 0x00 0x0 0x00 [Tyrfing] NoAI 
+UNIT Celice LordKnight 0x00 Level(30, Ally, 0) [21,7] 0x0 0x00 0x0 0x00 [SilverSword] NoAI 
+UNIT
+
+ClaudeGroup:
+UNIT Claude3H WyvernLord 0x00 Level(30, Enemy, 0) [29,9] 0x0 0x00 0x0 0x00 [SilverBow] NeverMoveAI //Failnaught
+UNIT Hilda3H WyvernLord_F 0x00 Level(30, Enemy, 0) [29,10] 0x0 0x00 0x0 0x00 [SilverAxe] NeverMoveAI //Freikugel
+UNIT
 
 // Shop Data
 
