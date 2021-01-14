@@ -44,18 +44,19 @@ TurnBasedEvents:
 TurnEventPlayer(0x0,FodlanSpies,2)
 TurnEventPlayer(0x0,Journalism,3)
 TurnEventPlayer(0x0,AttackAds,4)
-//TurnEventPlayer(0x0,EnemyAds,5)
+TurnEventPlayer(0x0,EnemyAds,5)
 TurnEventPlayer(0x0,PartyInfighting,6)
 TurnEventPlayer(0x0,AttackAds,7)
 TurnEventPlayer(0x0,Journalism,8)
-//plot event
-//TurnEventPlayer(0x0,EnemyAds,10)
+//claude's false celice x julia plot: t9
+//byleth assembles impostors: t10, also show ads
+TurnEventPlayer(0x0,EnemyAds,10)
 TurnEventPlayer(0x0,PartyInfighting,11)
 TurnEventPlayer(0x0,PartyInfighting,12)
 TurnEventPlayer(0x0,Journalism,13)
 TurnEventPlayer(0x0,AttackAds,14)
 //plot event
-//TurnEventPlayer(0x0,EnemyAds,16)
+TurnEventPlayer(0x0,EnemyAds,16)
 TurnEventPlayer(0x0,Journalism,17)
 TurnEventPlayer(0x0,AttackAds,18)
 //prepare for great debate
@@ -115,7 +116,7 @@ TEXTEND
 REMA
 CALL $9EE2C4 //EndConvo. The tutorial *lied*
 
-LOAD1 0x1 Units
+LOAD1 0x1 OpeningCutsceneUnits
 EVBIT_T 9 //CMON; camera follows
 MOVE 5 Sigurd [27,3]
 STAL 15
@@ -637,6 +638,51 @@ LABEL 3061
   REMA
 LABEL 3063
 ENDA
+
+EnemyAds:
+RANDOMNUMBER 4 //four other party ads. might replace these with positive events, but meh
+SVAL s1 0
+BEQ 400 s1 sC //ad 1
+SVAL s1 1
+BEQ 401 s1 sC //ad 2
+SVAL s1 2
+BEQ 402 s1 sC //ad 3
+SVAL s1 3
+BEQ 403 s1 sC //ad 4
+ENDA
+
+FodlanAd:
+LABEL 400
+//MUSC M_EmperorAlvis
+SetBackground(Castle_Garden) //check the real defs later
+TEXTSHOW MAFC5OppositionAdvertising1
+TEXTEND
+ENDA
+
+NohrAd:
+LABEL 401
+//MUSC M_EmperorAlvis
+SetBackground(Castle_Garden) //check the real defs later
+TEXTSHOW MAFC5OppositionAdvertising1
+TEXTEND
+ENDA
+
+ShepardAd:
+LABEL 402
+//MUSC M_EmperorAlvis
+SetBackground(Castle_Garden) //check the real defs later
+TEXTSHOW MAFC5OppositionAdvertising1
+TEXTEND
+ENDA
+
+AskrAd:
+LABEL 403
+//MUSC M_EmperorAlvis
+SetBackground(Castle_Garden) //check the real defs later
+TEXTSHOW MAFC5OppositionAdvertising1
+TEXTEND
+ENDA
+
 
 FodlanSpies:
 MUSC M_ThraciaTheme
