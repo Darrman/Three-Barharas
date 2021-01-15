@@ -189,3 +189,4 @@
 #define FelixMug 0x3E
 #define EdelgardMug 0x3F
 #define LorenzMug 0x40
+#define DorotheaMug 0x41

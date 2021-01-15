@@ -265,5 +265,7 @@ SylvainMugLabel:
 #incext PortraitFormatter "3H Requans/Sylvain.png"
 setMugEntry(SylvainMug,SylvainMugLabel, 3, 7, 3, 4)
 
-
+DorotheaMugLabel:
+#incext PortraitFormatter "3H Requans/Dorothea.png"
+setMugEntry(DorotheaMug,DorotheaMugLabel, 2, 7, 2, 4)
 

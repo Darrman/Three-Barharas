@@ -131,6 +131,7 @@
 [LoadFelix] = [LoadFace][0x3E][0x1]
 [LoadEdelgard] = [LoadFace][0x3F][0x1]
 [LoadLorenz] = [LoadFace][0x40][0x1]
+[LoadDorothea] = [LoadFace][0x41][0x1]
 
 [LoadJohalva] = [LoadFace][0x01][0x1]
 [LoadMario] = [LoadFace][0x2][0x1]
