@@ -137,7 +137,7 @@ setMugEntry(DelmudMug, Delmud_MugLabel, 4,7,3,5)
 
 Faval_MugLabel:
 #incext PortraitFormatter "Gen 2/faval2.png"
-setMugEntry(FavalMug, Faval_MugLabel, 3,7,4,4)
+setMugEntry(FavalMug, Faval_MugLabel, 3,7,3,6)
 
 Fee_MugLabel:
 #incext PortraitFormatter "Gen 2/fee2.png"
@@ -201,11 +201,11 @@ setMugEntry(SetyMug, SetyMugLabel, 4, 7, 4, 5)
 
 ShananMugLabel:
 #incext PortraitFormatter "Gen 2/shanan3.png"
-setMugEntry(ShananMug, ShananMugLabel, 4, 6, 4, 5)
+setMugEntry(ShananMug, ShananMugLabel, 4, 6, 4, 4)
 
 TinnyMugLabel:
 #incext PortraitFormatter "Gen 2/tinny2.png"
-setMugEntry(TinnyMug, TinnyMugLabel, 3, 7, 3, 3)
+setMugEntry(TinnyMug, TinnyMugLabel, 3, 7, 3, 5)
 
 SkaMugLabel:
 #incext PortraitFormatter "Gen 2/skasaher.png"
@@ -247,7 +247,7 @@ setMugEntry(IngridMug,IngridMugLabel, 3, 7, 3, 4)
 
 LorenzMugLabel:
 #incext PortraitFormatter "3H Requans/Lorenz.png"
-setMugEntry(LorenzMug,LorenzMugLabel, 2, 6, 2, 4)
+setMugEntry(LorenzMug,LorenzMugLabel, 4, 7, 4, 4)
 
 LysitheaMugLabel:
 #incext PortraitFormatter "3H Requans/Lysithea.png"
