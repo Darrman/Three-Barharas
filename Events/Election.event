@@ -41,32 +41,31 @@ UNIT
 
 
 TurnBasedEvents:
-TurnEventPlayer(0x0,FodlanSpies,2)
+TurnEventEnemy(0x0,FodlanSpies,1)
 TurnEventPlayer(0x0,Journalism,3)
 TurnEventPlayer(0x0,AttackAds,4)
 TurnEventPlayer(0x0,EnemyAds,5)
 TurnEventPlayer(0x0,PartyInfighting,6)
 TurnEventPlayer(0x0,AttackAds,7)
 TurnEventPlayer(0x0,Journalism,8)
-//claude's false celice x julia plot: t9
-//byleth assembles impostors: t10, also show ads
-TurnEventPlayer(0x0,EnemyAds,10)
+TurnEventEnemy(0x0,PropagandaPlotting,9)
+TurnEventEnemy(0x0,PropagandaPlotting2,10)
 TurnEventPlayer(0x0,PartyInfighting,11)
 TurnEventPlayer(0x0,PartyInfighting,12)
 TurnEventPlayer(0x0,Journalism,13)
 TurnEventPlayer(0x0,AttackAds,14)
-//byleth slips off, do we spy on him?
+TurnEventEnemy(0x0,BylethFishingTrip,15)
 TurnEventPlayer(0x0,EnemyAds,16)
 TurnEventPlayer(0x0,Journalism,17)
 TurnEventPlayer(0x0,AttackAds,18)
-//prepare for great debate
+TurnEventPlayer(0x0,OneWeekWarning,19)
 TurnEventPlayer(0x0,PartyInfighting,20)
 //i'd put in alvis's coup here, but i won't make that i don't think
 TurnEventPlayer(0x0,AttackAds,22)
 TurnEventPlayer(0x0,Journalism,23)
-//night before great debate
+TurnEventPlayer(0x0,IncestFaked,24)
 TurnEventPlayer(0x0,GreatDebate,25)
-//celice x julia if not exposed
+TurnEventPlayer(0x0,CeliceNews,26) //expand for big drama
 TurnEventPlayer(0x0,AttackAds,27)
 //last day of campaign
 //discuss things
@@ -689,6 +688,56 @@ MUSC M_ThraciaTheme
 LOAD1 0x1 ClaudeGroup
 TEXTSTART
 TEXTSHOW MAFC5Turn1FodlanSpies
+TEXTEND
+ENDA
+
+PropagandaPlotting:
+MUSC M_ThraciaTheme
+//Load units
+SetBackground(Woodland)
+TEXTSHOW MAFC5PropagandaPlotting
+TEXTEND
+ENDA
+
+PropagandaPlotting2:
+MUSC M_ThraciaTheme
+//Load units
+SetBackground(Woodland_Evening)
+TEXTSHOW MAFC5PropagandaPlotting2
+TEXTEND
+CALL EnemyAds
+ENDA
+
+BylethFishingTrip:
+MUSC M_EmperorAlvis
+//Units
+SetBackground(Plain_Fog)
+TEXTSHOW MAFC5BylethDeparts
+TEXTEND
+STAL 10
+CAM1 [14,22] //Chalphy. Move Sigurd here first?
+TEXTSHOW MAFC5BylethDeparts2
+TEXTEND
+TEXTSHOW MAFC5BylethDepartsSnoop //deal with the conditional later
+TEXTEND
+TEXTSHOW MAFC5BylethDepartsSnoopYes
+TEXTEND
+TEXTSHOW MAFC5BylethDepartsSnoopYes2
+TEXTEND
+ENDA
+
+OneWeekWarning:
+MUSC M_FE4Convo1
+CAM1 [21,7] //Barhara. Move Celice in?
+SetBackground(Castle_Room)
+TEXTSHOW MAFC5WeekToTheDebate
+TEXTEND
+ENDA
+
+IncestFaked:
+MUSC M_Reidrick
+SetBackground(Inn)
+TEXTSHOW MAFC5IncestConspiracyRecorded
 TEXTEND
 ENDA
 
