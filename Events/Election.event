@@ -20,6 +20,27 @@ Definitions:
 #define FreegeVisited 0xC
 #define VelthomerVisited 0xD
 
+#define FaithClaude 0xE
+#define FaithLex 0xF
+#define TaxAideen 0x10
+#define TaxAlvis 0x11
+#define FATiltyu 0x12
+#define FAClaude 0x13
+#define EduAless 0x14
+#define EduLeaf 0x15
+#define EnviroJohan 0x16
+#define EnviroTiltyu 0x17
+#define DefenceLana 0x18
+#define DefenceAlvis 0x19
+
+#define GuardianPrinted 0x1A
+#define TelegraphPrinted 0x1B
+#define MirrorPrinted 0x1C
+#define ExaminerPrinted 0x1D
+#define IndependentPrinted 0x1E
+#define TimesPrinted 0x1F
+#define ExpressPrinted 0x20
+#define NOTWPrinted 0x21
 
 
 ThisChapter:
@@ -256,6 +277,16 @@ WarpInEffect: //based off of gamma's above
     REMU 0xFFFD
     ENDWARP
     ENDA
+    
+ClearVisits:
+ENUF BarharaVisited
+ENUF ChalphyVisited
+ENUF JungbyVisited
+ENUF EddaVisited
+ENUF DozelVisited
+ENUF FreegeVisited
+ENUF VelthomerVisited
+//Text: You can visit the castles again.
 
 BarharaEntered:
 Text(BarharaPlaceholder)
@@ -286,6 +317,7 @@ Text(VelthomerPlaceholder)
 ENDA
 
 Journalism:
+LABEL 10
 RANDOMNUMBER 8 //Call a random event. Used to make the chapter a bit less repetitive.
 //Nine newspaper articles. Might slash out the big Celice one for forced plot progression.
 //SVAL s1 0
@@ -320,6 +352,9 @@ ENDA
 
 SigurdNews:
 LABEL 101
+CHECK_EVENTID GuardianPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT GuardianPrinted
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -329,6 +364,9 @@ ENDA
 
 AlvisNews:
 LABEL 102
+CHECK_EVENTID TelegraphPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT TelegraphPrinted
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -338,6 +376,9 @@ ENDA
 
 JuliaNews:
 LABEL 103
+CHECK_EVENTID MirrorPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT MirrorPrinted
 MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -347,6 +388,9 @@ ENDA
 
 FreegeNews:
 LABEL 104
+CHECK_EVENTID ExaminerPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT ExaminerPrinted
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -356,6 +400,9 @@ ENDA
 
 DozelNews:
 LABEL 105
+CHECK_EVENTID IndependentPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT IndependentPrinted
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -365,6 +412,9 @@ ENDA
 
 EddaNews:
 LABEL 106
+CHECK_EVENTID TimesPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT TimesPrinted
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -374,6 +424,9 @@ ENDA
 
 ChalphyNews:
 LABEL 107
+CHECK_EVENTID ExpressPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT ExpressPrinted
 MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -383,6 +436,9 @@ ENDA
 
 JungbyNews:
 LABEL 108
+CHECK_EVENTID NOTWPrinted
+BNE 10 s0 sC //if true, branch and pick another one
+ENUT NOTWPrinted
 MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -494,11 +550,13 @@ LABEL 3003
 ENDA*/
 BEQ 3001 0xC 0x0 //if C = 0 go to Lex
   LABEL 3002
+  ENUT FaithClaude
   TEXTSHOW MAFC5FaithClaude
   TEXTEND
   REMA
   GOTO 3003
 LABEL 3001
+  ENUT FaithLex
   TEXTSHOW MAFC5FaithLex
   TEXTEND
   REMA
@@ -519,11 +577,13 @@ STAL 10
 ASMC CallMoneyMenu|1
 BEQ 3011 0xC 0x0 //if C = 0 go to Lex
   LABEL 3012
+  ENUT TaxAlvis
   TEXTSHOW MAFC5MoneyAlvis
   TEXTEND
   REMA
   GOTO 3013
 LABEL 3011
+  ENUT TaxAideen
   TEXTSHOW MAFC5MoneyAideen
   TEXTEND
   REMA
@@ -552,11 +612,13 @@ STAL 10
 ASMC CallFAMenu|1
 BEQ 3031 0xC 0x0 //if C = 0 go to Lex
   LABEL 3032
+  ENUT FAClaude
   TEXTSHOW MAFC5FAClaude
   TEXTEND
   REMA
   GOTO 3033
 LABEL 3031
+  ENUT FATiltyu
   TEXTSHOW MAFC5FATiltyu
   TEXTEND
   REMA
@@ -577,11 +639,13 @@ STAL 10
 ASMC CallEducationMenu|1
 BEQ 3041 0xC 0x0 //if C = 0 go to top option
   LABEL 3042
+  ENUT EduAless
   TEXTSHOW MAFC5EducationAless
   TEXTEND
   REMA
   GOTO 3043
 LABEL 3041
+  ENUT EduLeaf
   TEXTSHOW MAFC5EducationLeaf
   TEXTEND
   REMA
@@ -602,11 +666,13 @@ STAL 10
 ASMC CallEnvironmentMenu|1
 BEQ 3051 0xC 0x0 //if C = 0 go to top
   LABEL 3052
+  ENUT EnviroTiltyu
   TEXTSHOW MAFC5EnvironmentTiltyu
   TEXTEND
   REMA
   GOTO 3053
 LABEL 3051
+  ENUT EnviroJohan
   TEXTSHOW MAFC5EnvironmentJohan
   TEXTEND
   REMA
@@ -627,11 +693,13 @@ STAL 10
 ASMC CallDefenceMenu|1
 BEQ 3031 0xC 0x0 //if C = 0 go to Lex
   LABEL 3062
+  ENUT DefenceAlvis
   TEXTSHOW MAFC5DefenceAlvis
   TEXTEND
   REMA
   GOTO 3063
 LABEL 3061
+  ENUT DefenceLana
   TEXTSHOW MAFC5DefenceLana
   TEXTEND
   REMA
@@ -724,7 +792,7 @@ TEXTSHOW MAFC5BylethDepartsSnoopYes
 TEXTEND
 TEXTSHOW MAFC5BylethDepartsSnoopYes2
 TEXTEND
-ENDA
+ENDA	
 
 OneWeekWarning:
 MUSC M_FE4Convo1

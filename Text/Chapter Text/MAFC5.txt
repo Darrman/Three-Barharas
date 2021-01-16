@@ -503,10 +503,10 @@ YES: Lex. NO: Claude.[N]
 [Yes][......][X]
 
 ## MAFC5FaithBackLex
-Side with Lex[X]
+Lex: Disestablish it![X]
 
 ## MAFC5FaithBackClaude
-Side with Claude[X]
+Claude: Divine Right![X]
 
 ## MAFC5FaithLex
 [FL]
@@ -540,10 +540,10 @@ and business grows. Eventually, that[N]
 too trickles down towards health.[A][X]
 
 ## MAFC5MoneyBackAideen
-Side with Aideen[X]
+Aideen: Support the poor.[X]
 
 ## MAFC5MoneyBackAlvis
-Side with Alvis[X]
+Alvis: Support business.[X]
 
 ## MAFC5MoneyAideen
 [FL]
@@ -601,10 +601,10 @@ tears down pillars of the[N]
 natural order wherever he goes.[A][X]
 
 ## MAFC5FABackTiltyu
-Side with Tiltyu[X]
+Tiltyu: Obey the Order.[X]
 
 ## MAFC5FABackClaude
-Side with Claude[X]
+Claude: The Order's dangerous.[X]
 
 ## MAFC5FATiltyu
 [FL]
@@ -637,10 +637,10 @@ be careful and prevent schools turning[N]
 into hives of the Lopt Sect.[A][X]
 
 ## MAFC5EducationBackLeaf
-Side with Leaf[X]
+Leaf: Set the narrative[X]
 
 ## MAFC5EducationBackAless
-Side with Aless[X]
+Aless: Tell the truth[X]
 
 ## MAFC5EducationLeaf
 [FL]
@@ -677,10 +677,10 @@ time sounds like a very good thing.[N]
 Who needs a big, tedious, crawl?[A][X]
 
 ## MAFC5EnvironmentBackJohan
-Side with Johan[X]
+Johan: Block all developments[X]
 
 ## MAFC5EnvironmentBackTiltyu
-Side with Tiltyu[X]
+Tiltyu: Tear the Forest down[X]
 
 ## MAFC5EnvironmentJohan
 [FL]
@@ -729,10 +729,10 @@ whole crisis? The Sect is to[N]
 blame. Wipe them all out.[A][X]
 
 ## MAFC5DefenceBackLana
-Side with Lana[X]
+Lana: Amnesty for the Sect[X]
 
 ## MAFC5DefenceBackAlvis
-Side with Alvis[X]
+Alvis: Death to the Sect[X]
 
 ## MAFC5DefenceLana
 [FL]
