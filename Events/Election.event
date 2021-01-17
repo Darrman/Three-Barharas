@@ -129,10 +129,7 @@ BeginningScene:
 CAM1 [21,7]
 MUSC M_FE4Convo1
 SetBackground(Castle_Room) //check the real defs later
-TEXTSHOW MAFC5OpeningSigurdRatings
-TEXTEND
-TEXTSHOW MAFC5OpeningInitialVisits
-TEXTEND
+TEXTSHOW MAFC5OpeningUsedVersion
 REMA
 CALL $9EE2C4 //EndConvo. The tutorial *lied*
 
@@ -213,7 +210,7 @@ LOAD1 0x1 Units
 ENDWARP
 STAL 10
 SetBackground(Castle_Room)
-TEXTSHOW 0x123 //placeholder
+TEXTSHOW MAFC5OpeningPreTutorial
 TEXTEND
 CALL InitialSetup
 CALL TutorialMessage
@@ -286,7 +283,11 @@ ENUF EddaVisited
 ENUF DozelVisited
 ENUF FreegeVisited
 ENUF VelthomerVisited
-//Text: You can visit the castles again.
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5CastlesOpenAgain
+TEXTEND
+ENDA
 
 BarharaEntered:
 Text(BarharaPlaceholder)
@@ -355,11 +356,12 @@ LABEL 101
 CHECK_EVENTID GuardianPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT GuardianPrinted
+COUNTER_DEC ChalphyCounter
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportSigurd 
-TEXTEND
+TEXTEND	
 ENDA
 
 AlvisNews:
@@ -367,6 +369,7 @@ LABEL 102
 CHECK_EVENTID TelegraphPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT TelegraphPrinted
+COUNTER_DEC VelthomerCounter
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -379,6 +382,7 @@ LABEL 103
 CHECK_EVENTID MirrorPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT MirrorPrinted
+COUNTER_DEC BarharaCounter
 MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -391,6 +395,7 @@ LABEL 104
 CHECK_EVENTID ExaminerPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT ExaminerPrinted
+COUNTER_DEC FreegeCounter
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -403,6 +408,7 @@ LABEL 105
 CHECK_EVENTID IndependentPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT IndependentPrinted
+COUNTER_DEC DozelCounter
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -415,6 +421,7 @@ LABEL 106
 CHECK_EVENTID TimesPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT TimesPrinted
+COUNTER_DEC EddaCounter
 MUSC M_Destiny
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -427,6 +434,7 @@ LABEL 107
 CHECK_EVENTID ExpressPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT ExpressPrinted
+COUNTER_DEC ChalphyCounter
 MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -439,6 +447,7 @@ LABEL 108
 CHECK_EVENTID NOTWPrinted
 BNE 10 s0 sC //if true, branch and pick another one
 ENUT NOTWPrinted
+COUNTER_DEC JungbyCounter
 MUSC M_Reidrick
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -463,6 +472,8 @@ ENDA
 EdelgardAttackAd:
 LABEL 200
 MUSC M_EmperorAlvis
+COUNTER_DEC ChalphyCounter //Anti-Chalphies
+COUNTER_DEC BarharaCounter
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd1
 TEXTEND
@@ -471,6 +482,7 @@ ENDA
 DimitriAttackAd:
 LABEL 201
 MUSC M_EmperorAlvis
+COUNTER_DEC VelthomerCounter //Anti-Alvis
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd2
 TEXTEND
@@ -479,6 +491,7 @@ ENDA
 ClaudeAttackAd:
 LABEL 202
 MUSC M_EmperorAlvis
+COUNTER_DEC EddaCounter //Anti-Claude
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd3
 TEXTEND
@@ -487,6 +500,7 @@ ENDA
 HildaAttackAd:
 LABEL 203
 MUSC M_EmperorAlvis
+COUNTER_DEC FreegeCounter //Anti-Tinny
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd4
 TEXTEND
@@ -495,6 +509,7 @@ ENDA
 MarianneAttackAd:
 LABEL 204
 MUSC M_BelovedOne
+COUNTER_DEC BarharaCounter //Anti-Celice
 SetBackground(Castle_Garden) //check the real defs later
 TEXTSHOW MAFC5EnemyAttackAd5
 TEXTEND
@@ -558,12 +573,24 @@ ENDA*/
 BEQ 3001 0xC 0x0 //if C = 0 go to Lex
   LABEL 3002
   ENUT FaithClaude
+  COUNTER_INC EddaCounter //you're backing Claude
+  COUNTER_INC JungbyCounter //Aideen/Lana are clergy
+  COUNTER_INC BarharaCounter //Celice/Julia have Narga's blood
+  COUNTER_DEC DozelCounter //you opposed Lex
+  COUNTER_DEC FreegeCounter //all that stuff's boring
+  COUNTER_DEC VelthomerCounter //he tried to blow it all up
   TEXTSHOW MAFC5FaithClaude
   TEXTEND
   REMA
   GOTO 3003
 LABEL 3001
   ENUT FaithLex
+  COUNTER_INC DozelCounter
+  COUNTER_INC FreegeCounter
+  COUNTER_INC VelthomerCounter
+  COUNTER_DEC EddaCounter
+  COUNTER_DEC JungbyCounter
+  COUNTER_DEC BarharaCounter
   TEXTSHOW MAFC5FaithLex
   TEXTEND
   REMA
@@ -591,12 +618,24 @@ EVBIT_MODIFY 0 //skip on
 BEQ 3011 0xC 0x0 //if C = 0 go to Lex
   LABEL 3012
   ENUT TaxAlvis
+  COUNTER_INC VelthomerCounter //he proposed it
+  COUNTER_INC BarharaCounter //central government
+  COUNTER_INC FreegeCounter //Azel nags Tiltyu
+  COUNTER_DEC JungbyCounter //she opposed it
+  COUNTER_DEC ChalphyCounter //long-term planning?
+  COUNTER_DEC EddaCounter //church whining
   TEXTSHOW MAFC5MoneyAlvis
   TEXTEND
   REMA
   GOTO 3013
 LABEL 3011
   ENUT TaxAideen
+  COUNTER_INC JungbyCounter
+  COUNTER_INC ChalphyCounter
+  COUNTER_INC EddaCounter
+  COUNTER_DEC VelthomerCounter
+  COUNTER_DEC BarharaCounter
+  COUNTER_DEC EddaCounter
   TEXTSHOW MAFC5MoneyAideen
   TEXTEND
   REMA
@@ -873,6 +912,8 @@ ClaudeGroup:
 UNIT Claude3H WyvernLord 0x00 Level(30, Enemy, 0) [29,9] 0x0 0x00 0x0 0x00 [SilverBow] NeverMoveAI //Failnaught
 UNIT Hilda3H WyvernLord_F 0x00 Level(30, Enemy, 0) [29,10] 0x0 0x00 0x0 0x00 [SilverAxe] NeverMoveAI //Freikugel
 UNIT
+
+
 
 // Shop Data
 
