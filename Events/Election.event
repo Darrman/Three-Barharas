@@ -671,12 +671,24 @@ EVBIT_MODIFY 0 //skip on
 BEQ 3031 0xC 0x0 //if C = 0 go to Lex
   LABEL 3032
   ENUT FAClaude
+  COUNTER_INC EddaCounter //you're backing him
+  COUNTER_INC DozelCounter //Lex in Heroes when?
+  COUNTER_INC JungbyCounter //Aideen in Heroes when?
+  COUNTER_DEC FreegeCounter //Tiltyu's always been around
+  COUNTER_DEC ChalphyCounter //Sigurd's early
+  COUNTER_DEC BarharaCounter //Celice was almost day 1
   TEXTSHOW MAFC5FAClaude
   TEXTEND
   REMA
   GOTO 3033
 LABEL 3031
   ENUT FATiltyu
+  COUNTER_INC FreegeCounter
+  COUNTER_INC ChalphyCounter
+  COUNTER_INC BarharaCounter
+  COUNTER_DEC EddaCounter
+  COUNTER_DEC DozelCounter
+  COUNTER_DEC JungbyCounter
   TEXTSHOW MAFC5FATiltyu
   TEXTEND
   REMA
@@ -704,12 +716,24 @@ EVBIT_MODIFY 0 //skip on
 BEQ 3041 0xC 0x0 //if C = 0 go to top option
   LABEL 3042
   ENUT EduAless
+  COUNTER_INC VelthomerCounter //happy to see Sigurd down a peg
+  COUNTER_INC DozelCounter //writing as a bit anti-establishment
+  COUNTER_INC FreegeCounter //the bad guys stick together
+  COUNTER_DEC BarharaCounter //benefits from the narrative
+  COUNTER_DEC ChalphyCounter //would be centre of the narrative
+  COUNTER_DEC EddaCounter //churches like narratives
   TEXTSHOW MAFC5EducationAless
   TEXTEND
   REMA
   GOTO 3043
 LABEL 3041
   ENUT EduLeaf
+  COUNTER_INC BarharaCounter
+  COUNTER_INC ChalphyCounter
+  COUNTER_INC EddaCounter
+  COUNTER_DEC VelthomerCounter
+  COUNTER_DEC DozelCounter
+  COUNTER_DEC FreegeCounter
   TEXTSHOW MAFC5EducationLeaf
   TEXTEND
   REMA
@@ -737,12 +761,24 @@ EVBIT_MODIFY 0 //skip on
 BEQ 3051 0xC 0x0 //if C = 0 go to top
   LABEL 3052
   ENUT EnviroTiltyu
+  COUNTER_INC FreegeCounter //she does not care
+  COUNTER_INC EddaCounter //it's a refuge for Loptians
+  COUNTER_INC JungbyCounter //church line and whatnot
+  COUNTER_DEC BarharaCounter //that's my mother's!
+  COUNTER_DEC ChalphyCounter //that's my wife's!
+  COUNTER_DEC DozelCounter //I'm opposing you!
   TEXTSHOW MAFC5EnvironmentTiltyu
   TEXTEND
   REMA
   GOTO 3053
 LABEL 3051
   ENUT EnviroJohan
+  COUNTER_INC DozelCounter
+  COUNTER_INC BarharaCounter
+  COUNTER_INC ChalphyCounter
+  COUNTER_DEC FreegeCounter
+  COUNTER_DEC EddaCounter
+  COUNTER_DEC JungbyCounter
   TEXTSHOW MAFC5EnvironmentJohan
   TEXTEND
   REMA
@@ -770,12 +806,24 @@ EVBIT_MODIFY 0 //skip on
 BEQ 3031 0xC 0x0 //if C = 0 go to Lex
   LABEL 3062
   ENUT DefenceAlvis
+  COUNTER_INC VelthomerCounter //they made me marry my sister!
+  COUNTER_INC EddaCounter //never mind our founder's message
+  COUNTER_INC FreegeCounter //that stupid Hilda
+  COUNTER_DEC JungbyCounter //ever hear of compassion?
+  COUNTER_DEC ChalphyCounter //my wife's of them, I don't care
+  COUNTER_DEC DozelCounter //gotta round up the numbers
   TEXTSHOW MAFC5DefenceAlvis
   TEXTEND
   REMA
   GOTO 3063
 LABEL 3061
   ENUT DefenceLana
+  COUNTER_INC JungbyCounter
+  COUNTER_INC ChalphyCounter
+  COUNTER_INC DozelCounter
+  COUNTER_DEC VelthomerCounter
+  COUNTER_DEC EddaCounter
+  COUNTER_DEC FreegeCounter
   TEXTSHOW MAFC5DefenceLana
   TEXTEND
   REMA
