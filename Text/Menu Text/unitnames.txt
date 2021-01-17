@@ -478,64 +478,86 @@ Julia[X]
 Claude[X]
 
 ## Claude3HDesc
-Upside-down not priest[X]
+The King of Almyra. Plays very dirty[N]
+and likes hanging upside-down. Doesn't[N]
+really care for his Jugdral counterpart.[X]
 
 ## Hilda3HName
 Hilda[X]
 
 ## Hilda3HDesc
-Upside-down's girlfriend[X]
+Few people are as lazy as her in the[N]
+land of Fodlan. Fingers are not lifted.[N]
+Less malicious than her counterpart.[X]
 
 ## LysitheaName
 Lysithea[X]
 
 ## LysitheaDesc
-Dark Spikes[X]
+With great power comes many dead Death[N]
+Knights, sweet teeth, immaturity, and[N]
+worst of all, a tendency to die.[X]
 
 ## MarianneName
 Marianne[X]
 
 ## MarianneDesc
-Sad[X]
+Will she ever smile? What's getting her[N]
+so down? Magical dragon blood can be[N]
+very cruel in Fodlan...[X]
 
 ## AnnetteName
 Annette[X]
 
 ## AnnetteDesc
-Cute[X]
+La-de-dah... She likes singing...[N]
+Meanwhile, her father's a candidate[N]
+for Father of the Year.[X]
 
 ## DimitriName
 Dimitri[X]
 
 ## DimitriDesc
-Kill every last one of them[X]
+After determining that a young girl[N]
+was responsible for mass murder,[N]
+he plunged off into the deep end.[X]
 
 ## SylvainName
 Sylvain[X]
 
 ## SylvainDesc
-Ladies' man[X]
+The present successor to the title[N]
+of Ladies' Man. Whether he actually[N]
+gets a girl is player's discretion.[X]
 
 ## BylethName
 Byleth[X]
 
 ## BylethDesc
-Bland[X]
+Fodlan's history hinges around this[N]
+man deciding which class he'd teach[N]
+at an expensive private school.[X]
 
 ## IngridName
 Ingrid[X]
 
 ## IngridDesc
-Flier[X]
+I never played Dimitri route, I killed[N]
+her, and I don't care for her normal[N]
+joke. So take this placeholder.[X]
 
 ## MercedesName
 Mercedes[X]
 
 ## MercedesDesc
-Cleric[X]
+She's a cleric. Pretty much textbook[N]
+nun. Related to the Death Knight. We[N]
+don't know if Dark Spikes kills her.[X]
 
 ## FelixName
 Felix[X]
 
 ## FelixDesc
-Edgy[X]
+Let him train. Let him train. He's an[N]
+edgy swordsman. Obsessed with this[N]
+"Boar Prince". Pigs aren't fighters.[X]

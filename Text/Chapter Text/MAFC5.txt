@@ -1687,6 +1687,16 @@ who can gather information.[AN]
 I did grow up in Verdane, after[N]
 all. Dew should handle things.[A][X]
 
+## MAFC5BylethDepartsSnoopNo
+[ML]
+It might hurt us in the long run...[N]
+But it's the right thing to do.[AN]
+I'm glad you're maintaining the moral[N]
+high ground, Sigurd.[AN]
+[MR]
+I always try to do the right thing.[N]
+Espionage... That is below me.[A][X]
+
 ## MAFC5BylethDepartsSnoopYes2
 [FFL][LoadDew][Left][LoadDeirdre][MR][LoadSigurd]
 [FFL][MoveFarLeft]

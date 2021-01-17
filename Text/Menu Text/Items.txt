@@ -131,6 +131,15 @@ MasterKnight[X]
 A knight trained in the usage[N]
 of all types of weaponry.[X]
 
+## DragonKnightName
+Dragon Kn.[X]
+
+## DragonMasterName
+Dragon Mstr.[X]
+
+## LordKnightName
+Lord Knight[X]
+
 ## EarthSwordName
 Earth Sword[X]
 
