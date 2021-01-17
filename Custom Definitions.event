@@ -90,6 +90,8 @@
 #define Sylvain 63
 #define Byleth 64
 #define Felix 65
+#define Edelgard 66
+#define Dorothea 67
 
 #define Velthomer 0x80
 #define LoptSect 0x81

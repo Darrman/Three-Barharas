@@ -42,6 +42,8 @@ Definitions:
 #define ExpressPrinted 0x20
 #define NOTWPrinted 0x21
 
+#define BylethInvestigated 0x22
+
 
 ThisChapter:
 POIN TurnBasedEvents
@@ -130,6 +132,7 @@ CAM1 [21,7]
 MUSC M_FE4Convo1
 SetBackground(Castle_Room) //check the real defs later
 TEXTSHOW MAFC5OpeningUsedVersion
+TEXTEND
 REMA
 CALL $9EE2C4 //EndConvo. The tutorial *lied*
 
@@ -854,7 +857,7 @@ NohrAd:
 LABEL 401
 //MUSC M_EmperorAlvis
 SetBackground(Castle_Garden) //check the real defs later
-TEXTSHOW MAFC5OppositionAdvertising1
+TEXTSHOW MAFC5OppositionAdvertising2
 TEXTEND
 ENDA
 
@@ -862,7 +865,7 @@ ShepardAd:
 LABEL 402
 //MUSC M_EmperorAlvis
 SetBackground(Castle_Garden) //check the real defs later
-TEXTSHOW MAFC5OppositionAdvertising1
+TEXTSHOW MAFC5OppositionAdvertising3
 TEXTEND
 ENDA
 
@@ -870,7 +873,7 @@ AskrAd:
 LABEL 403
 //MUSC M_EmperorAlvis
 SetBackground(Castle_Garden) //check the real defs later
-TEXTSHOW MAFC5OppositionAdvertising1
+TEXTSHOW MAFC5OppositionAdvertising4
 TEXTEND
 ENDA
 
@@ -878,6 +881,14 @@ ENDA
 FodlanSpies:
 MUSC M_ThraciaTheme
 LOAD1 0x1 ClaudeGroup
+STAL 10
+CAM1 Claude3H
+STAL 10
+MOVE 5 Claude3H [26,9]
+MOVE 5 Hilda3H [26,10]
+ENUN
+STAL 10
+FlashCursor(Claude3H,60)
 TEXTSTART
 TEXTSHOW MAFC5Turn1FodlanSpies
 TEXTEND
@@ -885,7 +896,14 @@ ENDA
 
 PropagandaPlotting:
 MUSC M_ThraciaTheme
-//Load units
+LOAD1 0x1 BylethEntry
+CAM1 Byleth
+MOVE 5 Byleth [24,8]
+ENUN
+MOVE 5 Claude3H [24,9]
+ENUN
+STAL 10
+FlashCursor(Byleth,60)
 SetBackground(Woodland)
 TEXTSHOW MAFC5PropagandaPlotting
 TEXTEND
@@ -893,29 +911,72 @@ ENDA
 
 PropagandaPlotting2:
 MUSC M_ThraciaTheme
-//Load units
+CAM1 Byleth
 SetBackground(Woodland_Evening)
 TEXTSHOW MAFC5PropagandaPlotting2
 TEXTEND
+CALL $9EE2C4 //EndConvo
+STAL 10
+MOVE 5 Byleth [21,7]
+MOVE 5 Claude3H [26,9]
+ENUN
+DISA Byleth
+STAL 15
+MOVE 5 Claude3H [19,17]
+STAL 5
+MOVE 5 Hilda3H [20,17]
+ENUN
 CALL EnemyAds
 ENDA
 
 BylethFishingTrip:
 MUSC M_EmperorAlvis
-//Units
+LOAD1 0x1 BylethVerdane
+MOVE -1 Byleth [16,26] //camera gets stuck on Barhara otherwise
+STAL 10
+CAM1 Byleth
+STAL 10
 SetBackground(Plain_Fog)
 TEXTSHOW MAFC5BylethDeparts
 TEXTEND
+CALL $9EE2C4 //EndConvo
+EVBIT_T 9 //CMON; camera follows
 STAL 10
+MOVE 5 Byleth [4,28]
+MOVE 5 Dorothea [4,29]
+ENUN
+MOVE 5 Byleth [0,22]
+MOVE 5 Dorothea [0,22]
+STAL 10
+MOVE 10 Dew [3,24]
+ENUN
+DISA Byleth
+DISA Dorothea
+
 CAM1 [14,22] //Chalphy. Move Sigurd here first?
+EVBIT_MODIFY 3 //Start off
+STAL 10
+SetBackground(Castle_Outside)
 TEXTSHOW MAFC5BylethDeparts2
 TEXTEND
-TEXTSHOW MAFC5BylethDepartsSnoop //deal with the conditional later
+EVBIT_MODIFY 4 //No skipping
+STAL 10
+SOUN 0x100 //random sound
+TEXTSHOW MAFC5BylethDepartsSnoop //yes/no	
 TEXTEND
+EVBIT_MODIFY 0 //skip back on
+SVAL r1 1 
+BEQ 500 rC r1 //branch if yes
+  LABEL 501
+  TEXTSHOW 0x123
+  GOTO 502
+LABEL 500
+ENUT BylethInvestigated
 TEXTSHOW MAFC5BylethDepartsSnoopYes
 TEXTEND
 TEXTSHOW MAFC5BylethDepartsSnoopYes2
 TEXTEND
+LABEL 502
 ENDA	
 
 OneWeekWarning:
@@ -957,11 +1018,19 @@ UNIT Celice LordKnight 0x00 Level(30, Ally, 0) [21,7] 0x0 0x00 0x0 0x00 [SilverS
 UNIT
 
 ClaudeGroup:
-UNIT Claude3H WyvernLord 0x00 Level(30, Enemy, 0) [29,9] 0x0 0x00 0x0 0x00 [SilverBow] NeverMoveAI //Failnaught
-UNIT Hilda3H WyvernLord_F 0x00 Level(30, Enemy, 0) [29,10] 0x0 0x00 0x0 0x00 [SilverAxe] NeverMoveAI //Freikugel
+UNIT Claude3H WyvernLord 0x00 Level(30, Enemy, 0) [29,9] 0x0 0x00 0x0 0x00 [SilverBow /*Failnaught*/] NeverMoveAI //edge of the map
+UNIT Hilda3H WyvernLord_F 0x00 Level(30, Enemy, 0) [29,10] 0x0 0x00 0x0 0x00 [SilverAxe /*Freikugel*/] NeverMoveAI //edge of the map
 UNIT
 
+BylethEntry:
+UNIT Byleth Swordmaster 0x00 Level(30, Enemy, 0) [29,4] 0x0 0x00 0x0 0x00 [SilverSword /*Creator Sword*/] NeverMoveAI
+UNIT
 
+BylethVerdane:
+UNIT Byleth Swordmaster 0x00 Level(30, Enemy, 0) [16,26] 0x0 0x00 0x0 0x00 [SilverSword /*Creator Sword*/] NeverMoveAI
+UNIT Dorothea Dancer 0x00 Level(30, Enemy, 0) [17,26] 0x0 0x00 0x0 0x00 [Meteor] NeverMoveAI
+UNIT Dew Rogue 0x00 Level(30, NPC, 0) [2,24] 0x0 0x00 0x0 0x00 [WindSword] NoAI
+UNIT
 
 // Shop Data
 
