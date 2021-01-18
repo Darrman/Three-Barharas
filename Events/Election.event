@@ -842,13 +842,24 @@ BEQ 108 s1 sC //JungbyNews
 ENDA
 
 CeliceNews:
-//check for FakeIncestExposed and show different thing if true
 LABEL 100
+CHECK_EVENTID FakeIncestExposed
+BNE 1001 s0 sC
 MUSC M_Lopto
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW MAFC5NewsReportCelice 
 TEXTEND
+GOTO 1002
+
+LABEL 1001
+MUSC M_EmperorAlvis
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5NewsReportCeliceGood
+TEXTEND
+
+LABEL 1002
 ENDA
 
 SigurdNews:
@@ -1469,6 +1480,7 @@ SVAL r1 1
 BEQ 500 rC r1 //branch if yes
   LABEL 501
   TEXTSHOW MAFC5BylethDepartsSnoopNo
+  TEXTEND
   GOTO 502
 LABEL 500
 ENUT BylethInvestigated
@@ -1564,6 +1576,7 @@ GameOver
 
 LABEL 512
 TEXTSHOW MAFC5IncestConspiracyBustedSigurd
+TEXTEND
 
 LABEL 513
 ENDA
@@ -1573,18 +1586,72 @@ ENUF FakeIncestExposed
 ENDA
   
 IncestFaked:
+CHECK_EVENTID FakeIncestExposed
+BNE 515 s0 sC
 MUSC M_Reidrick
 SetBackground(Inn)
 TEXTSHOW MAFC5IncestConspiracyRecorded
 TEXTEND
+GOTO 516
+
+LABEL 515
+MUSC M_FE4Convo1
+SetBackground(Woodland_Fog)
+TEXTSHOW MAFC5IncestConspiracyNotRecorded
+TEXTEND
+
+LABEL 516
 ENDA
 
 GreatDebate:
+CAM1 [21,7]
+CURSOR [21,7]
+STAL 60
+REMOVE_CURSORS
 SetBackground(Shrine_2)
 MUSC M_ThraciaTheme
 TEXTSHOW MAFC5GreatDebateIntro
 TEXTEND
 REMA
+
+CHECK_EVENTID BylethInvestigated
+BEQ 522 s0 sC //if false branch
+CALL $9EE2C4 //EndConvo
+STAL 10
+LOAD1 0x1 MidirRun
+STAL 10
+CAM1 Midir
+MOVE 5 Dew [4,27]
+ENUN
+DISA Dew
+TEXTSTART 
+TEXTSHOW MAFC5InformationRetrieved
+TEXTEND
+REMA
+EVBIT_T 9
+MOVE 10 Midir [21,7]
+ENUN
+DISA Midir
+TEXTSTART
+TEXTSHOW MAFC5InformationDelivered
+TEXTEND
+REMA
+STAL 10
+SetBackground(Castle_Hall)
+TEXTSHOW MAFC5DebateInformationAvailable
+TEXTEND
+REMA
+STAL 10
+GOTO 523
+
+LABEL 522
+SetBackground(Castle_Hall)
+TEXTSHOW MAFC5DebateNoInformation
+TEXTEND
+REMA
+STAL 10
+
+LABEL 523
 TEXTSHOW MAFC5GreatDebateRelations
 TEXTEND
 CHECK_EVENTID BylethInvestigated
@@ -1593,13 +1660,21 @@ MUSC M_Lopto
 TEXTCONT
 TEXTEND
 REMA
+
+CHECK_EVENTID FakeIncestExposed
+BEQ 524 s0 sC //if false branch
 MUSC M_VersusAlvis
 TEXTSHOW MAFC5GreatDebateGroomingCounter
 TEXTEND
-LABEL 521
+GOTO 521
+
+LABEL 524
+MUSC M_FE4Victory
+TEXTSHOW MAFC5GreatDebateNoGroomingCounter
 
 LABEL 520
 TEXTSHOW MAFC5GreatDebateRelationsBad
+TEXTEND
 LABEL 521
 CALL ClearVisits
 ENDA
@@ -1627,6 +1702,11 @@ BylethVerdane:
 UNIT Byleth Swordmaster 0x00 Level(30, Enemy, 0) [16,26] 0x0 0x00 0x0 0x00 [SilverSword /*Creator Sword*/] NeverMoveAI
 UNIT Dorothea Dancer 0x00 Level(30, Enemy, 0) [17,26] 0x0 0x00 0x0 0x00 [Meteor] NeverMoveAI
 UNIT Dew Rogue 0x00 Level(30, NPC, 0) [2,24] 0x0 0x00 0x0 0x00 [WindSword] NoAI
+UNIT
+
+MidirRun:
+UNIT Midir Ranger 0x00 Level(30, NPC, 0) [4,27] 0x0 0x00 0x0 0x00 [BraveBow] NeverMoveAI
+UNIT Dew Rogue 0x00 Level(30, NPC, 0) [0,29] 0x0 0x00 0x0 0x00 [WindSword] NoAI
 UNIT
 
 // Shop Data
