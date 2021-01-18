@@ -778,13 +778,159 @@ Placeholder![A][X]
 [ML][LoadLex]
 This is a placeholder. Get it?![A][X]
 
+## VisitDozelEarlyGame
+[ML][LoadLex][MR][LoadCurrent]
+[ML]
+Yo. Things are going quite well.[N]
+That does not mean I'm currently[AN]
+topping the polls. I'm just near[N]
+the top of the polls. Get it?[A][X]
+
+## VisitDozelFirstRefresh
+[ML][LoadLex][MR][LoadCurrent]
+[ML]
+Apparently this Edelgard Hresvelg[N]
+figure has an axe that lets her[AN]
+continuously attack over and over[N]
+again. How does she do that?[A][X]
+
+## VisitDozelBylethArrives
+[ML][LoadJohan][MR][LoacCurrent]
+[ML]
+Oh yes, some figures from Fodlan[N]
+have been knocking on my door.[AN]
+I do not appreciate that. Some of[N]
+their women may be nice, but they[AN]
+pale in comparison to my beloved[N]
+Lakche! They shall never win.[A][X]
+
+## VisitDozelBylethLeaves
+[ML][LoadJohan][MR][LoadCurrent]
+[ML]
+Election Day is but two weeks away![N]
+Your ray of light makes Fodlan pay![AN]
+By Jungby, they say, is Fodlan's bay.[N]
+By all rights, they are a blight![A][X]
+
+## VisitDozelLeafWarning
+[ML][LoadLex][MR][LoadCurrent]
+[ML]
+I knew it. It's the eternal Julia[N]
+rumour. Rebuke it as you will.[AN]
+It will never go away. Jealousy[N]
+is a dangerous thing to play with.[A][X]
+
+## VisitDozelAfterDebate
+[ML][LoadLex][MR][LoadCurrent]
+Placeholder.[A][X]
+
 ## FreegePlaceholder
 [ML][LoadTiltyu]
 Ya know, this is just a placeholder...[A][X]
 
+## VisitFreegeEarlyGame
+[ML][LoadTiltyu][MR][LoadCurrent]
+[ML]
+Hey there! All's quiet 'round here.[N]
+I appreciate the help with shoring[AN]
+up the vote, though! Never know what[N]
+stands between you and Parliament.[A][X]
+
+## VisitFreegeFirstRefresh
+[ML][LoadTiltyu][MR][LoadCurrent]
+[ML]
+I was talking with an Akaneian MP,[N]
+and she said that there isn't a tome[AN]
+to be found in Fodlan at all. They[N]
+can cast as much magic as they please.[AN]
+Sounds dangerous, if you ask me. Just[N]
+cast Torhammer over and over?[A][X]
+
+## VisitFreegeBylethArrives
+[ML][LoadTinny][MR][LoadCurrent]
+[ML]
+The... The Fodlanese have arrived. And[N]
+that horrible Hilda was around![AN]
+The one you see in the newspapers![N]
+Are all Hildas cut from the same cloth?[A][X]
+
+## VisitFreegeBylethLeaves
+[ML][LoadTiltyu][MR][LoadCurrent]
+[ML]
+The usual suspects are slithering around.[N]
+They try to make themselves seem useful[AN]
+so people will give them more information.[N]
+Speaking of, here's some for you! We're[AN]
+both incumbents, so you probably know of[N]
+Annette and Lysithea already. They're up[AN]
+to something. Not sure what, but I've seen[N]
+them hanging around with a blue guy.[A][X]
+
+## VisitFreegeLeafWarning
+[ML][LoadTiltyu][MR][LoadCurrent]
+[ML]
+I'm aware, you don't need to update me.[N]
+If you ask me, the best way to fight[AN]
+against that smearing thing is to fight[N]
+fire with fire. Bring them down a peg.[A][X]
+
+## VisitFreegeAfterDebate
+[ML][LoadTinny][MR][LoadCurrent]
+Placeholder![A][X]
+
 ## VelthomerPlaceholder
 [ML][LoadAlvis]
 Hmph. This is a placeholder. Leave.[A][X]
+
+## VisitVelthomerEarlyGame
+[ML][LoadAzel][MR][LoadCurrent]
+[ML]
+My brother is in a commanding position.[N]
+I know I don't need to say this. But[AN]
+for your own sake, don't annoy Alvis.[N]
+We both know what happened at Barhara.[A][X]
+
+## VisitVelthomerFirstRefresh
+[ML][LoadAlvis][MR][LoadCurrent]
+[ML]
+Hmph. This Fodlan is not so unified.[N]
+They act it, but Adrestria and Faerghus[AN]
+are not on friendly terms. Edelgard and[N]
+Dimitri are mortal enemies. Byleth is[AN]
+the one that unifies the party. Without[N]
+him, it would all fall apart.[A][X]
+
+## VisitVelthomerBylethArrives
+[ML][LoadAlvis][MR][LoadCurrent]
+[ML]
+They have arrived... Flies of Fodlan[N]
+appear annoyingly frequently. They[AN]
+should be squashed, for a better world.[N]
+They claim similar ideals, though...[A][X]
+
+## VisitVelthomerBylethLeaves
+[ML][LoadAzel][MR][LoadCurrent]
+[ML]
+Since Velthomer is right at the edge of[N]
+Grandbell, I don't really know the[AN]
+details of what's going on inside it.[N]
+None of them seem to have any business[AN]
+in Yied. If they did, I'd be concerned[N]
+the Sect would be up to no good...[A][X]
+
+## VisitVelthomerLeafWarning
+[ML][LoadAlvis][MR][LoadCurrent]
+[ML]
+So... ...My daughter. She is the[N]
+focal point of the smear campaign.[AN]
+We may not talk much, but she is[N]
+of my blood. Keep her safe. Now,[AN]
+perhaps I should ask after Cyas...[N]
+He, too, is of my blood.[A][X]
+
+## VisitVelthomerAfterDebate
+[ML][LoadAlvis][MR][LoadCurrent]
+Placeholder.[A][X]
 
 ## MAFC5PartyInfightingFaith
 [FL][LoadLex][FR][LoadClaude]

@@ -374,27 +374,434 @@ ENDA
 ENDA
 
 ChalphyEntered:
-Text(ChalphyPlaceholder)
+CHECK_TURNS
+SVAL s1 5 //refresh
+BGE 610 s1 sC
+SVAL s1 10 //byleth's scheme
+BGE 611 s1 sC
+SVAL s1 15 //byleth's out
+BGE 612 s1 sC
+SVAL s1 18 //leaf's warning
+BGE 613 s1 sC
+SVAL s1 25 //great debate
+BGE 614 s1 sC
+GOTO 616 //show the final message
+
+ChalphyMessage1:
+LABEL 610
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitChalphyEarlyGame
+TEXTEND
+GOTO 609
+
+ChalphyMessage2:
+LABEL 611
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitChalphyFirstRefresh
+TEXTEND
+GOTO 619
+
+ChalphyMessage3:
+LABEL 612
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitChalphyBylethArrives
+TEXTEND
+GOTO 619
+
+ChalphyMessage4:
+LABEL 613
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitChalphyBylethLeaves
+TEXTEND
+GOTO 619
+
+ChalphyMessage5:
+LABEL 614
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitChalphyLeafWarning
+TEXTEND
+GOTO 619
+
+ChalphyMessage6:
+LABEL 616
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitChalphyAfterDebate
+TEXTEND
+GOTO 619
+
+LABEL 619
+COUNTER_INC ChalphyCounter
+COUNTER_INC ChalphyCounter
+ENDA
+
+
+//Text(ChalphyPlaceholder)
 ENDA
 
 JungbyEntered:
-Text(JungbyPlaceholder)
+CHECK_TURNS
+SVAL s1 5 //refresh
+BGE 620 s1 sC
+SVAL s1 10 //byleth's scheme
+BGE 621 s1 sC
+SVAL s1 15 //byleth's out
+BGE 622 s1 sC
+SVAL s1 18 //leaf's warning
+BGE 623 s1 sC
+SVAL s1 25 //great debate
+BGE 624 s1 sC
+GOTO 626 //show the final message
+
+JungbyMessage1:
+LABEL 620
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitJungbyEarlyGame
+TEXTEND
+GOTO 629
+
+JungbyMessage2:
+LABEL 621
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitJungbyFirstRefresh
+TEXTEND
+GOTO 629
+
+JungbyMessage3:
+LABEL 622
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitJungbyBylethArrives
+TEXTEND
+GOTO 629
+
+JungbyMessage4:
+LABEL 623
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitJungbyBylethLeaves
+TEXTEND
+GOTO 629
+
+JungbyMessage5:
+LABEL 624
+//just stick with map music
+SVAL s1 Celice
+CHECK_ACTIVE
+BNE 625 s1 sC
+SetBackground(Castle_Room)
+TEXTSHOW VisitJungbyLeafWarningCelice
+TEXTEND
+GOTO 629
+
+LABEL 625
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitJungbyLeafWarningSigurd
+TEXTEND
+GOTO 629
+
+JungbyMessage6:
+LABEL 626
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitJungbyAfterDebate
+TEXTEND
+GOTO 629
+
+LABEL 629
+COUNTER_INC JungbyCounter
+COUNTER_INC JungbyCounter
+ENDA
+
+//Text(JungbyPlaceholder)
 ENDA
 
 EddaEntered:
-Text(EddaPlaceholder)
+CHECK_TURNS
+SVAL s1 5 //refresh
+BGE 630 s1 sC
+SVAL s1 10 //byleth's scheme
+BGE 631 s1 sC
+SVAL s1 15 //byleth's out
+BGE 632 s1 sC
+SVAL s1 18 //leaf's warning
+BGE 633 s1 sC
+SVAL s1 25 //great debate
+BGE 634 s1 sC
+GOTO 636 //show the final message
+
+EddaMessage1:
+LABEL 630
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitEddaEarlyGame
+TEXTEND
+GOTO 609
+
+EddaMessage2:
+LABEL 631
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitEddaFirstRefresh
+TEXTEND
+GOTO 639
+
+EddaMessage3:
+LABEL 632
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitEddaBylethArrives
+TEXTEND
+GOTO 639
+
+EddaMessage4:
+LABEL 633
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitEddaBylethLeaves
+TEXTEND
+GOTO 639
+
+EddaMessage5:
+LABEL 634
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitEddaLeafWarning
+TEXTEND
+GOTO 639
+
+EddaMessage6:
+LABEL 636
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitEddaAfterDebate
+TEXTEND
+GOTO 639
+
+LABEL 639
+COUNTER_INC EddaCounter
+COUNTER_INC EddaCounter
+ENDA
+
+//Text(EddaPlaceholder)
 ENDA
 
 DozelEntered:
-Text(DozelPlaceholder)
+CHECK_TURNS
+SVAL s1 5 //refresh
+BGE 640 s1 sC
+SVAL s1 10 //byleth's scheme
+BGE 641 s1 sC
+SVAL s1 15 //byleth's out
+BGE 642 s1 sC
+SVAL s1 18 //leaf's warning
+BGE 643 s1 sC
+SVAL s1 25 //great debate
+BGE 644 s1 sC
+GOTO 646 //show the final message
+
+DozelMessage1:
+LABEL 640
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitDozelEarlyGame
+TEXTEND
+GOTO 609
+
+DozelMessage2:
+LABEL 641
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitDozelFirstRefresh
+TEXTEND
+GOTO 649
+
+DozelMessage3:
+LABEL 642
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitDozelBylethArrives
+TEXTEND
+GOTO 649
+
+DozelMessage4:
+LABEL 643
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitDozelBylethLeaves
+TEXTEND
+GOTO 649
+
+DozelMessage5:
+LABEL 644
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitDozelLeafWarning
+TEXTEND
+GOTO 649
+
+DozelMessage6:
+LABEL 646
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitDozelAfterDebate
+TEXTEND
+GOTO 649
+
+LABEL 649
+COUNTER_INC DozelCounter
+COUNTER_INC DozelCounter
+ENDA
+
+//Text(DozelPlaceholder)
 ENDA
 
 FreegeEntered:
-Text(FreegePlaceholder)
+CHECK_TURNS
+SVAL s1 5 //refresh
+BGE 650 s1 sC
+SVAL s1 10 //byleth's scheme
+BGE 651 s1 sC
+SVAL s1 15 //byleth's out
+BGE 652 s1 sC
+SVAL s1 18 //leaf's warning
+BGE 653 s1 sC
+SVAL s1 25 //great debate
+BGE 654 s1 sC
+GOTO 656 //show the final message
+
+FreegeMessage1:
+LABEL 650
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitFreegeEarlyGame
+TEXTEND
+GOTO 609
+
+FreegeMessage2:
+LABEL 651
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitFreegeFirstRefresh
+TEXTEND
+GOTO 659
+
+FreegeMessage3:
+LABEL 652
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitFreegeBylethArrives
+TEXTEND
+GOTO 659
+
+FreegeMessage4:
+LABEL 653
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitFreegeBylethLeaves
+TEXTEND
+GOTO 659
+
+FreegeMessage5:
+LABEL 654
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitFreegeLeafWarning
+TEXTEND
+GOTO 659
+
+FreegeMessage6:
+LABEL 656
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitFreegeAfterDebate
+TEXTEND
+GOTO 659
+
+LABEL 659
+COUNTER_INC FreegeCounter
+COUNTER_INC FreegeCounter
+ENDA
+
+//Text(FreegePlaceholder)
 ENDA
 
 VelthomerEntered:
-Text(VelthomerPlaceholder)
+CHECK_TURNS
+SVAL s1 5 //refresh
+BGE 660 s1 sC
+SVAL s1 10 //byleth's scheme
+BGE 661 s1 sC
+SVAL s1 15 //byleth's out
+BGE 662 s1 sC
+SVAL s1 18 //leaf's warning
+BGE 663 s1 sC
+SVAL s1 25 //great debate
+BGE 664 s1 sC
+GOTO 666 //show the final message
+
+VelthomerMessage1:
+LABEL 660
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitVelthomerEarlyGame
+TEXTEND
+GOTO 609
+
+VelthomerMessage2:
+LABEL 661
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitVelthomerFirstRefresh
+TEXTEND
+GOTO 669
+
+VelthomerMessage3:
+LABEL 662
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitVelthomerBylethArrives
+TEXTEND
+GOTO 669
+
+VelthomerMessage4:
+LABEL 663
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitVelthomerBylethLeaves
+TEXTEND
+GOTO 669
+
+VelthomerMessage5:
+LABEL 664
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitVelthomerLeafWarning
+TEXTEND
+GOTO 669
+
+VelthomerMessage6:
+LABEL 666
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitVelthomerAfterDebate
+TEXTEND
+GOTO 669
+
+LABEL 669
+COUNTER_INC VelthomerCounter
+COUNTER_INC VelthomerCounter
+ENDA
+
+//Text(VelthomerPlaceholder)
 ENDA
 
 Journalism:
