@@ -43,6 +43,7 @@ Definitions:
 #define NOTWPrinted 0x21
 
 #define BylethInvestigated 0x22
+#define FakeIncestExposed 0x23
 
 
 ThisChapter:
@@ -113,6 +114,7 @@ END_MAIN
 MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatBoss(EndingScene)
+AREA FakeIncestExposed IncestBusted [6,18] [7,21]
 END_MAIN
 
 Dunno:
@@ -1399,6 +1401,8 @@ CAM1 Byleth
 SetBackground(Woodland_Evening)
 TEXTSHOW MAFC5PropagandaPlotting2
 TEXTEND
+TEXTCONT //fade to black
+TEXTEND
 CALL $9EE2C4 //EndConvo
 STAL 10
 MOVE 5 Byleth [21,7]
@@ -1453,12 +1457,20 @@ EVBIT_MODIFY 0 //skip back on
 SVAL r1 1 
 BEQ 500 rC r1 //branch if yes
   LABEL 501
-  TEXTSHOW 0x123
+  TEXTSHOW MAFC5BylethDepartsSnoopNo
   GOTO 502
 LABEL 500
 ENUT BylethInvestigated
 TEXTSHOW MAFC5BylethDepartsSnoopYes
 TEXTEND
+CALL $9EE2C4 //EndConvo
+STAL 10
+CAM1 Dew
+MOVE 10 Dew [14,22] //Chalphy
+ENUN
+STAL 10
+DISA Dew
+SetBackground(Castle_Outside)
 TEXTSHOW MAFC5BylethDepartsSnoopYes2
 TEXTEND
 LABEL 502
@@ -1474,6 +1486,81 @@ TEXTEND
 CALL ClearVisits
 ENDA
 
+IncestBusted:
+CHECK_TURNS
+SVAL s1 15 //byleth's out
+BGE 514 s1 sC
+SVAL s1 24 //work is done
+BLE 514 s1 sC
+
+EVBIT_MODIFY 3 //no start 
+MUSC M_BelovedOne
+SVAL s1 Celice
+CHECK_ACTIVE
+BNE 513 s1 sC //if not Celice; ergo if Sigurd branch
+SetBackground(Inn)
+TEXTSHOW MAFC5IncestConspiracyBustedCelice
+TEXTEND
+//REMA
+EVBIT_MODIFY 4 //no skip
+STAL 10
+MUSC 0x7FFF //Silence
+STAL 10
+TEXTCONT
+TEXTEND
+SOUN 0x100
+STAL 10
+TEXTSHOW MAFC5IncestConspiracyBustedCeliceChoice
+TEXTEND
+REMA
+STAL 10
+SVAL r1 1 
+BEQ 510 rC r1 //branch if yes
+LABEL 511
+EVBIT_MODIFY 0 //skip
+MUSC M_ArmyOfGrandbell1
+TEXTSHOW MAFC5IncestConspiracyBustedCelice2
+TEXTEND
+GOTO 513
+
+LABEL 510
+TEXTSHOW MAFC5IncestConspiracyBustedCeliceBad
+TEXTEND
+SOUN 0xCE //sword unsheathed
+STAL 10
+SOUN 0xD8 //crit, assuming builder's right
+STAL 10
+TEXTCONT
+TEXTEND
+SOUN 0xCE //sword unsheathed
+STAL 10
+SOUN 0xD8 //crit, assuming builder's right
+STAL 10
+SOUN 0xD8 //crit, assuming builder's right
+STAL 10
+SOUN 0xD8 //crit, assuming builder's right
+STAL 10
+SOUN 0xD8 //crit, assuming builder's right
+STAL 10
+SOUN 0xD8 //crit, assuming builder's right
+STAL 10
+TEXTCONT
+TEXTEND
+REMA
+REMOVEPORTRAITS
+STAL 10
+GameOver
+
+LABEL 512
+TEXTSHOW MAFC5IncestConspiracyBustedSigurd
+
+LABEL 513
+ENDA
+
+LABEL 514
+ENUF FakeIncestExposed
+ENDA
+  
 IncestFaked:
 MUSC M_Reidrick
 SetBackground(Inn)
