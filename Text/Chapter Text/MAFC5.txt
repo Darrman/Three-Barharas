@@ -1694,7 +1694,7 @@ Slithers have left the land devestated.[AN]
 That is why we will provide thousands[N]
 of new houses in Enbarr, to house all[AN]
 who need it. And there are many. Indeed,[N]
-my own wife was born in Enbarr's slums.[A]
+my own wife was born in Enbarr's slums.[A][Event]
 [MR]
 #Tear into Byleth for grooming by default
 Care to repeat that statement,[N]
@@ -1899,6 +1899,11 @@ Farewell, he who was cuckolded![A]
 [MR]
 That Eisner... He has to be Sect.[N]
 There's no other possibility.[A][X]
+
+## MAFC5GreatDebateRelationsBad
+[MR]
+Uh, I've no proof so you're home free.[N]
+This text is a placeholder.[A][X]
 
 ## MAFC5GreatDebateTomorrow
 [MR][LoadSigurd][ML][LoadDeirdre]
@@ -2353,3 +2358,13 @@ Dew wasn't exaggurating... Please,[N]
 take it to your father whenever[AN]
 the opportunity arises. Expose[N]
 the truth of everything![A][X]
+
+## MAFC5GoodEnding
+[MR][LoadSigurd]
+You got a good ending, but I haven't[N]
+written it yet.[A][X]
+
+## MAFC5NotGoodEnding
+[MR][LoadSigurd]
+You didn't get a good ending, but[N]
+I haven't written it yet.[A][X]

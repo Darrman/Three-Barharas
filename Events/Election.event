@@ -95,7 +95,7 @@ TurnEventPlayer(0x0,AttackAds,27)
 //last day of campaign
 //discuss things
 //election tomorrow
-//election!
+TurnEventPlayer(0x0,EndingScene,31)
 END_MAIN
 
 CharacterBasedEvents:
@@ -223,6 +223,16 @@ CALL TutorialMessage
 ENDA
 
 EndingScene:
+CHECK_EVENTID BylethInvestigated
+BEQ 799 s0 sC
+CHECK_EVENTID FakeIncestExposed
+BEQ 799 s0 sC
+Text(MAFC5GoodEnding)
+MNTS 0x0
+
+LABEL 799
+Text(MAFC5NotGoodEnding)
+MNTS 0x0
 ENDA
 
 
@@ -832,6 +842,7 @@ BEQ 108 s1 sC //JungbyNews
 ENDA
 
 CeliceNews:
+//check for FakeIncestExposed and show different thing if true
 LABEL 100
 MUSC M_Lopto
 CenterTutorialTextBox
@@ -1573,12 +1584,23 @@ SetBackground(Shrine_2)
 MUSC M_ThraciaTheme
 TEXTSHOW MAFC5GreatDebateIntro
 TEXTEND
-MUSC M_Lopto
+REMA
 TEXTSHOW MAFC5GreatDebateRelations
 TEXTEND
+CHECK_EVENTID BylethInvestigated
+BEQ 520 s0 sC //if false branch
+MUSC M_Lopto
+TEXTCONT
+TEXTEND
+REMA
 MUSC M_VersusAlvis
 TEXTSHOW MAFC5GreatDebateGroomingCounter
 TEXTEND
+LABEL 521
+
+LABEL 520
+TEXTSHOW MAFC5GreatDebateRelationsBad
+LABEL 521
 CALL ClearVisits
 ENDA
 
