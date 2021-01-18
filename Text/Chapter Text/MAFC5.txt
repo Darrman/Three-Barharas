@@ -506,17 +506,273 @@ again to gather more support.[A][X]
 [ML][LoadJulia]
 Um... This text is a placeholder...[A][X]
 
+## VisitBarharaEarlyGame
+[ML][LoadJulia][MR][LoadCurrent]
+[ML]
+Hello. How are you? Things are going[N]
+well here in Barhara. Shouldn't you[AN]
+be campaigning in a less safe seat?[N]
+I'm in a good position right now.[A][X]
+
+## VisitBarharaFirstRefresh
+[ML][LoadJulia][MR][LoadCurrent]
+[ML]
+I get a bit afraid when I read the[N]
+newspapers from Zenith... They say[AN]
+some awful things about us sometimes.[N]
+Still, I need to keep up to date.[A][X]
+
+## VisitBarharaBylethArrives
+[ML][LoadJulia][MR][LoadCurrent]
+[ML]
+Fodlan is making a move. Byleth Eisner[N]
+has started making personal visits[AN]
+to major regions of Jugdral. While it[N]
+would be funny to campaign in Fodlan...[AN]
+How are we meant to get there? I feel[N]
+that nothing good can come out of this...[A][X]
+
+## VisitBarharaBylethLeaves
+[ML][LoadJulia][MR][LoadCurrent]
+[ML]
+Two weeks remain until Election Day...[N]
+I'm afraid. What if we lose to Fodlan?[AN]
+Will they exile us from our homes? In[N]
+the name of this "revolution"? I do not[AN]
+like the sound of this. If they dismantle[N]
+our system, what will replace it?[A][X]
+
+## VisitBarharaLeafWarningSigurd
+[ML][LoadJulia][MR][LoadSigurd]
+[MR]
+Julia, you do not look well at all.[N]
+Tell me, fast. What's going on?[A]
+[ML]
+It's... I don't know where... but I[N]
+hear that Fodlan are preparing an[AN]
+attack that will ruin my brother's[N]
+reputation. Your son's reputation...[AN]
+[MR]
+It's concerning. Have you seen any Fodlan[N]
+representatives around Barhara of late?[A]
+[ML]
+Not for a few days. I would recommend[N]
+looking somewhere more remote. Please...[AN]
+Find this plan and destroy it! Not just[N]
+for my brother. For all of Jugdral![A][X]
+
+## VisitBarharaLeafWarningCelice
+[ML][LoadJulia][MR][LoadCelice]
+[ML]
+Brother! Celice, be careful! Byleth[N]
+and his friends want to destroy you![A]
+[MR]
+Destroy? How so, Julia? I'm aware of[N]
+the media's smear plans against me.[A]
+[ML]
+I... I think it's about you and me...[N]
+They want to make us look bad in the[AN]
+eyes of the public... Please, do not[N]
+fall for their traps! Celice...[AN]
+[MR]
+...I think I know how this smear is[N]
+going to be executed. Those stupid[AN]
+rumours. Even now, they continue to[N]
+haunt me... For eternity.[A][X]
+
+## VisitBarharaAfterDebate
+[ML][LoadJulia][MR][LoadCelice]
+Placeholder![A][X]
+
 ## ChalphyPlaceholder
 [ML][LoadOifaye]
 This text is a placeholder![A][X]
+
+## VisitChalphyEarlyGame
+[ML][LoadOifaye][MR][LoadCurrent]
+[ML]
+Greetings. No threat has manifested[N]
+in Chalphy. If I were to call two[AN]
+seats safe, they would be Chalphy[N]
+and Barhara. Now, please leave.[A][X]
+
+## VisitChalphyFirstRefresh
+[ML][LoadOifaye][MR][LoadCurrent]
+[ML]
+I suppose you're curious about what's[N]
+happening elsewhere. Our colleagues in[AN]
+Thracia are grappling with especially[N]
+low popularity polls. Disappointing...[A][X]
+
+## VisitChalphyBylethArrives
+[ML][LoadOifaye][MR][LoadCurrent]
+[ML]
+The Fodlanese are making themselves[N]
+known. Two men kept arguing over who[AN]
+was the better nobleman. I was led[N]
+to believe the nobility was purged...[A][X]
+
+## VisitChalphyBylethLeaves
+[ML][LoadOifaye][MR][LoadCurrent]
+[ML]
+Mr. Eisner was taking over the beach[N]
+to the south. He seemed to be talking[AN]
+with his wife about something. What,[N]
+I do not know. Did they want guidance?[A][X]
+
+## VisitChalphyLeafWarning
+[ML][LoadOifaye][MR][LoadCurrent]
+[ML]
+I can confirm nobody's crossed into[N]
+Miletos recently. I haven't checked[AN]
+the nearby woods: perhaps there is[N]
+something going in in there...[A][X]
+
+## VisitChalphyAfterDebate
+[ML][LoadOifaye][MR][LoadCurrent]
+Placeholder![A][X]
 
 ## JungbyPlaceholder
 [ML][LoadLana]
 This text's a placeholder.[A][X]
 
+## VisitJungbyEarlyGame
+[ML][LoadAideen][MR][LoadCurrent]
+[ML]
+As I'm sure you know, I do not think[N]
+Jungby is a likely seat to be taken.[AN]
+The Order does not respect staff users.[N]
+Unless, perhaps, they are very strong...[A][X]
+
+## VisitJungbyFirstRefresh
+[ML][LoadAideen][MR][LoadCurrent]
+[ML]
+Outside of the newspapers being heavily[N]
+biased against us, there is nothing[AN]
+to report. I wonder if the Order has any[N]
+connection to Fodlan and its followers...[A][X]
+
+## VisitJungbyBylethArrives
+[ML][LoadLana][MR][LoadCurrent]
+[ML]
+There was a lot of Fodlanese around...[N]
+They were canvassing, of course. But[AN]
+they were asking about for information.[N]
+I didn't quite catch for what...[AN]
+Their leader looked sort of like me, but[N]
+spent most of her time singing songs...[A][X]
+
+## VisitJungbyBylethLeaves
+[ML][LoadAideen][MR][LoadCurrent]
+[ML]
+Dew reported Byleth's entry to Verdane[N]
+to us. He's finding lots of support.[AN]
+I'm concerned about how my nephew is[N]
+doing over there. Verdane does not[AN]
+hold the most pleasant memories for me.[N]
+Faval, please try to keep yourself safe.[A][X]
+
+## VisitJungbyLeafWarningCelice
+[ML][LoadLana][MR][LoadCelice]
+[ML]
+Celice... It's the Julia rumour again.[N]
+Claude Riegan is the source this time.[AN]
+[MR]
+King of Almyra, to Fodlan's east. What[N]
+stake does he hold in Fodlan, then?[AN]
+[ML]
+He's also head of Leicester, within the[N]
+bounds of Fodlan. He's on good terms[AN]
+with Byleth Eisner, head of the Fodlan[N]
+Party. Basically, Riegan is the man[AN]
+who keeps his eyes on everyone here and[N]
+feeds to the press our weaknesses.[AN]
+[MR]
+Eisner's chief propagandist, then. Do you[N]
+know how the latest allegation of incest[AN]
+is going to be spun against me? It's not[N]
+much of a surprise that card is in play.[AN]
+[ML]
+Rumour says "proof" has appeared. Check[N]
+the forest north of here, if you want[AN]
+my gut feeling. Of course, you have an[N]
+election to win. Canvassing is more[AN]
+important. Just keep that in mind if you[N]
+have free time. I love you, Celice.[A]
+[MR]
+I love you too, Lana. Be at ease. I will[N]
+protect my reputation from Riegan.[A][X]
+
+## VisitJungbyLeafWarningSigurd
+[ML][LoadAideen][MR][LoadSigurd]
+[ML]
+I assume Lord Leaf told you about the[N]
+smear campaign against your son.[AN]
+My son-in-law... Lana's concerned[N]
+about this "Claude Riegan" figure.[AN]
+If he's anything like the Archbishop,[N]
+you should be fine. Except that he[AN]
+is obsessed with tricks and schemes.[N]
+I would not underestimate his skills.[A]
+[MR]
+That would be wise. Does he have any[N]
+accomplices? Men to look out for?[A]
+[ML]
+Fraldarius, Dominic, Ordelia, Goneril.[N]
+What their roles are, I do not know.[A][X]
+
+## VisitJungbyAfterDebate
+Placeholder![A][X]
+
 ## EddaPlaceholder
 [ML][LoadClaude]
 The text here is yet to be written.[A][X]
+
+## VisitEddaEarlyGame
+[ML][LoadClaude][MR][LoadCurrent]
+[ML]
+Greetings. Welcome to the Church of Edda.[N]
+I am disappointed in its current place.[AN]
+And I am afraid of a victory for Fodlan.[N]
+They utterly destroyed their religion.[A][X]
+
+## VisitEddaFirstRefresh
+[ML][LoadClaude][MR][LoadCurrent]
+[ML]
+I have a great dislike for Fodlan and[N]
+its leadership. They are radicals. No,[AN]
+they are as they profess themselves-[N]
+revolutionaries. It must not spread.[A][X]
+
+## VisitEddaBylethArrives
+[ML][LoadClaude][MR][LoadCurrent]
+[ML]
+One of those tabloid writers enquired[N]
+about the Valkyrie Staff recently.[AN]
+The public need not know the extent[N]
+of its use. ...And nor do you.[A][X]
+
+## VisitEddaBylethLeaves
+[ML][LoadClaude][MR][LoadCurrent]
+[ML]
+That filthy Eisner has left Grandbell.[N]
+I hear my daughter has recently been[AN]
+talking to a Fodlanese official. I knew[N]
+that King Aless was a bad influence...[A][X]
+
+## VisitEddaLeafWarning
+[ML][LoadClaude][MR][LoadCurrent]
+[ML]
+The Church of Edda is the true faith.[N]
+Its believers will be spared Narga's[AN]
+wrath. Those godless Fodlanese, who[N]
+smote their Saint Seiros... May Narga[AN]
+strike them down. If they win here,[N]
+the order of Holy Blood will fall.[A][X]
+
+## VisitEddaAfterDebate
+[ML][LoadClaude][MR][LoadCurrent]
+Placeholder![A][X]
 
 ## DozelPlaceholder
 [ML][LoadLex]

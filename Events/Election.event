@@ -68,6 +68,7 @@ TurnEventEnemy(0x0,FodlanSpies,1)
 TurnEventPlayer(0x0,Journalism,3)
 TurnEventPlayer(0x0,AttackAds,4)
 TurnEventPlayer(0x0,EnemyAds,5)
+TurnEventPlayer(0x0,ClearVisits,6)
 TurnEventPlayer(0x0,PartyInfighting,6)
 TurnEventPlayer(0x0,AttackAds,7)
 TurnEventPlayer(0x0,Journalism,8)
@@ -293,7 +294,83 @@ TEXTEND
 ENDA
 
 BarharaEntered:
-Text(BarharaPlaceholder)
+CHECK_TURNS
+SVAL s1 5 //refresh
+BGE 600 s1 sC
+SVAL s1 10 //byleth's scheme
+BGE 601 s1 sC
+SVAL s1 15 //byleth's out
+BGE 602 s1 sC
+SVAL s1 18 //leaf's warning
+BGE 603 s1 sC
+SVAL s1 25 //great debate
+BGE 604 s1 sC
+GOTO 606 //show the final message
+
+BarharaMessage1:
+LABEL 600
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitBarharaEarlyGame
+TEXTEND
+GOTO 609
+
+BarharaMessage2:
+LABEL 601
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitBarharaFirstRefresh
+TEXTEND
+GOTO 609
+
+BarharaMessage3:
+LABEL 602
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitBarharaBylethArrives
+TEXTEND
+GOTO 609
+
+BarharaMessage4:
+LABEL 603
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitBarharaBylethLeaves
+TEXTEND
+GOTO 609
+
+BarharaMessage5:
+LABEL 604
+//just stick with map music
+SVAL s1 Celice
+CHECK_ACTIVE
+BNE 605 s1 sC
+SetBackground(Castle_Room)
+TEXTSHOW VisitBarharaLeafWarningCelice
+TEXTEND
+GOTO 609
+
+LABEL 605
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitBarharaLeafWarningSigurd
+TEXTEND
+GOTO 609
+
+BarharaMessage6:
+LABEL 606
+//just stick with map music
+SetBackground(Castle_Room)
+TEXTSHOW VisitBarharaAfterDebate
+TEXTEND
+GOTO 609
+
+LABEL 609
+COUNTER_INC BarharaCounter
+COUNTER_INC BarharaCounter
+ENDA
+
+//Text(BarharaPlaceholder)
 ENDA
 
 ChalphyEntered:
@@ -926,6 +1003,7 @@ MOVE 5 Claude3H [19,17]
 STAL 5
 MOVE 5 Hilda3H [20,17]
 ENUN
+CALL ClearVisits
 CALL EnemyAds
 ENDA
 
@@ -977,6 +1055,7 @@ TEXTEND
 TEXTSHOW MAFC5BylethDepartsSnoopYes2
 TEXTEND
 LABEL 502
+CALL ClearVisits
 ENDA	
 
 OneWeekWarning:
@@ -985,6 +1064,7 @@ CAM1 [21,7] //Barhara. Move Celice in?
 SetBackground(Castle_Room)
 TEXTSHOW MAFC5WeekToTheDebate
 TEXTEND
+CALL ClearVisits
 ENDA
 
 IncestFaked:
@@ -1005,6 +1085,7 @@ TEXTEND
 MUSC M_VersusAlvis
 TEXTSHOW MAFC5GreatDebateGroomingCounter
 TEXTEND
+CALL ClearVisits
 ENDA
 
 // Manual Movement
