@@ -581,8 +581,12 @@ rumours. Even now, they continue to[N]
 haunt me... For eternity.[A][X]
 
 ## VisitBarharaAfterDebate
-[ML][LoadJulia][MR][LoadCelice]
-Placeholder![A][X]
+[ML][LoadJulia][MR][LoadCurrent]
+[ML]
+The election is only a few days away.[N]
+The results are all but set now.[AN]
+Let us defeat the Fodlan Party and[N]
+take our seats in Askr![A][X]
 
 ## ChalphyPlaceholder
 [ML][LoadOifaye]
@@ -630,7 +634,11 @@ something going in in there...[A][X]
 
 ## VisitChalphyAfterDebate
 [ML][LoadOifaye][MR][LoadCurrent]
-Placeholder![A][X]
+[ML]
+That Eisner is a horrible man.[N]
+I don't see myself getting into[AN]
+Askr. Still, I will work to change[N]
+that. For Grandbell![A][X]
 
 ## JungbyPlaceholder
 [ML][LoadLana]
@@ -722,7 +730,14 @@ Fraldarius, Dominic, Ordelia, Goneril.[N]
 What their roles are, I do not know.[A][X]
 
 ## VisitJungbyAfterDebate
-Placeholder![A][X]
+[ML][LoadAideen][MR][LoadCurrent]
+[ML]
+The thought of sending my children[N]
+to be taught under the likes of[AN]
+Professor Eisner... I shudder to[N]
+think of it. His campaign just[AN]
+revolves around him. Everything[N]
+is for the Professor...[A][X]
 
 ## EddaPlaceholder
 [ML][LoadClaude]
@@ -772,7 +787,13 @@ the order of Holy Blood will fall.[A][X]
 
 ## VisitEddaAfterDebate
 [ML][LoadClaude][MR][LoadCurrent]
-Placeholder![A][X]
+[ML]
+A small group of people in Fodlan[N]
+continue to hold belief in Seiros.[AN]
+She may have been slain, but this[N]
+does not negate faith. Perhaps[AN]
+the believers can shatter this[N]
+revolution of the faithless...[A][X]
 
 ## DozelPlaceholder
 [ML][LoadLex]
@@ -822,7 +843,11 @@ is a dangerous thing to play with.[A][X]
 
 ## VisitDozelAfterDebate
 [ML][LoadLex][MR][LoadCurrent]
-Placeholder.[A][X]
+[ML]
+That Byleth guy looks tough in the[N]
+polls. And the Order hates axe[AN]
+knights for whatever reason. But[N]
+I will persevere. For Jugdral![A][X]
 
 ## FreegePlaceholder
 [ML][LoadTiltyu]
@@ -876,7 +901,9 @@ fire with fire. Bring them down a peg.[A][X]
 
 ## VisitFreegeAfterDebate
 [ML][LoadTinny][MR][LoadCurrent]
-Placeholder![A][X]
+[ML]
+Please... Defeat Byleth. I don't want[N]
+anyone to suffer under him...[A][X]
 
 ## VelthomerPlaceholder
 [ML][LoadAlvis]
@@ -930,7 +957,11 @@ He, too, is of my blood.[A][X]
 
 ## VisitVelthomerAfterDebate
 [ML][LoadAlvis][MR][LoadCurrent]
-Placeholder.[A][X]
+[ML]
+So, Election Day looms. You of Chalphy[N]
+are doing quite well for yourselves.[AN]
+Very well. The Jugdral Party is yours.[N]
+Let us hope we claim total victory.[A][X]
 
 ## MAFC5PartyInfightingFaith
 [FL][LoadLex][FR][LoadClaude]
@@ -1300,7 +1331,7 @@ Askr Sun. Turn to Page 5 to figure out[N]
 if Celice's son has Ulir or Fala blood![A][X]
 
 ## MAFC5NewsReportCeliceGood
-[Red]-- THE ASKR SUN --[Red]
+[Red]-- THE ASKR SUN --[Red][N]
 Investigative Disaster: Fodlan MPs[N]
 Fail to Find Proof of Evil Acts[AN]
 We at the Askr Sun pride ourselves on[N]
@@ -1929,13 +1960,70 @@ There's no other possibility.[A][X]
 ## MAFC5GreatDebateNoGroomingCounter
 [ML][LoadByleth][MR][LoadSigurd]
 [ML]
-Dammit, I've been beaten and the[N]
-good ending is assured. Placeholder.[A][X]
+So, about Celice Chalphy, your son.[N]
+I'm well aware of the rumours that[AN]
+surround him. How he relates to his[N]
+sister, Julia... How they always...[AN]
+[MR]
+Do nothing. King Claude Riegan of[N]
+Almyra, agent provcateur, was[AN]
+caught attempting to forge evidence[N]
+of incestuous relations. These[AN]
+have been proven utterly false.[N]
+Your web of lies ends here, Eisner.[AN]
+Grooming students. Spinning lies.[N]
+Corrupt academia appointments.[AN]
+You have no right to lead. You have[N]
+no right to lead Fodlan. You have[AN]
+no place in Parliament. And Jugdral[N]
+has ill need of men the likes of you![AN]
+[ML]
+Well, you are nothing more than a[N]
+vicious warmonger! Just look at[AN]
+what you did to Verdane! To Agustria![N]
+To... to Isaac? Isaac! To Isaac![AN]
+[MR]
+I never took part in the Isaac campaign.[N]
+Meanwhile, you co-operate with Those[AN]
+who Slither in the Dark, Fodlan's version[N]
+of the Lopt Sect. Somehow, you assemble[AN]
+a coalition from all Fodlan, with one[N]
+common thread: your "tutelage". Your[AN]
+direct sub-ordinates: Dimitri, Edelgard,[N]
+Claude. Three crowns, three opinions.[AN]
+A fragile coalition, that could collapse[N]
+at any moment. How about you give me[AN]
+a unanimous opinion? On any topic.[N]
+I have no strong opinions on what.[AN]
+[ML]
+Hmm... Edelgard despises this. Dimitri[N]
+despises that. No, Claude hates it.[AN]
+This'll make Adrestria mad. But those[N]
+of Faerghus will... Leicester... Agh![AN]
+[MR]
+You have nothing, I see. Very well.[N]
+Mrs. Anna, I believe we are done.[AN]
+[Left][LoadAnna]
+And so, I declare Sigurd the victor[N]
+of the Great Debate! Congratulations.[A][X]
 
 ## MAFC5GreatDebateRelationsBad
+[ML][LoadByleth][MR][LoadSigurd]
 [MR]
-Uh, I've no proof so you're home free.[N]
-This text is a placeholder.[A][X]
+...Slums? You have slums in Enbarr,[N]
+your grand capital city?[A]
+[ML]
+Sadly. And we want to sweep them[N]
+away. Meanwhile, the state of[AN]
+housing in Jugdral is appaling.[N]
+Do you care about the state of[AN]
+the people at all? Holy Blood[N]
+is well entrenched here.[AN]
+[MR]
+Your revolution will never spread[N]
+here. The old order must stand.[AN]
+A corrupt fool such as yourself[N]
+can never lead Jugdral forwards![A][X]
 
 ## MAFC5GreatDebateTomorrow
 [MR][LoadSigurd][ML][LoadDeirdre]
@@ -2257,7 +2345,7 @@ I am the true Celice.[A][X]
 #But getting a game over would be mean
 #Since when did I care about being nice?
 [FFL]
-Attack?[N]
+Attack the other Celice?[N]
 [No][X]
 
 ## MAFC5IncestConspiracyBustedCeliceBad
@@ -2415,6 +2503,7 @@ Of course. For Jugdral![A][X]
 
 ## MAFC5InformationDelivered
 [MR][LoadMidir][ML][LoadCelice]
+[MR]
 Lord Celice, I have some valuable[N]
 debate information I acquired.[AN]
 It may prove to be the tipping[N]

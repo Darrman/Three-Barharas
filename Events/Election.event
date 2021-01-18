@@ -1481,6 +1481,7 @@ BEQ 500 rC r1 //branch if yes
   LABEL 501
   TEXTSHOW MAFC5BylethDepartsSnoopNo
   TEXTEND
+  DISA Dew
   GOTO 502
 LABEL 500
 ENUT BylethInvestigated
@@ -1652,6 +1653,7 @@ REMA
 STAL 10
 
 LABEL 523
+SetBackground(Shrine_2)
 TEXTSHOW MAFC5GreatDebateRelations
 TEXTEND
 CHECK_EVENTID BylethInvestigated
@@ -1661,8 +1663,9 @@ TEXTCONT
 TEXTEND
 REMA
 
+LABEL 525
 CHECK_EVENTID FakeIncestExposed
-BEQ 524 s0 sC //if false branch
+BNE 524 s0 sC //if true branch
 MUSC M_VersusAlvis
 TEXTSHOW MAFC5GreatDebateGroomingCounter
 TEXTEND
@@ -1671,10 +1674,18 @@ GOTO 521
 LABEL 524
 MUSC M_FE4Victory
 TEXTSHOW MAFC5GreatDebateNoGroomingCounter
+TEXTEND
+GOTO 521
 
 LABEL 520
+STAL 10
+TEXTSTART
 TEXTSHOW MAFC5GreatDebateRelationsBad
 TEXTEND
+CHECK_EVENTID FakeIncestExposed
+BNE 524 s0 sC //if true branch
+GOTO 525
+
 LABEL 521
 CALL ClearVisits
 ENDA
