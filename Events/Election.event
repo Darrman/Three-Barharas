@@ -393,7 +393,7 @@ LABEL 610
 SetBackground(Castle_Room)
 TEXTSHOW VisitChalphyEarlyGame
 TEXTEND
-GOTO 609
+GOTO 619
 
 ChalphyMessage2:
 LABEL 611
@@ -544,7 +544,7 @@ LABEL 630
 SetBackground(Castle_Room)
 TEXTSHOW VisitEddaEarlyGame
 TEXTEND
-GOTO 609
+GOTO 639
 
 EddaMessage2:
 LABEL 631
@@ -614,7 +614,7 @@ LABEL 640
 SetBackground(Castle_Room)
 TEXTSHOW VisitDozelEarlyGame
 TEXTEND
-GOTO 609
+GOTO 649
 
 DozelMessage2:
 LABEL 641
@@ -684,7 +684,7 @@ LABEL 650
 SetBackground(Castle_Room)
 TEXTSHOW VisitFreegeEarlyGame
 TEXTEND
-GOTO 609
+GOTO 659
 
 FreegeMessage2:
 LABEL 651
@@ -754,7 +754,7 @@ LABEL 660
 SetBackground(Castle_Room)
 TEXTSHOW VisitVelthomerEarlyGame
 TEXTEND
-GOTO 609
+GOTO 669
 
 VelthomerMessage2:
 LABEL 661

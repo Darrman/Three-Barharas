@@ -795,7 +795,7 @@ continuously attack over and over[N]
 again. How does she do that?[A][X]
 
 ## VisitDozelBylethArrives
-[ML][LoadJohan][MR][LoacCurrent]
+[ML][LoadJohan][MR][LoadCurrent]
 [ML]
 Oh yes, some figures from Fodlan[N]
 have been knocking on my door.[AN]
