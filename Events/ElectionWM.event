@@ -11,6 +11,13 @@ WM_TEXTDECORATE //because the macro's in a bad mood
 WorldMapShowTextBox
 WorldMapTextBegin(MAFC5MapNarration)
 TEXTEND
+WM_SHOWPORTRAIT SigurdMug 1332
+STAL 10
+TEXTCONT
+TEXTEND
+WM_SHOWPORTRAIT BylethMug 700
+TEXTCONT
+TEXTEND
 
 STAL 60
 FADI 16

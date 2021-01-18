@@ -200,6 +200,7 @@ TEXTSHOW MAFC5OpeningJungby
 TEXTEND
 CALL $9EE2C4 //EndConvo
 
+EVBIT_F 9 //stop following
 STAL 10
 SVAL 0x2 Sigurd
 CALL WarpOutEffect
