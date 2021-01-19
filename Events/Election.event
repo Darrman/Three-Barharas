@@ -44,6 +44,8 @@ Definitions:
 
 #define BylethInvestigated 0x22
 #define FakeIncestExposed 0x23
+#define GoodEndingSet 0x24
+#define BadEndingSet 0x25
 
 
 ThisChapter:
@@ -94,7 +96,7 @@ TurnEventPlayer(0x0,CeliceNews,26) //expand for big drama
 TurnEventPlayer(0x0,AttackAds,27)
 //last day of campaign
 //discuss things
-//election tomorrow
+TurnEventPlayer(0x0,ElectionDay,30)
 TurnEventPlayer(0x0,EndingScene,31)
 END_MAIN
 
@@ -225,17 +227,71 @@ ENDA
 
 EndingScene:
 CHECK_EVENTID BylethInvestigated
-BEQ 799 s0 sC
+BEQ 700 s0 sC //if not
 CHECK_EVENTID FakeIncestExposed
-BEQ 799 s0 sC
-Text(MAFC5GoodEnding)
-MNTS 0x0
+BEQ 701 s0 sC //if not
+ENUT GoodEndingSet
+GOTO 701
 
-LABEL 799
-Text(MAFC5NotGoodEnding)
-MNTS 0x0
+LABEL 700
+CHECK_EVENTID FakeIncestExposed
+BNE 701 s0 sC //if so
+ENUT BadEndingSet
+
+LABEL 701
+CAM1 [21,7]
+STAL 10
+MOVE 10 Sigurd [21,7]
+MOVE 10 Celice [21,7]
+ENUN
+STAL 10
+MUSC M_Destiny
+SetBackground(Castle_Room)
+TEXTSHOW MAFC5ElectionDayBeforeCount
+TEXTEND
+CALL $9EE2C4 //EndConvo
+CAM1 [27,3]
+CURSOR [27,3]
+STAL 60
+REMOVE_CURSORS
+CALL VelthomerCount1
 ENDA
 
+VelthomerCount1:
+CHECK_EVENTID GoodEndingSet
+BNE 710 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 711 s0 sC
+COUNTER_CHECK VelthomerCounter
+SVAL s1 8
+BGT 711 s1 sC
+SVAL s1 12
+BGT 712 s1 sC
+//else good
+LABEL 710
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayVelthomerGood
+TEXTEND
+REMA
+GOTO 713
+
+LABEL 712
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayVelthomerNeutral
+TEXTEND
+REMA
+GOTO 713
+
+LABEL 711
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayVelthomerBad
+TEXTEND
+REMA
+GOTO 713
+
+
+LABEL 713
+ENDA
 
 
 // Events
@@ -1691,6 +1747,12 @@ LABEL 521
 CALL ClearVisits
 ENDA
 
+ElectionDay:
+TEXTSTART
+TEXTSHOW MAFC5ElectionDay
+TEXTEND
+REMA
+ENDA
 // Manual Movement
 
 // Scripted Fights
