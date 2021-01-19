@@ -2604,7 +2604,7 @@ these votes to their second preferences.[N]
 This concludes Count 1 in Velthomer.[A][X]
 
 ## MAFC5ElectionDayEddaNeutral
-[FL][LoadAnna][ML][LoadClaude]
+[FL][LoadAnna][MR][LoadClaude]
 [FL]
 Edda, Claude: 3,196 votes.[N]
 Riegan, Claude: 10,354 votes.[AN]
@@ -2649,6 +2649,7 @@ none of them have been elected.[A][X]
 
 ## MAFC5ElectionDayJungbyNeutral
 [FL][LoadAnna][Right][LoadAideen][FR][LoadLana]
+[FL]
 Chalphy, Lana: 6,592 votes.[N]
 Dominic, Annette: 8,432 votes.[AN]
 Jungby, Aideen: 7,219 votes.[AN]
@@ -2677,7 +2678,7 @@ distributed amongst all other candidates.[AN]
 This concludes Count 1 in Velthomer.[A][X]
 
 ## MAFC5ElectionDayEddaBad
-[FL][LoadAnna][ML][LoadClaude]
+[FL][LoadAnna][MR][LoadClaude]
 [FL]
 Edda, Claude: 1,413 votes.[N]
 Riegan, Claude: 13,251 votes.[AN]
@@ -2700,7 +2701,7 @@ Dozel, Johan: 1,526 votes.[N]
 Dozel, Lex: 5,291 votes.[AN]
 Fraldarius, Felix: 12,395 votes.[AN]
 As Felix Fraldarius has reached the[N]
-quota, I hereby deem him elected.[AN][A][X]
+quota, I hereby deem him elected.[A][X]
 
 ## MAFC5ElectionDayChalphyBad
 [FL][LoadAnna][Right][LoadOifaye]
@@ -2722,6 +2723,7 @@ I hereby deem her elected.[A][X]
 
 ## MAFC5ElectionDayJungbyBad
 [FL][LoadAnna][Right][LoadAideen][FR][LoadLana]
+[FL]
 Chalphy, Lana: 2,193 votes.[N]
 Dominic, Annette: 12,406 votes.[AN]
 Jungby, Aideen: 3,259 votes.[AN]
@@ -2749,7 +2751,7 @@ distributed amongst all other candidates.[AN]
 This concludes Count 1 in Velthomer.[A][X]
 
 ## MAFC5ElectionDayEddaGood
-[FL][LoadAnna][ML][LoadClaude]
+[FL][LoadAnna][MR][LoadClaude]
 [FL]
 Edda, Claude: 9,492 votes.[N]
 Riegan, Claude: 6,592 votes.[AN]
@@ -2774,7 +2776,7 @@ Dozel, Johan: 9,402 votes.[N]
 Dozel, Lex: 13,502 votes.[AN]
 Fraldarius, Felix: 5,301 votes.[AN]
 As Lex Dozel has reached the quota,[N]
-I hereby deem him elected.[AN][A][X]
+I hereby deem him elected.[A][X]
 
 ## MAFC5ElectionDayChalphyGood
 [FL][LoadAnna][Right][LoadOifaye]
@@ -2796,8 +2798,18 @@ quota, I hereby deem her elected.[A][X]
 
 ## MAFC5ElectionDayJungbyGood
 [FL][LoadAnna][Right][LoadAideen][FR][LoadLana]
+[FL]
 Chalphy, Lana: 8,209 votes.[N]
 Dominic, Annette: 4,201 votes.[AN]
 Jungby, Aideen: 12,491 votes.[AN]
 As Aideen Jungby has reached the quota,[N]
 I hereby deem her elected.[A][X]
+
+## MAFC5ElectionDayMidNeutral
+Placeholder[A][X]
+
+## MAFC5ElectionDayMidGood
+Placeholder[A][X]
+
+## MAFC5ElectionDayMidBad
+Placeholder[A][X]

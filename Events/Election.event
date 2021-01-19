@@ -255,6 +255,59 @@ CURSOR [27,3]
 STAL 60
 REMOVE_CURSORS
 CALL VelthomerCount1
+CLEAN
+
+CAM1 [27,18]
+STAL 10
+CURSOR [27,18]
+STAL 60
+REMOVE_CURSORS
+CALL EddaCount1
+CLEAN
+
+CAM1 [21,7]
+STAL 10
+CURSOR [21,7]
+STAL 60
+REMOVE_CURSORS
+CALL BarharaCount1
+CLEAN
+
+CAM1 [18,13]
+STAL 10
+CURSOR [18,13]
+STAL 60
+REMOVE_CURSORS
+CALL DozelCount1
+CLEAN
+
+CAM1 [14,22]
+STAL 10
+CURSOR [14,22]
+STAL 60
+REMOVE_CURSORS
+CALL ChalphyCount1
+CLEAN
+
+CAM1 [3,8]
+STAL 10
+CURSOR [3,8]
+STAL 60
+REMOVE_CURSORS
+CALL FreegeCount1
+CLEAN
+
+CAM1 [4,27]
+STAL 10
+CURSOR [4,27]
+STAL 60
+REMOVE_CURSORS
+CALL JungbyCount1
+CLEAN
+
+Text(0x123)
+MNTS 0x0f
+
 ENDA
 
 VelthomerCount1:
@@ -291,7 +344,230 @@ GOTO 713
 
 
 LABEL 713
+CALL $9EE2C4 //EndConvo
 ENDA
+
+EddaCount1:
+CHECK_EVENTID GoodEndingSet
+BNE 720 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 721 s0 sC
+COUNTER_CHECK EddaCounter
+SVAL s1 8
+BGT 721 s1 sC
+SVAL s1 12
+BGT 722 s1 sC
+//else good
+LABEL 720
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayEddaGood
+TEXTEND
+REMA
+GOTO 723
+
+LABEL 722
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayEddaNeutral
+TEXTEND
+REMA
+GOTO 723
+
+LABEL 721
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayEddaBad
+TEXTEND
+REMA
+GOTO 723
+
+
+LABEL 723
+CALL $9EE2C4 //EndConvo
+ENDA
+
+BarharaCount1:
+CHECK_EVENTID GoodEndingSet
+BNE 730 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 731 s0 sC
+COUNTER_CHECK BarharaCounter
+SVAL s1 8
+BGT 731 s1 sC
+SVAL s1 12
+BGT 732 s1 sC
+//else good
+LABEL 730
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayBarharaGood
+TEXTEND
+REMA
+GOTO 733
+
+LABEL 732
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayBarharaNeutral
+TEXTEND
+REMA
+GOTO 733
+
+LABEL 731
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayBarharaBad
+TEXTEND
+REMA
+GOTO 733
+
+LABEL 733
+CALL $9EE2C4 //EndConvo
+ENDA
+
+DozelCount1:
+CHECK_EVENTID GoodEndingSet
+BNE 740 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 741 s0 sC
+COUNTER_CHECK DozelCounter
+SVAL s1 8
+BGT 741 s1 sC
+SVAL s1 12
+BGT 742 s1 sC
+//else good
+LABEL 740
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayDozelGood
+TEXTEND
+REMA
+GOTO 743
+
+LABEL 742
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayDozelNeutral
+TEXTEND
+REMA
+GOTO 743
+
+LABEL 741
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayDozelBad
+TEXTEND
+REMA
+GOTO 743
+
+
+LABEL 743
+CALL $9EE2C4 //EndConvo
+ENDA
+
+ChalphyCount1:
+CHECK_EVENTID GoodEndingSet
+BNE 750 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 751 s0 sC
+COUNTER_CHECK ChalphyCounter
+SVAL s1 8
+BGT 751 s1 sC
+SVAL s1 12
+BGT 752 s1 sC
+//else good
+LABEL 750
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayChalphyGood
+TEXTEND
+REMA
+GOTO 753
+
+LABEL 752
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayChalphyNeutral
+TEXTEND
+REMA
+GOTO 753
+
+LABEL 751
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayChalphyBad
+TEXTEND
+REMA
+GOTO 753
+
+
+LABEL 753
+CALL $9EE2C4 //EndConvo
+ENDA
+
+FreegeCount1:
+CHECK_EVENTID GoodEndingSet
+BNE 760 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 761 s0 sC
+COUNTER_CHECK FreegeCounter
+SVAL s1 8
+BGT 761 s1 sC
+SVAL s1 12
+BGT 762 s1 sC
+//else good
+LABEL 760
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayFreegeGood
+TEXTEND
+REMA
+GOTO 763
+
+LABEL 762
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayFreegeNeutral
+TEXTEND
+REMA
+GOTO 763
+
+LABEL 761
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayFreegeBad
+TEXTEND
+REMA
+GOTO 763
+
+
+LABEL 763
+CALL $9EE2C4 //EndConvo
+ENDA
+
+JungbyCount1:
+CHECK_EVENTID GoodEndingSet
+BNE 770 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 771 s0 sC
+COUNTER_CHECK JungbyCounter
+SVAL s1 8
+BGT 771 s1 sC
+SVAL s1 12
+BGT 772 s1 sC
+//else good
+LABEL 770
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayJungbyGood
+TEXTEND
+REMA
+GOTO 773
+
+LABEL 772
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayJungbyNeutral
+TEXTEND
+REMA
+GOTO 773
+
+LABEL 771
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayJungbyBad
+TEXTEND
+REMA
+GOTO 773
+
+
+LABEL 773
+CALL $9EE2C4 //EndConvo
+ENDA
+
 
 
 // Events
