@@ -305,9 +305,129 @@ REMOVE_CURSORS
 CALL JungbyCount1
 CLEAN
 
-Text(0x123)
-MNTS 0x0f
+CAM1 [21,7]
+CHECK_EVENTID GoodEndingSet
+BNE 776 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 777 s0 sC
 
+SetBackground(Castle_Room)
+TEXTSHOW MAFC5ElectionDayMidNeutral
+TEXTEND
+CALL $9EE2C4 //EndConvo
+GOTO 778
+
+LABEL 776
+SetBackground(Castle_Room)
+TEXTSHOW MAFC5ElectionDayMidGood
+TEXTEND
+CALL $9EE2C4 //EndConvo
+GOTO 778
+
+LABEL 777
+SetBackground(Castle_Room)
+TEXTSHOW MAFC5ElectionDayMidBad
+TEXTEND
+CALL $9EE2C4 //EndConvo
+GOTO 778
+
+LABEL 778
+
+
+CAM1 [27,18]
+STAL 10
+CURSOR [27,18]
+STAL 60
+REMOVE_CURSORS
+CALL EddaCount2
+CLEAN
+
+CAM1 [14,22]
+STAL 10
+CURSOR [14,22]
+STAL 60
+REMOVE_CURSORS
+CALL ChalphyCount2
+CLEAN
+
+CAM1 [4,27]
+STAL 10
+CURSOR [4,27]
+STAL 60
+REMOVE_CURSORS
+CALL JungbyCount2
+CLEAN
+
+CAM1 [3,8]
+STAL 10
+CURSOR [3,8]
+STAL 60
+REMOVE_CURSORS
+CALL FreegeCount2
+CLEAN
+
+CAM1 [21,7]
+STAL 10
+CURSOR [21,7]
+STAL 60
+REMOVE_CURSORS
+CALL BarharaCount2
+CLEAN
+
+CAM1 [27,3]
+CURSOR [27,3]
+STAL 60
+REMOVE_CURSORS
+CALL VelthomerCount2
+CLEAN
+
+CAM1 [18,13]
+STAL 10
+CURSOR [18,13]
+STAL 60
+REMOVE_CURSORS
+CALL DozelCount2
+CLEAN
+
+CAM1 [21,7]
+STAL 10
+CHECK_EVENTID GoodEndingSet
+BNE 786 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 787 s0 sC
+
+SetBackground(Castle_Room)
+MUSC M_VictoryMinor
+TEXTSHOW MAFC5NormalEnding
+TEXTEND
+CALL $9EE2C4 //EndConvo
+GOTO 788
+
+LABEL 786
+SetBackground(Castle_Room)
+MUSC M_FE4Victory
+TEXTSHOW MAFC5GoodEnding
+TEXTEND
+CALL $9EE2C4 //EndConvo
+GOTO 788
+
+LABEL 787
+SetBackground(Castle_Room)
+MUSC M_ThoughtsGoingAround
+TEXTSHOW MAFC5BadEnding
+TEXTEND
+CALL $9EE2C4 //EndConvo
+GOTO 788
+
+LABEL 788
+
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW MAFC5Congratulations
+TEXTEND
+REMA
+FADI 30
+MNTS 0x0
 ENDA
 
 VelthomerCount1:
@@ -567,6 +687,266 @@ GOTO 773
 LABEL 773
 CALL $9EE2C4 //EndConvo
 ENDA
+
+
+VelthomerCount2:
+CHECK_EVENTID GoodEndingSet
+BNE 7210 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 7211 s0 sC
+COUNTER_CHECK VelthomerCounter
+SVAL s1 8
+BGT 7211 s1 sC
+SVAL s1 12
+BGT 7212 s1 sC
+//else good
+LABEL 7210
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayVelthomer2Good
+TEXTEND
+REMA
+GOTO 7213
+
+LABEL 7212
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayVelthomer2Neutral
+TEXTEND
+REMA
+GOTO 7213
+
+LABEL 7211
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayVelthomer2Bad
+TEXTEND
+REMA
+GOTO 7213
+
+
+LABEL 7213
+CALL $9EE2C4 //EndConvo
+ENDA
+
+EddaCount2:
+CHECK_EVENTID GoodEndingSet
+BNE 7220 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 7221 s0 sC
+COUNTER_CHECK EddaCounter
+SVAL s1 8
+BGT 7221 s1 sC
+SVAL s1 12
+BGT 7222 s1 sC
+//else good
+LABEL 7220
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayEdda2Good
+TEXTEND
+REMA
+GOTO 7223
+
+LABEL 7222
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayEdda2Neutral
+TEXTEND
+REMA
+GOTO 7223
+
+LABEL 7221
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayEdda2Bad
+TEXTEND
+REMA
+GOTO 7223
+
+
+LABEL 7223
+CALL $9EE2C4 //EndConvo
+ENDA
+
+BarharaCount2:
+CHECK_EVENTID GoodEndingSet
+BNE 7230 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 7231 s0 sC
+COUNTER_CHECK BarharaCounter
+SVAL s1 8
+BGT 7231 s1 sC
+SVAL s1 12
+BGT 7232 s1 sC
+//else good
+LABEL 7230
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayBarhara2Good
+TEXTEND
+REMA
+GOTO 7233
+
+LABEL 7232
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayBarhara2Neutral
+TEXTEND
+REMA
+GOTO 7233
+
+LABEL 7231
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayBarhara2Bad
+TEXTEND
+REMA
+GOTO 7233
+
+LABEL 7233
+CALL $9EE2C4 //EndConvo
+ENDA
+
+DozelCount2:
+CHECK_EVENTID GoodEndingSet
+BNE 7240 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 7241 s0 sC
+COUNTER_CHECK DozelCounter
+SVAL s1 8
+BGT 7241 s1 sC
+SVAL s1 12
+BGT 7242 s1 sC
+//else good
+LABEL 7240
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayDozel2Good
+TEXTEND
+REMA
+GOTO 7243
+
+LABEL 7242
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayDozel2Neutral
+TEXTEND
+REMA
+GOTO 7243
+
+LABEL 7241
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayDozel2Bad
+TEXTEND
+REMA
+GOTO 7243
+
+
+LABEL 7243
+CALL $9EE2C4 //EndConvo
+ENDA
+
+ChalphyCount2:
+CHECK_EVENTID GoodEndingSet
+BNE 7250 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 7251 s0 sC
+COUNTER_CHECK ChalphyCounter
+SVAL s1 8
+BGT 7251 s1 sC
+SVAL s1 12
+BGT 7252 s1 sC
+//else good
+LABEL 7250
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayChalphy2Good
+TEXTEND
+REMA
+GOTO 7253
+
+LABEL 7252
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayChalphy2Neutral
+TEXTEND
+REMA
+GOTO 7253
+
+LABEL 7251
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayChalphy2Bad
+TEXTEND
+REMA
+GOTO 7253
+
+
+LABEL 7253
+CALL $9EE2C4 //EndConvo
+ENDA
+
+FreegeCount2:
+CHECK_EVENTID GoodEndingSet
+BNE 7260 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 7261 s0 sC
+COUNTER_CHECK FreegeCounter
+SVAL s1 8
+BGT 7261 s1 sC
+SVAL s1 12
+BGT 7262 s1 sC
+//else good
+LABEL 7260
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayFreege2Good
+TEXTEND
+REMA
+GOTO 7263
+
+LABEL 7262
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayFreege2Neutral
+TEXTEND
+REMA
+GOTO 7263
+
+LABEL 7261
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayFreege2Bad
+TEXTEND
+REMA
+GOTO 7263
+
+
+LABEL 7263
+CALL $9EE2C4 //EndConvo
+ENDA
+
+JungbyCount2:
+CHECK_EVENTID GoodEndingSet
+BNE 7270 s0 sC
+CHECK_EVENTID BadEndingSet
+BNE 7271 s0 sC
+COUNTER_CHECK JungbyCounter
+SVAL s1 8
+BGT 7271 s1 sC
+SVAL s1 12
+BGT 7272 s1 sC
+//else good
+LABEL 7270
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayJungby2Good
+TEXTEND
+REMA
+GOTO 7273
+
+LABEL 7272
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayJungby2Neutral
+TEXTEND
+REMA
+GOTO 7273
+
+LABEL 7271
+SetBackground(Castle_Hall_4)
+TEXTSHOW MAFC5ElectionDayJungby2Bad
+TEXTEND
+REMA
+GOTO 7273
+
+
+LABEL 7273
+CALL $9EE2C4 //EndConvo
+ENDA
+
 
 
 
