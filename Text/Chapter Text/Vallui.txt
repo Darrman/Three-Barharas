@@ -1,5 +1,5 @@
 ## ValluiWorldMap
-Sigurd of Chalphy had noticed the latest[N]
+Sigurd of Chalphy[Event] had noticed the latest[N]
 fad in Jugdral: playing cards.[AN]
 This wasn't the first time Jugdral was[N]
 bitten by the trading card bug.[AN]
@@ -14,6 +14,7 @@ Sigurd assembled a list of powerful cards[N]
 and embarked on a journey to become the[AN]
 world's best Cipher player, along with the[N]
 various people his cards depicted.[AN]
+[Event]
 Little did Sigurd know that he would soon[N]
 fight the greatest terror of all Cipher...[A][X]
 
@@ -39,7 +40,7 @@ Father, I do not recommend that.[AN]
 [Right]#SIGURD:
 I've got another plan, though.[N]
 Deirdre! We have dragons to slay.[AN]
-[LoadFarRight][LoadDeirdre]
+[FarRight][LoadDeirdre]
 #DEIRDRE:
 Though Corrin is a dragon, a lot of[N]
 her cards aren't dragon-dragons.[AN]
@@ -142,7 +143,7 @@ Ah, yes... I need this blade to stand[N]
 a chance. Thank you, Lana. Deirdre![AN]
 [FL][LoadDeirdre]
 It is time. Let us speed up this fight.[N]
-Corrin's power is about to surge.[AN]
+Corrin's power is about to surge.[AN][X]
 
 ## ValluiT4EP
 [MR][LoadCorrin][ML][LoadAzura]
@@ -168,7 +169,7 @@ Julia! Get in here! It's your turn![AN]
 Lord Sigurd... We've got a lot of[N]
 people on the battlefield. Beware[AN]
 of destruction... We're in trouble[N]
-if an enemy Leo destroys the mages.[AN]
+if an enemy Leo destroys the mages.[AN][X]
 
 ## ValluiT5EP
 [MR][LoadCorrin][Left][LoadCorrinM][FL][LoadRyoma]

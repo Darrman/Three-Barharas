@@ -27,6 +27,7 @@ CharacterEvent(0x00,EnterBarharaRevisited,MenuUnit,Sigurd)
 CharacterEvent(0x00,EnterJuliusRevenge,MenuUnit,Julius)
 CharacterEvent(0x00,EnterCrusadersReturn,MenuUnit,Dimitri)
 CharacterEvent(0x00,EnterElectionSimulator,MenuUnit,Celice)
+CharacterEvent(0x00,EnterValluiBattle,MenuUnit,Vallui)
 END_MAIN
 
 LocationBasedEvents:
@@ -54,7 +55,7 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-//CALL EnterElectionSimulator
+CALL EnterValluiBattle
 LOAD1 0x1 Units
 LOAD1 0x1 ChapterWarps
 //Text(Ch0Opening)
@@ -111,6 +112,15 @@ _0xA640 0x0 0x0 0x4 //Move to whatever location. Assuming this 2015 thread isn't
 MNCH 0x04
 ENDA
 
+EnterValluiBattle:
+Text(0x123)
+//REMU MenuUnit
+WM_SETDESTINATION 0x0 0x6 0x0 //because it loads the map otherwise? testing stuff here
+_0xA640 0x0 0x0 0x5 //Move to whatever location. Assuming this 2015 thread isn't lying. Is there a more up to date version?
+MNCH 0x06
+ENDA
+
+
 
 // Manual Movement
 
@@ -122,6 +132,7 @@ UNIT Sigurd LordKnight 0x00 Level(1, NPC, 0) [3,3] 0x00 0x00 0x0 0x00 [Tyrfing] 
 UNIT Julius Necromancer  0x00 Level(1, NPC, 0) [5,3] 0x00 0x00 0x0 0x00 [Lopto] NoAI
 UNIT Dimitri General 0x00 Level(1, NPC, 0) [8,3] 0x00 0x00 0x0 0x00 [Siegmund] NoAI //Areadbhar eventually
 UNIT Celice LordKnight 0x00 Level(1, NPC, 0) [3,3] 0x00 0x00 0x0 0x00 [Tyrfing] NoAI 
+UNIT Vallui Swordmaster_F 0x00 Level(1,NPC,0) [3,5] 0x00 0x00 0x0 0x00 [SilverSword] NoAI
 UNIT
 
 

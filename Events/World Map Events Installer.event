@@ -23,6 +23,10 @@
 }
 {
   ALIGN 4
+  #include "ValluiWM.event"
+}
+{
+  ALIGN 4
   #include "WMSkips.event"
 }
 ALIGN 4

@@ -20,17 +20,32 @@ UNIT
 
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,NoPromoWoes,2)
+TurnEventPlayer(0x0,LanaHealPromo,3)
+TurnEventPlayer(0x0,PromoTime,4)
+TurnEventPlayer(0x0,EnterLeaf,5)
+TurnEventPlayer(0x0,EthlinBlockDestruction,6)
+TurnEventPlayer(0x0,LinoanUnflips,7)
+TurnEventPlayer(0x0,AlrightHaveNarga,8)
+
+TurnEventEnemy(0x0,SilasGoesPlaces,3)
+TurnEventEnemy(0x0,CheatElise,4)
+TurnEventEnemy(0x0,RyomaCallsMamui,5)
+TurnEventEnemy(0x0,AzuraBanishment,6)
+TurnEventEnemy(0x0,LeoMeltsMages,7)
+TurnEventEnemy(0x0,SwarmTheField,8)
+
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(0x03,EndingScene,22,4)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno:
@@ -47,6 +62,20 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+MUSC M_FE4Convo1
+LOAD1 0x1 Units
+LOAD1 0x1 Bad
+CAM1 Sigurd
+FlashCursor(Sigurd,60)
+Text(0x12,ValluiIntro)
+STAL 10
+EVBIT_T 9 //CMON; camera follows
+MOVE 10 Sigurd [22,5]
+ENUN
+STAL 10
+MUSC M_Lopto
+Text(0x13,ValluiIntro2)
+MOVE 10 Sigurd [1,16]
 ENDA
 
 EndingScene:
@@ -54,6 +83,84 @@ ENDA
 
 
 // Events
+NoPromoWoes:
+Text(ValluiT2)
+NoFade
+ENDA
+
+LanaHealPromo:
+LOAD1 0x1 T3Deploy
+Text(ValluiT3)
+NoFade
+ENDA
+
+PromoTime:
+LOAD1 0x1 T4Deploy
+Text(ValluiT4)
+SVAL s3 Tyrfing
+GIVEITEMTO Sigurd
+NoFade
+ENDA
+
+EnterLeaf:
+LOAD1 0x1 T5Deploy
+Text(ValluiT5)
+NoFade
+ENDA
+
+EthlinBlockDestruction:
+LOAD1 0x1 T6Deploy
+Text(ValluiT6)
+NoFade
+ENDA
+
+LinoanUnflips:
+LOAD1 0x1 T7Deploy
+Text(ValluiT7)
+NoFade
+ENDA
+
+AlrightHaveNarga:
+SVAL s3 Narga
+GIVEITEMTO Sigurd
+NoFade
+ENDA
+
+SilasGoesPlaces:
+LOAD1 0x1 BadT3Deploy
+Text(ValluiT3EP)
+NoFade
+ENDA
+
+CheatElise:
+LOAD1 0x1 BadT4Deploy
+Text(ValluiT4EP)
+NoFade
+ENDA
+
+RyomaCallsMamui:
+LOAD1 0x1 BadT5Deploy
+Text(ValluiT5EP)
+NoFade
+ENDA
+
+AzuraBanishment:
+LOAD1 0x1 BadT6Deploy
+Text(ValluiT6EP)
+NoFade
+ENDA
+
+LeoMeltsMages:
+LOAD1 0x1 BadT7Deploy
+Text(ValluiT7EP)
+NoFade
+ENDA
+
+SwarmTheField:
+LOAD1 0x1 BadT8Deploy
+//Text(ValluiT8EP)
+NoFade
+ENDA
 
 // Manual Movement
 
@@ -96,7 +203,7 @@ UNIT Vallui Swordmaster_F 0x00 Level(30, Enemy, 0) [22,4] 0x0 0x00 0x0 0x00 [Kil
 UNIT
 
 BadT3Deploy:
-UNIT Silas Paladin 0x00 Level(30, Enemy, 0) [21,8] 0x0 0x00 0x0 0x00 [SilverLance, Spear] PursuitWithoutHeedAI
+UNIT Silas Paladin 0x00 Level(30, Enemy, 0) [21,8] 0x0 0x00 0x0 0x00 [SilverLance, Spear] PursueWithoutHeedAI
 UNIT
 
 BadT4Deploy:
@@ -116,12 +223,12 @@ UNIT Lilith DracoZombie 0x00 Level(30, Enemy, 0) [11,6] 0x0 0x00 0x0 0x00 [Wretc
 UNIT
 
 BadT7Deploy:
-UNIT Leo MageKnight 0x00 Level(30, Enemy, 0) [11,9] 0x0 0x00 0x0 0x00 [Fimbulvetr /*Brynhildr*/, Silence] PursuitWithoutHeedAI
+UNIT Leo MageKnight 0x00 Level(30, Enemy, 0) [11,9] 0x0 0x00 0x0 0x00 [Fimbulvetr /*Brynhildr*/, Silence] PursueWithoutHeedAI
 UNIT
 
 BadT8Deploy:
 //Flood the field, consequences be damned
 UNIT Hinoka FalcoKnight 0x00 Level(30, Enemy, 0) [14,2] 0x0 0x00 0x0 0x00 [SilverBow, SilverLance] AttackInRangeAI
 UNIT Shigure FalcoKnight 0x00 Level(30, Enemy, 0) [18,2] 0x0 0x00 0x0 0x00 [KillerLance] AttackInRangeAI
-UNIT Corrin Manakete_F 0x00 Level(30, Enemy, 0) [16,4] 0x0 0x00 0x0 0x00 [Dragonstone] AttackInRangeAI
+UNIT Corrin Manakete_2_F 0x00 Level(30, Enemy, 0) [16,4] 0x0 0x00 0x0 0x00 [Dragonstone] AttackInRangeAI
 UNIT

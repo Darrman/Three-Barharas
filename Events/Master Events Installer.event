@@ -19,4 +19,7 @@ ALIGN 4
 {
   #include "Debug.event"
 }
+{
+  #include "Vallui.event"
+}
 ALIGN 4
