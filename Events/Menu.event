@@ -54,9 +54,9 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-CALL EnterElectionSimulator
-//LOAD1 0x1 Units
-//LOAD1 0x1 ChapterWarps
+//CALL EnterElectionSimulator
+LOAD1 0x1 Units
+LOAD1 0x1 ChapterWarps
 //Text(Ch0Opening)
 ENDA
 

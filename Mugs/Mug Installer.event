@@ -112,6 +112,10 @@ AzmureMugLabel:
 #incext PortraitFormatter "azmure.png"
 setMugEntry(AzmureMug, AzmureMugLabel, 3, 6, 3, 4)
 
+EthlinMugLabel:
+#incext PortraitFormatter "ethlin.png"
+setMugEntry(EthlinMug, EthlinMugLabel, 3, 6, 3, 4)
+
 
 //Gen 2
 
@@ -211,6 +215,10 @@ SkaMugLabel:
 #incext PortraitFormatter "Gen 2/skasaher.png"
 setMugEntry(SkaMug, SkaMugLabel, 4, 7, 4, 5)
 
+LinoanMugLabel:
+#incext PortraitFormatter "Gen 2/linoan.png"
+setMugEntry(LinoanMug, LinoanMugLabel, 3, 7, 3, 5)
+
 
 // 3H and other weird stuff
 AnnetteMugLabel:
@@ -268,4 +276,48 @@ setMugEntry(SylvainMug,SylvainMugLabel, 3, 7, 3, 4)
 DorotheaMugLabel:
 #incext PortraitFormatter "3H Requans/Dorothea.png"
 setMugEntry(DorotheaMug,DorotheaMugLabel, 2, 7, 2, 4)
+
+CorrinMugLabel:
+#incext PortraitFormatter "Fates Requans/CorrinF.png"
+setMugEntry(CorrinMug, CorrinMugLabel, 4, 6, 4, 4)
+
+CorrinMMugLabel:
+#incext PortraitFormatter "Fates Requans/CorrinM.png"
+setMugEntry(CorrinMMug, CorrinMMugLabel, 4, 6, 4, 4)
+
+AnankosMugLabel:
+#incext PortraitFormatter "Fates Requans/Anankos.png"
+setMugEntry(AnankosMug, AnankosMugLabel, 4, 6, 4, 4)
+
+AzuraMugLabel:
+#incext PortraitFormatter "Fates Requans/Azura.png"
+setMugEntry(AzuraMug, AzuraMugLabel, 4, 6, 4, 4)
+
+EliseMugLabel:
+#incext PortraitFormatter "Fates Requans/Elise.png"
+setMugEntry(EliseMug, EliseMugLabel, 4, 6, 4, 4)
+
+HinokaMugLabel:
+#incext PortraitFormatter "Fates Requans/Hinoka.png"
+setMugEntry(HinokaMug, HinokaMugLabel, 4, 6, 4, 4)
+
+LeoMugLabel:
+#incext PortraitFormatter "Fates Requans/Leo.png"
+setMugEntry(LeoMug, LeoMugLabel, 4, 6, 4, 4)
+
+LilithMugLabel:
+#incext PortraitFormatter "Fates Requans/Lilith.png"
+setMugEntry(LilithMug, LilithMugLabel, 4, 6, 4, 4)
+
+RyomaMugLabel:
+#incext PortraitFormatter "Fates Requans/Ryoma.png"
+setMugEntry(RyomaMug, RyomaMugLabel, 4, 6, 4, 4)
+
+ShigureMugLabel:
+#incext PortraitFormatter "Fates Requans/Shigure.png"
+setMugEntry(ShigureMug, ShigureMugLabel, 4, 6, 4, 4)
+
+SilasMugLabel:
+#incext PortraitFormatter "Fates Requans/Silas.png"
+setMugEntry(SilasMug, SilasMugLabel, 4, 6, 4, 4)
 

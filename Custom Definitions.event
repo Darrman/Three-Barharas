@@ -93,6 +93,19 @@
 #define Edelgard 66
 #define Dorothea 67
 
+#define Corrin 0x50
+#define CorrinM 0x51
+#define Vallui 0x52
+#define Anankos 0x53
+#define Azura 0x54
+#define Elise 0x55
+#define Hinoka 0x56
+#define Leo 0x57
+#define Lilith 0x58
+#define Ryoma 0x59
+#define Shigure 0x5A
+#define Silas 0x5B
+
 #define Velthomer 0x80
 #define LoptSect 0x81
 #define Eins 0x82
@@ -192,3 +205,15 @@
 #define EdelgardMug 0x3F
 #define LorenzMug 0x40
 #define DorotheaMug 0x41
+#define CorrinMug 0x42
+#define CorrinMMug 0x43
+#define AnankosMug 0x44
+#define AzuraMug 0x45
+#define EliseMug 0x46
+#define HinokaMug 0x47
+#define LeoMug 0x48
+#define LilithMug 0x49
+#define RyomaMug 0x4A
+#define ShigureMug 0x4B
+#define SilasMug 0x4C
+#define LinoanMug 0x4D
