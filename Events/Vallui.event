@@ -15,7 +15,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 Units:
-UNIT Sigurd LordKnight 0x00 Level(30, Ally, 0) [21,8] 0x0 0x00 0x0 0x00 [IronSword] NoAI 
+UNIT Sigurd LordKnight 0x00 Level(30, Ally, 0) [1,16] 0x0 0x00 0x0 0x00 [IronSword] NoAI 
 UNIT
 
 
@@ -60,3 +60,68 @@ ENDA
 // Scripted Fights
 
 // Units
+
+T3Deploy:
+UNIT Lana Bishop_F 0x00 Level(30, Ally, 0) [6,26] 0x0 0x00 0x0 0x00 [Fire] NoAI 
+UNIT
+
+T4Deploy:
+UNIT Deirdre Sage_F 0x00 Level(30, Ally, 0) [9,24] 0x0 0x00 0x0 0x00 [Lightning] NoAI 
+UNIT
+
+T5Deploy:
+UNIT Leaf Paladin 0x00 Level(30, Ally, 0) [10,15] 0x0 0x00 0x0 0x00 [LightBrand, SilverLance] NoAI 
+UNIT Julia Sage_F 0x00 Level(30, Ally, 0) [17,26] 0x0 0x00 0x0 0x00 [Nosferatu] NoAI 
+UNIT
+
+T6Deploy:
+UNIT Ethlin Valkyrie 0x00 Level(30, Ally, 0) [23,16] 0x0 0x00 0x0 0x00 [LightBrand] NoAI 
+UNIT
+
+T7Deploy:
+UNIT Linoan Sage_F 0x00 Level(30, Ally, 0) [18,21] 0x0 0x00 0x0 0x00 [Nosferatu] NoAI 
+UNIT
+
+UnifierDeploy:
+UNIT Alvis Sage 0x00 Level(30, Ally, 0) [16,15] 0x0 0x00 0x0 0x00 [Falaflame] NoAI 
+UNIT Julius Necromancer 0x00 Level(30, Ally, 0) [18,15] 0x0 0x00 0x0 0x00 [Lopto] NoAI 
+UNIT
+
+CeliceDeploy:
+UNIT Celice LordKnight 0x00 Level(30, Ally, 0) [27,9] 0x0 0x00 0x0 0x00 [SilverSword] NoAI 
+UNIT
+
+Bad:
+UNIT Vallui Swordmaster_F 0x00 Level(30, Enemy, 0) [22,4] 0x0 0x00 0x0 0x00 [KillingEdge, Dragonstone] NeverMoveAI
+UNIT
+
+BadT3Deploy:
+UNIT Silas Paladin 0x00 Level(30, Enemy, 0) [21,8] 0x0 0x00 0x0 0x00 [SilverLance, Spear] PursuitWithoutHeedAI
+UNIT
+
+BadT4Deploy:
+//Vallui is a cheater, she doesn't have the bonds for this and promotion
+UNIT Elise Bishop_F 0x00 Level(30, Enemy, 0) [11,5] 0x0 0x00 0x0 0x00 [Physic, Fortify] HealUnits
+UNIT
+
+BadT5Deploy:
+UNIT Ryoma Swordmaster 0x00 Level(30, Enemy, 0) [20,10] 0x0 0x00 0x0 0x00 [WindSword /*Raijinto*/] AttackInRangeAI
+UNIT CorrinM Manakete 0x00 Level(30, Enemy, 0) [24,10] 0x0 0x00 0x0 0x00 [Dragonstone] AttackInRangeAI
+UNIT
+
+BadT6Deploy:
+UNIT Azura Dancer 0x00 Level(30, Enemy, 0) [22,7] 0x0 0x00 0x0 0x00 [SilverLance] HealUnits
+UNIT Anankos DracoZombie 0x00 Level(30, Enemy, 0) [22,6] 0x0 0x00 0x0 0x00 [WretchedAir] NeverMoveAI
+UNIT Lilith DracoZombie 0x00 Level(30, Enemy, 0) [11,6] 0x0 0x00 0x0 0x00 [WretchedAir] NeverMoveAI
+UNIT
+
+BadT7Deploy:
+UNIT Leo MageKnight 0x00 Level(30, Enemy, 0) [11,9] 0x0 0x00 0x0 0x00 [Fimbulvetr /*Brynhildr*/, Silence] PursuitWithoutHeedAI
+UNIT
+
+BadT8Deploy:
+//Flood the field, consequences be damned
+UNIT Hinoka FalcoKnight 0x00 Level(30, Enemy, 0) [14,2] 0x0 0x00 0x0 0x00 [SilverBow, SilverLance] AttackInRangeAI
+UNIT Shigure FalcoKnight 0x00 Level(30, Enemy, 0) [18,2] 0x0 0x00 0x0 0x00 [KillerLance] AttackInRangeAI
+UNIT Corrin Manakete_F 0x00 Level(30, Enemy, 0) [16,4] 0x0 0x00 0x0 0x00 [Dragonstone] AttackInRangeAI
+UNIT

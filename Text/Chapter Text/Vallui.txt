@@ -1,0 +1,233 @@
+## ValluiWorldMap
+Sigurd of Chalphy had noticed the latest[N]
+fad in Jugdral: playing cards.[AN]
+This wasn't the first time Jugdral was[N]
+bitten by the trading card bug.[AN]
+Indeed, everyone of prominence had already[N]
+had a card printed of them the first time.[AN]
+But now everyone is playing Fire Emblem[N]
+Cipher, the second coming of the cards.[AN]
+Hearing of its cancellation, Sigurd knew[N]
+he had to set out on a journey, and fast.[AN]
+Leaving Chalphy in Oifaye's reliable hands,[N]
+Sigurd assembled a list of powerful cards[N]
+and embarked on a journey to become the[AN]
+world's best Cipher player, along with the[N]
+various people his cards depicted.[AN]
+Little did Sigurd know that he would soon[N]
+fight the greatest terror of all Cipher...[A][X]
+
+## ValluiIntro
+[Right][LoadSigurd][Left][LoadCelice]
+#CELICE:
+Father, I bring you bad news.[N]
+We have been challenged to[AN]
+a battle by the notorious Queen[N]
+Corrin of Valla.[AN]
+[Right]#SIGURD:
+So, she has noticed us at last.[N]
+I am not a coward. I will not[AN]
+run away. With Tyrfing in hand,[N]
+I shall cut Vallui down.[AN]
+[Left]#CELICE:
+A solid strategy. But the Tyrfing[N]
+won't get through her defences.[AN]
+She'll just copy Anankos and become[N]
+invincible. Unless you want to[AN]
+waste all your energy on one swing.[N]
+Father, I do not recommend that.[AN]
+[Right]#SIGURD:
+I've got another plan, though.[N]
+Deirdre! We have dragons to slay.[AN]
+[LoadFarRight][LoadDeirdre]
+#DEIRDRE:
+Though Corrin is a dragon, a lot of[N]
+her cards aren't dragon-dragons.[AN]
+In other words, I can't melt them.[N]
+It would be too easy otherwise.[AN]
+[Right]#SIGURD:
+You can still deal with the other forms[N]
+of the beast. I suppose I should reply[AN]
+to Corrin's challenge. I only hope that[N]
+I don't end up bricking my hand...[A][X]
+
+## ValluiIntro2
+[MR][LoadSigurd][ML][LoadCorrin]
+#CORRIN:
+Greetings, Lord Sigurd of Chalphy.[N]
+I challenge you to a battle.[AN]
+[MR]#SIGURD:
+Queen Corrin of Valla, I accept your[N]
+challenge. Let us select our decks.[AN]
+[ML]#CORRIN:
+Decks? No, no. We aren't playing cards.[N]
+We're on the plains of Rigel. Where[AN]
+Camus fought Jerome and joined Alm's army.[N]
+And where I will destroy you and your[AN]
+own army. You might think you can kill me.[N]
+But I will stall you out. You will die.[AN]
+[MR]#SIGURD:
+I think not. Narga's divine light[N]
+will purge you from this world.[AN]
+[ML]#CORRIN:
+Brynhildr shall snuff the[N]
+life out of all your magic.[AN]
+[MR]#SIGURD:
+The Tyrfing will pierce your scales[N]
+and protect me from your blade.[AN]
+[ML]#CORRIN:
+I shall copy Anankos, who will make[N]
+me utterly indestructible.[AN]
+[MR]#SIGURD:
+My nephew, Leaf, will bring a United[N]
+Thracia's might to bear on you.[AN]
+[ML]#CORRIN:
+Lilith shall shut down any and all[N]
+summoning he plans to conduct.[AN]
+[MR]#SIGURD:
+My sister, Ethlin, will protect me from[N]
+any destruction you plan to inflict.[AN]
+[ML]#CORRIN:
+Silas shall kill her first. Then, he[N]
+will rearrange my defences.[AN]
+[MR]#SIGURD:
+Falaflame's power will be turned onto[N]
+your field, destroying all in its way.[AN]
+[ML]#CORRIN:
+Azura shall banish this power, never[N]
+to see the light of day again.[AN]
+[MR]#SIGURD:
+...At least I can have Lana heal my[N]
+wounds, granting me staying power?[AN]
+[ML]#CORRIN:
+Elise can do the same to me. Also, the[N]
+egg cuts your healing source off.[AN]
+[MR]#SIGURD:
+...What am I going to do? You counter[N]
+all of my moves! With an egg?![AN]
+[ML]#CORRIN:
+I shall grant you a slight mercy: you[N]
+have initiative. How shall you fare?[A][X]
+
+## ValluiT2
+[MR][LoadSigurd]
+...Where's the Tyrfing? Without it,[N]
+I am fodder for Vallui's army.[AN]
+I need to find it fast, before she[N]
+builds up... Otherwise, it's over.[AN][X]
+
+## ValluiT3
+[MR][LoadSigurd]
+Still don't have my promotion...[N]
+No Tyrfing, no hope. Simple.[AN]
+...But perhaps with this move,[N]
+I can remedy this situation.[AN]
+[ML][LoadLana]
+Need me to look for the Tyrfing?[N]
+Celice probably borrowed it...[A][X]
+
+## ValluiT3EP
+[MR][LoadCorrin]
+Silas! Go forth and[N]
+run them down.[A][X]
+
+## ValluiT4
+[Left][LoadLana]
+[MR][LoadSigurd]
+[Left]#LANA:
+Lord Sigurd! I found the Tyrfing![N]
+Here you go! Now you can fight![AN]
+[MR]#SIGURD:
+Ah, yes... I need this blade to stand[N]
+a chance. Thank you, Lana. Deirdre![AN]
+[FL][LoadDeirdre]
+It is time. Let us speed up this fight.[N]
+Corrin's power is about to surge.[AN]
+
+## ValluiT4EP
+[MR][LoadCorrin][ML][LoadAzura]
+[MR]#CORRIN:
+It begins. Now it is time to assume my[N]
+true form. I shall copy everybody's[AN]
+abilities, and I shall become all but[N]
+unstoppable. Azura, are we on track?[AN]
+[ML]#AZURA:
+We are indeed, Corrin. Ryoma is ready[N]
+to take to the field and summon your[AN]
+male counterpart. Beware of Leaf and[N]
+his Unifier: Lilith isn't here...[A][X]
+
+## ValluiT5
+[Left][LoadLeaf][MR][LoadSigurd]
+[Left]#LEAF:
+Looks like I've made it. I don't have[N]
+the strength to use my big finisher.[AN]
+I can, however, use my smaller summon.[N]
+Julia! Get in here! It's your turn![AN]
+[FL][LoadJulia]
+Lord Sigurd... We've got a lot of[N]
+people on the battlefield. Beware[AN]
+of destruction... We're in trouble[N]
+if an enemy Leo destroys the mages.[AN]
+
+## ValluiT5EP
+[MR][LoadCorrin][Left][LoadCorrinM][FL][LoadRyoma]
+[MR]#CORRIN:
+Ryoma, go. Bring male Corrin with you.[N]
+It is time to stall this battle out.[A][X]
+
+## ValluiT6
+[MR][LoadSigurd][ML][LoadEthlin]
+[MR]#SIGURD:
+Ethlin, I'd like to have your son[N]
+do the big unification thing he[AN]
+always boasts about, but I don't[N]
+have the resources necessary.[AN]
+More importantly, I need you to[N]
+stop any destruction effects.[A]
+[ML]#ETHLIN:
+Of course, Sigurd. Also, I fear the[N]
+arrival of an evil Earth Dragon...[AN]
+Or whatever they call it in that[N]
+land. "First Dragon"? ...Anankos.[A][X]
+
+## ValluiT6EP
+[MR][LoadCorrin][ML][LoadAzura]
+[MR]#CORRIN:
+Azura! Banishment to the Boundless[N]
+Area is not destruction. As well,[AN]
+I have finally obtained two things.[N]
+I trust you are familiar with them.[AN]
+[ML]
+Very. Lilith shall shut down any[N]
+deployment. And Anankos shall stall[AN]
+any and all efforts to slay you.[N]
+Victory is only a matter of time.[A][X]
+
+## ValluiT7
+[Left][LoadCelice][MR][LoadSigurd]
+[Left]#CELICE:
+Father, Lilith is blocking the big[N]
+finishing Unifier. Are things bad[AN]
+enough to require my deployment?[N]
+With Anankos here, we can't finish[AN]
+Corrin off. Alvis and Julius need[N]
+to be summoned. The whole family...[AN]
+[FL][LoadLinoan][MR]#SIGURD:
+Lady Linoan, it appears we are going[N]
+to be here for quite some time.[AN]
+Keep the army's morale up: your job[N]
+here is vital to our success.[AN]
+[FL]#LINOAN:
+I understand, Lord Sigurd.[N]
+May victory come our way![A][X]
+
+## ValluiT7EP
+[MR][LoadCorrin][ML][LoadLeo]
+[MR]#CORRIN:
+Leo, deal with that Ethlin. Pink[N]
+hair, on a horse. Then it is a[AN]
+simple matter of annihilation.[N]
+Now, I don't think I should worry[AN]
+about bonds in the future...[N]
+I shall deploy everyone left soon![A][X]
