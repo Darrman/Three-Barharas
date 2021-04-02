@@ -143,6 +143,11 @@ You ruined so many lives...[AN]
 I'm going to put an[N]
 end to all of this![A][X]
 
+## EthlinDeath
+[MR][LoadEthlin]
+Aah... Cuan...[N]
+...Help...[A][X]
+
 ## JuliusDeath
 [OpenMidLeft][LoadVoid]
 NaRgA... YoU'vE RuInEd[N]
@@ -249,6 +254,20 @@ raising me...[A][X]
 [MR][Load][0x16][0x01]
 This is fate...[N]
 Aah, my son...[A][X]
+
+## LilithDeath
+[ML][LoadLilith]
+Lady Corrin... Forgive[N]
+me... Please...[A][X]
+
+## ValluiDeath
+[ML][LoadCorrin]
+How... How? I'm... dying?[N]
+You... have killed me...[AN]
+My homeland, which lacks[N]
+any name... Without me...[AN]
+It... is nothing. Fates...[N]
+landia... is... doomed...[A][X]
 
 ## MarioDeath
 [MidRight][LoadMario]

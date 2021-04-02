@@ -12,7 +12,7 @@ BYTE 0 0
 DeirdreSupports:
 CharacterSupport(Sigurd, Alvis, 0, 0, 0, 0, 0)
 SupportBases(241, 161, 0, 0, 0, 0, 0)
-SupportGrowths(99, 5, 0, 0, 0, 0, 0)
+SupportGrowths(99, 3, 0, 0, 0, 0, 0)
 BYTE 2
 BYTE 0 0
 
@@ -177,6 +177,43 @@ SupportBases(161, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1
 BYTE 0 0
+
+CeliceSupports:
+CharacterSupport(Lana, Julia, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2
+BYTE 0 0
+
+LanaSupports:
+CharacterSupport(Celice, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+JuliaSupports:
+CharacterSupport(Celice, 0, 0, 0, 0, 0, 0)
+SupportBases(161, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+LeafSupports:
+CharacterSupport(Nanna, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+NannaSupports:
+CharacterSupport(Leaf, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1
+BYTE 0 0
+
+
 
 #define Ending(Type, Char1, Char2, Text) "BYTE Type Char1 Char2 0; SHORT Text 0"
 #define Paired 0x2

@@ -45,6 +45,8 @@ Seize(0x03,EndingScene,22,4)
 END_MAIN
 
 MiscBasedEvents:
+AFEV 0x00 EthlinFalls 0xA
+AFEV 0x00 UnifierBaby 0xB
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -64,7 +66,7 @@ ALIGN 4
 BeginningScene:
 MUSC M_FE4Convo1
 LOAD1 0x1 Units
-LOAD1 0x1 Bad
+LOAD1 0x1 BadLord
 CAM1 Sigurd
 FlashCursor(Sigurd,60)
 Text(0x12,ValluiIntro)
@@ -75,8 +77,11 @@ ENUN
 STAL 10
 MUSC M_Lopto
 Text(0x13,ValluiIntro2)
-MOVE 10 Sigurd [1,16]
+MOVE 20 Sigurd [1,16]
+FADI 10
 ENUN
+LOAD1 0x1 Bad
+FADU 10
 ENDA
 
 EndingScene:
@@ -122,6 +127,7 @@ NoFade
 ENDA
 
 AlrightHaveNarga:
+//Text
 SVAL s3 Narga
 GIVEITEMTO Sigurd
 NoFade
@@ -163,6 +169,33 @@ LOAD1 0x1 BadT8Deploy
 NoFade
 ENDA
 
+EthlinFalls:
+CHECK_ALIVE Leo
+BEQ 1 sC s0
+//Text
+KILL Lana
+AWAIT_KILL Lana
+KILL Deirdre
+AWAIT_KILL Deirdre
+KILL Julia
+AWAIT_KILL Julia
+KILL Linoan
+AWAIT_KILL Linoan
+KILL Alvis
+AWAIT_KILL Alvis
+KILL Julius
+AWAIT_KILL Julius
+LABEL 1
+ENDA
+
+UnifierBaby:
+CHECK_ALIVE Leaf
+BEQ 2 sC s0
+//text
+LOAD1 0x1 UnifierDeploy
+LABEL 2
+ENDA
+
 // Manual Movement
 
 // Scripted Fights
@@ -170,7 +203,7 @@ ENDA
 // Units
 
 T3Deploy:
-UNIT Lana Bishop_F 0x00 Level(30, Ally, 0) [6,26] 0x0 0x00 0x0 0x00 [Fire] NoAI 
+UNIT Lana Bishop_F 0x00 Level(30, Ally, 0) [6,26] 0x0 0x00 0x0 0x00 [Fire, Mend] NoAI 
 UNIT
 
 T4Deploy:
@@ -199,8 +232,24 @@ CeliceDeploy:
 UNIT Celice LordKnight 0x00 Level(30, Ally, 0) [27,9] 0x0 0x00 0x0 0x00 [SilverSword] NoAI 
 UNIT
 
-Bad:
+BadLord:
 UNIT Vallui Swordmaster_F 0x00 Level(30, Enemy, 0) [22,4] 0x0 0x00 0x0 0x00 [KillingEdge, Dragonstone] NeverMoveAI
+UNIT
+
+Bad:
+UNIT 0x8F Hero 0x00 Level(5, Enemy, 1) [12,18] 0x0 0x00 0x0 0x00 [SteelSword] ChaseOnceApproachedAI
+UNIT 0x8F Paladin 0x00 Level(5, Enemy, 1) [23,17] 0x0 0x00 0x0 0x00 [SteelLance, Javelin] ChaseOnceApproachedAI
+UNIT 0x8F General 0x00 Level(5, Enemy, 1) [17,13] 0x0 0x00 0x0 0x00 [SteelAxe] GuardTileAI
+UNIT 0x8F Sage 0x00 Level(5, Enemy, 1) [14,6] 0x0 0x00 0x0 0x00 [Thunder] ChaseOnceApproachedAI
+UNIT 0x8F Bishop 0x00 Level(5, Enemy, 1) [8,10] 0x0 0x00 0x0 0x00 [Mend, Shine] ChaseOnceApproachedAI
+UNIT 0x8F Druid 0x00 Level(5, Enemy, 1) [22,18] 0x0 0x00 0x0 0x00 [Flux] ChaseOnceApproachedAI
+UNIT 0x8F FalcoKnight 0x00 Level(5, Enemy, 1) [27,3] 0x0 0x00 0x0 0x00 [SlimLance] ChaseOnceApproachedAI
+UNIT 0x8F WyvernLord 0x00 Level(5, Enemy, 1) [17,10] 0x0 0x00 0x0 0x00 [SteelLance] ChaseOnceApproachedAI
+UNIT 0x8F Sniper 0x00 Level(5, Enemy, 1) [27,17] 0x0 0x00 0x0 0x00 [SteelBow] ChaseOnceApproachedAI
+UNIT 0x8F Warrior 0x00 Level(5, Enemy, 1) [3,19] 0x0 0x00 0x0 0x00 [SteelAxe] ChaseOnceApproachedAI
+UNIT 0x8F Berserker 0x00 Level(5, Enemy, 1) [14,21] 0x0 0x00 0x0 0x00 [SteelAxe] ChaseOnceApproachedAI
+UNIT 0x8F GreatKnight 0x00 Level(5, Enemy, 1) [22,10] 0x0 0x00 0x0 0x00 [SteelAxe] ChaseOnceApproachedAI
+UNIT 0x8F MageKnight 0x00 Level(5, Enemy, 1) [10,12] 0x0 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI
 UNIT
 
 BadT3Deploy:

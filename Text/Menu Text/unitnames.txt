@@ -709,3 +709,10 @@ Linoan[X]
 Heim inexpicably had some other kid.[N]
 She's the descendant of that. In case[N]
 of Julia's demise, she's the backup.[X]
+
+## VallaName
+Vallite[X]
+
+## VallaDesc
+A soldier from the Kingdom of Valla.[N]
+Any who utter its name perish.[X]
