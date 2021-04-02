@@ -114,7 +114,7 @@ setMugEntry(AzmureMug, AzmureMugLabel, 3, 6, 3, 4)
 
 EthlinMugLabel:
 #incext PortraitFormatter "ethlin.png"
-setMugEntry(EthlinMug, EthlinMugLabel, 3, 6, 3, 4)
+setMugEntry(EthlinMug, EthlinMugLabel, 4, 7, 4, 5)
 
 
 //Gen 2
@@ -279,45 +279,45 @@ setMugEntry(DorotheaMug,DorotheaMugLabel, 2, 7, 2, 4)
 
 CorrinMugLabel:
 #incext PortraitFormatter "Fates Requans/CorrinF.png"
-setMugEntry(CorrinMug, CorrinMugLabel, 4, 6, 4, 4)
+setMugEntry(CorrinMug, CorrinMugLabel, 3, 7, 3, 4)
 
 CorrinMMugLabel:
 #incext PortraitFormatter "Fates Requans/CorrinM.png"
-setMugEntry(CorrinMMug, CorrinMMugLabel, 4, 6, 4, 4)
+setMugEntry(CorrinMMug, CorrinMMugLabel, 3, 6, 2, 4)
 
 AnankosMugLabel:
 #incext PortraitFormatter "Fates Requans/Anankos.png"
-setMugEntry(AnankosMug, AnankosMugLabel, 4, 6, 4, 4)
+setMugEntry(AnankosMug, AnankosMugLabel, 3, 6, 3, 4)
 
 AzuraMugLabel:
 #incext PortraitFormatter "Fates Requans/Azura.png"
-setMugEntry(AzuraMug, AzuraMugLabel, 4, 6, 4, 4)
+setMugEntry(AzuraMug, AzuraMugLabel, 2, 6, 2, 4)
 
 EliseMugLabel:
 #incext PortraitFormatter "Fates Requans/Elise.png"
-setMugEntry(EliseMug, EliseMugLabel, 4, 6, 4, 4)
+setMugEntry(EliseMug, EliseMugLabel, 2, 6, 2, 4)
 
 HinokaMugLabel:
 #incext PortraitFormatter "Fates Requans/Hinoka.png"
-setMugEntry(HinokaMug, HinokaMugLabel, 4, 6, 4, 4)
+setMugEntry(HinokaMug, HinokaMugLabel, 3, 6, 2, 4)
 
 LeoMugLabel:
 #incext PortraitFormatter "Fates Requans/Leo.png"
-setMugEntry(LeoMug, LeoMugLabel, 4, 6, 4, 4)
+setMugEntry(LeoMug, LeoMugLabel, 3, 6, 2, 3)
 
 LilithMugLabel:
 #incext PortraitFormatter "Fates Requans/Lilith.png"
-setMugEntry(LilithMug, LilithMugLabel, 4, 6, 4, 4)
+setMugEntry(LilithMug, LilithMugLabel, 2, 7, 2, 4)
 
 RyomaMugLabel:
 #incext PortraitFormatter "Fates Requans/Ryoma.png"
-setMugEntry(RyomaMug, RyomaMugLabel, 4, 6, 4, 4)
+setMugEntry(RyomaMug, RyomaMugLabel, 2, 5, 2, 2)
 
 ShigureMugLabel:
 #incext PortraitFormatter "Fates Requans/Shigure.png"
-setMugEntry(ShigureMug, ShigureMugLabel, 4, 6, 4, 4)
+setMugEntry(ShigureMug, ShigureMugLabel, 3, 5, 3, 3)
 
 SilasMugLabel:
 #incext PortraitFormatter "Fates Requans/Silas.png"
-setMugEntry(SilasMug, SilasMugLabel, 4, 6, 4, 4)
+setMugEntry(SilasMug, SilasMugLabel, 3, 6, 2, 4)
 

@@ -70,9 +70,14 @@ Claude[X]
 ## TiltyuName
 Tiltyu[X]
 
-## SigurdDesc
+## SigurdDescOld
 The most powerful lord[N]
 to ever exist. Not Zigludo.[X]
+
+## SigurdDesc
+The almighty Zigludo, crushing all[N]
+standing between him and the enemy.[N]
+Also fell in love with a forest lady.[X]
 
 ## LexDesc
 Elite, Brave Axe, and a lot[N]
@@ -146,13 +151,23 @@ thinking when she was born either.[X]
 Thieves do thief stuff.[N]
 This map has none of it.[X]
 
-## AlvisDesc
+## AlvisDescOld
 The Dastard himself.[N]
 Also steals wives. Nasty![X]
 
-## DeirdreDesc
+## AlvisDesc
+Alvis "Dastard" Velthomer, notorious[N]
+wife-stealer and Zigludo-slayer.[N]
+Also, she was his long-lost sister.[X]
+
+## DeirdreDescOld
 Our hero's wife. Makes Sigurd just[N]
 stop what he's doing to look for her.[X]
+
+## DeirdreDesc
+A mysterious lady from a horrible forest.[N]
+Though she may have met her destined[N]
+lover, destiny broke them apart afterwards.[X]
 
 ## AiraDesc
 No Alecs were harmed in the[N]
@@ -166,9 +181,14 @@ Sect. Manipulated everything.[X]
 Dead in the desert at Trabant's[N]
 hands. There's no saving you.[X]
 
-## EthlinDesc
+## EthlinDescOld
 Thought bringing a baby to the[N]
 desert was a wonderful idea.[X]
+
+## EthlinDesc
+Mothers can't let go of their babies.[N]
+But when it comes to desert travel,[N]
+this mother made a massive mistake.[X]
 
 ## FinDesc
 By steering clear of Barhara, he[N]
@@ -197,9 +217,14 @@ who wish to revive the Dark Lord.[X]
 ## JuliusName
 Julius[X]
 
-## JuliusDesc
+## JuliusDescOld
 The Dark Prince of Grandbell,[N]
 possessed by big bad Lopto.[X]
+
+## JuliusDesc
+The evil twin. You can tell because[N]
+he's surrounded by dark auras and[N]
+wields a tome named for the Dark Lord.[X]
 
 ## EinsName
 Eins[X]
@@ -288,18 +313,28 @@ leader of a gang of pirates.[X]
 ## CeliceName
 Celice[X]
 
-## CeliceDesc
+## CeliceDescOld
 He calls himself the Scion of[N]
 Light, and is the son of Zigludo.[N]
 By the way, he likes healers.[X]
 
+## CeliceDesc
+The Light Inheritor, the true King[N]
+of Grandbell. Or Jugdral, if he ends[N]
+up murdering his entire army.[X]
+
 ## LanaName
 Lana[X]
 
-## LanaDesc
+## LanaDescOld
 Celice's wife. Come on, look at[N]
 them. They're so cute together![N]
 You'd be a monster to split them.[X]
+
+## LanaDesc
+Celice's wife, Queen of Grandbell.[N]
+Thankfully saved him from the path[N]
+of the Jugdral specialty: pure blood.[X]
 
 ## SkasahaName
 Skasaha[X]
@@ -373,10 +408,15 @@ You give her the Knight and[N]
 Leg Rings, and you've got a[N]
 super dancer on your hands.[X]
 
-## JuliaDesc
+## JuliaDescOld
 Celice's sister. She's also[N]
 in love with the man. Yes,[N]
 she loves him in *that* way.[X]
+
+## JuliaDesc
+Despite the general teasing and the[N]
+manga's blessing, you cannot pair[N]
+Celice and Julia... or can you?[X]
 
 ## ShananName
 Shanan[X]
@@ -397,10 +437,15 @@ freak out when seeing him.[X]
 ## LeafName
 Leaf[X]
 
-## LeafDesc
+## LeafDescOld
 A glorious Master Knight, all[N]
 ready to use whatever he pleases.[N]
 Except dark magic. But no matter.[X]
+
+## LeafDesc
+King of the United Thracia. This[N]
+provides him with an unending source[N]
+of soldiers to summon at any time.[X]
 
 ## NannaName
 Nanna[X]
@@ -421,10 +466,15 @@ but wearing black instead.[X]
 ## TinnyName
 Tinny[X]
 
-## TinnyDesc
+## TinnyDescOld
 She's cute, I'll give her that.[N]
 Sadly, that's about her only[N]
 redeeming trait. *sighs*[X]
+
+## TinnyDesc
+Tinny's job is singular: Draw cards.[N]
+She doesn't hit the battlefield.[N]
+She just draws cards. Over and over.[X]
 
 ## SetyName
 Sety[X]
@@ -561,3 +611,101 @@ Felix[X]
 Let him train. Let him train. He's an[N]
 edgy swordsman. Obsessed with this[N]
 "Boar Prince". Pigs aren't fighters.[X]
+
+## CorrinName
+Corrin[X]
+
+## CorrinDesc
+The centre of the universe, according[N]
+to just about everyone from Fates-[N]
+landia. We're not sure why.[X]
+
+## CorrinMDesc
+The male variant of Corrin. He's exactly[N]
+the same as the female one in terms of[N]
+personality, which means he has none.[X]
+
+## ValluiDesc
+Valla Kamui, the most fearsome force in[N]
+all Cipher. (PS: "Valla" is actually the[N]
+Invisible Kingdom in Japanese.)[X]
+
+## AnankosName
+Anankos[X]
+
+## AnankosDesc
+I AM THE FORGOTTEN DRAGON! THE[N]
+BETRAYED KING! THE ENTOMBED GOD![N]
+AND A REALLY ANNOYING WALL![X]
+
+## AzuraName
+Azura[X]
+
+## AzuraDesc
+Notorious for torturing everyone with[N]
+her infamous song. Reports of people[N]
+becoming grey waves are persistent.[X]
+
+## EliseName
+Elise[X]
+
+## EliseDesc
+One of Corrin's many "siblings". Never[N]
+really wants to fight her, so she gets[N]
+murdered for her trouble by Xander.[X]
+
+## HinokaName
+Hinoka[X]
+
+## HinokaDesc
+The least popular "sibling". Swapped out[N]
+the pegasus for this "kinshi" thingy.[N]
+This means she's a flying archer.[X]
+
+## LeoName
+Leo[X]
+
+## LeoDesc
+Prince of Nohr, and avid tomato lover.[N]
+Why tomatoes? Who knows? Fates does not[N]
+bother itself with the word "why".[X]
+
+## LilithName
+Lilith[X]
+
+## LilithDesc
+Corrin's only actual blood sibling. Yes,[N]
+Birthright's premise is a lie. Why?[N]
+Well, considering the franchise this is...[X]
+
+## RyomaName
+Ryoma[X]
+
+## RyomaDesc
+King of Hoshido. Known for waiting[N]
+exactly twenty-five turns before[N]
+he exacts any revenge he seeks.[X]
+
+## ShigureName
+Shigure[X]
+
+## ShigureDesc
+Fates had kids because Awakening did it.[N]
+Awakening had kids because FE4 did it.[N]
+Hence, this brat exists.[X]
+
+## SilasName
+Silas[X]
+
+## SilasDesc
+Like everyone in Fateslandia, his is[N]
+undyingly loyal to Corrin. No matter[N]
+her choice, he will follow.[X]
+
+## LinoanName
+Linoan[X]
+
+## LinoanDesc
+Heim inexpicably had some other kid.[N]
+She's the descendant of that. In case[N]
+of Julia's demise, she's the backup.[X]
