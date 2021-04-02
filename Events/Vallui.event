@@ -85,6 +85,17 @@ FADU 10
 ENDA
 
 EndingScene:
+MUSC M_FE4Victory
+Text(ValluiEnding)
+STAL 10
+Text(ValluiEnding2)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW ValluiEnding3
+TEXTEND
+REMA
+FADI 30
+MNTS 0x0
 ENDA
 
 

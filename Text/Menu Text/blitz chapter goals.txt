@@ -19,7 +19,8 @@ Succeed in Jugdral's[N]
 electoral campaign[X]
 
 ## Ch5Goal
-End Kaga[X]
+Reach Corrin's[N]
+castle and seize[X]
 
 ## RunAwayGoal
 Run away[X]
@@ -38,6 +39,9 @@ T. B. D.[X]
 
 ## ElectionGoal
 Campaign[X]
+
+## ValluiGoal
+Seize gate[X]
 
 ## Ch6Goal
 Beware of Zonta and[N]
