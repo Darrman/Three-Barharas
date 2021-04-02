@@ -1,3 +1,11 @@
+## PlaceholderIntro
+# For the non-anthology versions of chapters
+# where I hide the fact they use the same rom
+Welcome. You will be taken to your[N]
+chapter momentarily.[AN]
+Some technical things must be handled[N]
+first. We hope you enjoy![A][X]
+
 ## NewGameText
 Welcome to the Barhara Collection.[N]
 In this hack, the initial focus[AN]

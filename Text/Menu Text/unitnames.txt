@@ -167,7 +167,7 @@ stop what he's doing to look for her.[X]
 ## DeirdreDesc
 A mysterious lady from a horrible forest.[N]
 Though she may have met her destined[N]
-lover, destiny broke them apart afterwards.[X]
+lover, destiny soon broke them apart.[X]
 
 ## AiraDesc
 No Alecs were harmed in the[N]

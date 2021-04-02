@@ -18,7 +18,7 @@ BeginWorldMap
 MUSC 0x4
 WorldMapShowTextBox
 //WorldMapTextBegin(NewGameText)
-WorldMapTextBegin(MAFC5Intro)
+WorldMapTextBegin(PlaceholderIntro)
 TEXTEND
 
 STAL 60

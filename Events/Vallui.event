@@ -45,8 +45,8 @@ Seize(0x03,EndingScene,22,4)
 END_MAIN
 
 MiscBasedEvents:
-AFEV 0x00 EthlinFalls 0xA
-AFEV 0x00 UnifierBaby 0xB
+AFEV 0x0C EthlinFalls 0xA
+AFEV 0x0D UnifierBaby 0xB
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -82,13 +82,14 @@ FADI 10
 ENUN
 LOAD1 0x1 Bad
 FADU 10
+NoFade
 ENDA
 
 EndingScene:
 MUSC M_FE4Victory
 Text(ValluiEnding)
 STAL 10
-Text(ValluiEnding2)
+Text(0x12,ValluiEnding2)
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW ValluiEnding3
@@ -138,7 +139,7 @@ NoFade
 ENDA
 
 AlrightHaveNarga:
-//Text
+Text(ValluiT8)
 SVAL s3 Narga
 GIVEITEMTO Sigurd
 NoFade
@@ -176,14 +177,14 @@ ENDA
 
 SwarmTheField:
 LOAD1 0x1 BadT8Deploy
-//Text(ValluiT8EP)
+Text(ValluiT8EP)
 NoFade
 ENDA
 
 EthlinFalls:
 CHECK_ALIVE Leo
 BEQ 1 sC s0
-//Text
+Text(ValluiLeoKill)
 KILL Lana
 AWAIT_KILL Lana
 KILL Deirdre
@@ -202,8 +203,10 @@ ENDA
 UnifierBaby:
 CHECK_ALIVE Leaf
 BEQ 2 sC s0
-//text
+Text(ValluiWeUnify)
 LOAD1 0x1 UnifierDeploy
+CAM1 Alvis
+FlashCursor(Alvis,60)
 LABEL 2
 ENDA
 
